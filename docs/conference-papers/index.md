@@ -46,10 +46,10 @@ All mind maps are generated from conference papers uploaded to [Google NotebookL
 ## Raw Data
 
 Access the underlying data in JSON format:
-- [FMA 2024 JSON](../data/conference-papers/fma_2024.json)
-- [FMA 2023 JSON](../data/conference-papers/fma_2023.json)
-- [FMA 2019 JSON](../data/conference-papers/fma_2019.json)
-- [JSON Schema](../data/conference-papers/schema.json)
+- [FMA 2024 JSON](https://github.com/lmillard79/aus_hydrology_compendium/blob/main/docs/data/conference-papers/fma_2024.json)
+- [FMA 2023 JSON](https://github.com/lmillard79/aus_hydrology_compendium/blob/main/docs/data/conference-papers/fma_2023.json)
+- [FMA 2019 JSON](https://github.com/lmillard79/aus_hydrology_compendium/blob/main/docs/data/conference-papers/fma_2019.json)
+- [JSON Schema](https://github.com/lmillard79/aus_hydrology_compendium/blob/main/docs/data/conference-papers/schema.json)
 
 ---
 

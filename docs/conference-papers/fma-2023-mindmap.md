@@ -72,7 +72,7 @@ Practical application of flood mapping and hazard assessment in planning decisio
 
 ## Data
 
-Full JSON data: [fma_2023.json](../../data/conference-papers/fma_2023.json)
+Full JSON data: [fma_2023.json](../data/conference-papers/fma_2023.json)
 
 ---
 

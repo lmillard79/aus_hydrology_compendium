@@ -86,7 +86,7 @@ Long-term approaches to reduce vulnerability and build recovery capacity
 
 ## Data
 
-Full JSON data: [fma_2019.json](../../data/conference-papers/fma_2019.json)
+Full JSON data: [fma_2019.json](../data/conference-papers/fma_2019.json)
 
 ---
 

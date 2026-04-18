@@ -96,7 +96,7 @@ Integration of flood risk into land use decisions, development approvals, and in
 
 ## Data
 
-Full JSON data: [fma_2024.json](../../data/conference-papers/fma_2024.json)
+Full JSON data: [fma_2024.json](../data/conference-papers/fma_2024.json)
 
 ---
 
