@@ -1,0 +1,57 @@
+name: Deploy to GitHub Pages and Hugging Face
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy-github:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install mkdocs-material
+      - run: mkdocs build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+      - uses: actions/deploy-pages@v4
+        id: deployment
+
+  deploy-huggingface:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install mkdocs-material
+      - run: mkdocs build
+      - name: Push to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          cd site
+          git init
+          git add .
+          git commit -m "Deploy to Hugging Face"
+          git push --force https://Lamilla79:${HF_TOKEN}@huggingface.co/spaces/Lamilla79/aus_hydrology_compendium main

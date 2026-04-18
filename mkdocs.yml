@@ -1,0 +1,69 @@
+site_name: Australian Hydrology Compendium
+site_description: A searchable index of flood hydrology and water resources knowledge for Australian practitioners
+site_url: https://lmillard79.github.io/aus-hydrology-compendium
+repo_url: https://github.com/lmillard79/Aus_Hydrology_Compendium
+repo_name: lmillard79/Aus_Hydrology_Compendium
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+    - content.code.copy
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - tables
+  - attr_list
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+
+nav:
+  - Home: index.md
+  - Flood Frequency Analysis:
+    - Overview: flood-frequency/index.md
+    - Log Pearson III (LP3): flood-frequency/lp3.md
+    - TCEV: flood-frequency/tcev.md
+    - GEV: flood-frequency/gev.md
+    - Non-stationarity: flood-frequency/non-stationarity.md
+    - References: flood-frequency/references.md
+  - Design Rainfall:
+    - Overview: design-rainfall/index.md
+  - Probable Maximum:
+    - Overview: probable-maximum/index.md
+  - Dam Safety:
+    - Overview: dam-safety/index.md
+  - ARR:
+    - Overview: arr/index.md
+  - Open Data:
+    - Overview: open-data/index.md
+  - Glossary: glossary.md
+  - About: about.md
