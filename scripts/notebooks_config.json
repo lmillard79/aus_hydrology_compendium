@@ -1,0 +1,149 @@
+{
+  "notebooks": [
+    {
+      "id": "58b99d93-4101-4e11-93d6-a377158f5a18",
+      "year": 2024,
+      "conference": "FMA",
+      "sources_count": 118,
+      "extracted": true,
+      "extracted_date": "2026-04-18T14:30:00Z",
+      "mind_map_title": "Flood Risk Management: Coastal Dynamics and Economic Assessment Tools"
+    },
+    {
+      "id": "b45571e2-ca22-49b4-ad5b-ab9094ddd245",
+      "year": 2023,
+      "conference": "FMA",
+      "sources_count": 79,
+      "extracted": true,
+      "extracted_date": "2026-04-18T14:20:00Z",
+      "mind_map_title": "Strategic Framework for Flood Risk and Emergency Intelligence"
+    },
+    {
+      "id": "1e7cf6a8-f79f-4e09-a150-7fc45fb97dd7",
+      "year": 2019,
+      "conference": "FMA",
+      "sources_count": 137,
+      "extracted": true,
+      "extracted_date": "2026-04-18T14:10:00Z",
+      "mind_map_title": "A National Call to Action: Making Australia Flood Safe"
+    },
+    {
+      "id": "PLACEHOLDER_FMA_2025",
+      "year": 2025,
+      "conference": "FMA",
+      "sources_count": 140,
+      "extracted": false,
+      "mind_map_title": null
+    },
+    {
+      "id": "PLACEHOLDER_FMA_2022",
+      "year": 2022,
+      "conference": "FMA",
+      "sources_count": 72,
+      "extracted": false,
+      "mind_map_title": null
+    },
+    {
+      "id": "PLACEHOLDER_FMA_2020",
+      "year": 2020,
+      "conference": "FMA",
+      "sources_count": 19,
+      "extracted": false,
+      "mind_map_title": null
+    }
+  ],
+  "hwrs_notebooks": [
+    {
+      "year": 2025,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 129,
+      "extracted": false
+    },
+    {
+      "year": 2024,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 161,
+      "extracted": false
+    },
+    {
+      "year": 2023,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 135,
+      "extracted": false
+    },
+    {
+      "year": 2022,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 124,
+      "extracted": false
+    },
+    {
+      "year": 2021,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 79,
+      "extracted": false
+    },
+    {
+      "year": 2018,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 61,
+      "extracted": false
+    },
+    {
+      "year": 2016,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 48,
+      "extracted": false
+    },
+    {
+      "year": 2015,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 138,
+      "extracted": false
+    },
+    {
+      "year": 2014,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 88,
+      "extracted": false
+    },
+    {
+      "year": 2012,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 145,
+      "extracted": false
+    },
+    {
+      "year": 2011,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 299,
+      "extracted": false
+    },
+    {
+      "year": 2005,
+      "conference": "HWRS",
+      "id": "PLACEHOLDER",
+      "sources_count": 66,
+      "extracted": false
+    }
+  ],
+  "metadata": {
+    "total_fma_papers": 565,
+    "total_hwrs_papers": 1473,
+    "total_ancold_papers": 210,
+    "grand_total": 2248,
+    "last_updated": "2026-04-18",
+    "config_version": "1.0"
+  }
+}
