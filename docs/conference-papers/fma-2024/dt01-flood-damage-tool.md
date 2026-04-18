@@ -1,0 +1,57 @@
+# 2023 DT01 Flood Damage Tool
+
+**Conference:** Floodplain Management Australia (FMA) 2024  
+**Theme ID:** theme-2  
+**NotebookLM ID:** `58b99d93-4101-4e11-93d6-a377158f5a18`  
+**Interactive Notebook:** [View in NotebookLM](https://notebooklm.google.com/notebook/58b99d93-4101-4e11-93d6-a377158f5a18)
+
+---
+
+!!! note "Citation Note"
+    Citations [1], [2], etc. refer to sources in the NotebookLM notebook. These are conference paper references that can be explored in the interactive notebook.
+
+---
+
+The **2023 DT01 Flood Damage Tool** represents a significant modernization in how flood damages are calculated and how flood mitigation projects are economically justified. Developed by the NSW Department of Climate Change, Environment, Energy and Water (DCCEEW) with assistance from Rhelm, the tool replaces older frameworks, such as the 2011 residential damage curve spreadsheets and the 2005 Floodplain Development Manual [1, 2].
+
+## Key Features of the 2023 DT01 Tool
+
+The tool facilitates a more comprehensive and standardized approach to assessing flood impacts by calculating damages on a **per-building basis** (utilizing Geoscape building footprints) rather than a per-property basis [3-5]. Notable updates include:
+
+- **Comprehensive Damage Curves:** It provides distinct damage curves for residential buildings (single, double-storey, multi-unit) and calculates non-residential damages (commercial, industrial, schools, hospitals) based directly on unit floor area [3, 6, 7].
+- **Risk-to-Life and Uplifts:** The tool incorporates a methodology to project risk-to-life costs utilizing the H1-H6 flood hazard categorization, and accounts for infrastructure and emergency uplifts [3, 6].
+- **Built-in Cost-Benefit Features:** It includes Monte Carlo simulations to assess option benefits based on the potential year flooding occurs, and features built-in tabs to calculate Average Annual Damage and Net Present Worth [8, 9].
+
+## Benchmarking Results and Implications
+
+A benchmarking study conducted by Stantec applied the tool to seven sub-catchments in the Canterbury-Bankstown and Inner West Council areas of Sydney [10, 11]. The results revealed that **the 2023 tool produces significantly higher damage estimates** compared to previous methodologies. On average, residential damage per building was 73% higher, while non-residential damage per building was 161% higher [12, 13]. Because the tool calculates non-residential damage by floor area, large-footprint industrial buildings—such as those in the Villawood sub-catchment—resulted in damage totals up to 10 times greater than comparable study areas [9, 12].
+
+The primary implication of these higher damage totals is that **future flood mitigation options may achieve much higher Benefit-Cost Ratios (BCRs)**. Consequently, flood risk management options that were dismissed in past studies due to low economic viability may need to be re-evaluated, as the 2023 tool may now prove them to be economically justified [14].
+
+## The Larger Context of Flood Management and Research 2024
+
+The rollout of the 2023 DT01 Tool perfectly aligns with the broader themes of the 2024 Floodplain Management Australia National Conference, which heavily emphasize upgrading technical standards, improving risk communication, and prioritizing community resilience:
+
+### Upgrading Technical Standards and Data
+
+Just as the DT01 tool modernizes damage economics, the conference highlights a widespread push to update foundational flood data. For example, design rainfall intensities (IFDs) are being actively updated to account for climate change non-stationarity [15]. Similarly, in the US, the Technical Mapping Advisory Council (TMAC) is pushing FEMA away from binary "100-year flood" deterministic approaches toward probabilistic models that account for future climate conditions [16]. Better data management is also a priority, as seen in the growth of the NSW Flood Data Portal, which now handles bulk uploads of catchment-wide hydrological models [17].
+
+### Equity in Benefit-Cost Analysis
+
+While the DT01 tool improves the accuracy of calculating the financial benefits of mitigation, other new tools are expanding what "benefit" means. For instance, the open-source *FloodAdapt* tool incorporates social vulnerability data to enable "equity-weighted" Benefit-Cost Analyses, ensuring that mitigation infrastructure (like floodwalls) actually benefits socially vulnerable residents rather than just protecting high-value assets [18].
+
+### Improving Risk Communication
+
+A major theme of the conference is that technical tools and data must be translated into language the public understands. Experts argue that terms like the "1% chance event" or "100-year flood" confuse the public and lead to poor decision-making [19]. Instead, the industry is pivoting toward relatable risk communication, such as mapping homes that have an "equivalent risk as being destroyed by fire" or using interactive sliderules to show long-term vulnerability [20, 21].
+
+### Community Recovery and Resilience
+
+The ultimate goal of improving damage assessment tools is to fund mitigation that prevents community trauma. Research from the 2022 Eastern Australia floods highlights the immense psychological toll of post-flood clean-ups, which are often chaotic and poorly supported [22, 23]. In response, programs like Queensland's $741 million Resilient Homes Fund are proactively using buy-backs, retrofitting, and home-raising to transition vulnerable properties out of harm's way before the next disaster strikes [24].
+
+---
+
+## Related Topics
+
+- [Infragravity Waves in Coastal Creeks](infragravity-waves.md)
+- [Emergency Resources](emergency-resources.md)
+- [FMA 2024 Mind Map Overview](../fma-2024-mindmap.md)

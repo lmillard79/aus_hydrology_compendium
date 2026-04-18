@@ -1,0 +1,43 @@
+# Infragravity Waves in Coastal Creeks
+
+**Conference:** Floodplain Management Australia (FMA) 2024  
+**Theme ID:** theme-1  
+**NotebookLM ID:** `58b99d93-4101-4e11-93d6-a377158f5a18`  
+**Interactive Notebook:** [View in NotebookLM](https://notebooklm.google.com/notebook/58b99d93-4101-4e11-93d6-a377158f5a18)
+
+---
+
+!!! note "Citation Note"
+    Citations [1], [2], etc. refer to sources in the NotebookLM notebook. These are conference paper references that can be explored in the interactive notebook.
+
+---
+
+**Infragravity (IG) waves**, often referred to as a "**surf beat**," are coastal water movements characterized by a longer period and lower frequency compared to regular wind-generated waves [1], [2]. Research presented at the 2024 Floodplain Management Australia (FMA) Conference highlighted that these waves play a highly disruptive, yet historically overlooked, role in the flooding dynamics of small coastal creeks and Intermittently Closed and Open Lakes and Lagoons (ICOLLs) [3], [4].
+
+During significant storm tide events in December 2020 and January 2022, water levels in several small coastal creeks on the Sunshine Coast **exceeded adopted design storm tide levels by as much as 550mm** [5], [6]. Video footage captured during these events showed wave groups passing into the creeks, with short wave crests within the IG wave impacting estuary banks, overtopping into adjacent areas, and causing distinct surges in water levels [1], [7].
+
+In the larger context of modern flood management and research, the discovery and ongoing study of IG waves highlight several vital shifts in industry practices:
+
+## 1. The Limitations of Traditional Monitoring Networks
+
+Historically, storm tide studies and flood estimates have relied heavily on data from major monitoring networks, such as the Bureau of Meteorology or State Government tide gauges [3], [4]. However, these gauges are typically located within major, protected estuaries (like the Mooloolaba gauge) and **do not accurately represent the storm tide behavior within smaller coastal creeks** [8], [9]. The standard preparation of storm tide studies has generally failed to account for the presence and impact of IG waves entirely [10].
+
+## 2. The Value of Distributed, Low-Cost Sensor Networks
+
+To fill the blind spots left by traditional gauges, the Sunshine Coast Council deployed a complementary network of 41 reliable, low-cost radar-based water level gauges directly above smaller coastal creeks [3]. This initiative proved that **even a very short dataset from local, low-cost gauges can capture critical phenomena like IG waves** [1], [2]. At the conference, researchers emphasized that implementing these low-cost networks is a highly effective strategy for gathering local intelligence, which actively improves flood warning systems and ICOLL management [11], [2].
+
+## 3. Revising Design Levels and Planning Standards
+
+The unexpected 550mm exceedance caused by IG waves immediately triggered a review of the region's adopted storm tide study [5], [6]. Because standard freeboard allowances (typically 500mm above defined storm tide events) were being breached, authorities had to quickly apply interim increases to the defined storm tide levels for these creeks [8]. The primary takeaway for floodplain managers is that **incorporating specific analysis of IG waves is critically important for determining safe design levels for any development adjacent to coastal creeks** [10], [6].
+
+---
+
+Ultimately, the research presented at FMA 2024 strongly recommends that **all coastal councils must explicitly consider infragravity waves** within their local storm tide studies to ensure community safety and responsible floodplain development [11], [2].
+
+---
+
+## Related Topics
+
+- [2023 DT01 Flood Damage Tool](dt01-flood-damage-tool.md)
+- [Emergency Resources](emergency-resources.md)
+- [FMA 2024 Mind Map Overview](../fma-2024-mindmap.md)

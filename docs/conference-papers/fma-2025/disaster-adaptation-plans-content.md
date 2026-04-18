@@ -1,0 +1,21 @@
+**Disaster Adaptation Plans (DAPs)** are a strategic, place-based mechanism introduced under the NSW Reconstruction Authority (RA) Act 2022 and the state's first State Disaster Mitigation Plan (SDMP) [1, 2]. They mark a significant shift toward proactive planning designed to reduce the escalating costs and impacts of natural disasters, acknowledging the complex influences of climate change and population growth [3-5].
+
+**Legislative Weight and Investment Focus**
+Unlike previous adaptation frameworks, DAPs hold **significant legislative weight** [6]. Planning authorities are legally required to consider relevant DAPs when developing district or regional strategic plans and when exercising functions under the Environmental Planning and Assessment (EP&A) Act, such as development assessments [6, 7]. A primary goal of DAPs is to guide and unlock targeted investmentâ€”from local, state, federal, and private sectorsâ€”into prioritised disaster mitigation and recovery options [4, 8]. 
+
+**A Regional and Multi-Hazard Scope**
+A core strength of DAPs is their expanded scope, moving beyond isolated local assessments to embrace a **regional and multi-hazard approach**:
+*   **Regional Scale:** DAPs span multiple local government areas (LGAs) and river basins to address hazards that cross administrative boundaries [9-11]. This regional lens helps package common needs to achieve funding efficiencies and targets large-scale risks that are beyond the capacity or budget of any single council to manage alone [12]. 
+*   **Multi-Hazard Risk:** DAPs evaluate the "total" compounding risk of various natural hazardsâ€”such as floods, bushfires, coastal erosion, cyclones, landslides, and tsunamisâ€”and assess their consequences across natural, social, built, and economic domains [3, 11, 13]. The Northern Rivers DAP, for example, is the state's first multi-hazard plan of its kind, specifically developed to address the complex interactions between different disaster types in a highly vulnerable region [2, 9].
+
+**Integration with Existing Floodplain Management**
+Crucially, DAPs **do not replace** established local frameworks like the NSW Floodplain Management Program or Coastal Management Programs (CMPs); rather, they work in tandem with them [14]. 
+*   DAPs leverage the hazard assessments and risk-reduction options already identified in local Floodplain Risk Management Plans (FRMPs) [15, 16]. 
+*   They act as a vehicle to elevate and fund regional-scale flood mitigation options that may have previously been discounted due to local funding shortfalls [17]. 
+*   This collaborative, "bidirectional" flow of information helps secure investment for major regional mitigation works, such as levee raising, land swaps, voluntary house purchases, CBD drainage upgrades, and enhancements to flood warning systems [17-19]. Furthermore, DAPs provide an opportunity to view flood emergency planning from a holistic perspective that integrates preparation, secondary impacts, and community resilience [20].
+
+**Adaptation Pathways**
+To navigate the deep uncertainties associated with future climate change and urban development, DAPs employ **adaptation pathways** [21, 22]. These pathways provide a structured, sequenced roadmap for investment. They detail exactly *what* complementary risk reduction measures should be implemented, *why* they are needed, and *when* they should be deployedâ€”often tying implementation to specific conditions or "triggers," such as a major disaster event [22, 23].
+
+**Development and Governance**
+The creation of a DAP follows a structured four-stage process: 1) Readiness (establishing governance), 2) Understanding place and early actions (creating a Preliminary DAP), 3) Adaptation pathways assessment (delivering the Full DAP), and 4) Implementation and monitoring [24]. To ensure cohesive delivery, Regional Steering Committees are established, uniting federal, state, and local government stakeholders and ensuring the inclusion of community and Aboriginal perspectives [9, 25, 26]. Currently, the NSW RA is advancing high-priority DAPs in the multi-hazard Northern Rivers region and the heavily flood-exposed Hawkesbury-Nepean Valley [2, 27].

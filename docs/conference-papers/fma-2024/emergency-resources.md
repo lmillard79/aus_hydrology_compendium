@@ -1,0 +1,50 @@
+# Emergency Resources
+
+**Conference:** Floodplain Management Australia (FMA) 2024  
+**Theme ID:** theme-3  
+**NotebookLM ID:** `58b99d93-4101-4e11-93d6-a377158f5a18`  
+**Interactive Notebook:** [View in NotebookLM](https://notebooklm.google.com/notebook/58b99d93-4101-4e11-93d6-a377158f5a18)
+
+---
+
+!!! note "Citation Note"
+    Citations [1], [2], etc. refer to sources in the NotebookLM notebook. These are conference paper references that can be explored in the interactive notebook.
+
+---
+
+## Information and Warning Dissemination
+
+A central role of emergency agencies, such as the NSW State Emergency Service (SES), is to provide flood education, information, and warnings, which are frequently framed around initiatives like the "Get Ready" program to build community awareness [1, 2]. To ensure these warnings translate into effective action, emergency services partner with technical experts. For instance, the Bureau of Meteorology provides a "Flood Scenarios Outlook" to emergency management partners, and agencies like the NSW SES embed meteorologists and hydrologists directly into their State Command Centres to properly interpret this data and prevent ill-informed decision-making [3, 4].
+
+Additionally, research highlights that **official warning systems coexist with informal community networks**. Emergency planners are encouraged to consider how official systems can integrate these local networks to improve trust and the rapid dissemination of information during a crisis [5].
+
+## Data-Driven Preparedness and Response
+
+The efficiency of emergency management heavily relies on the availability and accessibility of critical data [6]. Platforms like the NSW Flood Data Portal give emergency planners access to essential intelligence, such as dam failure models and levee operating manuals [6, 7]. This enables emergency agencies to execute across four key areas:
+
+- **Emergency Preparedness:** Understanding the likelihood and consequences of floods [8].
+- **Planning:** Developing local action plans in collaboration with all levels of government [8].
+- **Response:** Gaining situational awareness to manage escalating situations and direct resources [8].
+- **Recovery:** Managing the transition to government and non-government recovery services [8].
+
+## Managing Post-Event Clean-Up and Volunteers
+
+The post-flood clean-up phase involves a vast deployment of emergency response agencies, police, NGOs, and self-deploying community volunteers [9, 10]. While this volunteer surge capacity is crucial to recovery operations [11], it can also be highly disorganized. Flood survivors often describe the clean-up period as a "second deluge" of people and tasks [9, 10].
+
+**Unskilled "helpers" or "Mud Army" volunteers can sometimes inadvertently cause more distress** through excessive destruction of repairable items or by adding to the mental burden of the victims [9, 10]. Researchers suggest that emergency management programs must provide practical guidance and psychological training for volunteers to ensure they support, rather than overwhelm, flood survivors [9, 10].
+
+## Resource Strain from Compounding Disasters
+
+Emergency resources are not limitless, and there are recognized boundaries to what emergency agencies can provide, making adaptive community resilience a necessity [1]. Emergency service personnel frequently face **provider fatigue** from working extensive hours over prolonged recovery periods [12]. This strain is significantly worsened by compounding disasters; for example, many emergency workers involved in recent floods have been continuously engaged in recovery efforts since the major bushfires of early 2020 [12].
+
+## Inclusive Emergency Planning
+
+Finally, literature highlights the necessity of inclusive emergency management. There have been instances where discrete Indigenous communities were poorly warned and supported during floods [13, 14]. **Involving Indigenous communities separately and directly in flood emergency planning is critical to ensuring a safe response** [13, 14]. Engaging with Indigenous peoples allows emergency managers to harness strong existing social capital and incorporate traditional knowledge into local disaster management plans [13, 14].
+
+---
+
+## Related Topics
+
+- [Infragravity Waves in Coastal Creeks](infragravity-waves.md)
+- [2023 DT01 Flood Damage Tool](dt01-flood-damage-tool.md)
+- [FMA 2024 Mind Map Overview](../fma-2024-mindmap.md)
