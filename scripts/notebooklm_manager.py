@@ -587,8 +587,10 @@ class NotebookLMManager:
                 
                 # Pattern for various citation formats
                 citation_patterns = [
-                    # Numerical citations like [1], [2], [3]
-                    r'\[(\d+)\]',
+                    # Multi-number citations like [1, 2], [2, 3], [10, 11]
+                    r'\[(\d+(?:\s*,\s*\d+)*)\]',
+                    # Single citations like [1], [2]
+                    r'\[\s*(\d+)\s*\]',
                     # Author-year citations like "Smith et al. (2024)"
                     r'([A-Z][a-z]+(?:\s+et\s+al\.)?)\s*\((\d{4})\)',
                     # Author-year in parentheses like "(Jones 2023)"
@@ -612,8 +614,14 @@ class NotebookLMManager:
                             else:
                                 sources_found.add(str(match[0]))
                         else:
-                            # Single value - could be [1] or a number
-                            if match.isdigit():
+                            # Handle multi-number citations like "1, 2" or single "4"
+                            if ',' in match:
+                                # Split and add each number
+                                numbers = [n.strip() for n in match.split(',')]
+                                for num in numbers:
+                                    if num.isdigit():
+                                        sources_found.add(f"[{num}]")
+                            elif match.isdigit():
                                 sources_found.add(f"[{match}]")
                             else:
                                 sources_found.add(match)

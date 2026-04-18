@@ -68,3 +68,13 @@ The conference highlighted several unresolved tensions in Australian flood pract
 ---
 
 *Conference proceedings available via [FMA](https://floodplainmanagement.com.au/). Add session summaries and papers via pull request.*
+
+---
+
+## Conference Papers & Detailed Theme Analysis
+
+For deeper analysis of specific papers and topics from FMA 2024, see the [FMA 2024 Mind Map](../conference-papers/fma-2024-mindmap.md) in the Conference Papers section, which includes dedicated pages on:
+
+- [Infragravity Waves in Coastal Creeks](../conference-papers/fma-2024/infragravity-waves.md)
+- [2023 DT01 Flood Damage Tool](../conference-papers/fma-2024/dt01-flood-damage-tool.md)
+- [Emergency Resources](../conference-papers/fma-2024/emergency-resources.md)
