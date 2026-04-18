@@ -28,15 +28,22 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
-# Check if notebooklm-py is installed
+# Import notebooklm-py (installed as notebooklm_py, imported as notebooklm)
 try:
     from notebooklm import NotebookLMClient
-    from notebooklm.models import Notebook, Source
-except ImportError:
-    print("Error: notebooklm-py not installed.")
-    print("Run: pip install 'notebooklm-py[browser]'")
-    print("Then: playwright install chromium")
-    sys.exit(1)
+except ImportError as e:
+    print(f"Error importing notebooklm-py: {e}")
+    print("The package may be installed with a different import path.")
+    print("Attempting alternative import...")
+    try:
+        # Alternative: try direct import
+        import notebooklm
+        from notebooklm.client import NotebookLMClient
+    except ImportError:
+        print("Error: notebooklm-py not properly installed.")
+        print("Run: pip install 'notebooklm-py[browser]'")
+        print("Then: playwright install chromium")
+        sys.exit(1)
 
 
 class NotebookLMManager:
@@ -45,22 +52,23 @@ class NotebookLMManager:
     def __init__(self, data_dir: str = "docs/data/conference-papers"):
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(parents=True, exist_ok=True)
-        self.client: Optional[NotebookLMClient] = None
     
-    async def __aenter__(self):
-        """Async context manager entry."""
-        self.client = await NotebookLMClient.from_storage()
-        return self
+    async def _get_client(self):
+        """Get an initialized NotebookLMClient."""
+        return await NotebookLMClient.from_storage()
     
-    async def __aexit__(self, exc_type, exc_val, exc_tb):
-        """Async context manager exit."""
-        if self.client:
-            await self.client.close()
-    
-    async def list_notebooks(self) -> list[Notebook]:
+    async def list_notebooks(self) -> list:
         """List all accessible notebooks."""
-        notebooks = await self.client.notebooks.list()
-        return notebooks
+        async with await self._get_client() as client:
+            notebooks = await client.notebooks.list()
+            # Print raw notebook data for debugging
+            print("\nAccessible Notebooks:")
+            for nb in notebooks:
+                # Try different possible attribute names
+                nb_id = getattr(nb, 'id', str(nb))
+                nb_title = getattr(nb, 'title', None) or getattr(nb, 'name', None) or 'Unknown'
+                print(f"  - {nb_title}: {nb_id}")
+            return notebooks
     
     async def create_notebook_from_pdfs(
         self, 
@@ -90,25 +98,26 @@ class NotebookLMManager:
         
         print(f"Found {len(pdfs)} PDFs in {pdf_folder}")
         
-        # Create notebook
-        print(f"Creating notebook: {name}")
-        notebook = await self.client.notebooks.create(name, description=description)
-        print(f"Created notebook: {notebook.id}")
-        
-        # Add PDFs as sources
-        for i, pdf in enumerate(pdfs, 1):
-            print(f"  Adding PDF {i}/{len(pdfs)}: {pdf.name}")
-            try:
-                await self.client.sources.add_file(
-                    notebook.id, 
-                    str(pdf), 
-                    wait=True
-                )
-                print(f"    ✓ Added: {pdf.name}")
-            except Exception as e:
-                print(f"    ✗ Failed to add {pdf.name}: {e}")
-        
-        return notebook.id
+        async with await self._get_client() as client:
+            # Create notebook
+            print(f"Creating notebook: {name}")
+            notebook = await client.notebooks.create(name, description=description)
+            print(f"Created notebook: {notebook.id}")
+            
+            # Add PDFs as sources
+            for i, pdf in enumerate(pdfs, 1):
+                print(f"  Adding PDF {i}/{len(pdfs)}: {pdf.name}")
+                try:
+                    await client.sources.add_file(
+                        notebook.id, 
+                        str(pdf), 
+                        wait=True
+                    )
+                    print(f"    ✓ Added: {pdf.name}")
+                except Exception as e:
+                    print(f"    ✗ Failed to add {pdf.name}: {e}")
+            
+            return notebook.id
     
     async def generate_and_download_mindmap(
         self, 
@@ -127,28 +136,45 @@ class NotebookLMManager:
         """
         print(f"Generating mind map for notebook: {notebook_id}")
         
-        # Generate mind map
-        result = await self.client.artifacts.generate_mind_map(notebook_id)
-        print(f"  Mind map generation started: {result.task_id}")
-        
-        # Wait for completion
-        await self.client.artifacts.wait_for_completion(
-            notebook_id, 
-            result.task_id
-        )
-        print("  Mind map generation complete")
+        async with await self._get_client() as client:
+            # Generate mind map
+            result = await client.artifacts.generate_mind_map(notebook_id)
+            
+            # Handle both dict and object return types
+            if isinstance(result, dict):
+                task_id = result.get('task_id') or result.get('id')
+            else:
+                task_id = getattr(result, 'task_id', None) or getattr(result, 'id', None)
+            
+            if not task_id:
+                print("  Warning: Could not get task ID, mind map may already be ready")
+                task_id = "unknown"
+            else:
+                print(f"  Mind map generation started: {task_id}")
+                
+                # Wait for completion
+                try:
+                    await client.artifacts.wait_for_completion(
+                        notebook_id, 
+                        task_id
+                    )
+                    print("  Mind map generation complete")
+                except Exception as e:
+                    print(f"  Warning during wait: {e}")
+                    # Continue anyway, mind map might be ready
         
         # Download mind map
         if output_path:
-            await self.client.artifacts.download_mind_map(
-                notebook_id, 
-                output_path
-            )
-            print(f"  Downloaded to: {output_path}")
-            
-            # Read and return the JSON
-            with open(output_path, 'r', encoding='utf-8') as f:
-                return json.load(f)
+            async with await self._get_client() as client:
+                await client.artifacts.download_mind_map(
+                    notebook_id, 
+                    output_path
+                )
+                print(f"  Downloaded to: {output_path}")
+                
+                # Read and return the JSON
+                with open(output_path, 'r', encoding='utf-8') as f:
+                    return json.load(f)
         
         return {}
     
@@ -175,37 +201,65 @@ class NotebookLMManager:
         Returns:
             Formatted dict matching schema.json
         """
-        # Extract title from mind map data
-        title = mindmap_raw.get('title', mindmap_raw.get('topic', notebook_name))
+        # Debug: Print raw structure keys
+        print(f"  Raw mind map keys: {list(mindmap_raw.keys())}")
         
-        # Extract themes from mind map structure
+        # Extract title from mind map data - try multiple possible keys
+        title = mindmap_raw.get('title') or mindmap_raw.get('topic') or mindmap_raw.get('name') or notebook_name
+        
+        # Extract themes from mind map structure - try multiple possible structures
         themes = []
-        nodes = mindmap_raw.get('nodes', [])
+        
+        # Try different possible keys for the main content
+        nodes = mindmap_raw.get('nodes') or mindmap_raw.get('themes') or mindmap_raw.get('children') or mindmap_raw.get('items') or []
+        
+        if not nodes:
+            # If no nodes found, check if the whole thing is a list
+            if isinstance(mindmap_raw, list):
+                nodes = mindmap_raw
+            # Or look for nested structure
+            elif 'root' in mindmap_raw:
+                nodes = mindmap_raw['root'].get('children', [])
+        
+        print(f"  Found {len(nodes)} top-level items")
         
         # First-level nodes are main themes
         for i, node in enumerate(nodes):
-            theme_id = f"theme-{i+1}"
-            theme_name = node.get('label', f'Theme {i+1}')
-            theme_description = node.get('description', '')
-            
-            # Second-level nodes are subtopics
-            subtopics = []
-            children = node.get('children', [])
-            for child in children:
-                subtopic_label = child.get('label', '')
-                subtopic_desc = child.get('description', '')
-                if subtopic_desc:
-                    subtopics.append(f"{subtopic_label} - {subtopic_desc}")
-                else:
-                    subtopics.append(subtopic_label)
-            
-            themes.append({
-                "id": theme_id,
-                "theme": theme_name,
-                "description": theme_description,
-                "subtopics": subtopics,
-                "key_papers": []
-            })
+            if isinstance(node, dict):
+                theme_id = f"theme-{i+1}"
+                theme_name = node.get('label') or node.get('name') or node.get('title') or f'Theme {i+1}'
+                theme_description = node.get('description') or node.get('desc', '')
+                
+                # Second-level nodes are subtopics
+                subtopics = []
+                children = node.get('children') or node.get('nodes') or node.get('items') or []
+                for child in children:
+                    if isinstance(child, dict):
+                        subtopic_label = child.get('label') or child.get('name') or child.get('title', '')
+                        subtopic_desc = child.get('description') or child.get('desc', '')
+                        if subtopic_desc:
+                            subtopics.append(f"{subtopic_label} - {subtopic_desc}")
+                        else:
+                            subtopics.append(subtopic_label)
+                    elif isinstance(child, str):
+                        subtopics.append(child)
+                
+                themes.append({
+                    "id": theme_id,
+                    "theme": theme_name,
+                    "description": theme_description,
+                    "subtopics": subtopics,
+                    "key_papers": []
+                })
+            elif isinstance(node, str):
+                # Simple string list
+                themes.append({
+                    "id": f"theme-{i+1}",
+                    "theme": node,
+                    "description": "",
+                    "subtopics": [],
+                    "key_papers": []
+                })
         
         return {
             "notebook": f"{conference}_{year}",
@@ -247,11 +301,12 @@ class NotebookLMManager:
             return output_path
         
         # Get notebook info
-        notebook = await self.client.notebooks.get(notebook_id)
-        sources = await self.client.sources.list(notebook_id)
-        sources_count = len(sources)
+        async with await self._get_client() as client:
+            sources = await client.sources.list(notebook_id)
+            sources_count = len(sources)
         
-        print(f"  Notebook: {notebook.name}")
+        notebook_name = f"{conference} {year}"
+        print(f"  Notebook: {notebook_name}")
         print(f"  Sources: {sources_count}")
         
         # Generate and download mind map
@@ -263,7 +318,7 @@ class NotebookLMManager:
         # Transform to schema
         formatted_data = self.transform_to_schema(
             notebook_id=notebook_id,
-            notebook_name=notebook.name,
+            notebook_name=notebook_name,
             year=year,
             conference=conference,
             mindmap_raw=mindmap_raw,
@@ -275,9 +330,11 @@ class NotebookLMManager:
             json.dump(formatted_data, f, indent=2, ensure_ascii=False)
         print(f"  Saved: {output_path}")
         
-        # Clean up temp file
-        if temp_mindmap_path.exists():
-            temp_mindmap_path.unlink()
+        # Keep raw file for inspection (commented out cleanup)
+        # if temp_mindmap_path.exists():
+        #     temp_mindmap_path.unlink()
+        
+        print(f"  Raw mind map preserved: {temp_mindmap_path}")
         
         return output_path
     
@@ -301,11 +358,21 @@ class NotebookLMManager:
         with open(config_path, 'r') as f:
             config = json.load(f)
         
-        notebooks = config.get('notebooks', [])
-        print(f"Found {len(notebooks)} notebooks in config")
+        # Process both FMA and HWRS notebooks
+        all_notebooks = []
+        all_notebooks.extend(config.get('notebooks', []))
+        all_notebooks.extend(config.get('hwrs_notebooks', []))
         
-        for nb_config in notebooks:
-            notebook_id = nb_config['id']
+        print(f"Found {len(all_notebooks)} notebooks in config")
+        print(f"  - FMA: {len(config.get('notebooks', []))}")
+        print(f"  - HWRS: {len(config.get('hwrs_notebooks', []))}")
+        
+        for nb_config in all_notebooks:
+            notebook_id = nb_config.get('id', '')
+            if not notebook_id or 'PLACEHOLDER' in notebook_id:
+                print(f"\nSkipping {nb_config.get('conference', 'Unknown')} {nb_config.get('year', '')} (no valid ID)")
+                continue
+                
             year = nb_config['year']
             conference = nb_config['conference']
             already_extracted = nb_config.get('extracted', False)
@@ -324,6 +391,8 @@ class NotebookLMManager:
                 )
                 nb_config['extracted'] = True
                 nb_config['extracted_date'] = datetime.utcnow().isoformat()
+                if 'error' in nb_config:
+                    del nb_config['error']
             except Exception as e:
                 print(f"  Error extracting {conference} {year}: {e}")
                 nb_config['error'] = str(e)
@@ -480,28 +549,29 @@ async def main():
         parser.print_help()
         return
     
-    # All other commands need the client
-    async with NotebookLMManager() as manager:
-        if args.command == 'list':
-            notebooks = await manager.list_notebooks()
-            print("\nAccessible Notebooks:")
-            for nb in notebooks:
-                print(f"  - {nb.name}: {nb.id}")
-        
-        elif args.command == 'create':
-            notebook_id = await manager.create_notebook_from_pdfs(
-                args.name,
-                args.pdf_folder,
-                args.description
-            )
-            print(f"\nCreated notebook: {notebook_id}")
-            print(f"View at: https://notebooklm.google.com/notebook/{notebook_id}")
-        
-        elif args.command == 'extract':
-            await manager.batch_extract_from_config(args.config, force=args.force)
-        
-        elif args.command == 'extract-pending':
-            await manager.batch_extract_from_config(args.config, force=False)
+    # All other commands need the manager
+    manager = NotebookLMManager()
+    
+    if args.command == 'list':
+        notebooks = await manager.list_notebooks()
+        print("\nAccessible Notebooks:")
+        for nb in notebooks:
+            print(f"  - {nb.name}: {nb.id}")
+    
+    elif args.command == 'create':
+        notebook_id = await manager.create_notebook_from_pdfs(
+            args.name,
+            args.pdf_folder,
+            args.description
+        )
+        print(f"\nCreated notebook: {notebook_id}")
+        print(f"View at: https://notebooklm.google.com/notebook/{notebook_id}")
+    
+    elif args.command == 'extract':
+        await manager.batch_extract_from_config(args.config, force=args.force)
+    
+    elif args.command == 'extract-pending':
+        await manager.batch_extract_from_config(args.config, force=False)
 
 
 if __name__ == '__main__':

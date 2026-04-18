@@ -1,0 +1,156 @@
+{
+  "name": "Flood Risk Management and Adaptation",
+  "children": [
+    {
+      "name": "Planning Controls and Strategies",
+      "children": [
+        {
+          "name": "Location Controls",
+          "children": [
+            {
+              "name": "Restricting development on floodplains"
+            },
+            {
+              "name": "Managed retreat and relocation"
+            },
+            {
+              "name": "Land swaps and infrastructure planning"
+            }
+          ]
+        },
+        {
+          "name": "Floor Level Controls",
+          "children": [
+            {
+              "name": "Raising floor levels above 1% AEP"
+            },
+            {
+              "name": "Average Annual Loss (AAL) reduction"
+            },
+            {
+              "name": "Freeboard requirements"
+            }
+          ]
+        },
+        {
+          "name": "Flood Resilient Building",
+          "children": [
+            {
+              "name": "Elevation of services"
+            },
+            {
+              "name": "Water-resistant materials"
+            },
+            {
+              "name": "Ventilation and drainage improvements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climate Change Impacts",
+      "children": [
+        {
+          "name": "Warming Scenarios",
+          "children": [
+            {
+              "name": "+2 degrees scenario"
+            },
+            {
+              "name": "+3 degrees scenario"
+            }
+          ]
+        },
+        {
+          "name": "Physical Consequences",
+          "children": [
+            {
+              "name": "Sea level rise"
+            },
+            {
+              "name": "Increased rainfall intensity"
+            },
+            {
+              "name": "Reduced effectiveness of controls"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technological Tools and Monitoring",
+      "children": [
+        {
+          "name": "Smart Alerting (FLASH)",
+          "children": [
+            {
+              "name": "Real-time gauge triggers"
+            },
+            {
+              "name": "Lizard data warehouse"
+            },
+            {
+              "name": "Operational forecasting (TUFLOW)"
+            }
+          ]
+        },
+        {
+          "name": "Data and Modelling",
+          "children": [
+            {
+              "name": "National flood hazard datasets"
+            },
+            {
+              "name": "Vulnerability functions"
+            },
+            {
+              "name": "LGA level risk aggregation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Governance and Schemes",
+      "children": [
+        {
+          "name": "Queensland Framework",
+          "children": [
+            {
+              "name": "Queensland Reconstruction Authority (QRA)"
+            },
+            {
+              "name": "Resilient Homes Fund"
+            },
+            {
+              "name": "Betterment Program"
+            }
+          ]
+        },
+        {
+          "name": "Hunter Valley Scheme",
+          "children": [
+            {
+              "name": "Mitigation assets (Levees, Spillways)"
+            },
+            {
+              "name": "Flood Emergency Response Plans"
+            }
+          ]
+        },
+        {
+          "name": "Coastal Adaptation",
+          "children": [
+            {
+              "name": "Feasibility studies (Defend vs Retreat)"
+            },
+            {
+              "name": "Coastal defence engineering"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

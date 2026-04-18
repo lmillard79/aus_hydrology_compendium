@@ -1,0 +1,167 @@
+{
+  "name": "HWRS 2023: Hydrological Modelling and Flood Management",
+  "children": [
+    {
+      "name": "Flood Forecasting and Warning Systems",
+      "children": [
+        {
+          "name": "FLASH System (RHDHV)",
+          "children": [
+            {
+              "name": "Cloud-based Architecture"
+            },
+            {
+              "name": "Ultra-fast Hydrodynamic Modelling"
+            },
+            {
+              "name": "Lizard Data Platform"
+            },
+            {
+              "name": "Real-time Dashboards"
+            }
+          ]
+        },
+        {
+          "name": "Total Flood Warning System (TFWS)",
+          "children": [
+            {
+              "name": "Monitoring and Prediction"
+            },
+            {
+              "name": "Interpretation"
+            },
+            {
+              "name": "Message Construction"
+            },
+            {
+              "name": "Communication"
+            },
+            {
+              "name": "Community Response"
+            }
+          ]
+        },
+        {
+          "name": "Rainfields/STEPS (BoM)"
+        }
+      ]
+    },
+    {
+      "name": "Hydrological Modelling Techniques",
+      "children": [
+        {
+          "name": "Calibration and Optimization",
+          "children": [
+            {
+              "name": "AutoCal Surrogate Modelling"
+            },
+            {
+              "name": "Resampling (Over-sampling/KGE-OS)"
+            },
+            {
+              "name": "Metaheuristic Algorithms (NSGA-II, PSO)"
+            }
+          ]
+        },
+        {
+          "name": "Infiltration and Losses",
+          "children": [
+            {
+              "name": "SCS Curve Number (SCS-CN)"
+            },
+            {
+              "name": "Green-Ampt Multi-layer Soil Model"
+            },
+            {
+              "name": "Initial/Continuing Loss Model"
+            }
+          ]
+        },
+        {
+          "name": "Direct Rainfall (Rain-on-Grid)",
+          "children": [
+            {
+              "name": "TUFLOW SGS & Quadtree"
+            },
+            {
+              "name": "3Di Cloud Modelling"
+            },
+            {
+              "name": "DEM Pre-treatment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Case Studies and Extreme Events",
+      "children": [
+        {
+          "name": "Fitzroy River (WA) 2023",
+          "children": [
+            {
+              "name": "Ex-Tropical Cyclone Ellie"
+            },
+            {
+              "name": "Bridge Failure at Fitzroy Crossing"
+            },
+            {
+              "name": "Dynamic Bed Rating Curves"
+            }
+          ]
+        },
+        {
+          "name": "Narracan Dam (VIC)",
+          "children": [
+            {
+              "name": "Gated Spillway Operations"
+            },
+            {
+              "name": "Upstream Impact Assessment"
+            },
+            {
+              "name": "Becks Bridge Road Inundation"
+            }
+          ]
+        },
+        {
+          "name": "Dry Creek (SA)",
+          "children": [
+            {
+              "name": "Channel Morphology Changes"
+            },
+            {
+              "name": "Urbanisation Impacts"
+            },
+            {
+              "name": "Sinuosity and Deposition"
+            }
+          ]
+        },
+        {
+          "name": "Warrah Creek (NSW)"
+        },
+        {
+          "name": "Hunter Valley Flood Scheme"
+        }
+      ]
+    },
+    {
+      "name": "Climate and Future Trends",
+      "children": [
+        {
+          "name": "Rainfall Anomaly Prediction (WASP/HLC)"
+        },
+        {
+          "name": "Cybernetic Water Systems"
+        },
+        {
+          "name": "Serious Gaming for Education"
+        },
+        {
+          "name": "Immersive Environments (AR/VR)"
+        }
+      ]
+    }
+  ]
+}

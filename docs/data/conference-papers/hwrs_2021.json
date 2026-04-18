@@ -1,0 +1,55 @@
+{
+  "notebook": "HWRS_2021",
+  "year": 2021,
+  "conference": "HWRS",
+  "sources_count": 124,
+  "mind_map_title": "HWRS 2022 Hydrology and Water Resources Research",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Flood Estimation & Modelling",
+      "description": "",
+      "subtopics": [
+        "ARR2019 Design Rainfall",
+        "Hydrologic Toolsets",
+        "Technological Innovations"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Climate Change & Uncertainty",
+      "description": "",
+      "subtopics": [
+        "Stationarity Issues",
+        "Future Projections",
+        "Adaptation Strategies"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Urban Water Security",
+      "description": "",
+      "subtopics": [
+        "Queensland Framework",
+        "Yield Estimation",
+        "Drought Response"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Data Science in Hydrology",
+      "description": "",
+      "subtopics": [
+        "Neurocomputing",
+        "Big Data Sources",
+        "AWAP Limitations"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:01:39.880646Z",
+  "notebooklm_url": "https://notebooklm.google.com/notebook/2892e798-5d06-49a0-93c0-7282a17e2a66"
+}

@@ -3,66 +3,62 @@
   "year": 2019,
   "conference": "FMA",
   "sources_count": 137,
-  "mind_map_title": "A National Call to Action: Making Australia Flood Safe",
+  "mind_map_title": "Floodplain Risk Management (FRM)",
   "main_themes": [
     {
-      "id": "policy-governance",
-      "theme": "Policy, Planning, and Governance",
-      "description": "National frameworks and coordination for flood management",
+      "id": "theme-1",
+      "theme": "Bureau of Meteorology (BoM)",
+      "description": "",
       "subtopics": [
-        "National Collaboration - NFRAG, ANZEMC, NCCARF coordination",
-        "State & Territory Perspectives - Regional approaches across ACT, NSW, NT, QLD, SA",
-        "NSW Guidelines Update - Revised Flood Prone Land Policy and Development Manual"
+        "Goals",
+        "Systems",
+        "Models"
       ],
       "key_papers": []
     },
     {
-      "id": "emergency-systems",
-      "theme": "Emergency Management and Warning Systems",
-      "description": "Operational systems for flood response and community protection",
+      "id": "theme-2",
+      "theme": "Social Impact Analysis",
+      "description": "",
       "subtopics": [
-        "Total Flood Warning System (TFWS) - Comprehensive monitoring to communication approach",
-        "Flood Emergency Management Plans (FEMPs) - Extreme rainfall and shelter-in-place strategies",
-        "Global Emergency Management - International standards and expert hubs",
-        "International Forecasting - Memorandum between BoM and UK on ensemble forecasting"
+        "Methodologies",
+        "Assessment Factors"
       ],
       "key_papers": []
     },
     {
-      "id": "modelling-data",
-      "theme": "Modelling, Data, and Technology",
-      "description": "Technical tools and data for flood assessment",
+      "id": "theme-3",
+      "theme": "Economic Assessment Framework",
+      "description": "",
       "subtopics": [
-        "Hydrology and Hydraulic Modeling - Floodplain baseline standards",
-        "Exposure and Vulnerability - Geoscience Australia building exposure data",
-        "Software Advancements - TUFLOW and other modeling platforms"
+        "CBA (Cost-Benefit Analysis)",
+        "Assessment Levels"
       ],
       "key_papers": []
     },
     {
-      "id": "social-cultural",
-      "theme": "Social, Behavioral, and Cultural Aspects",
-      "description": "Human dimensions of flood risk and response",
+      "id": "theme-4",
+      "theme": "Data and Quality Assurance",
+      "description": "",
       "subtopics": [
-        "Behavior Around Floodwater - Optimism bias and cognitive dissonance in flood-prone communities",
-        "Risk Communication - Consistent messaging about likelihood and impact",
-        "Perception vs. Evidence - Case studies like 2016 St Marys floods, Tasmania",
-        "Climate Change and Financial Risk - Finance and liability risk lenses"
+        "Challenges",
+        "Historical Events"
       ],
       "key_papers": []
     },
     {
-      "id": "resilience-mitigation",
-      "theme": "Strategic Mitigation and Resilience",
-      "description": "Long-term approaches to reduce flood vulnerability",
+      "id": "theme-5",
+      "theme": "Management Options",
+      "description": "",
       "subtopics": [
-        "Catchment-Wide Plans - Brisbane River Strategic Floodplain Management",
-        "Quantifying Risk - Rockhampton FMS delivery using heatmaps and Multi-Criteria Assessments",
-        "Rural Floodplain Management - Macquarie Valley ecological and cultural impacts"
+        "Zoning and development control",
+        "Voluntary purchase/house raising",
+        "Structural (Levees, Dams, Basins)",
+        "Non-structural (Warnings, Education)"
       ],
       "key_papers": []
     }
   ],
-  "generated_date": "2026-04-18T14:10:00Z",
+  "generated_date": "2026-04-18T11:58:32.404063Z",
   "notebooklm_url": "https://notebooklm.google.com/notebook/1e7cf6a8-f79f-4e09-a150-7fc45fb97dd7"
 }

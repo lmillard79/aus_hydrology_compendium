@@ -1,0 +1,58 @@
+{
+  "notebook": "HWRS_2025",
+  "year": 2025,
+  "conference": "HWRS",
+  "sources_count": 129,
+  "mind_map_title": "HWRS 2025: Hydrology and Water Resources Research",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Flood Modelling and Forecasting",
+      "description": "",
+      "subtopics": [
+        "Calibration Metrics",
+        "AI and Machine Learning",
+        "Regional Analysis",
+        "Inundation Mapping"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Climate Change and Variability",
+      "description": "",
+      "subtopics": [
+        "Climate Projections",
+        "Climate Drivers",
+        "Impacts"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Water Resource Management",
+      "description": "",
+      "subtopics": [
+        "Catchment Processes",
+        "Infrastructure and Governance",
+        "Innovative Solutions"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Community and Social Factors",
+      "description": "",
+      "subtopics": [
+        "Citizen Science (The People's Catchment)",
+        "Flood Sentinel Networks",
+        "First Nations Water Governance",
+        "Public-Private Partnerships (PPP)",
+        "UHF/CB Radio Communication"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:00:07.737960Z",
+  "notebooklm_url": "https://notebooklm.google.com/notebook/40bc32bb-c70f-4b05-9709-6626e73f9e1f"
+}

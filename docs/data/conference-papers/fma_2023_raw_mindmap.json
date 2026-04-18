@@ -1,0 +1,151 @@
+{
+  "name": "Managing Flooding Beyond Maps",
+  "children": [
+    {
+      "name": "Flood Mapping Limitations",
+      "children": [
+        {
+          "name": "Drawing of specific information"
+        },
+        {
+          "name": "Based on assumptions like antecedent rainfall"
+        },
+        {
+          "name": "Only an indicator of impacts/risk"
+        },
+        {
+          "name": "May contain anomalies in detail"
+        }
+      ]
+    },
+    {
+      "name": "Mappable Constraints",
+      "children": [
+        {
+          "name": "Flood extents and frequencies"
+        },
+        {
+          "name": "Flood function (conveyance and storage)"
+        },
+        {
+          "name": "Flood hazard (depth x velocity)"
+        },
+        {
+          "name": "Flood range (scale relative to DFE)"
+        },
+        {
+          "name": "Emergency response classification (FERCCs)"
+        }
+      ]
+    },
+    {
+      "name": "Factors Beyond Maps",
+      "children": [
+        {
+          "name": "Community Impact",
+          "children": [
+            {
+              "name": "Vulnerability of development types"
+            },
+            {
+              "name": "Evacuation limitations and capability"
+            },
+            {
+              "name": "Community flood awareness"
+            },
+            {
+              "name": "Disruptions to essential services"
+            }
+          ]
+        },
+        {
+          "name": "Flood Behaviour",
+          "children": [
+            {
+              "name": "Effective warning time"
+            },
+            {
+              "name": "Rate of rise and duration"
+            },
+            {
+              "name": "Hydraulic structure behaviour (bridges)"
+            },
+            {
+              "name": "Storm durations and patterns"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unprecedented vs Unplanned",
+      "children": [
+        {
+          "name": "Unprecedented relates to impact level"
+        },
+        {
+          "name": "Catastrophic events overwhelm resources"
+        },
+        {
+          "name": "Planning reduces unprecedented impacts"
+        },
+        {
+          "name": "Need for robust, scalable responses"
+        }
+      ]
+    },
+    {
+      "name": "Best Practice Solutions",
+      "children": [
+        {
+          "name": "Dynamic Intelligence (TECCH Dashboard)",
+          "children": [
+            {
+              "name": "Real-time flood extents"
+            },
+            {
+              "name": "Asset and population data integration"
+            },
+            {
+              "name": "Validation via traffic cameras"
+            },
+            {
+              "name": "Visual, shareable web services"
+            }
+          ]
+        },
+        {
+          "name": "PPRR Framework",
+          "children": [
+            {
+              "name": "Prevention: Vulnerability analysis"
+            },
+            {
+              "name": "Preparation: Staff and resource allocation"
+            },
+            {
+              "name": "Response: Granular crew routing"
+            },
+            {
+              "name": "Recovery: Re-opening transport networks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Warning Infrastructure",
+      "children": [
+        {
+          "name": "Water level and rainfall sensors"
+        },
+        {
+          "name": "Automated flood forecasting systems"
+        },
+        {
+          "name": "Total Warning System (TWS) application"
+        }
+      ]
+    }
+  ]
+}

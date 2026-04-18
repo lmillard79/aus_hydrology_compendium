@@ -1,0 +1,53 @@
+{
+  "notebook": "FMA_2022",
+  "year": 2022,
+  "conference": "FMA",
+  "sources_count": 72,
+  "mind_map_title": "Flood Risk Management and Adaptation",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Planning Controls and Strategies",
+      "description": "",
+      "subtopics": [
+        "Location Controls",
+        "Floor Level Controls",
+        "Flood Resilient Building"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Climate Change Impacts",
+      "description": "",
+      "subtopics": [
+        "Warming Scenarios",
+        "Physical Consequences"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Technological Tools and Monitoring",
+      "description": "",
+      "subtopics": [
+        "Smart Alerting (FLASH)",
+        "Data and Modelling"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Governance and Schemes",
+      "description": "",
+      "subtopics": [
+        "Queensland Framework",
+        "Hunter Valley Scheme",
+        "Coastal Adaptation"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T11:59:24.449513Z",
+  "notebooklm_url": "https://notebooklm.google.com/notebook/3dcf95a8-33db-480d-be1b-deb1448b0d2e"
+}

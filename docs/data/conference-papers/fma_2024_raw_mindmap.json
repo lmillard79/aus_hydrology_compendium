@@ -1,0 +1,133 @@
+{
+  "name": "Flood Management and Research 2024",
+  "children": [
+    {
+      "name": "Infragravity Waves in Coastal Creeks",
+      "children": [
+        {
+          "name": "Background",
+          "children": [
+            {
+              "name": "Small coastal creeks (ICOLLs)"
+            },
+            {
+              "name": "Limited traditional monitoring"
+            },
+            {
+              "name": "Water levels via pluvial/coastal processes"
+            }
+          ]
+        },
+        {
+          "name": "Low Cost Gauges",
+          "children": [
+            {
+              "name": "Radar based sensors"
+            },
+            {
+              "name": "Public online viewing (Disaster Hub)"
+            },
+            {
+              "name": "High recording frequency potential"
+            },
+            {
+              "name": "Limitation: 1-minute wave analysis"
+            }
+          ]
+        },
+        {
+          "name": "Observed Data Analysis",
+          "children": [
+            {
+              "name": "Dec 2020 and Jan 2022 events"
+            },
+            {
+              "name": "Creek levels exceeded Mooloolaba values"
+            },
+            {
+              "name": "Infragravity (IG) waves identified"
+            },
+            {
+              "name": "IG waves: 'surf beat' effect"
+            }
+          ]
+        },
+        {
+          "name": "Conclusions",
+          "children": [
+            {
+              "name": "IG waves critical for design levels"
+            },
+            {
+              "name": "Gauges inform local storm tide studies"
+            },
+            {
+              "name": "Development levels must consider IG waves"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2023 DT01 Flood Damage Tool",
+      "children": [
+        {
+          "name": "NSW Flood Guidance Changes",
+          "children": [
+            {
+              "name": "2023 FRM Manual adoption"
+            },
+            {
+              "name": "DT01 Tool replaces previous versions"
+            },
+            {
+              "name": "Toolkit prepared by DCCEEW"
+            }
+          ]
+        },
+        {
+          "name": "Key Technical Changes",
+          "children": [
+            {
+              "name": "New non-residential damage curves"
+            },
+            {
+              "name": "Adjustment via CPI instead of AWE"
+            },
+            {
+              "name": "Unit floor area based curves"
+            },
+            {
+              "name": "Monte Carlo simulations added"
+            }
+          ]
+        },
+        {
+          "name": "Benchmarking and Case Studies",
+          "children": [
+            {
+              "name": "Seven sub-catchments in Sydney"
+            },
+            {
+              "name": "Geoscape building footprints usage"
+            },
+            {
+              "name": "Prospect Creek industrial damages"
+            },
+            {
+              "name": "73% higher residential estimates vs previous"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Emergency Resources",
+      "children": [
+        {
+          "name": "Red Cross Emergency Resources"
+        }
+      ]
+    }
+  ]
+}

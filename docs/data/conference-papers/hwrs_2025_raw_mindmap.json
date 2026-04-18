@@ -1,0 +1,186 @@
+{
+  "name": "HWRS 2025: Hydrology and Water Resources Research",
+  "children": [
+    {
+      "name": "Flood Modelling and Forecasting",
+      "children": [
+        {
+          "name": "Calibration Metrics",
+          "children": [
+            {
+              "name": "Relative Peak Flow Error (RPFE)"
+            },
+            {
+              "name": "Nash-Sutcliffe Efficiency (NSE)"
+            },
+            {
+              "name": "Kling-Gupta Efficiency (KGE)"
+            },
+            {
+              "name": "Relative Volume Error (RVE)"
+            }
+          ]
+        },
+        {
+          "name": "AI and Machine Learning",
+          "children": [
+            {
+              "name": "Long Short-Term Memory (LSTM)"
+            },
+            {
+              "name": "Artificial Neural Networks (ANN)"
+            },
+            {
+              "name": "Monte Carlo Dropout for Uncertainty"
+            }
+          ]
+        },
+        {
+          "name": "Regional Analysis",
+          "children": [
+            {
+              "name": "Index Flood Method (IFM)"
+            },
+            {
+              "name": "Quantile Regression"
+            },
+            {
+              "name": "Log-Pearson Type 3 (LP3)"
+            }
+          ]
+        },
+        {
+          "name": "Inundation Mapping",
+          "children": [
+            {
+              "name": "Height Above Nearest Drainage (HAND)"
+            },
+            {
+              "name": "CaMa-Flood Hydrodynamic Model"
+            },
+            {
+              "name": "Satellite-based Surface Water Extent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climate Change and Variability",
+      "children": [
+        {
+          "name": "Climate Projections",
+          "children": [
+            {
+              "name": "CMIP6 Global Climate Models"
+            },
+            {
+              "name": "Pattern Scaling Framework"
+            },
+            {
+              "name": "Internal Variability vs Model Uncertainty"
+            }
+          ]
+        },
+        {
+          "name": "Climate Drivers",
+          "children": [
+            {
+              "name": "El Niño-Southern Oscillation (ENSO)"
+            },
+            {
+              "name": "La Niña Rainfall Phases"
+            },
+            {
+              "name": "Millennium Drought"
+            }
+          ]
+        },
+        {
+          "name": "Impacts",
+          "children": [
+            {
+              "name": "Declining Cool Season Rainfall"
+            },
+            {
+              "name": "Increased Sea Level Rise"
+            },
+            {
+              "name": "Coastal Floodplain Waterlogging"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water Resource Management",
+      "children": [
+        {
+          "name": "Catchment Processes",
+          "children": [
+            {
+              "name": "Budyko Framework (Water-Energy Balance)"
+            },
+            {
+              "name": "Initial Loss-Continuing Loss (IL-CL)"
+            },
+            {
+              "name": "Groundwater Extraction by Plantations"
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure and Governance",
+          "children": [
+            {
+              "name": "Runoff Dam Inventories"
+            },
+            {
+              "name": "Reservoir Sizing (Source vs WATHNET)"
+            },
+            {
+              "name": "Murray-Darling Basin Plan"
+            },
+            {
+              "name": "Farm Modernisation (ISO 55000)"
+            }
+          ]
+        },
+        {
+          "name": "Innovative Solutions",
+          "children": [
+            {
+              "name": "Blue Carbon Wetland Restoration"
+            },
+            {
+              "name": "Managed Aquifer Recharge (MAR)"
+            },
+            {
+              "name": "Nature-based Solutions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Community and Social Factors",
+      "children": [
+        {
+          "name": "Citizen Science (The People's Catchment)"
+        },
+        {
+          "name": "Flood Sentinel Networks"
+        },
+        {
+          "name": "First Nations Water Governance"
+        },
+        {
+          "name": "Public-Private Partnerships (PPP)"
+        },
+        {
+          "name": "UHF/CB Radio Communication"
+        }
+      ]
+    }
+  ]
+}

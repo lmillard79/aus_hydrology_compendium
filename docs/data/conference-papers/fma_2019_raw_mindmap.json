@@ -1,0 +1,186 @@
+{
+  "name": "Floodplain Risk Management (FRM)",
+  "children": [
+    {
+      "name": "Bureau of Meteorology (BoM)",
+      "children": [
+        {
+          "name": "Goals",
+          "children": [
+            {
+              "name": "Zero lives lost"
+            },
+            {
+              "name": "Protect life and property"
+            },
+            {
+              "name": "$2 billion social/economic value"
+            }
+          ]
+        },
+        {
+          "name": "Systems",
+          "children": [
+            {
+              "name": "Cray Super Computers"
+            },
+            {
+              "name": "Numerical Weather Models"
+            },
+            {
+              "name": "HyFS (Hydrological Forecasting)"
+            },
+            {
+              "name": "RAINFIELDS (Radar Nowcasting)"
+            }
+          ]
+        },
+        {
+          "name": "Models",
+          "children": [
+            {
+              "name": "AWRA-L Landscape Model"
+            },
+            {
+              "name": "URBS Rainfall Runoff"
+            },
+            {
+              "name": "Ensemble Multi-Model Forecasts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Social Impact Analysis",
+      "children": [
+        {
+          "name": "Methodologies",
+          "children": [
+            {
+              "name": "Social Atlas census mapping"
+            },
+            {
+              "name": "Social network analysis (Sociograms)"
+            },
+            {
+              "name": "Community engagement"
+            },
+            {
+              "name": "Community directories"
+            }
+          ]
+        },
+        {
+          "name": "Assessment Factors",
+          "children": [
+            {
+              "name": "Vulnerability and Poverty"
+            },
+            {
+              "name": "Equity for residents"
+            },
+            {
+              "name": "Visual amenity"
+            },
+            {
+              "name": "Levee paradox (False security)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economic Assessment Framework",
+      "children": [
+        {
+          "name": "CBA (Cost-Benefit Analysis)",
+          "children": [
+            {
+              "name": "Quantifying property damage"
+            },
+            {
+              "name": "Quantifying risk to life"
+            },
+            {
+              "name": "Rapid evaluation techniques"
+            }
+          ]
+        },
+        {
+          "name": "Assessment Levels",
+          "children": [
+            {
+              "name": "Level 1: FRM Study and Plan"
+            },
+            {
+              "name": "Level 2: Projects $1M - $5M"
+            },
+            {
+              "name": "Level 3: Projects >$5M"
+            },
+            {
+              "name": "NSW Treasury Gateway (>$10M)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data and Quality Assurance",
+      "children": [
+        {
+          "name": "Challenges",
+          "children": [
+            {
+              "name": "Forecast uncertainty"
+            },
+            {
+              "name": "Extreme local rainfalls"
+            },
+            {
+              "name": "Sensor failure (Radar echo suppression)"
+            },
+            {
+              "name": "Raw vs Quality Controlled data"
+            }
+          ]
+        },
+        {
+          "name": "Historical Events",
+          "children": [
+            {
+              "name": "Cyclone Debbie (2017)"
+            },
+            {
+              "name": "Townsville (2019)"
+            },
+            {
+              "name": "Lismore Floods"
+            },
+            {
+              "name": "Hawkesbury-Nepean Exposure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Management Options",
+      "children": [
+        {
+          "name": "Zoning and development control"
+        },
+        {
+          "name": "Voluntary purchase/house raising"
+        },
+        {
+          "name": "Structural (Levees, Dams, Basins)"
+        },
+        {
+          "name": "Non-structural (Warnings, Education)"
+        }
+      ]
+    }
+  ]
+}

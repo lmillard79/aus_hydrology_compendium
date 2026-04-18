@@ -1,0 +1,59 @@
+{
+  "notebook": "FMA_2020",
+  "year": 2020,
+  "conference": "FMA",
+  "sources_count": 19,
+  "mind_map_title": "Property-Based Floodplain Management",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Scheme Types",
+      "description": "",
+      "subtopics": [
+        "Voluntary House Purchase (VHP)",
+        "Voluntary Land-Swap",
+        "House Resilience",
+        "Compulsory Purchase"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Success Factors",
+      "description": "",
+      "subtopics": [
+        "Sound community engagement",
+        "Giving homeowners options",
+        "Strong local leadership",
+        "Recent disaster impetus",
+        "The 'Right Team' skills"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Lessons Learnt",
+      "description": "",
+      "subtopics": [
+        "Social Issues",
+        "Administrative Lessons",
+        "Economic Risks"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Eligibility Criteria",
+      "description": "",
+      "subtopics": [
+        "High flood hazard areas",
+        "Repetitive flood losses",
+        "Benefit-Cost Ratio (BCR)",
+        "Social/Adjoining property inclusion"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T11:59:47.170842Z",
+  "notebooklm_url": "https://notebooklm.google.com/notebook/78047816-ad9a-4ce6-965b-8d85c5ded4a8"
+}

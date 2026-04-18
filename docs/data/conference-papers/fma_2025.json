@@ -1,0 +1,56 @@
+{
+  "notebook": "FMA_2025",
+  "year": 2025,
+  "conference": "FMA",
+  "sources_count": 140,
+  "mind_map_title": "Disaster Adaptation and Floodplain Management",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Disaster Adaptation Plans (DAPs)",
+      "description": "",
+      "subtopics": [
+        "Core Objectives",
+        "Regional Approach",
+        "Key Tools"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Modelling and Analysis",
+      "description": "",
+      "subtopics": [
+        "Continuous Simulation Modelling (CSM)",
+        "Multi-Hazard Assessment",
+        "Climate Change Impacts"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Infrastructure and Land Planning",
+      "description": "",
+      "subtopics": [
+        "Linear Infrastructure",
+        "Road Safety and Signage",
+        "Sub-regional Planning"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Governance and Programs",
+      "description": "",
+      "subtopics": [
+        "NSW Reconstruction Authority (RA)",
+        "Floodplain Management Program (DCCEEW)",
+        "Coastal Management Framework",
+        "Melbourne Water Flood Program"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T11:59:01.279066Z",
+  "notebooklm_url": "https://notebooklm.google.com/notebook/d12b5b0a-4d09-405b-a6eb-7e1de55a02a8"
+}

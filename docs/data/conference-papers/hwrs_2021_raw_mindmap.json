@@ -1,0 +1,196 @@
+{
+  "name": "HWRS 2022 Hydrology and Water Resources Research",
+  "children": [
+    {
+      "name": "Flood Estimation & Modelling",
+      "children": [
+        {
+          "name": "ARR2019 Design Rainfall",
+          "children": [
+            {
+              "name": "Underestimation Bias in NSW & Victoria"
+            },
+            {
+              "name": "Queensland Bias Assessment (162 sites)"
+            },
+            {
+              "name": "Regionalized Overestimation (Cairns & Brisbane)"
+            }
+          ]
+        },
+        {
+          "name": "Hydrologic Toolsets",
+          "children": [
+            {
+              "name": "WBNM (Watershed Bounded Network Model)"
+            },
+            {
+              "name": "TUFLOW 1D/2D ROG Models"
+            },
+            {
+              "name": "FLIKE Software (LP3 Distribution)"
+            },
+            {
+              "name": "FLOW-3D for Fish Passage Design"
+            }
+          ]
+        },
+        {
+          "name": "Technological Innovations",
+          "children": [
+            {
+              "name": "BoM GeoFabric 3 Catchment Aggregation"
+            },
+            {
+              "name": "CFD for Vertical Slot Fishways"
+            },
+            {
+              "name": "HEH (Hydraulically Equivalent Hydrology)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climate Change & Uncertainty",
+      "children": [
+        {
+          "name": "Stationarity Issues",
+          "children": [
+            {
+              "name": "Milly et al. (2008) 'Stationarity is dead'"
+            },
+            {
+              "name": "Anthropocene Pulse & Press Disturbances"
+            },
+            {
+              "name": "Non-stationary Trend Estimation"
+            }
+          ]
+        },
+        {
+          "name": "Future Projections",
+          "children": [
+            {
+              "name": "RCP 4.5 & RCP 8.5 Scenarios"
+            },
+            {
+              "name": "CMIP5 Global Climate Models (GCMs)"
+            },
+            {
+              "name": "Climate Tipping Points (CTPs)"
+            }
+          ]
+        },
+        {
+          "name": "Adaptation Strategies",
+          "children": [
+            {
+              "name": "Adaptive Governance & Markets"
+            },
+            {
+              "name": "No-regret & Reversible Designs"
+            },
+            {
+              "name": "Fail-safely vs Fail-safe Philosophies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Urban Water Security",
+      "children": [
+        {
+          "name": "Queensland Framework",
+          "children": [
+            {
+              "name": "Water Act 2000 Entitlements"
+            },
+            {
+              "name": "Supplemented vs Unsupplemented Water"
+            },
+            {
+              "name": "Regional Level of Service (LOS)"
+            }
+          ]
+        },
+        {
+          "name": "Yield Estimation",
+          "children": [
+            {
+              "name": "System Yield vs Demand Gaps"
+            },
+            {
+              "name": "Operational Yield (Dynamic Simulation)"
+            },
+            {
+              "name": "Victorian Desalination Project (VDP)"
+            }
+          ]
+        },
+        {
+          "name": "Drought Response",
+          "children": [
+            {
+              "name": "Water Carting (Communities < 5000)"
+            },
+            {
+              "name": "Diversification (Desalination & Recycling)"
+            },
+            {
+              "name": "Triggers for Restrictions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Science in Hydrology",
+      "children": [
+        {
+          "name": "Neurocomputing",
+          "children": [
+            {
+              "name": "Machine Learning (Predictive Patterns)"
+            },
+            {
+              "name": "Deep Learning (Neural Networks)"
+            },
+            {
+              "name": "Bayesian Networks"
+            }
+          ]
+        },
+        {
+          "name": "Big Data Sources",
+          "children": [
+            {
+              "name": "Remote Sensing (Satellite Missions)"
+            },
+            {
+              "name": "Atmospheric Reanalysis (ERA5, BARRA)"
+            },
+            {
+              "name": "AWAP (Australian Water Availability Project)"
+            }
+          ]
+        },
+        {
+          "name": "AWAP Limitations",
+          "children": [
+            {
+              "name": "Smoothing via Surface Fitting"
+            },
+            {
+              "name": "Underestimation of Extreme Events"
+            },
+            {
+              "name": "Climatology Biases"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

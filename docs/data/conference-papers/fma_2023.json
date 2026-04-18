@@ -3,42 +3,77 @@
   "year": 2023,
   "conference": "FMA",
   "sources_count": 79,
-  "mind_map_title": "Strategic Framework for Flood Risk and Emergency Intelligence",
+  "mind_map_title": "Managing Flooding Beyond Maps",
   "main_themes": [
     {
-      "id": "data-management",
-      "theme": "Data Management & Centralization",
-      "description": "Critical need for consistent, accessible flood hazard data repositories",
+      "id": "theme-1",
+      "theme": "Flood Mapping Limitations",
+      "description": "",
       "subtopics": [
-        "Lack of Centralised Data Repositories - Core obstacle in NBS implementation research",
-        "Fragmented Data Collection - Time-consuming process from individual councils",
-        "Data Quality Standards - Ensuring consistency across jurisdictions"
+        "Drawing of specific information",
+        "Based on assumptions like antecedent rainfall",
+        "Only an indicator of impacts/risk",
+        "May contain anomalies in detail"
       ],
       "key_papers": []
     },
     {
-      "id": "methodological-controversy",
-      "theme": "Strong Practitioner Hooks (Methodological Controversy)",
-      "description": "Unresolved technical debates affecting flood estimation and planning decisions",
+      "id": "theme-2",
+      "theme": "Mappable Constraints",
+      "description": "",
       "subtopics": [
-        "ARR2019 vs. Flood Frequency Analysis - Hybrid approaches combining IFD and temporal patterns",
-        "Design Storm Method Challenges - East Coast Lows and IFC methodology debates",
-        "Impact Criteria Definition - 10mm threshold discussions and cumulative impact debates"
+        "Flood extents and frequencies",
+        "Flood function (conveyance and storage)",
+        "Flood hazard (depth x velocity)",
+        "Flood range (scale relative to DFE)",
+        "Emergency response classification (FERCCs)"
       ],
       "key_papers": []
     },
     {
-      "id": "planning-application",
-      "theme": "Managing Beyond Maps",
-      "description": "Practical application of flood mapping and hazard assessment in planning decisions",
+      "id": "theme-3",
+      "theme": "Factors Beyond Maps",
+      "description": "",
       "subtopics": [
-        "Floodplain Definitions - Distinguishing hazard mapping from functional floodplain",
-        "Emergency Planning - Warning systems and evacuation procedures",
-        "Insurance Integration - Technical-insurance definition disconnect"
+        "Community Impact",
+        "Flood Behaviour"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Unprecedented vs Unplanned",
+      "description": "",
+      "subtopics": [
+        "Unprecedented relates to impact level",
+        "Catastrophic events overwhelm resources",
+        "Planning reduces unprecedented impacts",
+        "Need for robust, scalable responses"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-5",
+      "theme": "Best Practice Solutions",
+      "description": "",
+      "subtopics": [
+        "Dynamic Intelligence (TECCH Dashboard)",
+        "PPRR Framework"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-6",
+      "theme": "Warning Infrastructure",
+      "description": "",
+      "subtopics": [
+        "Water level and rainfall sensors",
+        "Automated flood forecasting systems",
+        "Total Warning System (TWS) application"
       ],
       "key_papers": []
     }
   ],
-  "generated_date": "2026-04-18T14:20:00Z",
+  "generated_date": "2026-04-18T11:58:07.846430Z",
   "notebooklm_url": "https://notebooklm.google.com/notebook/b45571e2-ca22-49b4-ad5b-ab9094ddd245"
 }

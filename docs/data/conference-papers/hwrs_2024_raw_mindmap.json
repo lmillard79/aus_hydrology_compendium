@@ -1,0 +1,154 @@
+{
+  "name": "HWRS 2024 Research Highlights",
+  "children": [
+    {
+      "name": "Extreme Flood Events",
+      "children": [
+        {
+          "name": "February 2022 Flood",
+          "children": [
+            {
+              "name": "Intensity: NE NSW and SE QLD"
+            },
+            {
+              "name": "Record specific peak flow"
+            },
+            {
+              "name": "Impact: 1% AEP design levels"
+            },
+            {
+              "name": "Conditions: High antecedent soil moisture"
+            }
+          ]
+        },
+        {
+          "name": "Flood Management Insights",
+          "children": [
+            {
+              "name": "Importance of initial conditions"
+            },
+            {
+              "name": "Reduced propagation times"
+            },
+            {
+              "name": "Multi-peak hydrograph complexity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Renewable Energy Infrastructure",
+      "children": [
+        {
+          "name": "Modelling Challenges",
+          "children": [
+            {
+              "name": "Data scarcity in remote areas"
+            },
+            {
+              "name": "Computational costs for large catchments"
+            },
+            {
+              "name": "High-risk electrical asset protection"
+            }
+          ]
+        },
+        {
+          "name": "Technical Solutions",
+          "children": [
+            {
+              "name": "TUFLOW Sub-Grid Sampling (SGS)"
+            },
+            {
+              "name": "High-resolution (HR) raster mapping"
+            },
+            {
+              "name": "Integrated hydrological models (RORB)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stormwater & Dam Analytics",
+      "children": [
+        {
+          "name": "Target Flow Control Systems (TFCS)",
+          "children": [
+            {
+              "name": "Calibration-free reactive control"
+            },
+            {
+              "name": "Applied to multiple storages"
+            },
+            {
+              "name": "Uses real-time level sensors"
+            }
+          ]
+        },
+        {
+          "name": "Breach Hydro Framework",
+          "children": [
+            {
+              "name": "Rapid dam break analytics"
+            },
+            {
+              "name": "Probabilistic water balance modelling"
+            },
+            {
+              "name": "Validation against HEC-RAS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climate Change & Hydrology",
+      "children": [
+        {
+          "name": "Murray-Darling Basin Study",
+          "children": [
+            {
+              "name": "1895-2023 instrumental baseline"
+            },
+            {
+              "name": "Projected runoff reduction"
+            },
+            {
+              "name": "Impact of Hadley cell expansion"
+            }
+          ]
+        },
+        {
+          "name": "Joint Probability Analysis",
+          "children": [
+            {
+              "name": "Bivariate normal distribution"
+            },
+            {
+              "name": "Box-Cox data transformations"
+            },
+            {
+              "name": "Riverine and tidal interactions"
+            }
+          ]
+        },
+        {
+          "name": "Design Temperature (TDF)",
+          "children": [
+            {
+              "name": "Temperature-Duration-Frequency curves"
+            },
+            {
+              "name": "GEV distribution analysis"
+            },
+            {
+              "name": "Non-stationary climate covariates"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

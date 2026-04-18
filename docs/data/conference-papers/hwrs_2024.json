@@ -1,0 +1,52 @@
+{
+  "notebook": "HWRS_2024",
+  "year": 2024,
+  "conference": "HWRS",
+  "sources_count": 161,
+  "mind_map_title": "HWRS 2024 Research Highlights",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Extreme Flood Events",
+      "description": "",
+      "subtopics": [
+        "February 2022 Flood",
+        "Flood Management Insights"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Renewable Energy Infrastructure",
+      "description": "",
+      "subtopics": [
+        "Modelling Challenges",
+        "Technical Solutions"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Stormwater & Dam Analytics",
+      "description": "",
+      "subtopics": [
+        "Target Flow Control Systems (TFCS)",
+        "Breach Hydro Framework"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Climate Change & Hydrology",
+      "description": "",
+      "subtopics": [
+        "Murray-Darling Basin Study",
+        "Joint Probability Analysis",
+        "Design Temperature (TDF)"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:00:30.116629Z",
+  "notebooklm_url": "https://notebooklm.google.com/notebook/2d7b4294-3e77-486f-8ac2-ce83050b3edb"
+}

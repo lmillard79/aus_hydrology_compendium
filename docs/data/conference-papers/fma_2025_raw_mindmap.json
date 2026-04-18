@@ -1,0 +1,169 @@
+{
+  "name": "Disaster Adaptation and Floodplain Management",
+  "children": [
+    {
+      "name": "Disaster Adaptation Plans (DAPs)",
+      "children": [
+        {
+          "name": "Core Objectives",
+          "children": [
+            {
+              "name": "Reduce disaster impacts"
+            },
+            {
+              "name": "Increase community resilience"
+            },
+            {
+              "name": "Guide proactive investment"
+            },
+            {
+              "name": "Strategic risk reduction"
+            }
+          ]
+        },
+        {
+          "name": "Regional Approach",
+          "children": [
+            {
+              "name": "Northern Rivers DAP (Multi-hazard)"
+            },
+            {
+              "name": "Hawkesbury-Nepean Valley DAP (Flood focus)"
+            },
+            {
+              "name": "Cross-boundary management"
+            }
+          ]
+        },
+        {
+          "name": "Key Tools",
+          "children": [
+            {
+              "name": "Adaptation Pathways"
+            },
+            {
+              "name": "Risk Profiles"
+            },
+            {
+              "name": "Project Response Indicators (PRIs)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modelling and Analysis",
+      "children": [
+        {
+          "name": "Continuous Simulation Modelling (CSM)",
+          "children": [
+            {
+              "name": "URBS Hydrological Model"
+            },
+            {
+              "name": "Recovering Initial Loss Model (RILM)"
+            },
+            {
+              "name": "Sub-daily rainfall data"
+            },
+            {
+              "name": "64-bit step change"
+            }
+          ]
+        },
+        {
+          "name": "Multi-Hazard Assessment",
+          "children": [
+            {
+              "name": "Spatial co-location"
+            },
+            {
+              "name": "Temporal coincidence"
+            },
+            {
+              "name": "Cascading impacts"
+            }
+          ]
+        },
+        {
+          "name": "Climate Change Impacts",
+          "children": [
+            {
+              "name": "Sea level rise projections"
+            },
+            {
+              "name": "Vertical Land Movement (VLM)"
+            },
+            {
+              "name": "Updated ARR guidance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure and Land Planning",
+      "children": [
+        {
+          "name": "Linear Infrastructure",
+          "children": [
+            {
+              "name": "Road/Rail immunity"
+            },
+            {
+              "name": "Causeway vs. Culvert design"
+            },
+            {
+              "name": "Closure cost impacts"
+            }
+          ]
+        },
+        {
+          "name": "Road Safety and Signage",
+          "children": [
+            {
+              "name": "Flood depth markers"
+            },
+            {
+              "name": "If it’s flooded, forget it campaign"
+            },
+            {
+              "name": "Designated floodways"
+            }
+          ]
+        },
+        {
+          "name": "Sub-regional Planning",
+          "children": [
+            {
+              "name": "Developable area assessment"
+            },
+            {
+              "name": "Floodplain storage loss"
+            },
+            {
+              "name": "Urban expansion constraints"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Governance and Programs",
+      "children": [
+        {
+          "name": "NSW Reconstruction Authority (RA)"
+        },
+        {
+          "name": "Floodplain Management Program (DCCEEW)"
+        },
+        {
+          "name": "Coastal Management Framework"
+        },
+        {
+          "name": "Melbourne Water Flood Program"
+        }
+      ]
+    }
+  ]
+}

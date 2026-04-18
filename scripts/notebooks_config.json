@@ -32,110 +32,125 @@
       "year": 2025,
       "conference": "FMA",
       "sources_count": 140,
-      "extracted": false,
-      "mind_map_title": null
+      "extracted": true,
+      "mind_map_title": null,
+      "extracted_date": "2026-04-18T11:39:43.292238"
     },
     {
-      "id": "PLACEHOLDER_FMA_2022",
+      "id": "3dcf95a8-33db-480d-be1b-deb1448b0d2e",
       "year": 2022,
       "conference": "FMA",
       "sources_count": 72,
-      "extracted": false,
-      "mind_map_title": null
+      "extracted": true,
+      "mind_map_title": null,
+      "extracted_date": "2026-04-18T11:40:08.759021"
     },
     {
-      "id": "PLACEHOLDER_FMA_2020",
+      "id": "78047816-ad9a-4ce6-965b-8d85c5ded4a8",
       "year": 2020,
       "conference": "FMA",
       "sources_count": 19,
-      "extracted": false,
-      "mind_map_title": null
+      "extracted": true,
+      "mind_map_title": null,
+      "extracted_date": "2026-04-18T11:40:28.663315"
     }
   ],
   "hwrs_notebooks": [
     {
       "year": 2025,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "40bc32bb-c70f-4b05-9709-6626e73f9e1f",
       "sources_count": 129,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:40:49.642573"
     },
     {
       "year": 2024,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "2d7b4294-3e77-486f-8ac2-ce83050b3edb",
       "sources_count": 161,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:41:11.433465"
     },
     {
       "year": 2023,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "56adea86-25c8-4051-b769-f4f4f0170800",
       "sources_count": 135,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:41:36.095116"
     },
     {
       "year": 2022,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "2892e798-5d06-49a0-93c0-7282a17e2a66",
       "sources_count": 124,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:41:59.216098"
     },
     {
       "year": 2021,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "2892e798-5d06-49a0-93c0-7282a17e2a66",
       "sources_count": 79,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:42:21.700568"
     },
     {
       "year": 2018,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "0467eef1-2c0e-4f2e-8c20-fac928515239",
       "sources_count": 61,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:42:49.616076"
     },
     {
       "year": 2016,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "46b9e4ac-d902-42bc-a26b-66a8cc8e445c",
       "sources_count": 48,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:43:17.228189"
     },
     {
       "year": 2015,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "41277736-8435-487e-bba0-5b2f790a8671",
       "sources_count": 138,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:43:50.520753"
     },
     {
       "year": 2014,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "bb46da0e-a94e-43dd-b2f0-d99aee98d13f",
       "sources_count": 88,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:44:26.114897"
     },
     {
       "year": 2012,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "46346d2d-10fc-444a-b311-e38a76caf180",
       "sources_count": 145,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:45:02.359481"
     },
     {
       "year": 2011,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "439ffa10-d5f0-4744-8fc5-fe62a5c2b291",
       "sources_count": 299,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:45:39.447138"
     },
     {
       "year": 2005,
       "conference": "HWRS",
-      "id": "PLACEHOLDER",
+      "id": "16a9555a-9116-494b-b809-edb8f57e9a7f",
       "sources_count": 66,
-      "extracted": false
+      "extracted": true,
+      "extracted_date": "2026-04-18T11:46:11.566130"
     }
   ],
   "metadata": {

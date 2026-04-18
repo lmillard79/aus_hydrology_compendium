@@ -1,0 +1,58 @@
+{
+  "notebook": "HWRS_2023",
+  "year": 2023,
+  "conference": "HWRS",
+  "sources_count": 135,
+  "mind_map_title": "HWRS 2023: Hydrological Modelling and Flood Management",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Flood Forecasting and Warning Systems",
+      "description": "",
+      "subtopics": [
+        "FLASH System (RHDHV)",
+        "Total Flood Warning System (TFWS)",
+        "Rainfields/STEPS (BoM)"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Hydrological Modelling Techniques",
+      "description": "",
+      "subtopics": [
+        "Calibration and Optimization",
+        "Infiltration and Losses",
+        "Direct Rainfall (Rain-on-Grid)"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Case Studies and Extreme Events",
+      "description": "",
+      "subtopics": [
+        "Fitzroy River (WA) 2023",
+        "Narracan Dam (VIC)",
+        "Dry Creek (SA)",
+        "Warrah Creek (NSW)",
+        "Hunter Valley Flood Scheme"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Climate and Future Trends",
+      "description": "",
+      "subtopics": [
+        "Rainfall Anomaly Prediction (WASP/HLC)",
+        "Cybernetic Water Systems",
+        "Serious Gaming for Education",
+        "Immersive Environments (AR/VR)"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:00:54.203808Z",
+  "notebooklm_url": "https://notebooklm.google.com/notebook/56adea86-25c8-4051-b769-f4f4f0170800"
+}

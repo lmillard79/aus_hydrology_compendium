@@ -1,0 +1,142 @@
+{
+  "name": "Property-Based Floodplain Management",
+  "children": [
+    {
+      "name": "Scheme Types",
+      "children": [
+        {
+          "name": "Voluntary House Purchase (VHP)",
+          "children": [
+            {
+              "name": "Clearing floodways"
+            },
+            {
+              "name": "Improving conveyance"
+            },
+            {
+              "name": "Third-party valuations"
+            }
+          ]
+        },
+        {
+          "name": "Voluntary Land-Swap",
+          "children": [
+            {
+              "name": "Community relocation"
+            },
+            {
+              "name": "Lottery/ballot systems"
+            },
+            {
+              "name": "Preserving social networks"
+            }
+          ]
+        },
+        {
+          "name": "House Resilience",
+          "children": [
+            {
+              "name": "Voluntary House Raising (VHR)"
+            },
+            {
+              "name": "Wet-proofing"
+            },
+            {
+              "name": "Flood-resilient design"
+            }
+          ]
+        },
+        {
+          "name": "Compulsory Purchase"
+        }
+      ]
+    },
+    {
+      "name": "Success Factors",
+      "children": [
+        {
+          "name": "Sound community engagement"
+        },
+        {
+          "name": "Giving homeowners options"
+        },
+        {
+          "name": "Strong local leadership"
+        },
+        {
+          "name": "Recent disaster impetus"
+        },
+        {
+          "name": "The 'Right Team' skills"
+        }
+      ]
+    },
+    {
+      "name": "Lessons Learnt",
+      "children": [
+        {
+          "name": "Social Issues",
+          "children": [
+            {
+              "name": "Post-event distress"
+            },
+            {
+              "name": "Generational ties to land"
+            },
+            {
+              "name": "Elderly relocation challenges"
+            }
+          ]
+        },
+        {
+          "name": "Administrative Lessons",
+          "children": [
+            {
+              "name": "Keep eligibility simple"
+            },
+            {
+              "name": "Manage media expectations"
+            },
+            {
+              "name": "Purpose for vacated land"
+            },
+            {
+              "name": "Long implementation timeframes"
+            }
+          ]
+        },
+        {
+          "name": "Economic Risks",
+          "children": [
+            {
+              "name": "Rising housing prices"
+            },
+            {
+              "name": "Loss of tax revenue"
+            },
+            {
+              "name": "Hazardous material disposal costs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eligibility Criteria",
+      "children": [
+        {
+          "name": "High flood hazard areas"
+        },
+        {
+          "name": "Repetitive flood losses"
+        },
+        {
+          "name": "Benefit-Cost Ratio (BCR)"
+        },
+        {
+          "name": "Social/Adjoining property inclusion"
+        }
+      ]
+    }
+  ]
+}
