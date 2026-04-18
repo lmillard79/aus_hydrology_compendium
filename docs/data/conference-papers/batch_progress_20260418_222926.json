@@ -1,0 +1,38 @@
+{
+  "started_at": "2026-04-18T22:12:49.991653+00:00",
+  "completed": [
+    {
+      "conference": "FMA",
+      "year": 2023,
+      "themes": 6
+    },
+    {
+      "conference": "FMA",
+      "year": 2019,
+      "themes": 5
+    },
+    {
+      "conference": "FMA",
+      "year": 2022,
+      "themes": 4
+    },
+    {
+      "conference": "FMA",
+      "year": 2020,
+      "themes": 4
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    {
+      "conference": "FMA",
+      "year": 2024,
+      "reason": "Already has 3 theme files"
+    },
+    {
+      "conference": "FMA",
+      "year": 2025,
+      "reason": "Already has 4 theme files"
+    }
+  ]
+}

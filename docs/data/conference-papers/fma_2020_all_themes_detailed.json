@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "conference": "FMA",
+    "year": 2020,
+    "notebook_id": "78047816-ad9a-4ce6-965b-8d85c5ded4a8",
+    "mind_map_title": "Property-Based Floodplain Management",
+    "queried_date": "2026-04-18T22:26:41.434477+00:00",
+    "total_themes": 4
+  },
+  "themes": [
+    {
+      "id": "theme-1",
+      "theme": "Scheme Types",
+      "description": "",
+      "subtopics": [
+        "Voluntary House Purchase (VHP)",
+        "Voluntary Land-Swap",
+        "House Resilience",
+        "Compulsory Purchase"
+      ],
+      "query_response": "In the context of Property-Based Floodplain Management, schemes are designed to interact directly with private land and dwellings to reduce risk-to-life and property damage during flood events [1, 2]. Because these schemes deal with people's homes, which hold significant emotional value, their successful implementation is often more of a social challenge than a technical one [3]. \n\nResearch into these initiatives categorizes them into **four primary scheme types**:\n\n### 1. Voluntary House Purchase Schemes (VHPs)\nVoluntary house purchase schemes (or buy-backs) are typically considered a \"last option\" in a council's flood risk management plan when structural mitigation measures are insufficient or not cost-effective [4, 5]. \n*   **Purpose and Benefits:** These schemes aim to remove people from high-hazard, life-threatening areas, which also reduces the public funds spent on emergency responses. Additionally, clearing the land improves flood conveyance [4].\n*   **The Process:** Councils typically secure funding (often shared between local, state, and federal governments) and contact eligible homeowners [6]. The property is formally valued as though no flood risk exists to ensure social equity [6]. Upon purchase, the council usually demolishes the structures and reverts the land to open green space or recreational areas [6, 7].\n*   **Challenges:** VHPs are time-intensive, sometimes taking up to 20 years to complete [7]. Social challenges include homeowners dealing with post-disaster trauma, strong generational ties to the land, or feeling short-changed by valuations [8, 9]. Furthermore, vacated properties can present safety issues like looting or illegal dumping [9]. \n\n### 2. Compulsory Purchase / Relocation Schemes\nWhile compulsory property purchases occur for other large-scale infrastructure projects, they are **rarely used for flood mitigation in Australia** [10]. \n*   **International Context:** In the UK and New Zealand, legislation allows for compulsory acquisition for flood schemes; however, authorities strongly prefer to negotiate voluntary purchases [10, 11]. Taking a voluntary approach is generally considered more cost-effective than engaging in the potentially expensive and lengthy legal battles associated with compulsory acquisitions [11].\n\n### 3. Voluntary Land-Swap Schemes\nLand-swap schemes involve the government providing a new parcel of land in exchange for a flood-prone property, often to support the relocation of an entire community [12]. \n*   **Historical and Modern Examples:** Australian examples include the historical relocations of Gundagai (following the 1852 flood) and Clermont (1916) to higher ground [13]. A modern example is the Lockyer Valley Relocation Policy, where the council purchased land to create a new estate for residents of Grantham following the devastating 2011 floods [13]. \n*   **Mechanics and Challenges:** These schemes often use a ballot or lottery system to allocate new lots, while landowners bear the cost of building or moving their houses to the new block [13]. Community buy-in is essential for success. Tight-knit communities often wish to remain together, making it important that the new settlement is in close proximity to the original town [10, 14, 15]. \n\n### 4. House Flood Damage Reduction / Resilience Schemes\nInstead of removing the house, these schemes focus on improving the physical structure of the home to withstand flooding. This includes **voluntary house raising (VHR)** and building resilience strategies like **\"wet-proofing\" or \"dry flood proofing\"** [16-18].\n*   **Implementation:** In NSW, councils can apply for state funding to implement VHR schemes in low-hazard areas [16]. Brisbane City Council piloted a \"Flood Resilient Homes\" program offering in-home assessments, tailored reports, and financial assistance paid directly to contractors for property modifications [17, 19, 20].\n*   **Technical and Social Limitations:** House raising requires careful implementation, as it can create a false sense of security; residents might believe their raised home is a safe refuge, potentially increasing risk-to-life if they fail to evacuate high-hazard areas [3]. Furthermore, techniques like wet-proofing are generally not suitable in areas with high-velocity floodwaters that could cause structural damage [18]. \n*   **Longevity and Equity:** A major challenge is ensuring the longevity of resilience measures (e.g., ensuring new buyers are aware of the home's flood modifications) and managing public perception regarding the equitable use of rate-payer funds to subsidise private homes in flood zones [18, 20].\n\n### Key Success Factors and Lessons Learnt\nAcross all scheme types, several universal factors dictate success:\n*   **Community Engagement:** Dedicated community engagement, facilitated by experts who can communicate technical details simply, is vital [8, 15]. \n*   **Recent Disasters as a Catalyst:** Experiencing a recent disaster acts as a strong impetus, making property owners significantly more willing to participate in voluntary schemes [15]. \n*   **Providing Options:** Giving homeowners a combination of options (e.g., offering a choice between a house buyout, a land swap, or house raising) gives people a sense of ownership and control, resulting in higher uptake [15].\n*   **Simple Eligibility Criteria:** Using clear, simple language to communicate why certain properties are eligible (and others are not) helps mitigate community panic or frustration [21].",
+      "sources_mentioned": [
+        "[13]",
+        "[10]",
+        "[11]",
+        "[9]",
+        "[16]",
+        "[6]",
+        "[12]",
+        "[3]",
+        "[15]",
+        "[7]",
+        "Clermont (1916)",
+        "[18]",
+        "[4]",
+        "[21]"
+      ]
+    },
+    {
+      "id": "theme-2",
+      "theme": "Success Factors",
+      "description": "",
+      "subtopics": [
+        "Sound community engagement",
+        "Giving homeowners options",
+        "Strong local leadership",
+        "Recent disaster impetus",
+        "The 'Right Team' skills"
+      ],
+      "query_response": "Property-based floodplain management encompasses measures such as voluntary or compulsory house buy-backs, land-swaps, and house resilience or raising schemes designed to reduce risk-to-life and property damage [1, 2]. Because these programs interact directly with individuals' private dwellings and land, their successful implementation often presents greater social challenges than technical ones [3]. \n\nResearch into historical property-based schemes identifies several key **success factors** that can guide floodplain managers:\n\n*   **Effective Community Engagement:** Engaging with the community is vital to prevent misconceptions and educate residents about their flood risks and options [4]. For voluntary schemes, it must be emphasized that the final decision rests with the homeowner, and authorities must deliver on their commitments to build trust [4].\n*   **Deploying the \"Right Team\":** The personnel tasked with approaching and discussing property purchases with the community must possess appropriate mediation, facilitation, and technical presentation skillsets [4].\n*   **Capitalizing on Recent Disasters:** The recent experience of a flood event serves as a strong impetus, making property owners more willing to sell or relocate [4]. Having a plan that can be readily launched immediately after a disaster can assist with speedy recovery and encourage greater uptake of voluntary schemes [4].\n*   **Strong Local Leadership and Resources:** Strong leadership at the local level can inspire and drive a community toward the difficult end-goal of relocation [4]. Additionally, utilizing local resources can save on budget while simultaneously reinvigorating the local economy following a disaster [4].\n*   **Providing Options to Home-owners:** \"Combination\" schemes that give residents a choice—such as selecting between a land swap, house purchase, or house raising/rebuilding—give people a crucial sense of ownership and control after a disaster [4]. Providing financial counselling alongside these options can also assist decision-making and result in higher program uptake [4].\n*   **Keeping Tight-Knit Communities Together:** Highly engaged communities often prefer land-swap schemes over individual property purchases so they can remain together [4]. In these cases, it is crucial that the new settlement location is geographically close to the original site [4].\n*   **Assisted Relocations:** As an alternative to formal land-swaps, local governments can facilitate voluntary house purchases by using GIS technology and personalized consultation to help individual residents resettle within the local area [4, 5]. \n*   **Voluntary Operation within a Compulsory Framework:** Even when legislation allows for compulsory acquisition, executing purchases through mutual, voluntary agreement is often much more cost-effective than engaging in expensive and lengthy legal battles [4, 6]. \n*   **Flexible Social Purchase Criteria:** Sometimes it is warranted to purchase neighboring properties that do not strictly meet the technical flood criteria [4]. This is done to prevent dividing families or socially isolating neighbors when adjacent homes are bought out [4, 7]. \n*   **Preventing Panic Selling:** Implementing plans to manage and mitigate potential \"panic selling\" within the community helps support the overall stability and success of a house purchase program [4].",
+      "sources_mentioned": [
+        "[3]",
+        "[4]"
+      ]
+    },
+    {
+      "id": "theme-3",
+      "theme": "Lessons Learnt",
+      "description": "",
+      "subtopics": [
+        "Social Issues",
+        "Administrative Lessons",
+        "Economic Risks"
+      ],
+      "query_response": "Property-based floodplain management involves schemes designed to directly interact with private dwellings and land to reduce risk-to-life and property damage [1, 2]. These initiatives generally fall into four categories: **voluntary house purchases (buy-backs), compulsory purchases, voluntary land-swaps, and house resilience schemes** (such as house raising or flood-proofing) [3]. \n\nBecause a home holds great emotional and financial value, implementing these schemes is often more of a social challenge than a technical one [2, 4]. An analysis of historic property-based schemes around the world reveals several core success factors and lessons learnt for floodplain managers:\n\n**Key Success Factors**\n*   **Recent disasters serve as an impetus:** The experience of a recent severe flood makes property owners much more willing to participate in voluntary relocation or buy-back programs [4, 5]. Moving quickly with a readily available plan is crucial to utilizing this window of opportunity [5].\n*   **Community engagement and the \"right team\":** Direct, soft-treading engagement with the community is vital to prevent misconceptions and build trust [5, 6]. Managing these programs requires a team equipped with specific mediation, facilitation, and technical presentation skills [4, 5].\n*   **Giving homeowners options:** Providing residents with multiple choices—such as a land-swap, a house purchase, or financial assistance to rebuild/resiliently modify—gives them a much-needed sense of control after a disaster and increases the overall uptake of the scheme [4, 5].\n*   **Voluntary operations are preferred:** Even when a compulsory framework exists, operating the scheme on a voluntary basis is often far more cost-effective and avoids the expensive, lengthy legal battles associated with forced acquisitions [5, 7, 8]. \n*   **Strong local leadership:** Driving a community toward the difficult goal of relocation requires powerful local leadership, and utilizing local resources can help reinvigorate the local economy [4, 5].\n\n**Specific Lessons Learnt & Social Challenges**\n*   **The importance of community bonds:** The strongest theme in any relocation scheme is the need to maintain a sense of community [9, 10]. Tight-knit communities often prefer land-swaps or coordinated local resettlements over individual buy-outs; failing to accommodate this can severely diminish participation [5, 9, 11].\n*   **The elderly face greater difficulties:** Relocations are particularly hard for older residents who may have generational or deep emotional ties to their properties [9, 12, 13]. \n*   **Simplicity is essential:** Eligibility criteria must be \"kept simple\" so that the general public, particularly in areas with lower socio-economic status, can easily understand them [6, 9, 10].\n*   **Dialogue on alternative options:** Residents often hold high expectations that the government can build structural mitigations (like levees) to protect them. Scheme managers must engage in extensive dialogue regarding alternative ideas to help owners understand why acquisition is the most practical option [9, 10, 12].\n*   **Relocations must be financially viable:** Flood-prone areas are frequently inhabited by disadvantaged populations who cannot afford the hidden costs of moving. Successful schemes must cover relocation costs, waive property transfer taxes, or offer above-market prices to ensure the move is actually beneficial [9, 10].\n*   **Housing booms and loss of revenue:** A booming real estate market can threaten a local government's project budget and simultaneously price homeowners out of buying a new property in the same local area [9, 10, 14]. Furthermore, local governments face a loss of tax revenue if residents use their buy-out funds to relocate outside of the tax district [9, 10, 15].\n*   **Managing vacated land and safety:** There must be a clear, beneficial re-use plan for the acquired land (such as open green space or recreational features) to justify the use of public funds [9, 16]. Managing the transition is also critical, as vacated houses and lots can attract looting, illegal dumping, and create severe safety issues for the residents who choose to stay behind [9, 10, 12]. \n*   **Media management:** A proactive media strategy is necessary to handle potential leaks, prevent \"panic selling,\" and secure positive news stories that maintain political support for the long-term duration of the project [5, 9, 10].",
+      "sources_mentioned": [
+        "[5]",
+        "[3]"
+      ]
+    },
+    {
+      "id": "theme-4",
+      "theme": "Eligibility Criteria",
+      "description": "",
+      "subtopics": [
+        "High flood hazard areas",
+        "Repetitive flood losses",
+        "Benefit-Cost Ratio (BCR)",
+        "Social/Adjoining property inclusion"
+      ],
+      "query_response": "**Property-based floodplain management** encompasses strategies such as voluntary house purchase (VHP), compulsory purchase, voluntary land-swap, and house resilience or raising schemes [1]. These measures are often adopted as a \"last option\" to reduce risk-to-life and property damage when structural mitigation measures alone are insufficient to achieve an appropriate cost-benefit ratio [2, 3]. Establishing and communicating **clear, simple eligibility criteria** is considered a crucial success factor for these schemes, particularly because they often apply to lower socio-economic areas where the community might have limited understanding of technical flood risks [4, 5].\n\n**Voluntary House Purchase (VHP) Schemes**\nFor house buy-back programs, eligibility criteria vary by jurisdiction but generally target the highest-risk properties:\n*   **Hazard and Conveyance:** In New South Wales, state guidelines dictate that properties considered for purchase should be located in high flood hazard areas with significant risk to life, situated within a floodway where removing the house would improve flow conveyance, or located within the footprint of a proposed flood mitigation structure [6, 7].\n*   **Local Prioritisation:** Local councils often tailor criteria based on repeated flooding and specific high-hazard metrics like depth and velocity, with some strictly defining eligibility, such as applying the scheme only to homes with habitable areas inundated by a 2-year ARI creek flood event [8].\n*   **Economic and Insurance Metrics:** In the United States, FEMA-funded VHP schemes require a property to have a history of repetitive flooding losses, multiple claims under the National Flood Insurance Program, location within the 1% AEP (Annual Exceedance Probability) floodplain, and a benefit-cost ratio of at least one [8]. Non-FEMA schemes generally target homes with historic flooding or within the 1% AEP extent [8].\n*   **Social Flexibility:** Notably, while technical criteria are primary, authorities in the USA and New Zealand have successfully **relaxed flood criteria for social reasons**. Local governments will sometimes purchase adjacent properties that do not strictly meet the flood criteria to prevent splitting up families, isolating properties, or dividing tight-knit communities [9, 10].\n\n**Voluntary Land-Swap Schemes**\nEligibility for land-swap schemes is often directly tied to the impact of a recent, devastating disaster, which generally serves as the main impetus for community relocation [10, 11]. For example, in the Lockyer Valley (Grantham, Queensland) relocation program following the 2011 floods, eligible residents were those who \"suffered devastating loss of life and property damage\" [11]. Additional criteria required the property to meet specific parameters regarding house destruction, property value, or location within specific, heavily-impacted target zones [11].\n\n**House Resilience and Voluntary House Raising (VHR) Schemes**\nFor house resilience (e.g., wet-proofing, dry-proofing) and raising schemes, eligibility requires careful technical consideration, as these methods can be dangerous or ineffective if applied in inappropriate environments [12]:\n*   **Technical and Hazard Limits:** NSW guidelines recommend that VHR be limited to low-hazard areas and generally excluded from floodways, while also depending on the individual house's structural suitability for raising [13]. If floodwaters have high velocity, resilience measures like wet-proofing may fail due to structural damage [12]. Furthermore, there is a risk that house raising could create a \"false sense of security\" and increase risk-to-life if occupants attempt to shelter in place during hazardous floods rather than evacuating safely [14].\n*   **Varied Event Thresholds:** Criteria across different Australian councils range widely; some target homes inundated by high-frequency events (e.g., 10% or 20% AEP), while others target the 1% AEP event or severe overland flow [15].\n*   **Damage Thresholds:** In the UK, a central government scheme provided resilience grants specifically to properties whose habitable internal areas or critical business operations were damaged by historical storms Eva and Desmond [16]. In the US, FEMA retrofitting funding requires that the cost to repair the house is 50% or more of its pre-disaster market value, and that it has suffered significant flood damage twice in the past 10 years [16, 17].\n\n**Key Lessons on Implementing Eligibility Criteria:**\n*   **Keep it Simple:** When describing eligibility criteria to the public, it is vital to **\"keep it simple\"** to prevent misconceptions and build community trust [4, 5].\n*   **Manage Public Perception:** Clear eligibility criteria and media announcements help manage public pushback and questions regarding fairness, such as complaints about rate-payer funds being used to subsidise individuals who chose to live in flood zones [18].\n*   **Expediency and Certainty:** For resilience grants, giving applicants a firm, swift decision (e.g., within 24 hours) on their eligibility increases the attractiveness of the scheme and reduces the administrative burden [18].",
+      "sources_mentioned": [
+        "[13]",
+        "[16]",
+        "[11]",
+        "[12]",
+        "[15]",
+        "[14]",
+        "[18]",
+        "[8]",
+        "[1]"
+      ]
+    }
+  ],
+  "source_index": {
+    "[13]": {
+      "themes": [
+        "Scheme Types",
+        "Eligibility Criteria"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[10]": {
+      "themes": [
+        "Scheme Types"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[11]": {
+      "themes": [
+        "Scheme Types",
+        "Eligibility Criteria"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[9]": {
+      "themes": [
+        "Scheme Types"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[16]": {
+      "themes": [
+        "Scheme Types",
+        "Eligibility Criteria"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[6]": {
+      "themes": [
+        "Scheme Types"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[12]": {
+      "themes": [
+        "Scheme Types",
+        "Eligibility Criteria"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[3]": {
+      "themes": [
+        "Scheme Types",
+        "Success Factors",
+        "Lessons Learnt"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[15]": {
+      "themes": [
+        "Scheme Types",
+        "Eligibility Criteria"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[7]": {
+      "themes": [
+        "Scheme Types"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "Clermont (1916)": {
+      "themes": [
+        "Scheme Types"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[18]": {
+      "themes": [
+        "Scheme Types",
+        "Eligibility Criteria"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[4]": {
+      "themes": [
+        "Scheme Types",
+        "Success Factors"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[21]": {
+      "themes": [
+        "Scheme Types"
+      ],
+      "first_mentioned_in": "Scheme Types"
+    },
+    "[5]": {
+      "themes": [
+        "Lessons Learnt"
+      ],
+      "first_mentioned_in": "Lessons Learnt"
+    },
+    "[14]": {
+      "themes": [
+        "Eligibility Criteria"
+      ],
+      "first_mentioned_in": "Eligibility Criteria"
+    },
+    "[8]": {
+      "themes": [
+        "Eligibility Criteria"
+      ],
+      "first_mentioned_in": "Eligibility Criteria"
+    },
+    "[1]": {
+      "themes": [
+        "Eligibility Criteria"
+      ],
+      "first_mentioned_in": "Eligibility Criteria"
+    }
+  }
+}

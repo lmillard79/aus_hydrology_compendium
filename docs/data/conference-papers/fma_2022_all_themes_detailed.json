@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "conference": "FMA",
+    "year": 2022,
+    "notebook_id": "3dcf95a8-33db-480d-be1b-deb1448b0d2e",
+    "mind_map_title": "Flood Risk Management and Adaptation",
+    "queried_date": "2026-04-18T22:22:45.676237+00:00",
+    "total_themes": 4
+  },
+  "themes": [
+    {
+      "id": "theme-1",
+      "theme": "Planning Controls and Strategies",
+      "description": "",
+      "subtopics": [
+        "Location Controls",
+        "Floor Level Controls",
+        "Flood Resilient Building"
+      ],
+      "query_response": "**Land use planning, development controls, and building standards are widely considered the most effective tools available to reduce the impact of natural disasters on communities** [1]. The decisions made today regarding how flood-prone land is developed will continue to affect community resilience for generations, especially as climate change alters flood risk profiles [1, 2]. \n\n**Moving Beyond the 1% AEP Benchmark**\nHistorically, planning controls in Australia have focused almost exclusively on the 1% Annual Exceedance Probability (AEP) design flood event, but the sources emphasize that this is no longer sufficient [3]. The 1% AEP is now viewed as a \"bare minimum standard,\" and an overreliance on it has left communities highly sensitive to climate-induced changes in flood risk [4, 5]. A contemporary, risk-based approach requires assessing the full range of possible flood events, including the Probable Maximum Flood (PMF) [2, 6]. \n\nFor example, the New South Wales 2021 flood-prone land package explicitly provides a framework for councils to apply development controls on land between the 1% AEP and the PMF, acknowledging that risk management should not simply stop at the 1% AEP line [6-8]. **This is especially critical for vital infrastructure—such as electrical substations, hospitals, and tunnels—where a 1% AEP standard is deemed entirely inappropriate because these critical assets must remain functional during extreme events** [9].\n\n**Key Planning Strategies and Controls**\nThe sources categorize land use planning strategies into three primary approaches, which are most effective when combined [10, 11]:\n*   **Location Controls:** **Controlling where we build is arguably the most powerful tool for protecting life and property** [11, 12]. Location controls prevent new developments in high-risk floodplains and facilitate \"managed retreat\" (relocating existing properties outside the floodplain, often post-disaster) [12-14]. Limiting floodplain development could potentially decrease average community risk by 40% by 2050 [12].\n*   **Floor Level Controls:** This involves setting minimum floor levels, often referred to as the Nominal Flood Protection Level (NFPL), to keep theoretical floodwaters below the habitable areas of a building [3, 15].\n*   **Flood-Resilient Building:** This strategy promotes construction techniques and materials that can withstand inundation, such as raising electrical meter boards, using water-resistant wall materials (like acrylic render instead of gyprock), and ensuring adequate sub-floor drainage [3, 16-19].\n\n**Adaptation Pathways to Manage Climate Uncertainty**\nA major challenge in coastal and floodplain planning is the uncertainty surrounding the timing and severity of future sea-level rise and extreme weather, which frequently leads to \"decision-making paralysis\" [20]. To overcome this, the sources advocate for an **Adaptation Pathways approach, which builds flexibility into land use planning by establishing clear \"signals,\" \"triggers,\" and \"thresholds\"** [21-24].\n*   **Signals** act as early warnings that an adaptation threshold is approaching, giving decision-makers sufficient lead time (e.g., 10 years) to secure funding and assess new planning controls or physical works [25, 26].\n*   **Triggers** are the specific decision points at which a new adaptation pathway must be selected and implemented [22, 27, 28].\n*   **Thresholds** represent the point at which the current flood risk becomes unacceptable, such as when an existing NFPL no longer provides a safety margin against the 1% AEP flood due to sea-level rise [15, 27]. \n\nBy mapping out these pathways, planning schemes can undergo orderly, timely iterations to keep pace with measured environmental changes, avoiding both premature over-investment and acting too late to prevent serious impacts [21, 29]. Ultimately, communities facing severe long-term impacts will have to make a choice between complex, expensive engineering defenses and a planned retreat or relocation [30, 31].\n\n**Frameworks, Precincts, and Emergency Management**\nTo support these strategies, governments are implementing broader mapping and assessment frameworks. This includes defining specific Flood Risk Precincts (FRPs) to apply suitable planning controls based on whether a risk is deemed \"tolerable\" or \"intolerable\" [32, 33]. Furthermore, sustainable urban design paradigms like \"Sponge Cities\" are being integrated into local planning to mandate permeable pavements, infiltration trenches, and the use of flood pathways for parks and open spaces [34, 35].\n\nFinally, **Flood Emergency Management Plans (FEMPs) are commonly mandated in planning schemes to manage the residual risk of new developments** [36]. FEMPs aim to minimize the exposure of people and property and ensure new developments do not overburden emergency services [37]. However, the sources warn that if a site's specific flood behavior and vulnerability make a FEMP ineffective or unsafe, the underlying planning strategy must be to simply avoid developing the site in the proposed manner [38, 39].",
+      "sources_mentioned": [
+        "[9]",
+        "[12]",
+        "[3]",
+        "[20]",
+        "[36]",
+        "[37]",
+        "[1]"
+      ]
+    },
+    {
+      "id": "theme-2",
+      "theme": "Climate Change Impacts",
+      "description": "",
+      "subtopics": [
+        "Warming Scenarios",
+        "Physical Consequences"
+      ],
+      "query_response": "**Global warming and altered natural disaster patterns** are expected to increase the severity and frequency of weather events, as a warmer atmosphere holds more moisture, leading to more intense extreme rainfall [1-3]. Additionally, **sea level rise (SLR)** exacerbates coastal flooding by increasing the frequency of inundation through higher storm surges and elevated mean sea levels [4]. In response to these escalating hazards, floodplain management is shifting from static planning to dynamic, integrated adaptation strategies.\n\n**Rethinking the 1% AEP Standard**\nA major adaptation shift involves **moving away from relying solely on the 1% Annual Exceedance Probability (AEP) threshold** as the ultimate standard for land use planning [5]. Research indicates that climate change causes a disproportionate increase in flood risk in areas immediately adjacent to current flood planning zones [6]. Because absolute risk increases with climate change, the relative effectiveness of traditional mitigation controls—such as building to the 1% AEP floor level—decreases over time as risk accumulates at this threshold [7, 8]. Consequently, contemporary floodplain management requires considering the full range of possible flood events up to the Probable Maximum Flood (PMF) and may necessitate building to higher exceedance probabilities (e.g., 0.1% or 0.01% AEP) or enforcing higher freeboard requirements [5, 9].\n\n**The Adaptation Pathways Approach**\nTo handle the uncertainty regarding the exact timing and severity of future climate impacts, an **Adaptation Pathways approach** is highly recommended [10, 11]. Acting too soon risks locking communities into economically or socially inappropriate outcomes, while acting too late risks locking in devastating future impacts [10, 11]. This flexible framework maps out a sequence of potential adaptation options based on observed changes rather than strict timelines, utilizing three key metrics:\n*   **Signals (early warnings):** Indicators that alert decision-makers that a critical adaptation threshold is approaching, providing lead time to evaluate options [12-14].\n*   **Triggers (decision points):** Specific monitored conditions that dictate when an adaptation pathway must be officially selected and set in motion [13, 14].\n*   **Thresholds:** The point at which current systems fail and unacceptable impacts occur if no action is taken [12, 13].\nThese pathways can be **flood-level based** (triggering action when SLR reaches a certain metric) or **impact-based** (triggering action when the frequency of low-level flooding causes unacceptable disruption to the community) [14-16].\n\n**Land Use and Development Controls**\n**Location controls**—preventing new development in high-risk floodplains and relocating frequently flooded properties through managed retreat—are arguably the most powerful long-term tools for mitigating risk to life and property [17, 18]. If robust location controls prevent further floodplain development, the average number of properties exposed to flooding could be drastically reduced by 2050, freeing up resources to deal with legacy risks [19]. Furthermore, **Low Impact Development (LID) measures**, such as the \"Sponge Cities\" concept, are increasingly promoted to mitigate climate-induced urban floods; these developments mimic natural infiltration and evaporation processes to reduce rapid stormwater runoff [20].\n\n**The \"Defend vs. Retreat\" Dilemma in Coastal Areas**\nFor low-lying coastal communities facing significant SLR (such as planning benchmarks of 0.8m to 1.4m by 2100), authorities are forced to make difficult choices between **complex, expensive engineering defences** (such as earth embankments or concrete T-walls) and the **planned retreat and relocation of communities** [21-25]. Building coastal defences creates a secondary problem: it \"dams\" the internal catchment, requiring complex and expensive water management and pumping systems to prevent communities from flooding from the inside out during heavy rainfall [25, 26]. Ultimately, while engineering solutions are technically feasible, the compounding impacts of climate change may render them financially and practically unsustainable in the long term, making managed retreat the necessary reality for some areas [22, 25, 27].",
+      "sources_mentioned": [
+        "[6]",
+        "[5]",
+        "[4]",
+        "[19]",
+        "[20]"
+      ]
+    },
+    {
+      "id": "theme-3",
+      "theme": "Technological Tools and Monitoring",
+      "description": "",
+      "subtopics": [
+        "Smart Alerting (FLASH)",
+        "Data and Modelling"
+      ],
+      "query_response": "Technological tools and continuous monitoring are foundational to modern flood risk management and adaptation, enabling resilient data collection, advanced predictive modeling, and real-time decision-making.\n\n**Robust Monitoring and Telemetry Networks**\nA critical component of flood management is the reliable collection of real-time data. To prevent data loss during severe weather when cellular networks often fail or lose power, agencies are upgrading gauges with satellite technology and **Event Reporting Radio Telemetry Systems (ERRTS)** [1]. ERRTS use low power, solar panels, and batteries to ensure continuous 24-hour situational awareness [1]. Emphasizing the military concept that \"two is one, one is none,\" building redundancy into these telemetry networks is seen as essential for protecting communities [2]. \n\nMonitoring is also central to long-term climate adaptation. By tracking indicators like incremental sea-level rise and the frequency of flooding, decision-makers receive **\"signals\" that act as early warnings** [3], [4]. These signals provide the necessary lead time to reassess options and trigger new adaptation pathways before unacceptable risk thresholds are crossed [3], [4], [5].\n\n**Advanced Modeling and Spatial Data**\nAdvancements in computing power have significantly increased the capacity for complex numerical flood simulations [6]. Flood models now frequently utilize high-resolution **LiDAR (Light Detection and Ranging) and Digital Terrain Models (DTMs)** to accurately map catchment topography [7], [8], [9]. Software advancements like TUFLOW Quadtree enable higher model grid resolutions in specific areas of interest [10], while Monte Carlo simulations allow for stochastic sampling across thousands of potential rainfall events [9]. \n\nTo validate these sophisticated models, modelers are increasingly relying on a mix of modern and alternative data sources. Reprocessing existing LiDAR alongside **post-flood rapid damage assessments and aerial photography** can drastically improve model calibration without the expense of capturing new LiDAR [11]. Furthermore, historical intelligence gathered from epigraphic markings, documentary sources, and even **social media** plays a vital role in validating flood classifications [12].\n\n**Real-Time Intelligence and Decision Support Systems**\nThe integration of monitoring data into cloud-based platforms has revolutionized early warning and response capabilities:\n*   **Data Warehouses and Dashboards:** Systems like FLASH (powered by the Lizard data warehouse) and FloodZoom aggregate real-time river heights, rainfall, and predictive modeling to provide operational forecasting and smart alerts for infrastructure like the Hunter Valley Flood Mitigation Scheme [13], [14], [15].\n*   **WISER (Water Information System for Early Response):** This cloud-based system integrates gauge-adjusted radar rainfall data and provides speedy, high-quality flood level forecasting and alerts through an intuitive interface [16], [17].\n*   **MHLFIT (Flood Intelligence Tool):** This suite provides decision support by allowing users to run real-time scenarios. It can visualize predicted inundation extents based on persisting conditions, abating rainfall, or specific tidal anomalies [18], [19]. \n\n**Community Awareness and Response**\nUltimately, these technological tools are deployed to increase community safety and resilience. On the ground, **automated flood signs** linked to loggers can trigger road closure warnings while simultaneously messaging local councils [18]. For residents, complex mapping data is being transformed into **interactive online flood portals**; these simple tools allow individuals to translate broad emergency warnings into property-specific flood depths, empowering them to make informed decisions about whether to evacuate or remain in place [20].",
+      "sources_mentioned": [
+        "[13]",
+        "[11]",
+        "[5]",
+        "[3]",
+        "[7]",
+        "[2]",
+        "[10]",
+        "[6]",
+        "[14]",
+        "[4]",
+        "[17]",
+        "[20]",
+        "[16]",
+        "[15]",
+        "[9]",
+        "[12]",
+        "[18]",
+        "[19]",
+        "[8]",
+        "[1]"
+      ]
+    },
+    {
+      "id": "theme-4",
+      "theme": "Governance and Schemes",
+      "description": "",
+      "subtopics": [
+        "Queensland Framework",
+        "Hunter Valley Scheme",
+        "Coastal Adaptation"
+      ],
+      "query_response": "**Governance structures and land use planning schemes are repeatedly highlighted as the most effective mechanisms society has to manage and adapt to flood risks.** Because an estimated 40% of the properties that will exist in 2050 have not yet been constructed, the decisions governing how flood-prone land is developed today will dictate the long-term resilience of communities [1, 2].\n\n**Decentralised and Collaborative Governance Models**\nEffective flood risk management (FRM) requires multi-disciplinary, collaborative governance models with shared and clearly articulated roles across different levels of government and agencies:\n*   **Queensland:** Governance is driven by the *Queensland Flood Risk Management Framework*, which operates on a collaborative, decentralised model [3-5]. The Queensland Reconstruction Authority (QRA) provides central leadership by coordinating whole-of-government implementation, breaking down institutional silos, providing agile funding mechanisms, and acting as a single point of truth for stakeholders [6-8].\n*   **Victoria:** The *Victorian Floodplain Management Strategy (VFMS)* clarifies the roles of government agencies and local authorities, empowering Catchment Management Authorities (CMAs) and local councils to develop regional strategies, set mitigation priorities, and manage data collection networks [9].\n*   **South Australia:** Responsibilities are divided, with the Bureau of Meteorology managing flood forecasting for major rivers, while the Department for Environment and Water (DEW) and the SA State Emergency Service (SASES) collaboratively set and manage flood classifications and warning thresholds [10, 11].\n*   **New Zealand:** Regional councils (like Greater Wellington) are mandated to manage regionally significant rivers and design structural defenses, while Territorial Authorities handle smaller urban streams and enforce development controls through District Planning rules [12, 13]. This requires close partnerships between councils, the Crown, indigenous groups (mana whenua), and the community to secure co-investment for adaptation [14, 15].\n\n**The Role of Planning Schemes in Adaptation**\nLocal planning schemes are the primary vehicle for translating high-level adaptation policies into on-ground realities:\n*   **Moving Beyond the 1% AEP:** Overreliance on the 1% Annual Exceedance Probability (AEP) flood standard has left communities highly sensitive to climate-induced changes in flood risk [16]. In response, New South Wales introduced new planning circulars and guidelines that allow councils to implement more contemporary, risk-based land use planning in their Local Environmental Plans (LEPs), enabling development controls for events larger than the 1% AEP if the risk to life or evacuation warrants it [17-19].\n*   **Coastal Adaptation Pathways:** For coastal communities facing sea level rise, planning schemes must be highly adaptable. Decision-support frameworks are being designed to establish Nominal Flood Protection Levels (NFPL) that can trigger timely amendments to flood-related land use and development controls in coastal planning schemes as environmental conditions worsen [20-22].\n*   **State-Wide Integration:** South Australia has amended its Planning & Design Code to include state-wide flooding hazard overlays, reducing policy conflicts and embedding consistent mapping into development assessments [23, 24]. Similarly, the ACT is rewriting its Territory Plan to better integrate development controls with its Strategic Flood Risk Management Plan [25]. \n*   **Local Scheme Amendments:** The Toowoomba Regional Council implemented a highly successful Planning Scheme Amendment after completing comprehensive flood studies for 30 townships, establishing robust frameworks to regulate development in exposed areas [26, 27].\n\n**Implementing Flood Emergency Management Plans (FEMPs)**\nWithin these planning schemes, **Flood Emergency Management Plans (FEMPs) are frequently mandated as risk management conditions for new developments** [28]. FEMPs help minimize the exposure of people and property to residual risks and ensure that new infrastructure does not place an undue burden on local government disaster response capacities or emergency services [29]. \n\n**Shifting Values and Long-Term Choices**\nUltimately, governance bodies are increasingly forced to make difficult, value-based choices. Authorities must balance the immediate demands for land use with the need to avoid catastrophic future damage costs [30]. As climate change accelerates, governance frameworks are increasingly acknowledging that **decision-makers face a stark choice between funding immensely complex and expensive engineering defence projects versus initiating the planned retreat, relocation, or structural adaptation of highly exposed communities** [31, 32].",
+      "sources_mentioned": [
+        "[16]",
+        "[9]",
+        "[29]",
+        "[30]",
+        "[25]",
+        "[28]"
+      ]
+    }
+  ],
+  "source_index": {
+    "[9]": {
+      "themes": [
+        "Planning Controls and Strategies",
+        "Technological Tools and Monitoring",
+        "Governance and Schemes"
+      ],
+      "first_mentioned_in": "Planning Controls and Strategies"
+    },
+    "[12]": {
+      "themes": [
+        "Planning Controls and Strategies",
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Planning Controls and Strategies"
+    },
+    "[3]": {
+      "themes": [
+        "Planning Controls and Strategies",
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Planning Controls and Strategies"
+    },
+    "[20]": {
+      "themes": [
+        "Planning Controls and Strategies",
+        "Climate Change Impacts",
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Planning Controls and Strategies"
+    },
+    "[36]": {
+      "themes": [
+        "Planning Controls and Strategies"
+      ],
+      "first_mentioned_in": "Planning Controls and Strategies"
+    },
+    "[37]": {
+      "themes": [
+        "Planning Controls and Strategies"
+      ],
+      "first_mentioned_in": "Planning Controls and Strategies"
+    },
+    "[1]": {
+      "themes": [
+        "Planning Controls and Strategies",
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Planning Controls and Strategies"
+    },
+    "[6]": {
+      "themes": [
+        "Climate Change Impacts",
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Climate Change Impacts"
+    },
+    "[5]": {
+      "themes": [
+        "Climate Change Impacts",
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Climate Change Impacts"
+    },
+    "[4]": {
+      "themes": [
+        "Climate Change Impacts",
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Climate Change Impacts"
+    },
+    "[19]": {
+      "themes": [
+        "Climate Change Impacts",
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Climate Change Impacts"
+    },
+    "[13]": {
+      "themes": [
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[11]": {
+      "themes": [
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[7]": {
+      "themes": [
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[2]": {
+      "themes": [
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[10]": {
+      "themes": [
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[14]": {
+      "themes": [
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[17]": {
+      "themes": [
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[16]": {
+      "themes": [
+        "Technological Tools and Monitoring",
+        "Governance and Schemes"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[15]": {
+      "themes": [
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[18]": {
+      "themes": [
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[8]": {
+      "themes": [
+        "Technological Tools and Monitoring"
+      ],
+      "first_mentioned_in": "Technological Tools and Monitoring"
+    },
+    "[29]": {
+      "themes": [
+        "Governance and Schemes"
+      ],
+      "first_mentioned_in": "Governance and Schemes"
+    },
+    "[30]": {
+      "themes": [
+        "Governance and Schemes"
+      ],
+      "first_mentioned_in": "Governance and Schemes"
+    },
+    "[25]": {
+      "themes": [
+        "Governance and Schemes"
+      ],
+      "first_mentioned_in": "Governance and Schemes"
+    },
+    "[28]": {
+      "themes": [
+        "Governance and Schemes"
+      ],
+      "first_mentioned_in": "Governance and Schemes"
+    }
+  }
+}

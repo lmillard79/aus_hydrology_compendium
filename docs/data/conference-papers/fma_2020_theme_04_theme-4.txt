@@ -1,0 +1,29 @@
+Theme: Eligibility Criteria
+Conference: FMA 2020
+Notebook: 78047816-ad9a-4ce6-965b-8d85c5ded4a8
+Query: Discuss what these sources say about Eligibility Criteria, in the larger context of Property-Based Floodplain Management.
+Sources Found: [13], [16], [11], [12], [15], [14], [18], [8], [1]
+============================================================
+
+**Property-based floodplain management** encompasses strategies such as voluntary house purchase (VHP), compulsory purchase, voluntary land-swap, and house resilience or raising schemes [1]. These measures are often adopted as a "last option" to reduce risk-to-life and property damage when structural mitigation measures alone are insufficient to achieve an appropriate cost-benefit ratio [2, 3]. Establishing and communicating **clear, simple eligibility criteria** is considered a crucial success factor for these schemes, particularly because they often apply to lower socio-economic areas where the community might have limited understanding of technical flood risks [4, 5].
+
+**Voluntary House Purchase (VHP) Schemes**
+For house buy-back programs, eligibility criteria vary by jurisdiction but generally target the highest-risk properties:
+*   **Hazard and Conveyance:** In New South Wales, state guidelines dictate that properties considered for purchase should be located in high flood hazard areas with significant risk to life, situated within a floodway where removing the house would improve flow conveyance, or located within the footprint of a proposed flood mitigation structure [6, 7].
+*   **Local Prioritisation:** Local councils often tailor criteria based on repeated flooding and specific high-hazard metrics like depth and velocity, with some strictly defining eligibility, such as applying the scheme only to homes with habitable areas inundated by a 2-year ARI creek flood event [8].
+*   **Economic and Insurance Metrics:** In the United States, FEMA-funded VHP schemes require a property to have a history of repetitive flooding losses, multiple claims under the National Flood Insurance Program, location within the 1% AEP (Annual Exceedance Probability) floodplain, and a benefit-cost ratio of at least one [8]. Non-FEMA schemes generally target homes with historic flooding or within the 1% AEP extent [8].
+*   **Social Flexibility:** Notably, while technical criteria are primary, authorities in the USA and New Zealand have successfully **relaxed flood criteria for social reasons**. Local governments will sometimes purchase adjacent properties that do not strictly meet the flood criteria to prevent splitting up families, isolating properties, or dividing tight-knit communities [9, 10].
+
+**Voluntary Land-Swap Schemes**
+Eligibility for land-swap schemes is often directly tied to the impact of a recent, devastating disaster, which generally serves as the main impetus for community relocation [10, 11]. For example, in the Lockyer Valley (Grantham, Queensland) relocation program following the 2011 floods, eligible residents were those who "suffered devastating loss of life and property damage" [11]. Additional criteria required the property to meet specific parameters regarding house destruction, property value, or location within specific, heavily-impacted target zones [11].
+
+**House Resilience and Voluntary House Raising (VHR) Schemes**
+For house resilience (e.g., wet-proofing, dry-proofing) and raising schemes, eligibility requires careful technical consideration, as these methods can be dangerous or ineffective if applied in inappropriate environments [12]:
+*   **Technical and Hazard Limits:** NSW guidelines recommend that VHR be limited to low-hazard areas and generally excluded from floodways, while also depending on the individual house's structural suitability for raising [13]. If floodwaters have high velocity, resilience measures like wet-proofing may fail due to structural damage [12]. Furthermore, there is a risk that house raising could create a "false sense of security" and increase risk-to-life if occupants attempt to shelter in place during hazardous floods rather than evacuating safely [14].
+*   **Varied Event Thresholds:** Criteria across different Australian councils range widely; some target homes inundated by high-frequency events (e.g., 10% or 20% AEP), while others target the 1% AEP event or severe overland flow [15].
+*   **Damage Thresholds:** In the UK, a central government scheme provided resilience grants specifically to properties whose habitable internal areas or critical business operations were damaged by historical storms Eva and Desmond [16]. In the US, FEMA retrofitting funding requires that the cost to repair the house is 50% or more of its pre-disaster market value, and that it has suffered significant flood damage twice in the past 10 years [16, 17].
+
+**Key Lessons on Implementing Eligibility Criteria:**
+*   **Keep it Simple:** When describing eligibility criteria to the public, it is vital to **"keep it simple"** to prevent misconceptions and build community trust [4, 5].
+*   **Manage Public Perception:** Clear eligibility criteria and media announcements help manage public pushback and questions regarding fairness, such as complaints about rate-payer funds being used to subsidise individuals who chose to live in flood zones [18].
+*   **Expediency and Certainty:** For resilience grants, giving applicants a firm, swift decision (e.g., within 24 hours) on their eligibility increases the attractiveness of the scheme and reduces the administrative burden [18].

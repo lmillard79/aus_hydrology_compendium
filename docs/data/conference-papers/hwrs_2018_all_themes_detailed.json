@@ -1,0 +1,450 @@
+{
+  "metadata": {
+    "conference": "HWRS",
+    "year": 2018,
+    "notebook_id": "0467eef1-2c0e-4f2e-8c20-fac928515239",
+    "mind_map_title": "HWRS 2018: Hydrology and Water Resources Symposium",
+    "queried_date": "2026-04-18T22:51:01.669474+00:00",
+    "total_themes": 8
+  },
+  "themes": [
+    {
+      "id": "theme-1",
+      "theme": "TUFLOW Solver Comparison",
+      "description": "",
+      "subtopics": [
+        "TUFLOW Classic",
+        "TUFLOW HPC",
+        "Gowrie Creek Case Study"
+      ],
+      "query_response": "At the HWRS 2018 symposium, the comparison between TUFLOW solvers is prominently featured in a study that benchmarks the traditional **TUFLOW Classic** solver against the newer **TUFLOW Heavily Parallelised Compute (HPC)** solver [1, 2]. This comparison is highly relevant to the broader context of the symposium, which frequently addressed the massive computational burdens introduced by the updated Australian Rainfall and Runoff 2016 (ARR2016) guidelines [3-5].\n\n**The TUFLOW Solver Comparison**\nPrior to September 2017, a major limitation of TUFLOW's Graphics Processing Unit (GPU) solver was its inability to couple with 1D networks. The release of the HPC solver removed this limitation, enabling full 1D/2D coupling for pits, pipes, culverts, and open channels [6, 7]. Using a calibrated model of the Gowrie Creek catchment in Toowoomba, researchers compared the two solvers using the exact same data inputs, grid resolution, and initial parameters [8, 9].\n\n*   **Computational Speed:** The HPC solver, running on GPUs, proved to be vastly superior in speed compared to the CPU-based TUFLOW Classic. For the January 2011 flood event, **model run times were reduced by over 85%**, dropping from 744 minutes in Classic to just 77 minutes on a single GPU, and 60 minutes on two GPUs [10-12]. Similar reductions were seen for a smaller 20% AEP event, where run times dropped from 248 minutes to 21.5 minutes on two GPUs [11].\n*   **Accuracy and Differences:** Overall, the HPC solver produced peak flood extents and depths that closely mirrored TUFLOW Classic [13, 14]. However, noticeable differences emerged in **areas with shallow water depths** (where small depth variations correspond to high percentage differences) and in **areas with complex flow patterns**, such as the Central Business District (CBD) and around hydraulic structures [15-18]. To achieve the best calibration match with the Classic model, the HPC model required a **20% reduction in hydraulic roughness (Manning's n)** specifically within the commercial areas of the CBD (from 0.05 to 0.04) [18-20].\n*   **Solver Mechanics and Risks:** TUFLOW Classic uses an implicit scheme with a fixed, user-specified time step, meaning the model will crash and produce an error if it becomes unstable [12, 21]. In contrast, TUFLOW HPC uses an explicit solution with an adaptive time step, constantly reducing its time step to maintain mathematical stability [12, 21, 22]. Because HPC is unconditionally stable, it can effectively \"mask\" poor modelling techniques or parameterization errors by simply reducing the time step rather than failing [22, 23]. To mitigate this, **modellers are advised to run initial setups using TUFLOW Classic as a precautionary check** to identify and fix instabilities before relying on the speed of the HPC solver [23, 24].\n\n**The Larger Context of HWRS 2018**\nThis solver comparison directly addresses a recurring theme at HWRS 2018: **the tension between advanced hydrological methodologies and computational limitations.** \n\nThe transition from ARR1987 to ARR2016 replaced the single \"Design Event\" approach with ensemble and Monte Carlo frameworks to better represent natural flood variability [4, 25, 26]. This shift requires running 10 times to thousands of times more simulations per project [5, 27-29]. As noted in other HWRS 2018 papers, while hydrologic models can handle this increase, 2D hydraulic models face severe computational constraints, often forcing practitioners to compromise by selecting a single \"representative flood\" to model instead of a full ensemble [29-31]. \n\nBy providing cost-effective run-time reductions of up to 100 times [2], GPU-accelerated solvers like **TUFLOW HPC are presented as the technological bridge that allows the industry to actually implement the rigorous, data-heavy ARR2016 standards** without being bottlenecked by the sheer processing time of 2D hydraulic modelling [6, 7, 24].",
+      "sources_mentioned": [
+        "[11]",
+        "[2]"
+      ]
+    },
+    {
+      "id": "theme-2",
+      "theme": "Flood Frequency Analysis (FFA)",
+      "description": "",
+      "subtopics": [
+        "Brisbane River Catchment",
+        "Methodology"
+      ],
+      "query_response": "Flood Frequency Analysis (FFA) is an established statistical technique used to estimate the magnitude and frequency of flood events by fitting a probability distribution to recorded streamflow data [1-3]. Accurate FFA is essential for designing flood infrastructure and minimizing direct and indirect flood damages [4, 5]. At the HWRS 2018 (Hydrology and Water Resources Symposium), several papers explored methods to refine FFA, address its limitations, and apply it to both gauged and ungauged catchments across Australia.\n\n**Optimizing Probability Distributions and Data Sampling**\nA critical challenge in FFA is selecting the most appropriate probability distribution, as an incorrect choice can lead to significant biases in design flood estimates [6]. A study focusing on the Brisbane River Catchment evaluated five parametric distributions and found that the **Log Pearson Type III (LP3) distribution provided the best fit for the annual maximum (AM) flood series** at most stream gauging stations [7-9]. Another study in New South Wales compared the traditional Annual Maximum Series (AMS) sampling method against the Peaks-over-Threshold (POT) method. The research demonstrated that the **Peaks-over-Threshold (POT) model offers more accurate design flood estimates for frequent floods (smaller average recurrence intervals)**, whereas the AMS method (particularly using a logistics distribution) fitted better for larger, less frequent floods [10-13].\n\n**Addressing Short Instrumental Records with Paleofloods and Hydraulic Modeling**\nA major limitation of FFA is the short length of systematic gauge records (averaging only 42 years in eastern Australia), which introduces massive uncertainty when extrapolating estimates for rare and extreme events [14-16]. To combat this, **supplementing historical records with paleoflood data can extend the flood timeline by thousands of years and substantially narrow the confidence limits for extreme flood estimates** [17-19]. For example, incorporating just four paleoflood events into the FFA for the Callide Dam resulted in a 42% reduction in the 1% Annual Exceedance Probability (AEP) peak inflow estimate and significantly reduced the 90% confidence limits [20, 21]. Furthermore, improving the accuracy of extreme flow measurements through 2D hydrodynamic modeling for high-stage rating curves provides a more reliable foundation for updating FFA and verifying design flood peak flows [22-24].\n\n**Regional Flood Frequency Analysis (RFFA) for Ungauged Catchments**\nFor catchments with little or no gauge data, RFFA is utilized to transfer flow statistics from gauged to ungauged sites [25, 26]. One HWRS 2018 paper proposed the use of **Ordinary Kriging, a geostatistical interpolation method, to provide unbiased estimations for RFFA** in Victoria [27, 28]. The kriging approach was shown to yield satisfactory relative error ranges (36% to 39%) and performed competitively against the benchmark RFFE Model 2016 recommended by Australian Rainfall and Runoff (ARR) [29-31].\n\n**Urban Flood Frequency Estimation**\nBecause rural RFFE procedures do not seamlessly translate to urban catchments, researchers formulated a **preliminary Regional Urban Flood Frequency Estimation (RUFFE) method** [32-34]. This rapid assessment technique relies on specific urban parameters, including catchment area, total and effective imperviousness, and rainfall Intensity-Frequency-Duration (IFD) data [35]. Initial testing of the RUFFE method showed strong agreement with peak flows derived from traditional FFA in gauged urban catchments, providing a promising tool for future urban flood planning [34, 36].",
+      "sources_mentioned": [
+        "[35]",
+        "[6]"
+      ]
+    },
+    {
+      "id": "theme-3",
+      "theme": "Urban On-Site Detention (OSD)",
+      "description": "",
+      "subtopics": [
+        "ARR2016 Impact",
+        "System Performance"
+      ],
+      "query_response": "**Urban On-Site Detention (OSD)** is a critical component of modern urban stormwater management, functioning to ensure that new land developments and redevelopments do not cause adverse flood impacts on downstream properties [1, 2]. To achieve this, local government policies typically dictate a storage-based approach, requiring OSD systems to maintain post-development peak runoff at or below pre-development levels across a full range of design event frequencies and durations, up to a designated flood standard such as the 100-year event [1, 2].\n\n**The complexities of OSD design** involve finely \"tuning\" the storage and release mechanisms to achieve peak flow mitigation across all required events. This often necessitates complex, multi-stage outlets utilizing orifice and weir controls, which can be challenging to balance because a system tuned to mitigate mid-duration events might struggle to adequately mitigate the very shortest or longest storms [3]. Furthermore, **matching pre- and post-development flows is not the only design requirement** [4]. Authorities typically mandate additional safety measures, such as maintaining a minimum 300mm freeboard from the peak 1% Annual Exceedance Probability (AEP) water level to any adjacent building floor levels, providing capacity to handle partial outlet blockages, and undertaking detailed assessments of extreme overflow behavior [5]. \n\nWithin the larger context of **HWRS 2018**, a significant research focus is placed on **how the updated Australian Rainfall & Runoff 2016 (ARR2016) guidelines impact OSD systems** that were originally designed using the previous ARR1987 standards [6, 7]. ARR2016 introduced a fundamental shift in design philosophy by replacing the older Average Variability Method (AVM) temporal patterns with a new ensemble approach, requiring an assessment of multiple temporal patterns per event to better represent natural rainfall variability [6, 8].\n\nResearchers evaluated ten existing OSD systems across New South Wales, Victoria, and Queensland to understand the practical implications of this shift [7]. The findings offer several key insights for the stormwater industry:\n*   **Continued Mitigation Performance:** OSD systems sized and designed under the older ARR1987 standards generally still perform their core function of mitigating peak flow increases to a similarly high standard under ARR2016 [9-11]. \n*   **Changes in Flow Characteristics:** When running models with the ARR2016 guidelines, the critical event durations were generally shorter, and the magnitude of peak outflows was actually lower than predicted under ARR1987 [10]. Peak flow reductions were found to be in the order of 10% to 15%, which is attributed to the fact that the ARR2016 ensemble patterns tend to be more back-loaded compared to the ARR1987 patterns [12, 13].\n*   **Capacity and Freeboard Safety:** While the overall peak flows were lower, assessing the absolute worst-case scenario from the new ARR2016 ensembles showed that the majority of the evaluated OSD systems reached slightly higher peak volumes than they did under ARR1987 [14]. Despite this slight increase in peak volume, all case study systems remained within their modeled capacity without overtopping, indicating that the original ARR1987 storage sizings were generally adequate to handle the transition to ARR2016 [10, 15].\n\n**Recommendations for Practitioners:** The ten-fold increase in design events resulting from the ARR2016 ensemble approach creates ambiguity in how results should be interpreted for OSD compliance [16]. The research recommends that practitioners adopt the **mean ensemble result** when assessing general peak flow mitigation, as this captures the central tendency of the ensemble [17, 18]. However, when evaluating **safety-critical aspects of OSD design**, such as maximum storage capacity and freeboard limits, designers should run a sensitivity check using the **worst-case ensemble result** to ensure the system is resilient against the full range of historical rainfall variability [17, 19, 20].",
+      "sources_mentioned": [
+        "[10]",
+        "[16]",
+        "[5]",
+        "[3]",
+        "[7]",
+        "[14]",
+        "[4]"
+      ]
+    },
+    {
+      "id": "theme-4",
+      "theme": "Climate Change and WSUD",
+      "description": "",
+      "subtopics": [
+        "Performance Trends",
+        "Modelling"
+      ],
+      "query_response": "**Climate change is profoundly altering Australia’s hydrology, necessitating a shift toward adaptive planning and Water Sensitive Urban Design (WSUD) to manage urban water cycles and infrastructure resilience.** Within the larger context of the HWRS 2018, the sources frame climate change as a driver of deep uncertainty, while WSUD serves as a critical, yet climate-sensitive, tool for mitigating these impacts.\n\n### The Impact of Climate Change on Australian Hydrology\nThe sources indicate that climate change is causing severe reductions in water availability and shifting seasonal rainfall patterns. In Australia's south-west, a warming climate has coincided with runoff decreasing by up to 70% over the past 50 years [1], [2]. In the south-east, temperate zones are experiencing drier cool seasons and wetter summers, a shift linked to the poleward expansion of the Southern Hemisphere Hadley Cell [3], [4], [5]. \n\nFuture projections suggest these trends will worsen. For instance, streamflows in the rivers surrounding Melbourne could decline by up to 55% by 2065 under high-emission scenarios [6]. Additionally, climate change is expected to double the incidence of extreme El Niño events [7] and increase severe rainfall intensities and sea levels, which will place immense pressure on existing flood defenses and infrastructure [8]. Because short historical instrumental records (often only 50–120 years long) fail to capture the full spectrum of natural climate variability and extremes, researchers are increasingly turning to proxy records, such as tree rings, to reconstruct past hydrology and better profile future climate change risks [9], [10], [11].\n\n### The Role of WSUD\nTo combat the impacts of rapid urbanization, infill development, and climate change, WSUD (also known as \"source control\") is presented as a standard requirement for new urban infrastructure [12], [13], [14]. By implementing decentralized systems like leaky wells, soakaways, infiltration trenches, and rainwater tanks, WSUD aims to control stormwater at its origin [12], [15]. **The primary goals of WSUD are to attenuate peak flows, reduce the size of conventional underground pipe networks, increase stormwater reuse, and prevent polluted runoff from degrading natural receiving waters** [13], [16], [17], [18].\n\n### How Climate Change Affects WSUD Performance\nThe HWRS 2018 sources reveal that the performance of WSUD infrastructure is directly sensitive to changing climatic variables, such as altered rainfall depths and potential evapotranspiration (PET). \n\n**One specific study modeling WSUD treatment devices under projected 2040 and 2065 climate conditions found that their pollutant removal efficiency is generally expected to decrease** [14]-[19], [20]. \n*   Devices relying on physical infiltration, such as infiltration basins and bioretention systems, are particularly sensitive to climate change and will experience moderate reductions in their ability to filter Total Suspended Solids (TSS) and Total Nitrogen (TN) [21], [22], [23]. \n*   Conversely, the efficiency of large wetlands may actually *improve* under future climates. Reduced rainfall and increased evaporation lower the volume of wetland overflow, allowing the retained water more time to undergo biological treatment processes [20]. \n*   To ensure future environmental compliance, engineers are advised to incorporate safety margins into the sizing of new WSUD devices to account for climate-driven efficiency losses [24].\n\nInterestingly, **climate change may positively impact some localized WSUD components, such as Rainwater Harvesting (RWH)**. A case study in Sydney analyzing future rainfall data (2080-2099) projected that household water savings from RWH systems could actually increase by 10% to 19% compared to the present day, depending on the tank size, ensuring the long-term sustainability of these systems [25], [26].\n\n### The Larger Context: Adaptive Management\nIn the broader context of the HWRS 2018, the intersection of climate change and WSUD highlights the need to abandon static design models in favor of dynamic, risk-based management. Because climate change introduces massive uncertainty into rainfall projections through General Circulation Models (GCMs) [27]-[28], [29], [30], water managers are moving toward **adaptive portfolio approaches** [31], [32]. This includes adopting \"Integrated Water Management\" frameworks that break down siloed water cycle systems to deliver resilient, multi-benefit solutions [33], [34], as well as continuously updating cost-benefit analyses for flood adaptation to account for escalating climate risks [35], [36].",
+      "sources_mentioned": [
+        "[13]",
+        "[11]",
+        "[24]",
+        "[5]",
+        "[3]",
+        "[7]",
+        "[29]",
+        "[2]",
+        "[23]",
+        "[36]",
+        "[28]",
+        "[10]",
+        "[6]",
+        "[27]",
+        "[14]",
+        "[22]",
+        "[31]",
+        "[4]",
+        "[17]",
+        "[20]",
+        "[16]",
+        "[32]",
+        "[35]",
+        "[15]",
+        "[21]",
+        "[33]",
+        "[9]",
+        "[34]",
+        "[12]",
+        "[30]",
+        "[18]",
+        "[19]",
+        "[26]",
+        "[25]",
+        "[8]",
+        "[1]"
+      ]
+    },
+    {
+      "id": "theme-5",
+      "theme": "Hydrologic Reconstructions",
+      "description": "",
+      "subtopics": [
+        "Dendrochronology",
+        "Alternate wood properties"
+      ],
+      "query_response": "In the context of the 2018 Hydrology and Water Resources Symposium (HWRS), **hydrologic reconstructions** are presented as a critical solution to a major limitation in Australian water management: the brevity of historical instrumental records. Because current instrumental records of rainfall and streamflow in Australia typically only span 40 to 120 years, they are often inadequate for capturing the full range of natural climate variability or accurately estimating the return periods of extreme events like severe droughts and catastrophic floods [1-3]. \n\nTo overcome this, researchers at HWRS 2018 highlight the use of physical and biological proxy records to reconstruct hydrological histories stretching back hundreds or thousands of years prior to human observation [4-6]. The sources detail two primary methods of hydrologic reconstruction:\n\n**1. Paleoflood Hydrology (Geological Reconstructions)**\nPaleoflood hydrology involves studying the historical movement of water and sediment in stream channels to reconstruct past extreme flood magnitudes [4]. \n*   **Methodology:** This approach heavily relies on identifying **Slackwater Deposits (SWD)**—fine-grained sediments left behind in sheltered, low-energy floodplain zones during high flows [4]. By analyzing these deposits and establishing **Paleo-stage indicators (PSI)**, hydrologists can determine minimum threshold peak flows for ancient floods and date them using methods like Optically Stimulated Luminescence (OSL) [4, 7].\n*   **Case Studies & Impact:** SunWater Limited utilized this method for the Callide Creek and Burdekin Falls Dam catchments, effectively extending the timeline of extreme flood events by over 1,000 years beyond the modern gauge records [8, 9].\n*   **Engineering Value:** Integrating just a few paleoflood records into a standard Flood Frequency Analysis (FFA) drastically reduces uncertainty. For example, at Callide Dam, including four paleoflood events reduced the 90% confidence limits for a 1% Annual Exceedance Probability (AEP) flood estimate by 90% and reduced the estimated peak inflows by 42% [10-12]. This prevents over-capitalization on infrastructure while ensuring dam safety against truly extreme events [11, 13].\n\n**2. Dendrochronology (Tree-Ring Reconstructions)**\nTree rings act as natural climate archives, providing high-resolution proxy data that can be used to reconstruct long-term rainfall patterns and streamflows [5, 14].\n*   **Methodology:** While traditional dendrochronology relies on measuring annual tree-ring widths, recent advances allow scientists to reconstruct hydrology even in species without clear visual ring boundaries. They achieve this by analyzing alternative structural parameters such as **latewood density, cell wall thickness, tracheid radial diameter, and stable isotope ratios (Carbon, Oxygen, and Nitrogen)** [15-19].\n*   **Case Studies & Impact:** Researchers developed a ~1,000-year summer inflow reconstruction for Lake Burbury in western Tasmania using wood property chronologies from endemic species [17, 20, 21]. \n*   **Engineering Value:** This reconstruction allowed water managers to model \"alternate hydrological histories\" through the eWater Source system, testing reservoir performance against conditions far outside the observed instrumental record [20, 22]. The reconstruction revealed historical periods of both significantly higher inflows and more persistent droughts than those seen in modern times, proving that recent dry periods are not unprecedented and helping to re-evaluate town water security and hydroelectric reliability [23-25].\n\n**The Larger HWRS 2018 Context**\nWithin the broader scope of HWRS 2018, hydrologic reconstructions directly support the symposium's focus on building resilient communities and infrastructure. By incorporating these deep-time datasets, engineers and policymakers can shift away from conservative, uncertain assumptions derived from short-term data [3, 26, 27]. Whether establishing safe crest heights for dams or determining the reliable yield of a hydroelectric reservoir, hydrologic reconstructions provide the long-term context necessary to manage Australia's highly variable extremes of floods and droughts [27-29].",
+      "sources_mentioned": [
+        "[4]"
+      ]
+    },
+    {
+      "id": "theme-6",
+      "theme": "Water Data and Management",
+      "description": "",
+      "subtopics": [
+        "Real Time Data Delivery",
+        "Multi-variable Simulation"
+      ],
+      "query_response": "The sources from the HWRS 2018 (Hydrology and Water Resources Symposium) highlight a major shift towards integrated, adaptive, and highly technological approaches to water data and management. Facing profound challenges like climate change, rapid urbanization, and population growth, the symposium papers showcase how the water sector is evolving its data collection, modelling, and governance frameworks.\n\n**Big Data, Automation, and Cloud Technologies**\nModern water management is increasingly reliant on processing massive amounts of data efficiently. To combat the exponential growth in environmental and climatic data required by the updated Australian Rainfall and Runoff (ARR) 2016 guidelines, **digital engineering and automation are being heavily utilized** to minimize human error and save processing time in large-scale flood modelling [1-3]. \n\nData delivery systems are also undergoing modernization. The Victorian Department of Environment, Land, Water and Planning (DELWP) developed a **cloud-hosted telemetry solution to deliver continuous, real-time surface and groundwater data**, reducing publication delays on the Water Management Information System (WMIS) from months to less than an hour [4-6]. Concurrently, the next generation of the Victorian Water Register is being shaped by **the Internet of Things (IoT), artificial intelligence (AI), and automated platforms**. By moving to an \"as-a-service\" model, the register aims to autonomously integrate on-farm sensor data and optimize water trading and demand forecasting [7-10].\n\n**Remote Sensing and Spatial Data**\nTo improve the reliability of water planning models, authorities are turning to satellite imagery. WaterNSW, for example, successfully used Sentinel-2 satellite data to map irrigation areas and crop types in the Richmond River catchment. This remote sensing data **replaced less reliable farmer surveys, significantly improving the calibration of water diversion models and enhancing compliance monitoring** [11-13]. Spatial sampling is also essential for tracking the proliferation and storage capacity of private farm dams, as updating state-wide databases annually through manual digitization is prohibitively expensive [14-16].\n\n**Integrated Water Management (IWM) and Collaboration**\nA major management theme at the symposium was the push to break down institutional silos. The Victorian Government’s \"Water for Victoria\" policy and the IWM Framework promote **collaborative partnerships across water corporations, local governments, Catchment Management Authorities, and Traditional Owners** [17-20]. This framework establishes regional IWM Forums designed to co-develop place-based servicing solutions that integrate stormwater, wastewater, and water supply planning. This holistic management approach bridges isolated water cycle systems to deliver multiple environmental and community benefits, providing better overall value for community investments [20-23].\n\n**Adaptive Planning for Climate Change**\nWater managers are shifting from static planning to adaptive, scenario-based strategies to navigate the deep uncertainties of future climate conditions. The Melbourne Water System Strategy (MWSS) exemplifies this by utilizing an **adaptive portfolio approach**. This strategy balances four core elements: optimizing the existing supply system, promoting water efficiency, utilizing diverse alternative sources (like capturing up to 80 GL/yr of stormwater and recycled water), and optimizing interconnected water grids and markets [24-27]. \n\nTo support these long-term management decisions, highly complex models—such as the Australian Water Resources Assessment Landscape model (AWRA-L) and regional downscaling projects like NARCliM—are used to assess how rising temperatures and changing rainfall intensities will impact runoff, water security, environmental flows, and rural flooding [28-32].\n\n**Innovative Resource Condition Reporting**\nNew data interpretations are improving how water conditions are communicated to decision-makers. DELWP developed a novel groundwater condition reporting method that **treats aquifers analogously to surface water reservoirs**, establishing a \"Full Supply Level\" (pre-pumping baseline) and a \"Base Supply Level.\" This allows managers to evaluate groundwater storage as a percentage, offering a much clearer, actionable metric for management intervention than simply noting a declining hydrograph trend [33-36]. Similarly, long-term monitoring data is being fed into Bayesian hierarchical statistical models to understand spatio-temporal variability in stream water quality, creating operational tools that can forecast water quality responses to shifting land use and climatic changes [37-40].",
+      "sources_mentioned": []
+    },
+    {
+      "id": "theme-7",
+      "theme": "Flood Impact Assessments",
+      "description": "",
+      "subtopics": [
+        "Acceptable Impact Criteria",
+        "Land Use Sensitivity"
+      ],
+      "query_response": "In the context of the 2018 Hydrology and Water Resources Symposium (HWRS 2018), Flood Impact Assessments are highlighted as essential tools for evaluating how floodplain management measures, development proposals, and infrastructure projects alter flood behavior and affect adjoining properties [1]. \n\n**Defining Flood Impacts**\nImpacts generally refer to changes in flood characteristics between different scenarios, most commonly evaluated as the increase in peak flood levels, or afflux [2, 3]. However, modern assessments are expanding to consider a broader range of impacts, including the increased duration of flooding, the length of time access routes are cut off, increases in hydraulic hazard and flow velocity, and decreases in warning or evacuation times [3]. \n\n**The Challenge of \"Acceptable\" Impacts**\nA major issue discussed at the symposium is the **lack of formal, standardized guidance on what constitutes an \"acceptable\" flood impact** [1, 4]. Acceptable criteria are typically set arbitrarily by individual councils, planning agencies, or specific projects, sometimes with limited consideration for model accuracy or the cumulative impacts of multiple developments across a floodplain [1, 4, 5]. While some authorities mandate a strict \"no impact\" or 10mm limit, others use loosely defined \"no worsening\" policies that fail to specify practical limits [6, 7]. \n\n**Factors Influencing Acceptability**\nDetermining whether a flood impact is acceptable depends on several contextual factors [8]. These include the presence of existing flood problems, warning times, tangible risks to life, the scale of the project's beneficiaries, and the distinction between short-term construction impacts and long-term operational impacts [9-12]. The presence of sensitive receivers—such as hospitals, preschools, or hazardous material storage facilities—significantly lowers the tolerance for any measurable increase in flood risk [9]. \n\n**Probability Ranges**\nAssessments are shifting away from an unhealthy fixation on a single probability, such as the 1% Annual Exceedance Probability (AEP) [13, 14]. Relying solely on the 1% AEP can ignore the fact that almost every house in a floodplain might experience a change in flood risk during smaller events [14]. Instead, practitioners are encouraged to assess a range of probabilities tailored to the land use [13]. For example, while urban areas typically rely on the 1% AEP, agricultural projects must prioritize more frequent flooding events in the 50% to 20% AEP range [14].\n\n**Proposed Standardized Criteria**\nTo provide much-needed industry standardization, HWRS 2018 presenters proposed specific impact criteria thresholds based on land use [7, 15]. \n*   **Residential & Sensitive Receivers:** A maximum impact of 10mm is recommended for individual properties and developments, and less than 10mm for sensitive receivers [16].\n*   **Infrastructure:** Major transport infrastructure might allow up to 50mm of impact, while public infrastructure or floodplain management measures could allow 25mm [16]. \n*   **Agriculture & Commercial:** For agricultural pasture land, 50-100mm may be acceptable, while commercial or industrial lands could tolerate 10-50mm, depending heavily on the duration of the inundation [17].\n\n**Failure Impact Assessments (FIA)**\nIn a closely related context, the symposium also examined Failure Impact Assessments (FIA), which are utilized to evaluate the Population at Risk (PAR) and potential loss of life resulting from the failure of large detention basins and dams [18-20]. These assessments help engineers design embankment features, high-flow culverts, and spillways to safely pass extreme flood events (such as the 1 in 2000 AEP event) and mitigate catastrophic downstream impacts, particularly when dealing with scenarios like culvert blockages [21-23].",
+      "sources_mentioned": [
+        "[13]",
+        "[16]",
+        "[9]",
+        "[3]",
+        "[14]",
+        "[17]",
+        "HWRS 2018",
+        "[8]",
+        "[1]"
+      ]
+    },
+    {
+      "id": "theme-8",
+      "theme": "Farm Dam Trends",
+      "description": "",
+      "subtopics": [
+        "Victoria 2000-2015"
+      ],
+      "query_response": "In the context of the HWRS 2018 symposium, the sources highlight that while farm dams are critical for agricultural production and regional water security, **their steady accumulation over recent decades has significantly altered natural catchment flow regimes**, particularly impeding the low flows vital for the ecological health of ephemeral streams [1], [2], [3].\n\nA detailed assessment of farm dam development in Victoria from 2000 to 2015 reveals that **the overall rate of farm dam growth has slowed significantly**, progressing through three distinct chronological phases [4], [5], [6]:\n\n*   **High Growth (July 2000 to June 2006):** The growth rate was relatively high and constant, at 1.4% per year for the number of dams and 1.3% per year for storage capacity [5], [6]. This surge was likely driven by landowners seeking water security during the Millennium Drought, combined with a 2002 change to the Victorian Water Act that prohibited new unlicensed irrigation dams, sparking a rush to install stock and domestic dams [7], [6].\n*   **Declining Growth (July 2006 to June 2010):** The growth rate experienced a gradual decline. This may have been linked to the gradual easing of the drought or reduced access to loan financing during the Global Financial Crisis [5], [8].\n*   **Stabilization (July 2010 to June 2015):** **The annual growth rate dropped and stabilized at approximately 0.3%** for both the number and capacity of farm dams [9], [8]. This rate is roughly one-quarter of what was observed in the early 2000s, reflecting a return to normal rainfall patterns after the Millennium Drought broke in late 2009 [9], [10].\n\nIf the stable 2010–2015 growth rate is maintained, the projected ten-year growth from 2010 to 2020 would be only 3.9% in total dam numbers and 3.5% in storage capacity [11], [12].\n\nInterestingly, **in some regions, farm dams are currently being removed**, primarily because rural-residential land is being subdivided for urban development [13], [14]. When attempting to predict recent growth rates using explanatory variables—such as changes in population density, household income, land use, or mean annual rainfall—researchers found no strong correlations over the 2010-2015 period [9], [15], [16]. However, spatial data indicates that **farm dam densities are typically highest on properties between 0.5 and 50 hectares**, heavily correlating with rural-residential properties and hobby farms rather than large-scale agriculture [17].\n\nTo manage the long-term ecological consequences of this historical farm dam development, HWRS 2018 also featured research on mitigation programs. In South Australia’s Mount Lofty Ranges, for instance, the government is implementing the \"Securing Low Flows\" project [1], [18]. This involves **retrofitting existing farm dams with bypass or release devices**, allowing ecologically vital low-flow water to pass downstream into the natural environment while ensuring the landholder’s primary water security is not compromised [19], [20], [21].",
+      "sources_mentioned": [
+        "[13]",
+        "[11]",
+        "[5]",
+        "[3]",
+        "[7]",
+        "[2]",
+        "[10]",
+        "[6]",
+        "[14]",
+        "[4]",
+        "[17]",
+        "[20]",
+        "[16]",
+        "[15]",
+        "[21]",
+        "[9]",
+        "[12]",
+        "[18]",
+        "[19]",
+        "[8]",
+        "[1]"
+      ]
+    }
+  ],
+  "source_index": {
+    "[11]": {
+      "themes": [
+        "TUFLOW Solver Comparison",
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "TUFLOW Solver Comparison"
+    },
+    "[2]": {
+      "themes": [
+        "TUFLOW Solver Comparison",
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "TUFLOW Solver Comparison"
+    },
+    "[35]": {
+      "themes": [
+        "Flood Frequency Analysis (FFA)",
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Flood Frequency Analysis (FFA)"
+    },
+    "[6]": {
+      "themes": [
+        "Flood Frequency Analysis (FFA)",
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Flood Frequency Analysis (FFA)"
+    },
+    "[10]": {
+      "themes": [
+        "Urban On-Site Detention (OSD)",
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Urban On-Site Detention (OSD)"
+    },
+    "[16]": {
+      "themes": [
+        "Urban On-Site Detention (OSD)",
+        "Climate Change and WSUD",
+        "Flood Impact Assessments",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Urban On-Site Detention (OSD)"
+    },
+    "[5]": {
+      "themes": [
+        "Urban On-Site Detention (OSD)",
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Urban On-Site Detention (OSD)"
+    },
+    "[3]": {
+      "themes": [
+        "Urban On-Site Detention (OSD)",
+        "Climate Change and WSUD",
+        "Flood Impact Assessments",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Urban On-Site Detention (OSD)"
+    },
+    "[7]": {
+      "themes": [
+        "Urban On-Site Detention (OSD)",
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Urban On-Site Detention (OSD)"
+    },
+    "[14]": {
+      "themes": [
+        "Urban On-Site Detention (OSD)",
+        "Climate Change and WSUD",
+        "Flood Impact Assessments",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Urban On-Site Detention (OSD)"
+    },
+    "[4]": {
+      "themes": [
+        "Urban On-Site Detention (OSD)",
+        "Climate Change and WSUD",
+        "Hydrologic Reconstructions",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Urban On-Site Detention (OSD)"
+    },
+    "[13]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Flood Impact Assessments",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[24]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[29]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[23]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[36]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[28]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[27]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[22]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[31]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[17]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Flood Impact Assessments",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[20]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[32]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[15]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[21]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[33]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[9]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Flood Impact Assessments",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[34]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[12]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[30]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[18]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[19]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[26]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[25]": {
+      "themes": [
+        "Climate Change and WSUD"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[8]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Flood Impact Assessments",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "[1]": {
+      "themes": [
+        "Climate Change and WSUD",
+        "Flood Impact Assessments",
+        "Farm Dam Trends"
+      ],
+      "first_mentioned_in": "Climate Change and WSUD"
+    },
+    "HWRS 2018": {
+      "themes": [
+        "Flood Impact Assessments"
+      ],
+      "first_mentioned_in": "Flood Impact Assessments"
+    }
+  }
+}

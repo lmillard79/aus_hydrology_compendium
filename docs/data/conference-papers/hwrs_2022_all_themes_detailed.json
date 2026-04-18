@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "conference": "HWRS",
+    "year": 2022,
+    "notebook_id": "2892e798-5d06-49a0-93c0-7282a17e2a66",
+    "mind_map_title": "HWRS 2022 Hydrology and Water Resources Research",
+    "queried_date": "2026-04-18T22:42:39.339156+00:00",
+    "total_themes": 4
+  },
+  "themes": [
+    {
+      "id": "theme-1",
+      "theme": "Flood Estimation & Modelling",
+      "description": "",
+      "subtopics": [
+        "ARR2019 Design Rainfall",
+        "Hydrologic Toolsets",
+        "Technological Innovations"
+      ],
+      "query_response": "The HWRS 2022 Hydrology and Water Resources Symposium highlights a transitional era in flood estimation and modelling, driven by exponential growth in computing power, the availability of high-resolution data, and the urgent need to address climate change and urbanization [1-3]. Throughout the sources, several dominant themes emerge regarding how practitioners are advancing flood estimation and hydraulic modelling to meet these contemporary challenges.\n\n**The Maturation of 2D Hydraulic Modelling and Sub-Grid Sampling**\nA major paradigm shift discussed in the sources is the transition from traditional 1D modelling to highly detailed **two-dimensional (2D) shallow water equation (SWE) solvers** [4-6]. Historically, 1D open channels were carved through 2D domains to represent rivers and creeks [7]. However, recent innovations like **Sub-Grid Sampling (SGS) and Quadtree mesh refinement** are rendering 1D open channels obsolete [7-9]. SGS allows 2D models to sample high-resolution digital elevation models (DEMs) at a much finer resolution than the computational cell size itself [10, 11]. This **significantly improves the representation of topography, momentum transfer, and energy losses**, enabling models to accurately simulate complex flow patterns even with coarser grids, which drastically reduces computational run times [8, 9, 11, 12].\n\n**Direct Rainfall (Rain-on-Grid) Modelling**\nTraditional flood estimation often relied on lumped or semi-distributed hydrologic models (like RORB or URBS) to generate inflows that were then fed into hydraulic models [13, 14]. While these remain essential, the sources highlight the increasing viability of **Direct Rainfall (or Rain-on-Grid) modelling**. This approach applies spatially distributed rainfall time series directly onto a 2D land surface grid, allowing the model to automatically determine flow paths based on terrain and hydrodynamic principles [13, 15-22]. This is particularly advantageous in flat or heavily urbanized areas where flow paths are complex and not readily apparent [22]. \n\n**Hydrologic Pre-processing to Optimize Computations**\nDespite hardware advancements like GPU acceleration, simulating an extensive ensemble of design storms (as required by the Australian Rainfall and Runoff (ARR) 2019 guidelines) through a high-resolution 2D model remains computationally burdensome [17, 23-25]. To overcome this, practitioners are using **hydrologic models as pre-processors**. By first running thousands of storm permutations (varying in duration and temporal patterns) through faster hydrologic models, engineers can identify a small subset of \"critical\" or \"within tolerance\" events to feed into the computationally heavy 2D hydraulic models [26-36]. This targeted approach drastically reduces the number of hydraulic simulations required while ensuring the resulting flood surfaces remain fully ARR 2019 compliant [34-39]. \n\n**Addressing Climate Change and the \"Death of Stationarity\"**\nThe assumption of \"stationarity\"—the idea that historical climate records are a reliable predictor of future conditions—is increasingly considered dead [40-43]. To account for non-stationarity, flood modelling is adapting to incorporate climate change projections. A standard approach involves **applying an intensity increase factor to current design rainfalls** to represent future climate scenarios (e.g., increasing rainfall inputs by 18.4% for Melbourne by 2100, or multiplying precipitation amounts by 1.07 for dam safety in Colorado) [44-51]. The sources emphasize that civil engineering must merge with atmospheric science to anticipate the multi-hazard events and shifting rainfall-runoff relationships caused by global warming [52-55].\n\n**Advancements in Statistical Flood Frequency Analysis**\nFor Regional Flood Frequency Analysis (RFFA) in ungauged catchments, the traditional Annual Maximum (AM) approach (extracting only the single highest flow per year) is criticized for discarding useful data, especially when predicting frequent, small-to-medium floods [56-58]. The sources propose the **Peaks-Over-Threshold (POT) method** as a superior alternative for these very frequent floods. By utilizing all flow peaks that exceed a certain threshold, the POT approach maximizes data usage, making it highly valuable for ecological and environmental flow assessments [58-60].\n\n**The Crucial Need for Real-World Calibration Data**\nA persistent challenge in flood modelling is the high level of uncertainty surrounding catchment runoff and hydraulic losses [61]. The sources argue that concordance with high-quality, real-world events is the only true standard of a model's value [62, 63]. **Exhaustive benchmarking against historical floods** (such as the 2011 and 2022 Brisbane River floods) using streamflow gauges, high-water debris marks, and modern datasets like LiDAR and acoustic Doppler flow measurements is essential for validating these evolving 2D solvers [6, 63-68]. \n\n**Machine Learning for Real-Time Flood Forecasting**\nWhile detailed 2D hydraulic models are highly accurate, they are too slow for real-time emergency flood warning systems [69, 70]. To solve this, the industry is exploring **Machine Learning (ML) surrogate models**. By training an ML algorithm (using historical data and outputs from complex hydraulic models), the surrogate can predict flood depths and extents based on real-time rainfall forecasts in a matter of seconds, rather than hours [70-80]. This innovation allows the power of high-resolution physics-based modelling to be utilized for instantaneous disaster response and early warning systems [77, 78, 81-84].",
+      "sources_mentioned": [
+        "[22]",
+        "[7]",
+        "[61]"
+      ]
+    },
+    {
+      "id": "theme-2",
+      "theme": "Climate Change & Uncertainty",
+      "description": "",
+      "subtopics": [
+        "Stationarity Issues",
+        "Future Projections",
+        "Adaptation Strategies"
+      ],
+      "query_response": "The HWRS 2022 sources extensively discuss climate change and the profound uncertainties it introduces to hydrology and water resources management. **A central theme across the symposium is the transition away from traditional, backward-looking models toward adaptive planning frameworks that can handle unpredictable, dynamic climate futures** [1], [2], [3].\n\n**The Death of Stationarity and \"Deep Uncertainty\"**\nHistorically, the planning and design of water resource infrastructure relied on the assumption of \"stationarity\"—the idea that the future hydrologic behavior of a catchment would mirror its past [4], [5]. However, **the sources emphasize that due to anthropogenic climate change, the stationarity assumption is \"dead\"** [4], [6]. Relinquishing this assumption introduces what planners classify as **\"deep uncertainty\"**, a state where multiple plausible futures exist and outcomes cannot be accurately predicted using current historical knowledge alone [7], [8].\n\n**Specific Sources of Climate Uncertainty**\nThe sources identify several key areas where climate change drives high uncertainty in hydrological modeling:\n*   **Rainfall vs. Temperature Projections:** While there is very high confidence in warming temperature trends, predictions for future rainfall—including its intensity, total volume, and spatial distribution—are highly inconsistent [9], [10], [11]. Climate models demonstrate high skill in predicting historical temperatures but notably low skill in predicting rainfall [12].\n*   **Catchment Response Shifts:** Prolonged droughts, exacerbated by climate change, can trigger fundamental shifts in how catchments partition precipitation into runoff and evapotranspiration [13], [14]. As a result, reductions in runoff can be disproportionately larger than the relative reductions in rainfall [14].\n*   **Model and Downscaling Limitations:** There are considerable uncertainties inherent in General Circulation Models (GCMs) and Regional Climate Models (RCMs) [15], [16]. These uncertainties stem from unknown future greenhouse gas emissions, inaccurate representations of localized climate processes, and the complexity of downscaling coarse climate data to local catchment levels [17], [18].\n\n**Impacts on Infrastructure and Water Security**\nThe convergence of these uncertainties significantly impacts both infrastructure design and water supply security:\n*   **Flooding and Multi-Hazard Disasters:** Climate change is predicted to alter rainfall patterns, leading to more frequent and intense extreme weather events [19], [20]. Rapid shifts in weather conditions can create complex, multi-hazard disasters that modern civil infrastructure (like dams, levees, and bridges) may be inadequately designed to withstand [21], [22]. \n*   **Water Security and Yield:** Estimating the reliable \"yield\" of a water supply is increasingly difficult, forcing planners to evaluate the heightened risk of long-term supply shortfalls [23], [24]. For example, relying solely on historical climate data to assess urban water security may dangerously underestimate the risk of severe supply shortages, necessitating models that account for extended and extreme drought scenarios [25], [26].\n\n**Strategies for Managing Uncertainty**\nTo manage deep uncertainties without succumbing to \"decision paralysis,\" the HWRS 2022 papers propose several modern methodologies:\n*   **Envelopes of Emission Scenarios:** Rather than relying on a single forecast, practitioners are advised to use multiple Representative Concentration Pathways (typically RCP 4.5 for moderate mitigation and RCP 8.5 for \"business as usual\") across an ensemble of climate models to establish a realistic envelope of possible climate futures [27], [28], [29], [30], [31].\n*   **Scenario-Neutral Stress Testing:** Many planners are adopting scenario-neutral approaches, which involve stress-testing a water system against a broad range of perturbed climate attributes (like varying rainfall and evaporation rates) to identify failure modes before assigning probabilities to those failures [3], [32], [33].\n*   **Stochastic Modelling and 'Operational Yield':** Generating synthetic, stochastic climate data helps quantify the risks of rare extreme events outside the historical record [34], [35]. Furthermore, transitioning toward an \"operational yield\" approach—which continuously updates system models based on current storage conditions and near-term demand—provides a better framework for adaptive planning than rigid, long-term yield estimates [36], [37]. \n*   **Cross-Disciplinary Collaboration:** Addressing the multi-hazard risks of climate change requires a deeper merging of civil engineering with atmospheric science, ensuring that infrastructure design accounts for complex, dynamic weather processes rather than relying solely on historical statistics [21], [20].",
+      "sources_mentioned": [
+        "[13]",
+        "[11]",
+        "[24]",
+        "[5]",
+        "[3]",
+        "[7]",
+        "[29]",
+        "[2]",
+        "[23]",
+        "[36]",
+        "[37]",
+        "[28]",
+        "[10]",
+        "[6]",
+        "[27]",
+        "[14]",
+        "[22]",
+        "[31]",
+        "[4]",
+        "[17]",
+        "[20]",
+        "[16]",
+        "[32]",
+        "[35]",
+        "[15]",
+        "[21]",
+        "[33]",
+        "[9]",
+        "[34]",
+        "[12]",
+        "[30]",
+        "[18]",
+        "[19]",
+        "[26]",
+        "[25]",
+        "[8]",
+        "[1]"
+      ]
+    },
+    {
+      "id": "theme-3",
+      "theme": "Urban Water Security",
+      "description": "",
+      "subtopics": [
+        "Queensland Framework",
+        "Yield Estimation",
+        "Drought Response"
+      ],
+      "query_response": "**Urban water security** is a prominent theme in the HWRS 2022 Hydrology and Water Resources Research papers. The sources approach this topic by acknowledging that historical approaches to water management are no longer sufficient. Instead, ensuring water security requires a comprehensive combination of governance, advanced stochastic and climate modeling, clear community-based objectives, and situation-specific infrastructure planning. \n\nHere is a synthesis of what the HWRS 2022 research says regarding Urban Water Security:\n\n### Defining Urban Water Security\nIn the context of these discussions, urban water security means **having a high degree of confidence that the water needs of a community can be sustainably met both now and in the future** to provide for their health, safety, and socio-economic well-being [1, 2]. This security is fundamentally underpinned by the availability, accessibility, and dependability of the water supply sources, as well as the resilience of the physical infrastructure used to deliver the water [3, 4].\n\n### Governance and Responsibilities\nThe responsibility of providing safe and continuous water supplies heavily rests on local water service providers. In Queensland, for example, **local governments in regional areas typically act as the water service providers** and are legally bound to understand and manage their supply risks [5, 6]. The state government’s role involves maintaining an overview of these potential risks, collaborating on assessments, providing guidance, and retaining the legislative power to intervene or direct actions if a community faces unacceptable, imminent water security risks [7-11]. \n\n### Key Threats to Water Security\nThe research identifies two major intersecting threats to the security of urban water supplies:\n*   **Climate Change and Severe Droughts:** Recent experiences, such as the Millennium Drought, alongside paleoclimate data, prove that historic climate records do not capture the worst potential drought scenarios [12-14]. For instance, modeling under climate change scenarios (such as RCP 4.5 and RCP 8.5) for Hervey Bay indicates that **future water supply shortfalls could occur significantly more frequently and last much longer** than historical trends suggest [15-17]. Similarly, stress-testing on Kangaroo Island's Middle River Reservoir demonstrated that decreasing rainfall and increasing evapotranspiration could increase the annual chance of the system failing to meet water demands from a current 2-5% up to 8% by 2030 [18-20].\n*   **Population Growth and Distribution:** Growth in water demand exacerbates vulnerabilities. Post-COVID-19 trends have driven a dispersal of the professional workforce into regional areas, putting unexpected pressure on regional infrastructure and accelerating the need to bring forward capital investments for water security [21, 22].\n\n### Robust Analysis and Risk Management\nTo navigate these deep uncertainties, the sources assert that \"there is no substitute for robust analysis\" [23]. \n*   **Stochastic and Climate Modeling:** Planners are moving beyond simple historical runoff models. **Stochastic modeling is now utilized to generate thousands of years of synthetic climate data**, allowing engineers to test how water supply systems behave under extreme and rare drought conditions not seen in the historical record [14, 24, 25]. \n*   **Setting Level of Service (LoS) Objectives:** Planners must develop transparent LoS objectives in consultation with the community, balancing acceptable risk against what the community can afford to pay [26, 27]. These objectives define the acceptable limits on the frequency, severity, and duration of water restrictions, as well as the acceptable probability of reservoirs reaching minimum operating storage levels [28, 29].\n*   **Redefining System Yield:** The approach to calculating how much water a system can reliably yield is maturing. For example, in the Lower Hunter Water Security Plan, **yield was defined not just by the risk of running completely out of water, but by the risk of triggering expensive drought-response measures** (such as needing to construct an emergency desalination plant) [30-32]. This explicitly ties hydrologic modeling to financial and social thresholds.\n\n### Adaptation and Strategic Solutions\nTo safeguard against future water shortages, HWRS 2022 authors advocate that while all potential solutions should be considered, **interventions must be highly \"situation-specific\"** [33]. \n*   **Diversification vs. Practicality:** While large metropolitan areas can afford an \"all-options-on-the-table\" approach—incorporating complex desalination, purified recycled water, and vast pipeline grids—these options are often financially and technically impractical for small or remote regional communities [34-37]. \n*   **Regional Drought Responses:** For regional areas, urban water security heavily relies on optimizing existing sources, enforcing water restrictions to slow storage depletion during droughts, modifying water sharing rules, and employing rapid contingency measures like water carting or utilizing dead storage volumes in reservoirs [38-42].",
+      "sources_mentioned": [
+        "[33]",
+        "[23]"
+      ]
+    },
+    {
+      "id": "theme-4",
+      "theme": "Data Science in Hydrology",
+      "description": "",
+      "subtopics": [
+        "Neurocomputing",
+        "Big Data Sources",
+        "AWAP Limitations"
+      ],
+      "query_response": "The Hydrology and Water Resources Symposium (HWRS) 2022 highlights that hydrology has officially entered a new era of **\"data-intensive science,\"** driven by exponential growth in computing power, storage capacity, and the influx of Big Data [1, 2]. Within this context, data science—defined as the use of scientific methods to obtain useful information from data, including predictive modeling and data-driven design—has become a pivotal focus alongside Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning [3, 4].\n\nThe symposium sources discuss several key applications, opportunities, and limitations of data science in modern hydrology:\n\n**Key Applications of Data Science and Machine Learning**\n*   **Surrogate Modelling for Real-Time Flood Forecasting:** Physics-based hydrodynamic models are accurate but computationally expensive, making them difficult to use for real-time alerts. To solve this, researchers are using ML to create \"surrogate models.\" For example, a pilot project in Bangkok trained a Temporal Convolutional Network (TCN) on hydrodynamic model outputs to predict urban stormwater flooding [5-7]. The ML surrogate was able to reduce simulation times from 30 hours down to just 30 seconds while maintaining a median error of only about 2 cm [8-10]. \n*   **Overcoming the Retraining Burden in Dynamic Environments:** A major hurdle for ML surrogate models is that they learn a static representation of a system; if a catchment changes due to urban development, the entire ML model typically needs to be retrained using hundreds of new, computationally expensive model runs [11, 12]. To make ML feasible for ever-changing urban landscapes, researchers have introduced **\"mesh modularization.\"** This technique isolates the area of the grid being edited, allowing localized updates without re-computing the full domain, making long-term ML implementation computationally affordable [13-15].\n*   **Streamflow and Rainfall Forecasting:** AI Neural Networks (AINN), such as Multilayer Perceptrons (MLP), have been deployed to predict continuous monthly streamflow based on lagged historical data [16-18]. Similarly, ANNs have been utilized for long-term seasonal rainfall forecasting by finding non-linear relationships with large-scale climate indices like the El Nino Southern Oscillation (ENSO) and the Indian Ocean Dipole (IOD), often outperforming traditional dynamic simulation models [19-21].\n*   **Evaporation Prediction:** Decision Tree (DT) machine learning algorithms have been applied to predict monthly pan evaporation rates based on prevailing climate characteristics [22, 23]. These models efficiently handle non-linear and intricate climate datasets, demonstrating superior precision compared to traditional empirical techniques [24-26].\n*   **Automated Peak Flow Tracking:** Data science techniques utilizing Python-based signal processing and quantile regression algorithms are being used to automatically load hydrometric data, filter out noise, and estimate the probability distributions of downstream peak flows based on upstream behavior [27-29].\n\n**Challenges and Future Perspectives**\n*   **The \"Black-Box\" Problem:** A primary concern discussed at HWRS 2022 is that ML and AI methods lack an inherent physics-based understanding of natural hydrological processes [30, 31]. These methods act as a \"black-box\" that identifies input-output relationships but struggles to provide transparent solutions or incorporate prior hydrological knowledge [31]. While this may be acceptable for short-term predictions, improving our understanding of physical mechanisms requires finding ways to incorporate known physics into these data-driven models [31, 32].\n*   **Data Dependencies and Error Propagation:** Data-driven ML models treat their training data as the absolute truth. Therefore, any limitations, missing data, or unnatural artifacts present in the baseline hydraulic models or observational datasets are directly inherited and sometimes amplified by the ML surrogate [33-35].\n*   **Computing Demands for Big Data:** The shift toward utilizing \"big data\"—such as vast arrays of remote sensing data from satellites and drones, or sub-daily atmospheric reanalysis grids—requires a new generation of hydrologists equipped with skills in parallel programming, efficient data structures, and modern high-performance computing [2, 36-39].",
+      "sources_mentioned": [
+        "[31]"
+      ]
+    }
+  ],
+  "source_index": {
+    "[22]": {
+      "themes": [
+        "Flood Estimation & Modelling",
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Flood Estimation & Modelling"
+    },
+    "[7]": {
+      "themes": [
+        "Flood Estimation & Modelling",
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Flood Estimation & Modelling"
+    },
+    "[61]": {
+      "themes": [
+        "Flood Estimation & Modelling"
+      ],
+      "first_mentioned_in": "Flood Estimation & Modelling"
+    },
+    "[13]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[11]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[24]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[5]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[3]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[29]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[2]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[23]": {
+      "themes": [
+        "Climate Change & Uncertainty",
+        "Urban Water Security"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[36]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[37]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[28]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[10]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[6]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[27]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[14]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[31]": {
+      "themes": [
+        "Climate Change & Uncertainty",
+        "Data Science in Hydrology"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[4]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[17]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[20]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[16]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[32]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[35]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[15]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[21]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[33]": {
+      "themes": [
+        "Climate Change & Uncertainty",
+        "Urban Water Security"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[9]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[34]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[12]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[30]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[18]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[19]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[26]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[25]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[8]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    },
+    "[1]": {
+      "themes": [
+        "Climate Change & Uncertainty"
+      ],
+      "first_mentioned_in": "Climate Change & Uncertainty"
+    }
+  }
+}

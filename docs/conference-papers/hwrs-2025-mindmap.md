@@ -65,7 +65,7 @@ HWRS 2025
 
 ## Data
 
-Full JSON data: [hwrs_2025.json](../../data/conference-papers/hwrs_2025.json)
+Full JSON data: [hwrs_2025.json](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/master/docs/data/conference-papers/hwrs_2025.json)
 
 ---
 

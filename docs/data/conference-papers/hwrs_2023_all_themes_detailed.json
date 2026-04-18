@@ -1,0 +1,396 @@
+{
+  "metadata": {
+    "conference": "HWRS",
+    "year": 2023,
+    "notebook_id": "56adea86-25c8-4051-b769-f4f4f0170800",
+    "mind_map_title": "HWRS 2023: Hydrological Modelling and Flood Management",
+    "queried_date": "2026-04-18T22:37:55.571221+00:00",
+    "total_themes": 4
+  },
+  "themes": [
+    {
+      "id": "theme-1",
+      "theme": "Flood Forecasting and Warning Systems",
+      "description": "",
+      "subtopics": [
+        "FLASH System (RHDHV)",
+        "Total Flood Warning System (TFWS)",
+        "Rainfields/STEPS (BoM)"
+      ],
+      "query_response": "At HWRS 2023, the discourse around flood forecasting and warning systems emphasizes the urgent need for agile, advanced models to combat the increasing severity and variability of flooding driven by rapid urbanization and climate change [1]. The sources highlight a multi-tiered approach to flood warning, ranging from continental-scale enterprise systems to hyper-local, ultra-fast hydrodynamic models and the integration of artificial intelligence.\n\n**National-Scale Forecasting and the Bureau of Meteorology (BoM)**\nA central pillar in Australia's response is the **Bureau of Meteorology’s Hydrological Forecasting System (HyFS), one of the world's largest operational systems spanning an entire continent** [2]. Built on the highly configurable Delft-FEWS framework, HyFS processes real-time intelligence from over 8,000 rainfall and river gauges, alongside radar and storm surge data [2, 3]. HyFS integrates deterministic rainfall forecasts from multiple international models (including ACCESS, ECMWF, USGFS, and JMA) to produce multi-model ensembles that offer insight into the range of possible flooding from incoming weather systems [4]. The BoM is continually evolving this system to incorporate continuous hydrological modelling and probabilistic flood forecasting using the Short-Term Ensemble Prediction System (STEPS) [5]. \n\nFor longer-term preparedness, the **BoM is integrating its Australian Water Outlook (AWO) and Seasonal Streamflow Forecasting (SSF) services**. By applying Bayesian Joint Probability (BJP) statistical models to AWO seasonal forecasts, the Bureau can generate automated, consistent streamflow forecasts up to three months in advance, reducing reliance on real-time observations while maintaining high forecast skill [6-8].\n\n**Addressing the Flash Flood Gap with Ultra-Fast Modelling**\nBecause the BoM typically does not provide forecast services for rapid-response watersheds with a time of concentration under 6 hours, specialized Flood Information Systems (FIS) have emerged to fill the gap [9]. A prominent example is **FLASH, a cloud-based real-time forecasting system that combines state-of-the-art radar rainfall data with ultra-fast hydrodynamic modelling** (utilizing TUFLOW or 3Di) [10, 11]. By leveraging mathematical advancements like Quadtree meshing and Sub-Grid Sampling (SGS), FLASH substantially reduces traditional computational lag times, allowing for real-time prediction of inundation extents at a high resolution [12-14]. During the July 2022 Hunter Valley floods, FLASH successfully provided critical operational advice to government agencies regarding impending levee overtopping and highway closures [15, 16].\n\n**Radar, Satellite Integration, and Nowcasting**\nTraditional reliance on point-location rain gauges for hydrologic model calibration introduces significant spatial and temporal uncertainty [17, 18]. To address this, the industry is increasingly leveraging **radar-based rainfall products like the BoM's Rainfields3 to enhance flood warnings** [19]. Radar-based ensemble nowcasting provides updated rainfall forecasts every few minutes, offering a critical advantage over traditional Numerical Weather Prediction (NWP) models that only update every few hours [20, 21]. Furthermore, innovative blending methodologies are actively being developed to merge radar, Himawari satellite, and gauge data to overcome the inherent limitations and error variances of individual instruments [22-24].\n\n**Pre-Calculated Map Libraries for Immediate Urban Response**\nAn alternative approach to computationally heavy live-modelling is demonstrated by **\"City on Alert,\" a real-time monitoring system developed for Montpellier, France** [25]. Rather than running complex hydraulic models during an event, this system relies on a **risk matrix that links real-time sensor data (rainfall accumulation and water levels) to a pre-compiled library of flood hazard maps** [26, 27]. This allows forecasters to rapidly identify the most representative flooding scenario and coordinate immediate emergency responses, such as evacuations and road diversions, without waiting for active model computations [27, 28].\n\n**Global Forecasts and Artificial Intelligence**\nAt a broader scale, global streamflow forecasts like the **Copernicus Emergency Management Services' GloFAS** (which provides 46-day lead times) are being evaluated for Australian catchments [29]. Because these NWP-forced models can suffer from spatial resolution limitations and precipitation biases, researchers are applying **wavelet-based post-processing and quantile mapping to substantially improve forecast skill and correct distributional biases** [30-32]. \n\nFurthermore, HWRS 2023 highlights a significant shift toward the use of **Artificial Neural Networks (ANN) and machine learning (such as Long Short-Term Memory - LSTM networks) for streamflow forecasting** [33-35]. These AI techniques excel at handling the highly non-linear nature of streamflow data by mapping complex relationships between weather parameters (rainfall, temperature, wind, snow depth) and antecedent streamflow [34, 36-38]. Studies show that multi-variate LSTM models incorporating both historical streamflow and weather data yield highly accurate predictions, equipping stakeholders with better tools for mitigating the disastrous impacts of future floods [38, 39].",
+      "sources_mentioned": [
+        "[9]",
+        "[5]",
+        "[29]",
+        "[2]",
+        "[4]",
+        "[19]",
+        "[25]",
+        "[1]"
+      ]
+    },
+    {
+      "id": "theme-2",
+      "theme": "Hydrological Modelling Techniques",
+      "description": "",
+      "subtopics": [
+        "Calibration and Optimization",
+        "Infiltration and Losses",
+        "Direct Rainfall (Rain-on-Grid)"
+      ],
+      "query_response": "**Advancements in Traditional Lumped and Storage-Based Models**\nHydrological modelling at HWRS 2023 demonstrated a significant push to refine traditional storage-based routing models (such as RORB, WBNM, SIMHYD, and AWBM). Researchers are finding new ways to decouple channel and catchment routing parameters by leveraging 2D hydraulic models to generate synthetic flow records, allowing for the validation of non-linearity parameters across rare to extreme flood magnitudes [1, 2]. To address limitations in continuous simulation models, adaptations have been made to achieve timestep independence, allowing models that were originally designed for daily climate data to function effectively with sub-daily forcing data [3, 4]. Other studies explored replacing standard routing techniques with advective and diffusive flood hydrograph models that incorporate embedded, nonlinear baseflow algorithms to more realistically simulate how catchment wetness affects quick-flow runoff [5, 6].\n\n**Innovative Calibration and Machine Learning Integration**\n**The integration of machine learning and data science has emerged as a major technique to improve model calibration and forecasting.** To address the computational burden of calibrating complex models, surrogate model optimization techniques like \"AutoCal\" use machine learning to build response surfaces, significantly accelerating the calibration process compared to traditional metaheuristic algorithms like Nelder-Mead or Particle Swarm Optimization [7, 8]. Additionally, data science resampling methods (such as over-sampling) are being used to artificially balance training datasets, which improves the predictive skill of conceptual models when attempting to estimate rare, high-flow extreme events from limited historical records [9, 10]. \n\nMachine learning, particularly Long Short-Term Memory (LSTM) networks, is also being heavily utilized for multivariate time-series streamflow forecasting. These models successfully combine localized weather parameters, historical flow data, and even global streamflow forecasts (like the Copernicus GloFAS system) to predict future streamflow and flood timing [11-13].\n\n**Direct Rainfall and Catchment-Wide Hydrodynamic Modelling**\n**There is a notable paradigm shift from lumped sub-catchment hydrology toward continuous, catchment-wide hydrodynamic simulation using the \"direct rainfall\" (or rain-on-grid) approach.** Empowered by GPU acceleration and high-resolution topography, models like TUFLOW HPC can now efficiently simulate entire catchments at the grid-cell level [14-17]. \n\nA critical advancement in this space is the coupling of surface water models with groundwater and soil infiltration dynamics (such as the Green-Ampt method). Simulating horizontal and vertical hydraulic conductivity accurately replicates the timing, magnitude, and receding limbs of long-term continuous rainfall-runoff without needing to manually reset loss parameters between storm events [18-21]. This integrated approach is also being extended to holistic environmental platforms that simultaneously simulate 2D hydrology, 1D drainage structures, and first-principles pollutant wash-off, which subsequently feed seamlessly into downstream 3D receiving water quality models [22-24].\n\n**Hybrid and Fast Flood Evaluation Tools**\nTo balance the spatial accuracy of 2D hydrodynamic models with the rapid speed required for real-time forecasting and urban planning, researchers are developing hybrid modeling tools. **The Dynamic CA-ffé model, for example, combines a 1D stormwater drainage system (SWMM) with a 2D Cellular Automata surface model.** This integration allows for data exchange between the surface and subsurface at specified intervals, enabling rapid predictions of urban pluvial floods and manhole surcharges within seconds or minutes [25-27]. Operational forecasting also relies heavily on these fast-evaluation systems; the FLASH system utilizes ultra-fast hydrodynamic modeling (such as Quadtree meshing) combined with real-time radar rainfall to provide highly localized community flood warnings [28-30].\n\n**Harnessing High-Resolution Spatial and Radar Data**\nTraditional hydrological models rely heavily on point-based rain gauges, which carry spatial and temporal limitations. Modern techniques increasingly utilize blended spatial data to reduce uncertainty. The blending of weather radar, satellite imagery, and rain gauge data (using systems like STEPS and Rainfields) provides highly accurate, localized precipitation inputs for hydrological models, improving confidence in both model calibration and real-time forecasting [31-34]. Furthermore, remote sensing indices (like the Normalized Difference Moisture Index and Tasseled Cap Wetness) and satellite imagery are being actively used to delineate complex floodplain connectivity and calibrate hydraulic models in ungauged or data-poor terrains [35-37].\n\n**Scrutinizing Design Flood Estimation Procedures**\nAmidst these technical advancements, the symposium also featured critical reviews of the standard Australian Rainfall and Runoff (ARR2019) design flood estimation procedures. Modellers benchmarked and debated the nuances of using the Ensemble versus the Monte Carlo methods for design flood estimation [38-40]. Discussions highlighted industry concerns about whether the 10-pattern ensemble method effectively represents complex storm mechanisms in certain regions, or if the procedure introduces biases and inconsistencies when translating rainfall depth into peak flow estimates [41, 42].",
+      "sources_mentioned": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Case Studies and Extreme Events",
+      "description": "",
+      "subtopics": [
+        "Fitzroy River (WA) 2023",
+        "Narracan Dam (VIC)",
+        "Dry Creek (SA)",
+        "Warrah Creek (NSW)",
+        "Hunter Valley Flood Scheme"
+      ],
+      "query_response": "**Extreme Events: Methodologies and Modelling Challenges**\n\nThe sources from HWRS 2023 emphasize that the increasing frequency and intensity of extreme events—driven by climate change and urbanization—require hydrologists to rethink traditional methodologies and adapt their modelling approaches. \n\n*   **Intensification of Extremes:** Research indicates a dichotomy in the urban flood response due to climate change: storm intensification is generating rarer, highly destructive floods, while longer dry periods are simultaneously decreasing the severity of more frequent, less intense floods [1-3]. Notably, studies using radar data around Sydney show a robust positive trend of at least a 20% increase per decade in **sub-hourly extreme rainfall**, highlighting severe flash-flood risks that are often missed by traditional daily gauge networks [4-7]. \n*   **Calibrating for the Unseen:** A major challenge for extreme event modelling is **equifinality**—where different model parameters produce similar results for known data but diverge drastically when predicting unseen, extreme events [8]. To address this, researchers are proposing **robustness metrics** to aid in selecting parameter sets that reduce variability and increase confidence when generating hydrographs for rare storms [9-11]. Furthermore, calibrating models for extreme events is frequently hampered by limited, short-duration data sets, forcing engineers to rely on hierarchical approaches to define initial and continuing rainfall losses [12-14].\n*   **Re-evaluating Design Flood Estimation (DFE):** The symposium featured robust debate over the Australian Rainfall and Runoff (ARR) 2019 guidelines. Practitioners raised concerns that utilizing the mean peak discharge from an ensemble of 10 temporal patterns can drastically skew design flood estimates if adjacent streams experience cross-flow or if abnormal pattern peaks occur [15-18]. Another study benchmarked **Monte Carlo versus Ensemble approaches**, finding that the Ensemble method consistently underestimates peak flows compared to the Monte Carlo approach, particularly over longer burst durations [19-21]. \n*   **Challenging Non-Linearity Assumptions:** Current industry practice routinely assumes catchment responses to extreme rainfall are **non-linear** (typically applying an $m$ parameter of 0.8), meaning doubled rainfall leads to more than double the runoff [22, 23]. However, analysis of multi-gauge flow records suggests that for extreme floods, catchments may behave more linearly than expected, and adjusting this parameter could prevent the significant overestimation of extreme flood magnitudes [22, 24, 25].\n\n**Prominent Case Studies in Flood Management**\n\nTo bridge the gap between theoretical modelling and real-world application, the symposium showcased several case studies demonstrating how infrastructure and communities are adapting to extreme hydrological events:\n\n*   **Fitzroy River Bridge Collapse (Western Australia):** In late 2022 and early 2023, Ex-Tropical Cyclone Ellie unleashed extreme flooding in the Kimberley region, completely destroying the Fitzroy River Bridge [26, 27]. Because the flood compromised the local gauge networks, hydrologists had to use 2D hydraulic modelling alongside satellite imagery to estimate flow rates, recompute rating curves, and inform the design of the replacement bridge [28, 29].\n*   **Poatina Power Station Flooding (Tasmania):** In October 2022, a highly rare 1-in-2000 Annual Exceedance Probability (AEP) event overwhelmed the drainage infrastructure at the Great Lake East station, causing an extended power outage [30, 31]. Post-event hydraulic modelling, using a direct rainfall approach, was utilized to prioritize drainage restoration and install new protective bunds [31, 32].\n*   **Hunter Valley Flood Mitigation Scheme (New South Wales):** During the severe La Niña floods of July 2022, authorities successfully utilized a cloud-based Flood Information System known as **FLASH** [33, 34]. By integrating real-time hydrodynamic models, the system accurately predicted road inundations (such as the Pacific Highway) and levee overtopping, allowing emergency services to optimize evacuations and road closures [34-36].\n*   **Gawler River Region (South Australia):** Managing floods in this 1000 km² catchment is complicated by divergent stakeholder interests and a mix of agricultural and residential land uses [37, 38]. A business case was developed to assess major structural options, such as dams, floodways, and levees. However, the project faced challenges in reconciling updated ARR 2019 hydrology with older ARR 1987 models, requiring extensive review to establish a baseline for flood mitigation [39-41].\n*   **Urban Infrastructure Resilience (Victoria & NSW):** At a micro-scale, the construction of the **Sydney Football Stadium** successfully utilized a first-of-its-kind temporary drainage system on crane platforms, eliminating weather-related downtime despite historic rainfall events between 2020 and 2022 [42]. Concurrently, the **Hall Road East Upgrade** in Melbourne illustrated the immense challenge of achieving \"zero afflux\" (zero impact on flood levels) during urban expansions, successfully utilizing gravitational flow transfers and underground storage tanks to mitigate runoff [43, 44].\n*   **Macquarie Marshes (New South Wales):** To understand the ecological impact of extreme boom-and-bust drought and flood cycles, researchers applied **Random Forest machine learning algorithms** combined with satellite data [45-47]. This data fusion allowed for the accurate mapping of surface water extents without relying on subjective, predefined thresholds, creating a scalable tool for monitoring wetland ecohydrology [47, 48]. \n*   **Narracan Dam (Victoria):** While flood operations usually focus on downstream impacts, a study of the Narracan Dam assessed the effects of gate operations on **upstream** flooding and asset inundation. The hydraulic modelling confirmed that the operator's current water level targets effectively mitigate upstream impacts during major flood events [49-51].",
+      "sources_mentioned": [
+        "[42]",
+        "[8]"
+      ]
+    },
+    {
+      "id": "theme-4",
+      "theme": "Climate and Future Trends",
+      "description": "",
+      "subtopics": [
+        "Rainfall Anomaly Prediction (WASP/HLC)",
+        "Cybernetic Water Systems",
+        "Serious Gaming for Education",
+        "Immersive Environments (AR/VR)"
+      ],
+      "query_response": "**Climate change is creating a dichotomy in urban and catchment flood responses** [1], [2]. Rising temperatures and intensified storms are generating more extreme rainfall patterns, leading to more destructive, rare floods [1], [3]. Conversely, longer dry spells are creating drier antecedent soil moisture conditions, which increases rainfall abstraction (losses) and actually decreases the severity of more frequent, \"nuisance\" floods [4], [1], [3], [5]. Studies show that both initial and continuing rainfall losses are projected to increase across almost all of Australia under future climate scenarios [6], [7], [8]. While these increased losses may help offset the impacts of increased rainfall for frequent flood events, they will be largely ineffective at buffering larger, extreme rainfall events [8], [9]. Furthermore, there is robust evidence indicating a **significant intensification of short-duration (sub-hourly) rainfall extremes**, with a positive trend of at least 20% per decade observed near Sydney—a trend that is accelerating faster than widely reported daily rainfall scales and severely increases flash-flooding risks [10], [11].\n\n**The impacts of climate change on water supply are not just a future problem, but are already occurring** [12]. A case study in South-East Queensland demonstrated that discernible climate change impacts commenced in the early 1990s, where a 1.2°C increase in temperature resulted in a 30-40% reduction in annual streamflow, subsequently reducing the water supply system's yield by approximately 30% [12], [13], [14]. Traditional yield assessment methods assume climate stationarity; therefore, they will overestimate a system's yield and reliability when a drying trend exists [12], [15], [16]. To address this, practitioners are developing non-stationary stochastic models, such as the Temperature Covariate Method, which uses correlations between temperature and other climate variables to better account for evolving climate trends in yield assessments [12], [17]. Looking ahead, future water supply scenarios (such as those modeled for Tasmania out to 2070) reveal complex spatiotemporal trends, projecting wetter summers on the east coast, wetter winters in the west, and drier overall conditions in central regions, highlighting the ongoing uncertainty in water supply planning [18], [19].\n\n**Future trends in hydrological modelling emphasize the abandonment of overly conservative assumptions in favor of dynamic, integrated, and AI-driven approaches.** For instance, when evaluating flood risks near the intersection of local catchments, regional waterways, and coastal boundaries, traditional \"cumulative extreme\" assumptions (e.g., assuming peak river flows, peak local runoff, and peak storm tides all occur simultaneously) are being replaced by joint probability methods. This avoids overestimating flood levels and unnecessarily burdening property owners and urban planning processes [20], [21], [22], [23]. Moreover, with climate change estimated to increase Probable Maximum Precipitation (PMP) by 13% to 33% by 2100, there is a recognized need to regularly update PMP estimation methods and their associated temporal patterns to ensure critical infrastructure is adequately protected [24]. Machine learning and Artificial Intelligence are also emerging as critical tools, demonstrating significant potential for long-term streamflow forecasting [25], predicting medium- to long-term rainfall anomalies using global climate indices [26], [27], and integrating with global forecasts to predict flood timing and uncertainty [28], [29].\n\n**There is a necessary paradigm shift underway from flood resistance to flood resilience** [30]. Relying solely on structural mitigation measures (like levees and enlarged drainage conveyance) to \"prevent\" floods is becoming unaffordable, unsustainable, and can paradoxically increase long-term risk by encouraging new development in floodplains and creating a false sense of security in the community [31], [32], [33]. Future flood management strategies must incorporate non-structural measures aimed at reducing vulnerability, such as proactive land-use planning, building codes, targeted community education, preparedness programs, and insurance integration [34], [35], [36], [37].\n\nFinally, **environmental water management is adapting to set \"climate ready\" ecological objectives** [38], [39]. Changing water availability, reduced groundwater recharge (predicted to fall by as much as 50% in some catchments by 2090), and sea-level rise are threatening ecosystems such as dryland and coastal wetlands [40], [41], [42]. Because historical climates and specific native species may no longer be viable under future conditions, ecohydrological management is shifting away from restoring \"pre-regulation\" regimes and instead prioritizing the health of ecological functional groups that can adapt to a warmer, highly variable future [43], [44].",
+      "sources_mentioned": [
+        "[13]",
+        "[11]",
+        "[24]",
+        "[5]",
+        "[3]",
+        "[7]",
+        "[29]",
+        "[40]",
+        "[2]",
+        "[23]",
+        "[36]",
+        "[41]",
+        "[37]",
+        "[28]",
+        "[39]",
+        "[10]",
+        "[6]",
+        "[27]",
+        "[43]",
+        "[14]",
+        "[22]",
+        "[31]",
+        "[4]",
+        "[17]",
+        "[20]",
+        "[16]",
+        "[32]",
+        "[35]",
+        "[42]",
+        "[15]",
+        "[44]",
+        "[21]",
+        "[33]",
+        "[9]",
+        "[34]",
+        "[12]",
+        "[30]",
+        "[18]",
+        "[19]",
+        "[26]",
+        "[38]",
+        "[25]",
+        "[8]",
+        "[1]"
+      ]
+    }
+  ],
+  "source_index": {
+    "[9]": {
+      "themes": [
+        "Flood Forecasting and Warning Systems",
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Flood Forecasting and Warning Systems"
+    },
+    "[5]": {
+      "themes": [
+        "Flood Forecasting and Warning Systems",
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Flood Forecasting and Warning Systems"
+    },
+    "[29]": {
+      "themes": [
+        "Flood Forecasting and Warning Systems",
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Flood Forecasting and Warning Systems"
+    },
+    "[2]": {
+      "themes": [
+        "Flood Forecasting and Warning Systems",
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Flood Forecasting and Warning Systems"
+    },
+    "[4]": {
+      "themes": [
+        "Flood Forecasting and Warning Systems",
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Flood Forecasting and Warning Systems"
+    },
+    "[19]": {
+      "themes": [
+        "Flood Forecasting and Warning Systems",
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Flood Forecasting and Warning Systems"
+    },
+    "[25]": {
+      "themes": [
+        "Flood Forecasting and Warning Systems",
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Flood Forecasting and Warning Systems"
+    },
+    "[1]": {
+      "themes": [
+        "Flood Forecasting and Warning Systems",
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Flood Forecasting and Warning Systems"
+    },
+    "[42]": {
+      "themes": [
+        "Case Studies and Extreme Events",
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Case Studies and Extreme Events"
+    },
+    "[8]": {
+      "themes": [
+        "Case Studies and Extreme Events",
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Case Studies and Extreme Events"
+    },
+    "[13]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[11]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[24]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[3]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[7]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[40]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[23]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[36]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[41]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[37]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[28]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[39]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[10]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[6]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[27]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[43]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[14]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[22]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[31]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[17]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[20]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[16]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[32]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[35]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[15]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[44]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[21]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[33]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[34]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[12]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[30]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[18]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[26]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    },
+    "[38]": {
+      "themes": [
+        "Climate and Future Trends"
+      ],
+      "first_mentioned_in": "Climate and Future Trends"
+    }
+  }
+}

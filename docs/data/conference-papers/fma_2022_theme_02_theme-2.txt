@@ -1,0 +1,24 @@
+Theme: Climate Change Impacts
+Conference: FMA 2022
+Notebook: 3dcf95a8-33db-480d-be1b-deb1448b0d2e
+Query: Discuss what these sources say about Climate Change Impacts, in the larger context of Flood Risk Management and Adaptation.
+Sources Found: [6], [5], [4], [19], [20]
+============================================================
+
+**Global warming and altered natural disaster patterns** are expected to increase the severity and frequency of weather events, as a warmer atmosphere holds more moisture, leading to more intense extreme rainfall [1-3]. Additionally, **sea level rise (SLR)** exacerbates coastal flooding by increasing the frequency of inundation through higher storm surges and elevated mean sea levels [4]. In response to these escalating hazards, floodplain management is shifting from static planning to dynamic, integrated adaptation strategies.
+
+**Rethinking the 1% AEP Standard**
+A major adaptation shift involves **moving away from relying solely on the 1% Annual Exceedance Probability (AEP) threshold** as the ultimate standard for land use planning [5]. Research indicates that climate change causes a disproportionate increase in flood risk in areas immediately adjacent to current flood planning zones [6]. Because absolute risk increases with climate change, the relative effectiveness of traditional mitigation controls—such as building to the 1% AEP floor level—decreases over time as risk accumulates at this threshold [7, 8]. Consequently, contemporary floodplain management requires considering the full range of possible flood events up to the Probable Maximum Flood (PMF) and may necessitate building to higher exceedance probabilities (e.g., 0.1% or 0.01% AEP) or enforcing higher freeboard requirements [5, 9].
+
+**The Adaptation Pathways Approach**
+To handle the uncertainty regarding the exact timing and severity of future climate impacts, an **Adaptation Pathways approach** is highly recommended [10, 11]. Acting too soon risks locking communities into economically or socially inappropriate outcomes, while acting too late risks locking in devastating future impacts [10, 11]. This flexible framework maps out a sequence of potential adaptation options based on observed changes rather than strict timelines, utilizing three key metrics:
+*   **Signals (early warnings):** Indicators that alert decision-makers that a critical adaptation threshold is approaching, providing lead time to evaluate options [12-14].
+*   **Triggers (decision points):** Specific monitored conditions that dictate when an adaptation pathway must be officially selected and set in motion [13, 14].
+*   **Thresholds:** The point at which current systems fail and unacceptable impacts occur if no action is taken [12, 13].
+These pathways can be **flood-level based** (triggering action when SLR reaches a certain metric) or **impact-based** (triggering action when the frequency of low-level flooding causes unacceptable disruption to the community) [14-16].
+
+**Land Use and Development Controls**
+**Location controls**—preventing new development in high-risk floodplains and relocating frequently flooded properties through managed retreat—are arguably the most powerful long-term tools for mitigating risk to life and property [17, 18]. If robust location controls prevent further floodplain development, the average number of properties exposed to flooding could be drastically reduced by 2050, freeing up resources to deal with legacy risks [19]. Furthermore, **Low Impact Development (LID) measures**, such as the "Sponge Cities" concept, are increasingly promoted to mitigate climate-induced urban floods; these developments mimic natural infiltration and evaporation processes to reduce rapid stormwater runoff [20].
+
+**The "Defend vs. Retreat" Dilemma in Coastal Areas**
+For low-lying coastal communities facing significant SLR (such as planning benchmarks of 0.8m to 1.4m by 2100), authorities are forced to make difficult choices between **complex, expensive engineering defences** (such as earth embankments or concrete T-walls) and the **planned retreat and relocation of communities** [21-25]. Building coastal defences creates a secondary problem: it "dams" the internal catchment, requiring complex and expensive water management and pumping systems to prevent communities from flooding from the inside out during heavy rainfall [25, 26]. Ultimately, while engineering solutions are technically feasible, the compounding impacts of climate change may render them financially and practically unsustainable in the long term, making managed retreat the necessary reality for some areas [22, 25, 27].

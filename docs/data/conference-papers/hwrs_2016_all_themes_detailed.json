@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "conference": "HWRS",
+    "year": 2016,
+    "notebook_id": "46b9e4ac-d902-42bc-a26b-66a8cc8e445c",
+    "mind_map_title": "Australian Hydrologic and Water Resource Studies",
+    "queried_date": "2026-04-18T22:58:57.358268+00:00",
+    "total_themes": 5
+  },
+  "themes": [
+    {
+      "id": "theme-1",
+      "theme": "Historical Flood Records",
+      "description": "",
+      "subtopics": [
+        "Windsor/Hawkesbury-Nepean",
+        "Geelong Storm 2016"
+      ],
+      "query_response": "**Historical flood records are fundamental to Australian hydrologic and water resource studies, but they require careful validation and are often too brief to capture the true spectrum of extreme events.** \n\n**Australia's longest written flood record, located at Windsor on the Hawkesbury Nepean River, dates back to 1799 and is critical for understanding long-term flood behavior and the climate cycles that drive it** [1, 2]. This extensive history was compiled from private diaries, newspaper accounts, and official observations [3]. However, early colonial records often contain misleading or confused information, and historical flood level estimates cannot simply be accepted at face value [1, 4]. For example, a 1799 flood initially estimated by observers to be a 50-foot rise was later debunked and realistically adjusted to around 33 feet through careful comparison with subsequent floods [5]. **When rigorously validated and corrected, these early historical records can be effectively incorporated into modern flood frequency analyses to improve flood risk understanding** [1, 4].\n\nDespite the value of early written records, **Australia's instrumental (gauged) flood and streamflow records generally only cover the period post-1900, which is insufficient to fully indicate true hydroclimatic variability or the risks of extreme flood-dominated epochs** [6, 7]. Furthermore, instrumental gauge records inherently contain observational uncertainties [8, 9]. Because gauges typically measure water levels (stage) rather than direct flow, significant uncertainty is introduced during large historical floods when stage-discharge rating curves must be heavily extrapolated beyond measured bounds [8, 10]. Even so, the ongoing collection of instrumental data is vital; recent updates to the Australian Rainfall and Runoff (ARR) guidelines have utilized an additional 30 years of historical streamflow data to improve Regional Flood Frequency Estimators across the country [11, 12].\n\nBecause the instrumental record is so brief, researchers increasingly rely on paleoclimate proxies—such as ice cores, tree rings, corals, and sediment deposits—to reconstruct deep historical flood and rainfall records spanning 500 to 1,000 years [6, 13, 14]. **These deep historical reconstructions reveal that the modern instrumental record substantially underestimates the frequency, duration, and magnitude of extreme wet (flood) and dry (drought) periods** [6, 14]. In the Monsoonal North West, for instance, a 500-year reconstruction showed that historical rainfall events exceeded the maximum modern recorded event by over 20% [15]. Similarly, in eastern Australia, studies show that over 71% of the pre-instrumental period (1000–1899) has no modern equivalent, meaning that prolonged and severe wet and dry epochs were historically normal but absent from modern observations [6, 16].\n\nThe reliance on short instrumental records has profound implications for modern water resource management. **Because current water infrastructure, planning, and policy are based almost entirely on post-1900 records, they account for only a small fraction (e.g., 29% in eastern Australia) of the actual hydroclimatic variability experienced over the last millennium** [16, 17]. This suggests that existing dams, spillways, and flood mitigation strategies may be severely underprepared to handle the types of prolonged, extreme flood events that deep historical records prove have occurred in the past and are likely to occur again [17, 18].",
+      "sources_mentioned": [
+        "[5]",
+        "[3]",
+        "[15]"
+      ]
+    },
+    {
+      "id": "theme-2",
+      "theme": "Modelling and Analysis Techniques",
+      "description": "",
+      "subtopics": [
+        "Hydrologic Models",
+        "Calibration and Validation",
+        "Regional Estimation (RFFE)"
+      ],
+      "query_response": "The transition of Australian Hydrologic and Water Resource Studies into more sophisticated, computationally intensive, and risk-based frameworks represents a major shift in modelling and analysis techniques. Driven largely by the revisions in **Australian Rainfall and Runoff (ARR) 2016**, the practice has evolved from deterministic, single-event assumptions to probabilistic, large-scale, and spatially distributed methodologies. \n\nHere is a detailed breakdown of the primary modelling and analysis techniques discussed in the sources:\n\n**1. Shift to Joint Probability, Ensembles, and Monte Carlo Simulations**\nHistorically, rainfall-based flood estimates relied on a \"design event\" approach which assumed probability neutrality (i.e., a 1% AEP rainfall produces a 1% AEP flood). This assumption is fundamentally flawed because it ignores the variability of real-world catchment conditions [1, 2]. \n*   **Monte Carlo Simulations:** Advanced analyses now utilize Monte Carlo frameworks to simulate the natural variability of flood-producing processes. By treating variables like antecedent soil moisture, event losses, and temporal rainfall patterns as stochastic variables, models can generate thousands of synthetic flood events to derive unbiased, \"probability-neutral\" flood frequency curves [1, 3-5]. \n*   **Quantile Ensembles and Full Volume Storms:** As a bridge to full Monte Carlo methods, ARR 2016 recommends the quantile ensemble method, where an ensemble of equally likely temporal patterns (usually 10) is modelled for each Annual Exceedance Probability (AEP) to determine the average peak flow [1, 6, 7]. Additionally, models are increasingly replacing simplistic peak-burst analyses with **full volume storm events** that account for pre-burst and post-burst rainfall, which is critical for highly volume-sensitive catchments [8-10].\n\n**2. Flood Frequency Analysis (FFA) and Regionalization**\n*   **At-Site FFA:** The software **FLIKE** is heavily used for at-site flood frequency analysis, utilizing Bayesian inference to fit probability distributions. Recent studies in New South Wales demonstrate that the **Log Pearson Type 3 (LP3)** distribution generally performs best, though the Generalized Extreme Value (GEV) distribution is also widely used. The rigorous censoring of low flood values (outliers) using the Multiple Grubbs Beck test is now emphasized, as it significantly alters quantile estimates for smaller return periods [11-13].\n*   **Regional Flood Frequency Estimation (RFFE):** In ungauged catchments, information is transferred from hydrologically similar gauged catchments. While linear regression methods have been the standard, spatial interpolation techniques like **Ordinary Kriging** [14, 15] and non-linear machine learning models like **Artificial Neural Networks (ANN)** [16, 17] are being applied to improve accuracy. Kriging has been shown to significantly reduce median relative errors in RFFE models by accounting for spatial correlation structures [18, 19].\n\n**3. Direct Rainfall and 2D Hydraulic Modelling**\nHydraulic modelling has heavily adopted 2D simulation over older 1D approaches to capture complex overland flow paths. \n*   **Rain on Grid (ROG) / Direct Rainfall Method (DRM):** This approach applies rainfall directly across a 2D hydraulic model grid (such as **TUFLOW**), integrating hydrological runoff generation and hydraulic routing into a single model. This removes subjective assumptions about catchment delineation and outlet locations [20-23]. \n*   **Filtering Challenges:** A major challenge with ROG is that the entire model domain becomes \"wet,\" requiring post-processing to map actual flood paths. Advanced filtering methods—such as the \"GHD method\" using Python and the **TauDEM (Terrain Analysis Using Digital Elevation Models)** tool—apply algorithms to velocity vectors to calculate contributing upstream catchment areas, eliminating false disconnected flow paths and shallow ponding [24-27].\n*   **Large-Scale Unstructured Grids:** To overcome the massive computational burden of modelling whole states (like Tasmania), researchers are combining Graphics Processing Unit (GPU) acceleration with **unstructured grid models** (e.g., RiverFlow2D). Unstructured meshes allow the grid resolution to vary dynamically—from 500m in the ocean to 10m in urban areas—enabling massive 7.5-million-element models to run in hours rather than weeks [28-30].\n\n**4. Data-Driven Models and Artificial Intelligence**\nIn predicting long-term, seasonal rainfall variability—which is notoriously difficult in Australia due to complex climate drivers like ENSO, the Indian Ocean Dipole (IOD), and the Southern Annular Mode (SAM)—traditional Multiple Linear Regression models often fail [31, 32]. Studies are successfully applying **Artificial Neural Networks (ANN)** to capture the complex, non-linear ocean-atmospheric relationships. Using a multi-variate feed-forward neural network trained with the Levenberg-Marquardt algorithm, ANNs have provided significantly higher correlations and lower errors for seasonal rainfall forecasting and regional flood estimation [33-35]. \n\n**5. Landscape Water Balance and Accounting Models**\n*   **Continental Grid Modelling:** The **AWRA-L (Australian Water Resources Assessment - Landscape)** model is a conceptual 5km-grid model used by the Bureau of Meteorology to simulate the daily water balance across Australia. It tracks rainfall, evapotranspiration, deep drainage, and soil moisture across multiple soil layers [36, 37]. This high-resolution data is now being used to develop accurate, regionalized prediction equations for initial and continuing rainfall losses in flood modelling [38-40].\n*   **Water Accounting Systems:** To manage complex water rights, carryover rules, and environmental allocations, generalized accounting modules are integrated into hydrological planning models using software like **REALM** (e.g., the Goulburn Simulation Model) and **GoldSim** (for mining operations). These models ensure consistency and transparency in policy implementation and economic optimization [41-44]. \n\n**6. Managing Uncertainty and Data Limitations**\n*   **Data Depth Functions:** To quantify observational uncertainties (e.g., errors in precipitation measurements transferring to discharge), data depth functions are used. By plotting a \"convex hull\" of parameter sets in a Monte Carlo simulation, hydrologists can geometrically quantify the likelihood of parameter sets and establish uncertainty bounds for their predictions [45-47].\n*   **Calibration Period Sensitivity:** Research using the **Australian Water Balance Model (AWBM)** demonstrates that the length and *climatic condition* of the calibration data profoundly impact model accuracy. Models calibrated exclusively on \"dry\" periods yield poor validation results (often resulting in negative Nash-Sutcliffe Efficiency scores). Hydrological models must be calibrated against \"wet\" or \"peak\" subsets to reliably predict future runoff [48-50].\n*   **Paleoclimate Reconstructions:** Because Australia's instrumental record is too short to capture the true magnitude of extreme variability, researchers use empirical models like the **GR1A annual rainfall-runoff model** paired with remote paleoclimate proxy data (such as ice cores and tree rings) to reconstruct hydrologic extremes over the past 500–1000 years. This reveals that historical droughts and wet spells were often far longer and more severe than any recorded in the past century [51-53].",
+      "sources_mentioned": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "National Assessments",
+      "description": "",
+      "subtopics": [
+        "AWRA System",
+        "ACCESS NWP"
+      ],
+      "query_response": "The Millennium drought in the early 2000s exposed a critical gap in Australia's ability to answer national-level questions regarding water availability, usage, environmental allocations, and trade [1, 2]. In response, the Australian Government established \"A National Plan for Water Security,\" mandating the Bureau of Meteorology to collect comprehensive water data and annually publish the **National Water Account** [3]. \n\n**The National Water Account (NWA)** merges the science of hydrology with the rigor of financial accounting to provide a transparent, standardized annual report on the status of Australia's water resources [1, 4]. **It focuses on ten nationally significant water management regions** that account for approximately 70-80% of national water use and 80% of the population [5, 6]. To generate this assessment, data is collated from over 50 reporting partners, synthesizing climate, metered, modeled, and license data [7, 8]. The NWA produces three key statements for each region: the Statement of Water Assets and Water Liabilities, the Statement of Changes in Water Assets and Water Liabilities, and the Statement of Physical Water Flows [9]. \n\nTo support the National Water Accounts and broader water resource assessments, CSIRO and the Bureau of Meteorology developed the **Australian Water Resources Assessment (AWRA) Modelling System** [10]. A key component of this is **AWRA-L, a continental-scale landscape water balance model** [10, 11]. AWRA-L simulates variables such as soil moisture, runoff, deep drainage, and evapotranspiration on a daily timestep at a ~5km spatial resolution from 1911 to the present [10-13]. This system provides **near-real-time national soil moisture assessments**, which are utilized by agricultural sectors (such as ABARES), regional water authorities, and the general public for both tactical and strategic decision-making, drought monitoring, and crop yield prediction [12, 14, 15].\n\nThe outputs from these national assessment tools have had a profound impact on broader Australian hydrologic practice, particularly in design flood estimation for the updated Australian Rainfall and Runoff (ARR) guidelines [16, 17]. Hydrologic studies found that **AWRA-L modeled soil moisture data explains the variability of flood losses significantly better than traditional methods**, such as the antecedent precipitation index (API) [16, 18, 19]. Consequently, AWRA-L soil moisture data was used to define hydrologic regions across Australia and develop national prediction equations for estimating storm initial losses and continuing losses [20, 21]. These prediction equations now form the basis for the regional loss recommendations provided in ARR Book 5 [16, 21].",
+      "sources_mentioned": [
+        "[3]",
+        "[10]",
+        "[9]"
+      ]
+    },
+    {
+      "id": "theme-4",
+      "theme": "Urban Water Evolution",
+      "description": "",
+      "subtopics": [
+        "Water Sensitive Cities"
+      ],
+      "query_response": "The evolution of urban water in Australia represents a profound paradigm shift from traditional, single-purpose infrastructure toward integrated, sustainable systems, deeply influencing and being influenced by modern Australian hydrologic and water resource modelling practices.\n\n**The Journey to a Water Sensitive City**\nThe conceptual evolution of urban water management is captured by the **Urban Water Management Transitions Framework**, which outlines the progression of municipalities through six stages: Water Supply City, Sewered City, Drained City, Waterway City, Water Cycle City, and ultimately a Water Sensitive City [1]. A historical case study of Ballarat tracks this exact trajectory:\n*   **1850s–1920 (Water Supply City)**: Focused on establishing a reticulated water supply to cope with population booms during the gold rush [2].\n*   **1921–1980 (Sewered & Drained City)**: Expansion of sewerage and drainage networks to protect public health and prevent flooding, accompanied by a dramatic increase in water usage driven by population growth and higher living standards [3, 4].\n*   **1981–2015 (Waterway & Water Cycle City)**: A stabilization and eventual decline in per capita water use, despite continued population growth [5]. This period saw a heightened focus on the quality of wastewater discharge to protect streams (Waterway City) and, prompted by the Millennium Drought, the widespread adoption of water restrictions, alternative supplies (e.g., stormwater capture, rainwater tanks), and efficiency programs (Water Cycle City) [6, 7].\n\n**Water Conservation and Water Sensitive Urban Design (WSUD)**\nThe Millennium Drought was a major catalyst for urban water evolution, proving that **water conservation measures are highly cost-effective and critical for urban water security** [8]. This era underscored the necessity of **source control measures**—like rainwater harvesting, water-efficient appliances, and domestic gardens—which collectively minimized downstream infrastructure needs, reduced water demands, and protected receiving environments [9, 10].\n\nThis paradigm shift recognizes that conventional urban development replaces natural landscapes with impervious surfaces and highly efficient drainage, which drastically increases the frequency, rate, and volume of stormwater runoff [11]. To combat the \"urban stream syndrome,\" modern WSUD aims to mimic pre-development flow and water quality regimes by retaining runoff on-site [10]. Innovation in this space is ongoing; for example, recent studies are investigating the use of **crumbed tyre rubber as a substitute for coarse aggregates in raingardens** to improve hydraulic conductivity and filter heavy metals from urban stormwater runoff [12-14].\n\n**Advancements in Urban Hydrological Modelling**\nThis physical evolution of cities has necessitated sweeping changes in how Australian hydrologists model urban catchments, particularly within the context of the **Australian Rainfall and Runoff (ARR) 2016** updates.\n*   **Moving Beyond the Rational Method**: Historically, urban peak flows were estimated using the urban Rational Method and isolated design storm bursts, but this simplistic approach fails to capture the complex, volume-sensitive nature of modern urban catchments [11, 15]. Testing for the ARR revision showed that simple, uncalibrated models fail to reliably reproduce actual flood frequencies [16]. Instead, current best practice favors using continuous simulation or ensembles of full-volume storms, which better account for pre-burst rainfall, varying temporal patterns, and actual catchment storage [11, 15].\n*   **Complex Runoff Routing**: Detailed models (such as Mike 11, RORB, and Mike SHE) are now preferred for urban applications because they can accurately represent variable catchment conditions, underground pipes, and overland flow paths [16-18]. Studies like the one at Narellan Creek highlight the sensitivity of these models to whether hydrologists use a traditional design storm burst or an \"Embedded Design Storm\" (where the burst is nested within a 24-hour storm to account for antecedent rainfall filling up urban detention basins and overcoming initial losses) [19-21].\n*   **Rain on Grid (ROG) Modelling**: Commercial 2D modelling has increasingly adopted the ROG approach, where rainfall is applied directly to the 2D hydraulic mesh (e.g., a TUFLOW model) rather than relying on a separate hydrological model [22, 23]. To make these high-resolution urban flood maps usable, new filtering methods (like the \"GHD method\") have been developed to trace flow paths and calculate contributing catchment areas cell-by-cell, effectively eliminating artificial puddles and mapping urban overland flow with high precision [22, 24-26].\n\nIn summary, Australian studies view urban water evolution as a continuous shift toward resilience and sustainability. This requires cities to embrace diverse, fit-for-purpose water sources and WSUD, while engineers must adopt increasingly sophisticated, ensemble-based, and 2D modelling techniques to accurately capture the altered hydrology of the modern urban landscape.",
+      "sources_mentioned": [
+        "[10]",
+        "[11]",
+        "[16]",
+        "[5]",
+        "[2]",
+        "[8]",
+        "[1]"
+      ]
+    },
+    {
+      "id": "theme-5",
+      "theme": "Specific Research Applications",
+      "description": "",
+      "subtopics": [
+        "Spatial Rainfall",
+        "Geomorphology",
+        "Groundwater"
+      ],
+      "query_response": "The specific research applications discussed in the sources highlight a critical transitional phase in Australian Hydrologic and Water Resource Studies. Driven by the recent updates to **Australian Rainfall and Runoff (ARR 2016)** and the severe impacts of the Millennium Drought, contemporary research focuses on moving away from simplified, single-event assumptions toward probabilistic, data-driven frameworks that account for Australia's extreme climate variability [1-3]. \n\nHere is how the sources detail specific research applications within this larger context:\n\n**1. Advancements in Flood Estimation and Spatial Modelling**\nA primary focus of current Australian research is improving the accuracy and reproducibility of design flood estimates through advanced modelling and updated national datasets.\n*   **Joint Probability and Monte Carlo Simulations:** To ensure \"probability-neutrality\" (where the derived flood has the same probability as the causative rainfall), researchers are transitioning to ensemble and Monte Carlo approaches [4-6]. Applied research on the Brisbane River catchment demonstrates that aleatory uncertainty (natural variability in losses, temporal, and spatial patterns) impacts peak flow rates two to three times more than it impacts final flood depths, indicating that computational efforts are best prioritized in the hydrologic transformation phase rather than the hydraulic routing phase [7, 8].\n*   **Regional Flood Frequency Estimation (RFFE) in Ungauged Catchments:** Researchers are testing non-linear methodologies to improve RFFE models for catchments lacking streamflow data. In New South Wales, **Artificial Neural Networks (ANN)** utilizing catchment characteristics (e.g., area, design rainfall intensity, shape factor) marginally outperformed linear models, though their accuracy varied across different Annual Exceedance Probabilities (AEPs) [9-11]. Conversely, in Tasmania, **ordinary kriging** (a spatial interpolation technique) successfully reduced median relative errors by 22% to 37% compared to the ARR 2016 RFFE model, making it a highly recommended approach for the region [12-14]. \n*   **Refining 2D Hydraulic Modelling:** To better simulate the rainfall-runoff process, researchers are refining \"Rain on Grid\" (ROG) hydraulic modelling. The development of the \"GHD method\" utilizing Python and the TauDEM tool allows modellers to calculate contributing catchment areas and trace flow paths based on velocity vectors [15-17]. This removes previous trade-offs between flood map continuity and flow path magnitude, drastically improving the post-processing visualization of 2D flood maps [18]. \n\n**2. Redefining Hydroclimatic Baselines Using Paleoclimatology**\nA major realization in Australian water resource management is that the instrumental record (post-1900) is insufficient to capture the continent's true hydroclimatic variability [19, 20]. \n*   **Paleoclimate Reconstructions:** By synthesizing proxy records (such as ice cores, tree rings, and corals), researchers have developed 500- to 1000-year rainfall reconstructions for regions like eastern Australia and the Monsoonal North West [20-22]. \n*   **Implications for Infrastructure:** The application of these models reveals that **over 71% of the pre-instrumental period has no modern equivalent**, featuring multi-decadal wet and dry epochs that far exceed the Millennium Drought or the 1950s floods [19, 23]. Case studies applying these reconstructed records to typical eastern Australian reservoirs show that relying solely on the instrumental record leaves critical water infrastructure highly vulnerable, as storages would have been below critical thresholds for nearly 20% of the past millennium [24, 25].\n\n**3. Enhancing Drought Assessment and Seasonal Forecasting**\nTo better manage acute water shortages, researchers are actively developing tools for early warning and seasonal predictability. \n*   **Artificial Intelligence in Rainfall Forecasting:** Researchers in South Australia are utilizing multivariate **Artificial Neural Networks (ANN)** to map complex, non-linear relationships between large-scale oceanic-atmospheric drivers (ENSO, SAM, and IOD) and regional rainfall [26-28]. The ANN models achieved significantly higher correlations (up to 0.70) than traditional linear regression models, proving highly capable of forecasting seasonal spring rainfall [29].\n*   **Translating Drought Indices:** To make drought monitoring actionable for decision-makers, researchers applied the Standardized Hydrological Drought Index (SHDI) to the Yarra River catchment, transforming index values into real-time mean monthly streamflow thresholds [30]. They discovered that using shorter time scales (e.g., 3-month vs. 12-month) can skew thresholds and potentially misinform early warning systems, highlighting the necessity of 6- to 12-month scales for proper drought assessment [31-33].\n\n**4. Modernizing National Water Accounting and Soil Moisture Assessment**\nTo mediate increasing competition for finite water resources, Australian studies emphasize nationwide data consistency and transparent allocation accounting.\n*   **National Soil Moisture Assessment:** The Bureau of Meteorology's AWRA-L (Australian Water Resources Assessment Landscape) model provides daily, 5-km gridded estimates of soil moisture [34]. Researchers have applied these gridded outputs to develop predictive equations for storm initial loss (IL) and continuing loss (CL) across Australia, proving that AWRA-L soil moisture correlates more highly with actual storm losses than traditional antecedent precipitation indices [35-38]. \n*   **Complex Water Accounting:** In response to policies enacted during the Millennium Drought, researchers developed a generalized carryover and accounting module (GCAM) to transparently simulate complex water allocation rules (such as Spillable Water Accounts and Inter-Valley Trade) within hydrological models. Tested in the Goulburn and Wimmera systems, this algorithmic module provides a defensible framework for stakeholder negotiations and sustainable diversion limits [39-42].\n\n**5. Innovations in Water Sensitive Urban Design (WSUD) and Conservation**\nAt the local level, specific applications focus on optimizing urban water conservation and stormwater filtration.\n*   **Stormwater Filtration:** Addressing Australia's massive generation of waste tyres, researchers are successfully testing the use of **recycled tyre crumbs as a substitute for coarse aggregates** in raingardens. Experimental columns using a 20% crumb rubber substitution demonstrated highly consistent, rapid unsaturated hydraulic conductivity (median 352 mm/hr), proving effective for both pollutant filtration and vegetation support in WSUD systems [43, 44].\n*   **Optimizing Rainwater Harvesting:** Using a continuous simulation tool (ERain) coupled with life-cycle cost analysis, researchers evaluated rainwater harvesting potential in Sydney. The application revealed that the commonly installed 3 kL tanks—often chosen merely to meet BASIX legislative minimums—fail to provide optimum economic returns or water savings. The study suggests that 5 kL to 7 kL tanks offer significantly better benefit-cost ratios, especially when factoring in outdoor use and \"hedonic pricing\" (the added real estate value of eco-friendly features) [45-48].",
+      "sources_mentioned": [
+        "[34]",
+        "[29]",
+        "[30]",
+        "[18]",
+        "ARR 2016"
+      ]
+    }
+  ],
+  "source_index": {
+    "[5]": {
+      "themes": [
+        "Historical Flood Records",
+        "Urban Water Evolution"
+      ],
+      "first_mentioned_in": "Historical Flood Records"
+    },
+    "[3]": {
+      "themes": [
+        "Historical Flood Records",
+        "National Assessments"
+      ],
+      "first_mentioned_in": "Historical Flood Records"
+    },
+    "[15]": {
+      "themes": [
+        "Historical Flood Records"
+      ],
+      "first_mentioned_in": "Historical Flood Records"
+    },
+    "[10]": {
+      "themes": [
+        "National Assessments",
+        "Urban Water Evolution"
+      ],
+      "first_mentioned_in": "National Assessments"
+    },
+    "[9]": {
+      "themes": [
+        "National Assessments"
+      ],
+      "first_mentioned_in": "National Assessments"
+    },
+    "[11]": {
+      "themes": [
+        "Urban Water Evolution"
+      ],
+      "first_mentioned_in": "Urban Water Evolution"
+    },
+    "[16]": {
+      "themes": [
+        "Urban Water Evolution"
+      ],
+      "first_mentioned_in": "Urban Water Evolution"
+    },
+    "[2]": {
+      "themes": [
+        "Urban Water Evolution"
+      ],
+      "first_mentioned_in": "Urban Water Evolution"
+    },
+    "[8]": {
+      "themes": [
+        "Urban Water Evolution"
+      ],
+      "first_mentioned_in": "Urban Water Evolution"
+    },
+    "[1]": {
+      "themes": [
+        "Urban Water Evolution"
+      ],
+      "first_mentioned_in": "Urban Water Evolution"
+    },
+    "[34]": {
+      "themes": [
+        "Specific Research Applications"
+      ],
+      "first_mentioned_in": "Specific Research Applications"
+    },
+    "[29]": {
+      "themes": [
+        "Specific Research Applications"
+      ],
+      "first_mentioned_in": "Specific Research Applications"
+    },
+    "[30]": {
+      "themes": [
+        "Specific Research Applications"
+      ],
+      "first_mentioned_in": "Specific Research Applications"
+    },
+    "[18]": {
+      "themes": [
+        "Specific Research Applications"
+      ],
+      "first_mentioned_in": "Specific Research Applications"
+    },
+    "ARR 2016": {
+      "themes": [
+        "Specific Research Applications"
+      ],
+      "first_mentioned_in": "Specific Research Applications"
+    }
+  }
+}

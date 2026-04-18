@@ -1,0 +1,20 @@
+Theme: Unprecedented vs Unplanned
+Conference: FMA 2023
+Notebook: b45571e2-ca22-49b4-ad5b-ab9094ddd245
+Query: Discuss what these sources say about Unprecedented vs Unplanned, in the larger context of Managing Flooding Beyond Maps.
+Sources Found: [16], [11], [6], [2], [18], [17], [20], [21]
+============================================================
+
+The term "unprecedented" is frequently used to describe extreme flood events with severe, unanticipated impacts, but this label is increasingly challenged by industry experts as potentially masking what is actually "unplanned" [1, 2]. While the media often portrays severe events—such as the 2022 Australian floods—as unprecedented "rain bombs," historical analyses show that such events are not entirely without precedent and remain plausible under existing climate conditions [3-5]. 
+
+Instead of strictly referring to the hydrological size of a flood, **"unprecedented" is more accurately defined by the degree of impact an event has on people, property, and critical infrastructure** [6]. According to emergency management frameworks, a disaster becomes catastrophic or unprecedented when it **overwhelms our current arrangements, technical systems, and resource capacity, ultimately degrading our ability to govern and respond effectively** [7, 8]. Because all plans have a breaking point where capacity is reached, the threshold for an event becoming "unprecedented" is not fixed; rather, it is directly relative to the quality of the prevention, planning, and response actions taken by stakeholders [9, 10]. Consequently, the label "unprecedented" is sometimes used to excuse a sub-optimal response before, during, or after a flood [2].
+
+To prevent severe hazards from becoming unprecedented disasters, planning must evolve into **"Managing Flooding Beyond Maps"** [11]. While flood maps are fundamental tools that illustrate flood extents, flow conveyance, depths, velocities, and hazards [12, 13], **maps alone only tell part of the story and cannot be used in isolation to inform complex safety decisions** [14, 15]. 
+
+Managing risks effectively requires looking beyond static maps to understand the dynamic, real-world consequences of a flood. This broader context requires assessing:
+*   **Community Vulnerability:** Recognizing that different types of developments and their users have varying degrees of vulnerability to flood impacts, meaning that the same level of flood exposure can result in vastly different consequences [16].
+*   **Evacuation Limitations:** Assessing whether safe, trafficable access routes will remain open long enough for people to escape, which requires factoring in the flood's timing, rate of rise, and total duration [17].
+*   **Service Disruptions:** Planning for the indirect consequences of flooding, such as the isolation caused by the loss of power, water, sewerage, and telecommunications [18].
+*   **Dynamic Variables:** Accounting for antecedent catchment conditions, complex storm patterns, and how flowpaths naturally vary between small, frequent events and extreme, infrequent events [18, 19].
+
+Ultimately, our planning efforts and ability to effectively manage resources directly reduce the impact of an event [20]. **Because we cannot predict the exact size of every disaster or realistically plan for the largest possible event, we must focus on planning for human responses and building resilient communities that can bounce back** [21]. By integrating dynamic flood intelligence with a deep understanding of vulnerabilities that maps alone cannot show, emergency managers can extend their operational capacity and prevent extreme weather events from turning into "unprecedented" catastrophes [15, 22, 23].

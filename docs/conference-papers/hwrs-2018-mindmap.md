@@ -79,7 +79,7 @@ HWRS 2018
 
 ## Data
 
-Full JSON data: [hwrs_2018.json](../../data/conference-papers/hwrs_2018.json)
+Full JSON data: [hwrs_2018.json](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/master/docs/data/conference-papers/hwrs_2018.json)
 
 ---
 

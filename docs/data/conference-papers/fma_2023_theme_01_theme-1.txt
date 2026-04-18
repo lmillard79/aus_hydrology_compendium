@@ -1,0 +1,24 @@
+Theme: Flood Mapping Limitations
+Conference: FMA 2023
+Notebook: b45571e2-ca22-49b4-ad5b-ab9094ddd245
+Query: Discuss what these sources say about Flood Mapping Limitations, in the larger context of Managing Flooding Beyond Maps.
+Sources Found: [10], [11], [6], [5], [12], [7], [18], [4], [19]
+============================================================
+
+**Maps are a fundamental output of the flood risk management process, but they only tell part of the story.** While they provide an indicator of impacts and constraints on land, maps are just a drawing of a particular type of information and cannot be used in isolation to make informed decisions [1-3]. 
+
+The sources identify several key limitations of flood mapping:
+
+*   **Data Accuracy and Currency:** The accuracy of flood maps relies heavily on the underlying data, such as LiDAR digital elevation models, which may not reflect recent topographical changes or development [4]. Furthermore, a national push for broad-brush, all-hazard mapping has resulted in limited funds being spread thinly, leading to low-quality maps that are sometimes inappropriately used for major investment decisions [5]. 
+*   **Verification Challenges:** Efforts to verify map accuracy using aerial photography can sometimes be misleading. For example, "mud lines" left by urban stormwater can be mistaken for the actual peak levels of clearer floodwaters [6]. Models also contain inherent uncertainties, and the industry often lacks the training or tools to consistently evaluate and communicate these uncertainties [7].
+*   **Overwhelming Complexity:** Advances in 2D modelling mean that regulators now require highly complex performance criteria covering multiple Annual Exceedance Probabilities (AEPs) and hydraulic metrics like depth, velocity, and hazard across different land uses [8, 9]. This results in intricate mapping outputs where impacted landowners may have to trawl through hundreds or thousands of PDF maps to understand how a project affects them [10].
+*   **Community Misinterpretation:** Technical maps are often too complex or unfamiliar for the general public [11]. An extent map shows what areas will be inundated but fails to convey the *degree* of affectation, such as whether water will simply cover a driveway or submerge a roof [12]. Communities frequently confuse technical terminology, such as mistaking flood depth for flood height, or misinterpreting the impact of a map on their property value and insurance premiums [13-15]. 
+
+**Managing Flooding Beyond Maps**
+Because of these limitations, managing flood risk requires contextualizing data and integrating it into a broader framework of emergency planning, situational awareness, and community education:
+
+*   **Understanding Dynamic Risk Factors:** Managing risk requires considering variables that a static map cannot fully capture, such as antecedent weather conditions, different storm durations and types, flowpath variations, and the condition of physical mitigation infrastructure [16, 17]. It also requires a holistic assessment of flood isolation, including warning times, the viability of safe evacuation routes, and community self-sufficiency [18].
+*   **Developing Flood Intelligence:** Rather than relying solely on maps, authorities must translate raw data into **flood intelligence**—the process of collecting, collating, and interpreting data to provide meaningful, actionable information [19]. This involves linking stream gauge heights to specific consequences and response triggers so emergency managers can deploy resources effectively [19, 20].
+*   **Real-Time Situational Awareness:** Because flood events are rapidly evolving emergencies, static design event maps are often insufficient. The industry is moving toward real-time decision support systems, utilizing machine learning and live gauge data to provide dynamic, scalable forecasting and early warnings [21-23].
+*   **Improving Flood Literacy and Communication:** Empowering the community requires shifting from presenting complex probability statistics to focusing on impact, consequence, and actionable advice [24, 25]. Information must be tailored to the audience's state of mind, recognizing that the data a person needs during the panic of an active flood is vastly different from what they need during pre-flood planning [26, 27]. 
+*   **Interactive and Educational Tools:** To overcome the limitations of static PDFs, practitioners are implementing interactive online portals and exploring Augmented Reality (AR) to show residents exactly what a flood level would look like on their own property [28-30]. Additionally, local councils are exploring educational partnerships to translate technical flood studies into school lesson plans, building long-term flood awareness and resilience from the classroom up [31, 32].

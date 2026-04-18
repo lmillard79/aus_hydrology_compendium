@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-04-18T22:12:49.991653+00:00",
+  "completed": [
+    {
+      "conference": "FMA",
+      "year": 2023,
+      "themes": 6
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    {
+      "conference": "FMA",
+      "year": 2024,
+      "reason": "Already has 3 theme files"
+    }
+  ]
+}

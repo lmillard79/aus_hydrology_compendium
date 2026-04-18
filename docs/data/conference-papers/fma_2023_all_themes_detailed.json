@@ -1,0 +1,265 @@
+{
+  "metadata": {
+    "conference": "FMA",
+    "year": 2023,
+    "notebook_id": "b45571e2-ca22-49b4-ad5b-ab9094ddd245",
+    "mind_map_title": "Managing Flooding Beyond Maps",
+    "queried_date": "2026-04-18T22:12:49.995668+00:00",
+    "total_themes": 6
+  },
+  "themes": [
+    {
+      "id": "theme-1",
+      "theme": "Flood Mapping Limitations",
+      "description": "",
+      "subtopics": [
+        "Drawing of specific information",
+        "Based on assumptions like antecedent rainfall",
+        "Only an indicator of impacts/risk",
+        "May contain anomalies in detail"
+      ],
+      "query_response": "**Maps are a fundamental output of the flood risk management process, but they only tell part of the story.** While they provide an indicator of impacts and constraints on land, maps are just a drawing of a particular type of information and cannot be used in isolation to make informed decisions [1-3]. \n\nThe sources identify several key limitations of flood mapping:\n\n*   **Data Accuracy and Currency:** The accuracy of flood maps relies heavily on the underlying data, such as LiDAR digital elevation models, which may not reflect recent topographical changes or development [4]. Furthermore, a national push for broad-brush, all-hazard mapping has resulted in limited funds being spread thinly, leading to low-quality maps that are sometimes inappropriately used for major investment decisions [5]. \n*   **Verification Challenges:** Efforts to verify map accuracy using aerial photography can sometimes be misleading. For example, \"mud lines\" left by urban stormwater can be mistaken for the actual peak levels of clearer floodwaters [6]. Models also contain inherent uncertainties, and the industry often lacks the training or tools to consistently evaluate and communicate these uncertainties [7].\n*   **Overwhelming Complexity:** Advances in 2D modelling mean that regulators now require highly complex performance criteria covering multiple Annual Exceedance Probabilities (AEPs) and hydraulic metrics like depth, velocity, and hazard across different land uses [8, 9]. This results in intricate mapping outputs where impacted landowners may have to trawl through hundreds or thousands of PDF maps to understand how a project affects them [10].\n*   **Community Misinterpretation:** Technical maps are often too complex or unfamiliar for the general public [11]. An extent map shows what areas will be inundated but fails to convey the *degree* of affectation, such as whether water will simply cover a driveway or submerge a roof [12]. Communities frequently confuse technical terminology, such as mistaking flood depth for flood height, or misinterpreting the impact of a map on their property value and insurance premiums [13-15]. \n\n**Managing Flooding Beyond Maps**\nBecause of these limitations, managing flood risk requires contextualizing data and integrating it into a broader framework of emergency planning, situational awareness, and community education:\n\n*   **Understanding Dynamic Risk Factors:** Managing risk requires considering variables that a static map cannot fully capture, such as antecedent weather conditions, different storm durations and types, flowpath variations, and the condition of physical mitigation infrastructure [16, 17]. It also requires a holistic assessment of flood isolation, including warning times, the viability of safe evacuation routes, and community self-sufficiency [18].\n*   **Developing Flood Intelligence:** Rather than relying solely on maps, authorities must translate raw data into **flood intelligence**—the process of collecting, collating, and interpreting data to provide meaningful, actionable information [19]. This involves linking stream gauge heights to specific consequences and response triggers so emergency managers can deploy resources effectively [19, 20].\n*   **Real-Time Situational Awareness:** Because flood events are rapidly evolving emergencies, static design event maps are often insufficient. The industry is moving toward real-time decision support systems, utilizing machine learning and live gauge data to provide dynamic, scalable forecasting and early warnings [21-23].\n*   **Improving Flood Literacy and Communication:** Empowering the community requires shifting from presenting complex probability statistics to focusing on impact, consequence, and actionable advice [24, 25]. Information must be tailored to the audience's state of mind, recognizing that the data a person needs during the panic of an active flood is vastly different from what they need during pre-flood planning [26, 27]. \n*   **Interactive and Educational Tools:** To overcome the limitations of static PDFs, practitioners are implementing interactive online portals and exploring Augmented Reality (AR) to show residents exactly what a flood level would look like on their own property [28-30]. Additionally, local councils are exploring educational partnerships to translate technical flood studies into school lesson plans, building long-term flood awareness and resilience from the classroom up [31, 32].",
+      "sources_mentioned": [
+        "[10]",
+        "[11]",
+        "[6]",
+        "[5]",
+        "[12]",
+        "[7]",
+        "[18]",
+        "[4]",
+        "[19]"
+      ]
+    },
+    {
+      "id": "theme-2",
+      "theme": "Mappable Constraints",
+      "description": "",
+      "subtopics": [
+        "Flood extents and frequencies",
+        "Flood function (conveyance and storage)",
+        "Flood hazard (depth x velocity)",
+        "Flood range (scale relative to DFE)",
+        "Emergency response classification (FERCCs)"
+      ],
+      "query_response": "**Mappable constraints** represent the specific, quantifiable elements of flood behaviour and land limitations that can be visually depicted to inform risk management. In the context of flood planning, these constraints typically include [1-3]:\n\n*   **Flood extents of different floods:** Mapping the boundaries of floods with different frequencies helps establish a baseline for understanding how often specific areas are exposed to inundation [1, 4].\n*   **Flood function:** This categorizes the specific role an area plays during a flood, such as flow conveyance (floodways and flowpaths) or flood storage [1, 3].\n*   **Flood hazard:** This constraint maps the danger posed by the combination of peak flow depth and velocity. Hazard is highly dynamic, changing across the floodplain, throughout the duration of a single event, and between floods of different magnitudes [1, 3].\n*   **Flood range:** This illustrates how flood extents, functions, depths, velocities, and hazards shift in relation to the scale of the flood compared to the Defined Flood Event (DFE) [2, 3].\n*   **Flood Emergency Response Classification of Communities (FERCC):** Mapping these classifications helps disaster managers understand the variations in evacuation issues and the consequences flooding will have on different communities [2, 3].\n\n**The Larger Context: Managing Flooding Beyond Maps**\n\nWhile these mappable constraints are vital indicators of where impacts and risks may occur, they only tell part of the story [5]. A core theme of the *Managing Flooding Beyond Maps* framework is that **\"maps alone do not provide a complete picture of the flood risk or the complexities that may influence its management\"** [6]. Maps are essentially technical drawings that provide a particular type of information about a specific area, but managing the actual risk requires a much broader understanding [7].\n\nTo make truly informed decisions, floodplain managers must look beyond the drawn boundaries and consider a wide array of dynamic, physical, and social factors:\n\n*   **Storm and Catchment Variables:** Flood risk is heavily influenced by unmapped variables such as antecedent weather conditions, the specific types of storms driving the flooding (e.g., East Coast Lows), and storm durations and patterns, which have a major influence on emergency management [8].\n*   **Hydraulic and Infrastructure Complexities:** Practitioners must consider how flowpaths vary drastically between small, frequent floods and rare, extreme events [9]. They must also account for localized flood behaviour around hydraulic structures like bridges, the current condition of mitigation infrastructure, and the time it takes for mitigation benefits (including nature-based solutions) to be realized [9].\n*   **Emergency Response and Human Impact:** A map cannot fully capture the human experience of a flood. Risk management must factor in the timing, rate of rise, and duration of the flood, as these dictate whether communities will be isolated or exposed to secondary risks like fires or medical emergencies [10]. It also requires understanding evacuation limitations—specifically, whether access routes will remain trafficable long enough for people to reach safety—and planning for disruptions to critical community services like power, communications, and water [8, 10]. \n\nUltimately, while mapping constraints provides the technical foundation for understanding flood behaviour, managing the risk requires integrating these maps with real-world advice on community vulnerability, emergency planning, and the unpredictable nature of extreme weather events [6, 7].",
+      "sources_mentioned": [
+        "[10]",
+        "[9]",
+        "[6]",
+        "[5]",
+        "[7]",
+        "[8]"
+      ]
+    },
+    {
+      "id": "theme-3",
+      "theme": "Factors Beyond Maps",
+      "description": "",
+      "subtopics": [
+        "Community Impact",
+        "Flood Behaviour"
+      ],
+      "query_response": "**Managing Flooding Beyond Maps** is a concept emphasizing that while mapping is a fundamental part of the flood risk management process, maps alone do not provide a complete picture of flood risk or the complexities involved in managing it [1]. Maps primarily serve as an indicator of where impacts or risks might occur, but they only tell \"part of the story\" [2]. To properly inform decision-making, mapping must be combined with technical information, risk-informed advice, and a deep understanding of various dynamic factors [3].\n\nWithin this larger context, **several critical \"Factors Beyond Maps\" influence the consequences a community faces during a flood**:\n*   **Vulnerability:** Different types of developments and the people who use them have varying degrees of vulnerability to flooding [4]. At the exact same level of physical exposure, the consequences will be significantly worse for more vulnerable developments or users [4].\n*   **Emergency Management (EM) Planning Arrangements:** State and local flood plans are essential because they identify how different areas within a community may need to respond to a specific flood event [5].\n*   **Evacuation Limitations and Capability:** The consequences of a flood are directly influenced by whether there is effective flood access that remains trafficable long enough to allow the community to evacuate to safety [5].\n*   **Flood Timing, Rate of Rise, and Duration:** The time it takes for floodwaters to reach critical levels influences the degree of isolation and the potential for people to be exposed to secondary risks, such as medical emergencies or fires [5].\n*   **Effective Flood Warning and Warning Time:** Reliable warning services that are understood and acted upon by the community are crucial, particularly in riverine situations [6]. Furthermore, it is important to calculate the \"effective warning time,\" which is the actual time people have to take appropriate actions (like evacuating or reducing damage), and is always less than the total warning time available [6].\n*   **Disruptions to Community Services:** Flooding can disrupt essential services like power, communications, water, and wastewater in both directly and indirectly affected areas [7].\n\nIn addition to these community consequence factors, **managing risk also requires understanding broader environmental and structural variables**, including:\n*   The specific types of storms driving the flooding (e.g., east coast lows), storm durations, and antecedent catchment conditions [7].\n*   How flood flowpaths vary between small, rare, and extreme events [8].\n*   The condition of existing mitigation infrastructure and flood behavior around hydraulic structures like bridges [8].\n*   The natural variability of the environment, such as the confluences of multiple waterways and the impact of nature-based solutions [8].\n\nUltimately, managing flood risk is a highly complex issue [1]. It requires taking these unmapped, dynamic factors into account alongside traditional mapping to ensure that emergency management and land use planning are guided by well-informed, risk-based decisions [1, 2].",
+      "sources_mentioned": [
+        "[6]",
+        "[5]",
+        "[3]",
+        "[7]",
+        "[2]",
+        "[4]",
+        "[8]",
+        "[1]"
+      ]
+    },
+    {
+      "id": "theme-4",
+      "theme": "Unprecedented vs Unplanned",
+      "description": "",
+      "subtopics": [
+        "Unprecedented relates to impact level",
+        "Catastrophic events overwhelm resources",
+        "Planning reduces unprecedented impacts",
+        "Need for robust, scalable responses"
+      ],
+      "query_response": "The term \"unprecedented\" is frequently used to describe extreme flood events with severe, unanticipated impacts, but this label is increasingly challenged by industry experts as potentially masking what is actually \"unplanned\" [1, 2]. While the media often portrays severe events—such as the 2022 Australian floods—as unprecedented \"rain bombs,\" historical analyses show that such events are not entirely without precedent and remain plausible under existing climate conditions [3-5]. \n\nInstead of strictly referring to the hydrological size of a flood, **\"unprecedented\" is more accurately defined by the degree of impact an event has on people, property, and critical infrastructure** [6]. According to emergency management frameworks, a disaster becomes catastrophic or unprecedented when it **overwhelms our current arrangements, technical systems, and resource capacity, ultimately degrading our ability to govern and respond effectively** [7, 8]. Because all plans have a breaking point where capacity is reached, the threshold for an event becoming \"unprecedented\" is not fixed; rather, it is directly relative to the quality of the prevention, planning, and response actions taken by stakeholders [9, 10]. Consequently, the label \"unprecedented\" is sometimes used to excuse a sub-optimal response before, during, or after a flood [2].\n\nTo prevent severe hazards from becoming unprecedented disasters, planning must evolve into **\"Managing Flooding Beyond Maps\"** [11]. While flood maps are fundamental tools that illustrate flood extents, flow conveyance, depths, velocities, and hazards [12, 13], **maps alone only tell part of the story and cannot be used in isolation to inform complex safety decisions** [14, 15]. \n\nManaging risks effectively requires looking beyond static maps to understand the dynamic, real-world consequences of a flood. This broader context requires assessing:\n*   **Community Vulnerability:** Recognizing that different types of developments and their users have varying degrees of vulnerability to flood impacts, meaning that the same level of flood exposure can result in vastly different consequences [16].\n*   **Evacuation Limitations:** Assessing whether safe, trafficable access routes will remain open long enough for people to escape, which requires factoring in the flood's timing, rate of rise, and total duration [17].\n*   **Service Disruptions:** Planning for the indirect consequences of flooding, such as the isolation caused by the loss of power, water, sewerage, and telecommunications [18].\n*   **Dynamic Variables:** Accounting for antecedent catchment conditions, complex storm patterns, and how flowpaths naturally vary between small, frequent events and extreme, infrequent events [18, 19].\n\nUltimately, our planning efforts and ability to effectively manage resources directly reduce the impact of an event [20]. **Because we cannot predict the exact size of every disaster or realistically plan for the largest possible event, we must focus on planning for human responses and building resilient communities that can bounce back** [21]. By integrating dynamic flood intelligence with a deep understanding of vulnerabilities that maps alone cannot show, emergency managers can extend their operational capacity and prevent extreme weather events from turning into \"unprecedented\" catastrophes [15, 22, 23].",
+      "sources_mentioned": [
+        "[16]",
+        "[11]",
+        "[6]",
+        "[2]",
+        "[18]",
+        "[17]",
+        "[20]",
+        "[21]"
+      ]
+    },
+    {
+      "id": "theme-5",
+      "theme": "Best Practice Solutions",
+      "description": "",
+      "subtopics": [
+        "Dynamic Intelligence (TECCH Dashboard)",
+        "PPRR Framework"
+      ],
+      "query_response": "While maps are a foundational tool for determining flood constraints such as inundation extents, flow conveyance, and peak hazard levels, they only **\"tell part of the story of flood risk\"** [1]. Managing flooding \"beyond maps\" requires recognizing that a static map cannot be used in isolation to inform complex decisions; it must be combined with technical advice, an understanding of compounding vulnerabilities, and risk-informed strategies [1-3]. \n\nWithin this broader context, the sources identify several Best Practice Solutions for modern floodplain management:\n\n**1. Transitioning to Real-Time Decision Support Systems**\nStatic maps are often too slow and theoretical for dynamic emergency response [4, 5]. Best practice involves shifting toward real-time Decision Support Systems (DSS) and continuous flood intelligence that deliver **\"the right information, in the right format, to the right people, at the right time\"** [6-8]. By integrating rainfall nowcasting, gauge telemetry, and machine learning (ML) algorithms, authorities can rapidly forecast flood depths and extents for incoming storms [5, 9-11]. This allows disaster management to become preventative rather than reactive, providing critical lead time to protect assets and coordinate evacuations [5, 11].\n\n**2. Empowering the Community with Usable Data**\nFlood mapping is only effective if the public can understand and act upon it [12, 13]. Traditional hydraulic maps can be technically intimidating, so best practice solutions focus on **translating complex data into intuitive, community-facing formats** [14, 15]. Examples include:\n*   **Interactive Public Portals:** Dashboards that link local river gauges to specific property risks, allowing residents to view estimated water depths and flood intelligence cards rather than just a blue polygon on a map [16-20].\n*   **Advanced Visualizations:** The use of 3D mapping and Augmented Reality (AR) to overlay predicted flood levels directly onto Google Street View images of local homes, helping residents visualize the true, physical threat [21, 22].\n*   **Proactive Education:** Initiatives that take flood studies \"off the planning shelf and into the classroom\" via specialized lesson plans, ensuring that the next generation understands their local catchment and flood safety profiles [23, 24].\n\n**3. Integrating Emergency and Floodplain Management**\nBest practice dictates that Flood Risk Management (FRM) and Emergency Management (EM) must operate as a unified system [25, 26]. **Flood emergency plans must be risk-based, scalable, and adaptable to all forms of flooding** [27]. This requires a \"Total Flood Warning System\" that interprets flood data to outline specific consequences—such as road closures or isolated communities—based on real-time stream heights, enabling a coordinated, whole-of-community response [27-29].\n\n**4. Implementing a Holistic Suite of Mitigation Strategies**\nBecause maps reveal that it is impossible to eliminate all flood risk, managers must adopt a diverse portfolio of mitigation measures suited to specific local conditions [30, 31]:\n*   **Nature-Based Solutions (NbS):** Moving away from exclusively relying on conventional engineering, best practice increasingly incorporates NbS to \"make room for the river.\" Solutions such as restoring wetlands, reconnecting floodplains, and reforestation help to naturally detain, reduce, and divert floodwaters [32-34]. Crucially, NbS build long-term landscape resilience and offer co-benefits like carbon sequestration, water quality improvement, and biodiversity conservation [33-36].\n*   **Robust Structural Interventions:** Where infrastructure is built, it requires rigorous civil and geotechnical design because \"WATER IS POWERFUL,\" and unmaintained levees or bridge abutments frequently fail during major events [37, 38]. Where legacy planning has left properties highly exposed, custom flood barriers are recognized as a valid risk-reduction tool, though they are not a substitute for keeping development out of the floodplain [39-41].\n*   **Non-Structural Measures:** In areas where physical mitigation or levees are not economically or practically viable, best practice relies on strict land-use planning controls, community flood readiness, and voluntary purchase (buyback) programs to permanently remove residents from high-hazard zones [42, 43].",
+      "sources_mentioned": [
+        "[27]",
+        "[1]"
+      ]
+    },
+    {
+      "id": "theme-6",
+      "theme": "Warning Infrastructure",
+      "description": "",
+      "subtopics": [
+        "Water level and rainfall sensors",
+        "Automated flood forecasting systems",
+        "Total Warning System (TWS) application"
+      ],
+      "query_response": "While flood maps are fundamental tools that illustrate flood extents, depths, and hazards, managing flood risk effectively requires moving \"beyond maps\" to consider dynamic factors that static drawings cannot fully capture [1-4]. Decision-making and risk management must also account for catchment conditions, variations in flowpaths, community vulnerability, disruptions to essential services, and crucially, **effective warning time** [3, 5-7].\n\nIn this broader context, warning infrastructure—such as rain and stream water level gauges, radar, and satellite imagery—acts as the backbone of effective flood warning systems, buying communities the critical time needed to evacuate or mitigate damage [6, 8]. However, relying on this infrastructure presents several challenges that must be managed.\n\n**Limitations of Current Warning Infrastructure**\nMuch of the existing flood monitoring infrastructure developed organically over time for other purposes, such as water supply operations or environmental monitoring, rather than being specifically designed for flood forecasting [9]. This ad-hoc development has led to significant vulnerabilities:\n*   **Coverage and Reliability Issues:** Gauges are sometimes not located close enough to at-risk sites, or they fail to remain operational during the peak of a flood [8]. There are also instances where critical tributaries remain entirely unmonitored [9].\n*   **Data Quality and Calibration:** Many forecast locations lack high-confidence rating curves that extend accurately to extreme high-flow and flood levels [9, 10]. \n*   **System Vulnerability:** During extreme, \"unprecedented\" events, institutional warning systems can become completely overwhelmed. Gauges can fail due to poor maintenance or operational faults, and the communication networks required to transmit their data can experience days-long outages [11].\n\n**Modernizing Infrastructure to Improve Flood Intelligence**\nTo build resilience and truly manage flooding beyond the limitations of maps, emergency management agencies and local governments are pursuing several avenues to overhaul warning infrastructure:\n\n*   **Network Optimization and Collaborative Management:** Initiatives like the NSW flood warning improvement project and South Australia's Gawler River project are focused on identifying critical knowledge gaps [9, 12]. This involves systematically assessing the durability of existing enclosures, upgrading sensors so they are accurately surveyed to local terrain, installing new gauges in priority locations, and establishing formal partnership models between agencies to ensure shared ownership, maintenance, and data sharing [10, 13-15].\n*   **Integrating Machine Learning and Real-Time Technologies:** Traditional 2D hydrodynamic models are often too slow to be useful during rapid-onset or flash flooding [16]. To bridge this gap, agencies are integrating existing gauge and radar infrastructure with Machine Learning (ML) and digital twin platforms [17, 18]. This hybrid approach ingests live data from the infrastructure network to produce rapid \"nowcasts\" and real-time flood predictions, triggering automated alarms that give authorities the extra time needed to respond [17, 19, 20].\n*   **Embracing Crowdsourced and Community-Led Data:** Recognizing that official infrastructure can fail, there is a growing movement to utilize alternative data streams. Hydrologists are assessing the viability of incorporating data from the hundreds of thousands of uncontrolled Personal Weather Stations (PWS) worldwide [21]. Furthermore, following devastating infrastructure failures, communities are establishing localized \"flood sentinel\" networks, where residents collect and communicate data from privately owned rain gauges to provide immediate, reliable catchment intelligence [11]. \n\nUltimately, integrating robust, purpose-built warning infrastructure with advanced predictive technologies and localized community intelligence is what allows disaster managers to transition from relying on static flood maps to executing proactive, real-time emergency responses [11, 22, 23].",
+      "sources_mentioned": [
+        "[16]",
+        "[11]",
+        "[9]",
+        "[8]",
+        "[21]"
+      ]
+    }
+  ],
+  "source_index": {
+    "[10]": {
+      "themes": [
+        "Flood Mapping Limitations",
+        "Mappable Constraints"
+      ],
+      "first_mentioned_in": "Flood Mapping Limitations"
+    },
+    "[11]": {
+      "themes": [
+        "Flood Mapping Limitations",
+        "Unprecedented vs Unplanned",
+        "Warning Infrastructure"
+      ],
+      "first_mentioned_in": "Flood Mapping Limitations"
+    },
+    "[6]": {
+      "themes": [
+        "Flood Mapping Limitations",
+        "Mappable Constraints",
+        "Factors Beyond Maps",
+        "Unprecedented vs Unplanned"
+      ],
+      "first_mentioned_in": "Flood Mapping Limitations"
+    },
+    "[5]": {
+      "themes": [
+        "Flood Mapping Limitations",
+        "Mappable Constraints",
+        "Factors Beyond Maps"
+      ],
+      "first_mentioned_in": "Flood Mapping Limitations"
+    },
+    "[12]": {
+      "themes": [
+        "Flood Mapping Limitations"
+      ],
+      "first_mentioned_in": "Flood Mapping Limitations"
+    },
+    "[7]": {
+      "themes": [
+        "Flood Mapping Limitations",
+        "Mappable Constraints",
+        "Factors Beyond Maps"
+      ],
+      "first_mentioned_in": "Flood Mapping Limitations"
+    },
+    "[18]": {
+      "themes": [
+        "Flood Mapping Limitations",
+        "Unprecedented vs Unplanned"
+      ],
+      "first_mentioned_in": "Flood Mapping Limitations"
+    },
+    "[4]": {
+      "themes": [
+        "Flood Mapping Limitations",
+        "Factors Beyond Maps"
+      ],
+      "first_mentioned_in": "Flood Mapping Limitations"
+    },
+    "[19]": {
+      "themes": [
+        "Flood Mapping Limitations"
+      ],
+      "first_mentioned_in": "Flood Mapping Limitations"
+    },
+    "[9]": {
+      "themes": [
+        "Mappable Constraints",
+        "Warning Infrastructure"
+      ],
+      "first_mentioned_in": "Mappable Constraints"
+    },
+    "[8]": {
+      "themes": [
+        "Mappable Constraints",
+        "Factors Beyond Maps",
+        "Warning Infrastructure"
+      ],
+      "first_mentioned_in": "Mappable Constraints"
+    },
+    "[3]": {
+      "themes": [
+        "Factors Beyond Maps"
+      ],
+      "first_mentioned_in": "Factors Beyond Maps"
+    },
+    "[2]": {
+      "themes": [
+        "Factors Beyond Maps",
+        "Unprecedented vs Unplanned"
+      ],
+      "first_mentioned_in": "Factors Beyond Maps"
+    },
+    "[1]": {
+      "themes": [
+        "Factors Beyond Maps",
+        "Best Practice Solutions"
+      ],
+      "first_mentioned_in": "Factors Beyond Maps"
+    },
+    "[16]": {
+      "themes": [
+        "Unprecedented vs Unplanned",
+        "Warning Infrastructure"
+      ],
+      "first_mentioned_in": "Unprecedented vs Unplanned"
+    },
+    "[17]": {
+      "themes": [
+        "Unprecedented vs Unplanned"
+      ],
+      "first_mentioned_in": "Unprecedented vs Unplanned"
+    },
+    "[20]": {
+      "themes": [
+        "Unprecedented vs Unplanned"
+      ],
+      "first_mentioned_in": "Unprecedented vs Unplanned"
+    },
+    "[21]": {
+      "themes": [
+        "Unprecedented vs Unplanned",
+        "Warning Infrastructure"
+      ],
+      "first_mentioned_in": "Unprecedented vs Unplanned"
+    },
+    "[27]": {
+      "themes": [
+        "Best Practice Solutions"
+      ],
+      "first_mentioned_in": "Best Practice Solutions"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+Theme: Governance and Schemes
+Conference: FMA 2022
+Notebook: 3dcf95a8-33db-480d-be1b-deb1448b0d2e
+Query: Discuss what these sources say about Governance and Schemes, in the larger context of Flood Risk Management and Adaptation.
+Sources Found: [16], [9], [29], [30], [25], [28]
+============================================================
+
+**Governance structures and land use planning schemes are repeatedly highlighted as the most effective mechanisms society has to manage and adapt to flood risks.** Because an estimated 40% of the properties that will exist in 2050 have not yet been constructed, the decisions governing how flood-prone land is developed today will dictate the long-term resilience of communities [1, 2].
+
+**Decentralised and Collaborative Governance Models**
+Effective flood risk management (FRM) requires multi-disciplinary, collaborative governance models with shared and clearly articulated roles across different levels of government and agencies:
+*   **Queensland:** Governance is driven by the *Queensland Flood Risk Management Framework*, which operates on a collaborative, decentralised model [3-5]. The Queensland Reconstruction Authority (QRA) provides central leadership by coordinating whole-of-government implementation, breaking down institutional silos, providing agile funding mechanisms, and acting as a single point of truth for stakeholders [6-8].
+*   **Victoria:** The *Victorian Floodplain Management Strategy (VFMS)* clarifies the roles of government agencies and local authorities, empowering Catchment Management Authorities (CMAs) and local councils to develop regional strategies, set mitigation priorities, and manage data collection networks [9].
+*   **South Australia:** Responsibilities are divided, with the Bureau of Meteorology managing flood forecasting for major rivers, while the Department for Environment and Water (DEW) and the SA State Emergency Service (SASES) collaboratively set and manage flood classifications and warning thresholds [10, 11].
+*   **New Zealand:** Regional councils (like Greater Wellington) are mandated to manage regionally significant rivers and design structural defenses, while Territorial Authorities handle smaller urban streams and enforce development controls through District Planning rules [12, 13]. This requires close partnerships between councils, the Crown, indigenous groups (mana whenua), and the community to secure co-investment for adaptation [14, 15].
+
+**The Role of Planning Schemes in Adaptation**
+Local planning schemes are the primary vehicle for translating high-level adaptation policies into on-ground realities:
+*   **Moving Beyond the 1% AEP:** Overreliance on the 1% Annual Exceedance Probability (AEP) flood standard has left communities highly sensitive to climate-induced changes in flood risk [16]. In response, New South Wales introduced new planning circulars and guidelines that allow councils to implement more contemporary, risk-based land use planning in their Local Environmental Plans (LEPs), enabling development controls for events larger than the 1% AEP if the risk to life or evacuation warrants it [17-19].
+*   **Coastal Adaptation Pathways:** For coastal communities facing sea level rise, planning schemes must be highly adaptable. Decision-support frameworks are being designed to establish Nominal Flood Protection Levels (NFPL) that can trigger timely amendments to flood-related land use and development controls in coastal planning schemes as environmental conditions worsen [20-22].
+*   **State-Wide Integration:** South Australia has amended its Planning & Design Code to include state-wide flooding hazard overlays, reducing policy conflicts and embedding consistent mapping into development assessments [23, 24]. Similarly, the ACT is rewriting its Territory Plan to better integrate development controls with its Strategic Flood Risk Management Plan [25]. 
+*   **Local Scheme Amendments:** The Toowoomba Regional Council implemented a highly successful Planning Scheme Amendment after completing comprehensive flood studies for 30 townships, establishing robust frameworks to regulate development in exposed areas [26, 27].
+
+**Implementing Flood Emergency Management Plans (FEMPs)**
+Within these planning schemes, **Flood Emergency Management Plans (FEMPs) are frequently mandated as risk management conditions for new developments** [28]. FEMPs help minimize the exposure of people and property to residual risks and ensure that new infrastructure does not place an undue burden on local government disaster response capacities or emergency services [29]. 
+
+**Shifting Values and Long-Term Choices**
+Ultimately, governance bodies are increasingly forced to make difficult, value-based choices. Authorities must balance the immediate demands for land use with the need to avoid catastrophic future damage costs [30]. As climate change accelerates, governance frameworks are increasingly acknowledging that **decision-makers face a stark choice between funding immensely complex and expensive engineering defence projects versus initiating the planned retreat, relocation, or structural adaptation of highly exposed communities** [31, 32].

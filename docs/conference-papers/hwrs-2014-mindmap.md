@@ -58,7 +58,7 @@ HWRS 2014
 
 ## Data
 
-Full JSON data: [hwrs_2014.json](../../data/conference-papers/hwrs_2014.json)
+Full JSON data: [hwrs_2014.json](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/master/docs/data/conference-papers/hwrs_2014.json)
 
 ---
 

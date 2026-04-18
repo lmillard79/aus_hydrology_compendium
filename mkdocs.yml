@@ -1,6 +1,6 @@
 site_name: Australian Hydrology Compendium
 site_description: A searchable index of flood hydrology and water resources knowledge for Australian practitioners
-site_url: https://lmillard79.github.io/aus-hydrology-compendium
+site_url: https://lamilla79.hf.space/aus_hydrology_compendium
 repo_url: https://github.com/lmillard79/Aus_Hydrology_Compendium
 repo_name: lmillard79/Aus_Hydrology_Compendium
 
@@ -75,8 +75,17 @@ nav:
   - Conference Papers:
     - Overview: conference-papers/index.md
     - FMA Conferences:
-      - FMA 2025: conference-papers/fma-2025-mindmap.md
-      - FMA 2024: conference-papers/fma-2024-mindmap.md
+      - FMA 2025:
+        - Overview: conference-papers/fma-2025-mindmap.md
+        - Disaster Adaptation Plans: conference-papers/fma-2025/disaster-adaptation-plans.md
+        - Modelling and Analysis: conference-papers/fma-2025/modelling-analysis.md
+        - Infrastructure and Land Planning: conference-papers/fma-2025/infrastructure-land-planning.md
+        - Governance and Programs: conference-papers/fma-2025/governance-programs.md
+      - FMA 2024:
+        - Overview: conference-papers/fma-2024-mindmap.md
+        - Infragravity Waves: conference-papers/fma-2024/infragravity-waves.md
+        - DT01 Flood Damage Tool: conference-papers/fma-2024/dt01-flood-damage-tool.md
+        - Emergency Resources: conference-papers/fma-2024/emergency-resources.md
       - FMA 2023: conference-papers/fma-2023-mindmap.md
       - FMA 2022: conference-papers/fma-2022-mindmap.md
       - FMA 2020: conference-papers/fma-2020-mindmap.md

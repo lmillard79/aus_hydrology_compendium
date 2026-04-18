@@ -1,0 +1,500 @@
+{
+  "metadata": {
+    "conference": "HWRS",
+    "year": 2012,
+    "notebook_id": "46346d2d-10fc-444a-b311-e38a76caf180",
+    "mind_map_title": "Water Resources Management and Modelling",
+    "queried_date": "2026-04-18T23:15:37.918544+00:00",
+    "total_themes": 5
+  },
+  "themes": [
+    {
+      "id": "theme-1",
+      "theme": "Hydraulic Models and Parameters",
+      "description": "",
+      "subtopics": [
+        "Manning Roughness Coefficient (n)",
+        "Velocity Measurement Technologies"
+      ],
+      "query_response": "**Hydraulic models and their associated parameters are critical tools in modern Water Resources Management, providing the detailed flow behavior, routing, and inundation dynamics necessary for strategic planning and real-time operations** [1-3]. \n\nIn the larger context of water management, hydraulic models are frequently coupled with broader hydrological (catchment) and water quality models to create comprehensive decision-support frameworks for Integrated Water Resources Management (IWRM) [1, 2, 4]. While conceptual hydrologic models are highly efficient at simulating catchment runoff and performing long-term stochastic sampling, they generally do not explicitly represent the physical characteristics of a river network, complex floodplain breakouts, or downstream tidal and backwater effects [5]. To bridge this gap, hydrodynamic models (such as TUFLOW, MIKE 11, MIKE 21, HEC-RAS, and ANUGA) are employed to accurately resolve these physical interactions [6-10]. In some advanced frameworks, the results from computationally intensive hydraulic models are extracted into multi-dimensional \"look-up tables\" that are integrated back into fast-running hydrologic models, allowing managers to efficiently determine peak water levels in complex, tide-influenced floodplains [11-13].\n\n**A fundamental parameter governing the accuracy of hydraulic models is the Manning roughness coefficient ('n'), which dictates flow resistance and the energy gradient** [14, 15]. Because spatial and temporal variations make 'n' exceedingly difficult to determine in natural channels, poor parameter assessment can lead to substantial uncertainty in peak discharge estimation [14]. Recent field techniques utilize Acoustic-Doppler Current Profilers (ADCP) to measure vertical velocity profiles in rivers, which allows modelers to estimate boundary shear velocity and Nikuradse’s equivalent sand-roughness to more accurately calculate Manning's 'n' [14, 15]. In large-scale floodplain studies, surface roughness parameters are often estimated using remotely sensed land-use maps, aerial photography, and satellite imagery [10]. For hydraulic models predicting river-bed evolution and sediment transport (e.g., BASEMENT), hydraulic parameters like bed roughness, bed-load factors, and bed-form factors must be carefully calibrated to account for the form drag induced by natural bed features like alternate bars and riffles [16-18].\n\nThe sources discuss hydraulic models across different dimensional scales, noting specific capabilities and limitations:\n*   **1D and 2D Models:** Models solving the Shallow Water Wave (SWW) equations using Finite Volume approaches and unstructured, variable-sized grids have proven highly stable for mapping urban overland flow paths, capturing shocks, and handling wetting and drying dynamically [9, 19, 20]. However, 2D depth-averaged numerical models have inherent limitations; they can fail to adequately predict localized cross-channel velocity distributions or complex 3D hydraulic jumps around buildings, producing a more \"averaged\" velocity profile compared to physical models, which has implications for quantifying localized structural flood hazards [21, 22]. Furthermore, using flawed flow data from a hydrologic model as the input for a 2D hydraulic model can lead to severely erroneous flood level predictions [23].\n*   **3D Models:** For complex or morphologically unique environments, three-dimensional hydrodynamic models (such as ELCOM) are deployed [24]. These models can identify specific areas within a water body that experience significantly different hydrodynamic regimes, trace the transport and fate of riverine inflows, and calculate hydraulic retention times—vital information for managing localized water quality issues such as aquatic weed proliferation or severe fish kills [25, 26].\n\n**Ultimately, the application of accurately parameterized hydraulic models allows water managers to optimize river systems to balance competing environmental and consumptive demands** [8, 24]. For instance, real-time hydrodynamic models embedded in decision support systems enable operators to accurately route flows and synchronize dam releases with natural tributary inflows [3, 8]. This allows managers to target environmental wetland watering (\"piggybacking\" on natural floods) while simultaneously minimizing operational water surplus and transmission losses [8]. Additionally, spatial hydrodynamic modeling provides the necessary metrics—such as inundation extent, depth, and duration—to assess overbank flood pulses, ensuring the hydrological connectivity and ecological health of sensitive floodplain wetlands [10, 27, 28].",
+      "sources_mentioned": [
+        "[10]",
+        "[24]",
+        "[5]",
+        "[14]",
+        "[23]",
+        "[8]"
+      ]
+    },
+    {
+      "id": "theme-2",
+      "theme": "Design Flood Estimation Techniques",
+      "description": "",
+      "subtopics": [
+        "Design Event Approach (DEA)",
+        "Joint Probability Approach (JPA)",
+        "South African JPV Methodology"
+      ],
+      "query_response": "**Design flood estimation is a fundamental component of water resources management, providing essential metrics for the planning, construction, and safety evaluation of hydraulic structures (such as dams and bridges), floodplain management, and flood insurance studies** [1-4]. The sources provide a comprehensive overview of how flood estimation techniques are evolving from traditional, deterministic methods to advanced probabilistic frameworks, and how they integrate into broader regional planning and infrastructure management.\n\n### Limitations of Traditional Flood Estimation Methods\nHistorically, flood estimation has relied on the **Design Event Approach (DEA)**, which transforms a design rainfall of a specific Average Recurrence Interval (ARI) into a design flood of the same probability [1, 5]. \n*   **The \"AEP Neutrality\" Assumption:** DEA relies on the flawed assumption that model inputs (such as initial loss, continuing loss, temporal patterns, and antecedent moisture) are \"AEP neutral\"—meaning they can be represented by a fixed measure of central tendency [1, 5, 6].\n*   **Inconsistencies and Bias:** Treating these highly variable, flood-producing factors as fixed inputs ignores their probabilistic nature, which frequently leads to significant inconsistencies, biases, and either over- or under-estimation of design floods [1, 5-8].\n*   **Ignoring Seasonality:** Traditional methods often ignore the seasonal variation of factors like baseflow, soil moisture capacity, and rainfall volumes [9-11]. For example, in south-west Western Australia, combining summer and winter flood estimates without accounting for seasonal differences can severely skew the estimation of rare and extreme events [10-12].\n\n### Advanced Probabilistic and Monte Carlo Techniques\nTo overcome the limitations of DEA, modern hydrology increasingly advocates for the **Joint Probability Approach (JPA)** combined with the **Monte Carlo Simulation Technique (MCST)**. \n*   **Stochastic Input Sampling:** Rather than using fixed averages, the MCST explicitly accounts for the natural variability and correlation of key inputs [5, 7, 13]. By drawing thousands of random samples from probability distributions for variables like rainfall duration, inter-event duration, initial/continuing losses, and initial reservoir levels, hydrologic models (such as RORB) can generate probability-distributed flood outputs [13-18].\n*   **Seasonal Integration:** Incorporating seasonal variability into Monte Carlo simulations—by generating separate flood frequency curves for different seasons and combining them—substantially improves the accuracy of large-to-extreme design flood estimates [12, 17-20]. \n*   **Joint Peak-Volume Design:** Specifically for dam safety, it is critical to evaluate not just the flood peak, but also the flood volume and hydrograph shape. Innovative approaches, like the Joint Peak-Volume (JPV) methodology developed in South Africa, allow designers to conditionally link the empirical frequency of a flood's volume to a specific design flood peak, yielding a more robust safety evaluation [21-24].\n\n### Regionalisation for Ungauged Catchments\nA persistent challenge in water resources modelling is predicting floods in ungauged or poorly gauged catchments [3, 25]. \n*   **Regional Flood Frequency Analysis (RFFA)** addresses this by transferring streamflow data from gauged catchments to ungauged sites within a region [3, 25]. \n*   **Advanced Regression Models:** New models, such as the Large Flood Regionalisation Model (LFRM), pool maximum flood data across vast regions using Bayesian Generalised Least Squares (BGLS) regression within a Region-of-Influence (ROI) framework. This method incorporates spatial dependence models to correct for inter-site data correlation, drastically improving the estimation of large-to-rare floods (up to a 1000-year ARI) [4, 26-28].\n*   **Artificial Intelligence:** Artificial Neural Networks (ANN) and Adaptive Neuro-Fuzzy Inference Systems (ANFIS) are being deployed as highly flexible alternatives to linear regression for RFFA, as they do not require a pre-defined model structure to map complex catchment characteristics to flood quantiles [3, 29].\n\n### Integration with Hydrodynamic Modelling and Broadscale Applications\nWhile hydrologic models efficiently handle complex Monte Carlo routing, they lack the spatial resolution to accurately predict floodplain water levels where tides, backwater, or complex urban topography are involved [30]. \n*   **Coupling Hydrology and Hydraulics:** To blend the speed of hydrologic modelling with the spatial accuracy of hydraulic modelling, planners use multi-dimensional \"look-up tables\" derived from 1D/2D hydrodynamic models (e.g., MIKE FLOOD, TUFLOW). This allows the hydrologic model to quickly assign peak floodplain water levels based on dynamically simulated tide levels and tributary flows [31-34].\n*   **Urban \"Rainfall on Grid\" Modelling:** In urban areas where detailed piped drainage asset data is missing, broadscale 1D/2D modelling applies rainfall directly to a Digital Elevation Model (DEM). To account for the invisible drainage network, the design rainfall is adjusted (e.g., subtracting a 5-year ARI rainfall intensity from the 100-year ARI design rainfall), providing a reliable approximation of overland flooding extents [35-38].\n\n### Broader Water Resources Management Implications\nThe precision of design flood estimates directly informs high-stakes management tradeoffs:\n*   **Balancing Flood Mitigation and Water Security:** Storage operators (e.g., at Wivenhoe Dam or Cairn Curran Reservoir) use forecasting and advanced models (like eWater Source) to evaluate the tradeoff between keeping water levels high for supply security and releasing water to create \"airspace\" for flood mitigation [39-44].\n*   **Transport Infrastructure:** In road design, flood immunity alone is insufficient for measuring traffic disruption. Managers now calculate the **Average Annual Time of Closure (AATOC)**. Because standard design flood hydrographs often underestimate real-world closure times on low-immunity roads, empirical adjustment factors derived from streamgauge data are applied to provide a truer reflection of transport disruption [45, 46]",
+      "sources_mentioned": [
+        "[30]"
+      ]
+    },
+    {
+      "id": "theme-3",
+      "theme": "Software and Systems",
+      "description": "",
+      "subtopics": [
+        "eWater Source",
+        "Existing Tools"
+      ],
+      "query_response": "**Software and systems are increasingly central to Water Resources Management and Modelling, enabling practitioners to address complex, multi-sectoral \"wicked\" problems such as climate change, competing water demands, and environmental sustainability** [1], [2]. The sources highlight a widespread transition from isolated, domain-specific tools to integrated, highly flexible, and heavily scrutinized modelling platforms.\n\n**The Shift to Integrated Modelling Platforms: eWater Source**\nA major theme in the sources is the development and adoption of **eWater Source (formerly Source IMS), which serves as Australia's National Hydrological Modelling Platform** [3], [2]. Historically, water authorities relied on legacy models like IQQM, REALM, and MSM-BigMod, which operated at different spatial and temporal scales and were difficult to link together seamlessly [4], [5], [6]. \n*   **Unified Framework:** Source was designed to encompass and enhance the functionalities of these legacy systems [7]. It integrates the full land phase of the hydrological cycle, offering modes for catchments, river management, and river operations [3], [8]. \n*   **Water Sharing and Optimization:** Source can simulate complex management rules, such as continuous sharing Resource Assessment Systems (RAS), where individual users independently manage their share of water [8], [9], [10]. For water ordering and allocation, it allows users to choose between heuristic (rules-based) systems and optimization-based Network Linear Programming (NetLP) solvers like RELAX IV and PPRN [11], [12].\n*   **Quality Assurance:** To ensure models are robust and fit for purpose, the development of Source is backed by a rigorous quality assurance (QA) framework. This includes a hierarchy of best-practice guidelines for model application, structured code testing, peer-reviewed scientific reference guides, and automated test cases [13], [14], [15], [16].\n\n**Coupling and Interoperability of Diverse Models**\nBecause no single software can perfectly simulate every physical process, **modern systems emphasize dynamic coupling and interoperability.**\n*   **OpenMI Technology:** The Open Modelling Interface (OpenMI) standard is used to facilitate run-time data exchange between different software tools operating at varying spatial and temporal resolutions [17], [18]. For instance, OpenMI has successfully coupled the 3D finite-element groundwater model **FEFLOW** with the physically based, distributed surface water model **MIKE SHE**, combining advanced subsurface capabilities (like saltwater intrusion) with comprehensive evapotranspiration and overland flow processes [17], [19], [18].\n*   **Hydrodynamic Integration:** In the Hawkesbury-Nepean catchment, Source was used for catchment hydrology while the **TUFLOW/FABM** model managed in-stream hydrodynamics and water quality [20], [21]. Customized plug-ins rapidly export daily flow and constituent loads from Source to TUFLOW [22]. Similarly, the MIKE suite (MIKE 11, MIKE SHE) has been integrated into real-time decision support systems for river operations, utilizing data assimilation to continuously correct simulated water levels against real observations [23], [24].\n\n**Advanced Hydraulic and Hydrodynamic Modelling**\nResolving intricate flow behaviours—such as floodplain inundation, tidal interactions, and dam breaks—requires specialized 2D and 3D software:\n*   **ANUGA:** This free, open-source software solves the shallow water wave (SWW) equation using a finite-volume method on unstructured grids. It is capable of acting as both a highly detailed 2D hydraulic model and a catchment hydrologic model, routing rainfall directly over the domain to model overland flow and mainstream flooding simultaneously [25], [26], [27], [28].\n*   **ELCOM / CAEDYM:** These 3D models are extensively applied to predict velocity, temperature, salinity, and aquatic ecosystem dynamics in lakes, reservoirs, and estuaries [29], [30], [31], [32]. They support real-time reservoir management to optimize water quality and mitigate issues like algae blooms or turbidity [33], [34], [35].\n*   **MIKE FLOOD and MIKE 21:** Used to evaluate floodplain connectivity, quantify wetland inundation, and optimize environmental releases from dams [24], [36], [37]. \n\n**GIS, Spatial Data, and Topographic Tools**\nSoftware used for spatial analysis and data manipulation is vital for parameterizing hydrologic models:\n*   **GRIDDA:** A specialized Windows program developed to easily aggregate and average gridded climate data (like AWAP or SILO) across irregular, \"crooked\" catchment boundaries extracted from GIS shapefiles, bypassing the need for expensive proprietary software [38], [39].\n*   **LiDAR-RIM (Rapid Inundation Model):** This tool leverages high-resolution LiDAR Digital Elevation Models (DEMs) and simple mass balance equations to rapidly estimate flood inundation extents, depths, and volumes, serving as a computationally cheap alternative to full hydrodynamic modelling [40], [41], [42]. \n*   **DamSite:** An automated series of Python algorithms that assesses DEMs to identify topographically and hydrologically suitable locations for new dam walls, generating preliminary cost-yield potentials across millions of simulated sites [43], [44].\n\n**Optimization for Decision Support and Portfolio Management**\nSoftware is increasingly used to optimize resource trade-offs rather than simply simulating them:\n*   **Evolutionary Algorithms:** Genetic Algorithms like the Elitist Non-dominated Sorting Genetic Algorithm (NSGA-II) are paired with simulation engines (like REALM) to find optimal multi-reservoir operating rules that balance the competing demands of consumptive users and environmental flows [45], [46], [47].\n*   **Environmental Portfolios:** Optimization decision models help environmental water managers navigate complex variables (e.g., carryover rules, water pricing, antecedent ecological conditions) to strategically deploy environmental water holdings across multiple assets and over multi-year scales [48], [49], [50].\n*   **Water Distribution Systems:** Specialized software, such as **Optimizer** and **WDNetXL**, apply genetic algorithms and hydraulic solvers to find the minimum-cost designs for urban water distribution networks [51], [52].\n\n**Educational Needs for Modelling Software**\nFinally, the sources identify a gap in how software is taught. The proliferation of complex, \"easy-to-use\" simulation software creates a risk that students will treat models as \"point-and-click\" black boxes [53]. To counter this, educators advocate for open-source, modular, object-oriented frameworks like **CHIMERA** and **Hydromad** (built in R), which require students to construct conceptual models from basic elements, thereby teaching the fundamental mechanics and assumptions underlying hydrologic software [54], [55], [56], [57].",
+      "sources_mentioned": [
+        "[13]",
+        "[11]",
+        "[24]",
+        "[47]",
+        "[48]",
+        "[5]",
+        "[3]",
+        "[7]",
+        "[29]",
+        "[40]",
+        "[49]",
+        "[2]",
+        "[23]",
+        "[36]",
+        "[41]",
+        "[37]",
+        "[28]",
+        "[50]",
+        "[39]",
+        "[57]",
+        "[10]",
+        "[52]",
+        "[6]",
+        "[27]",
+        "[43]",
+        "[53]",
+        "[56]",
+        "[14]",
+        "[22]",
+        "[31]",
+        "[4]",
+        "[17]",
+        "[20]",
+        "[16]",
+        "[32]",
+        "[45]",
+        "[55]",
+        "[35]",
+        "[42]",
+        "[15]",
+        "[54]",
+        "[44]",
+        "[21]",
+        "[33]",
+        "[51]",
+        "[9]",
+        "[34]",
+        "[12]",
+        "[30]",
+        "[18]",
+        "[19]",
+        "[26]",
+        "[38]",
+        "[25]",
+        "[8]",
+        "[46]",
+        "[1]"
+      ]
+    },
+    {
+      "id": "theme-4",
+      "theme": "Water Supply and Demand Management",
+      "description": "",
+      "subtopics": [
+        "Demand-Side Strategies",
+        "System Optimization"
+      ],
+      "query_response": "Water supply and demand management is a highly complex challenge driven by rapid population growth—projected to reach 9 billion globally by 2050—and the exacerbating effects of climate change and variability [1, 2]. Within the larger context of water resources management and modelling, the focus has shifted from purely supply-driven infrastructure development to advanced, integrated demand management supported by sophisticated numerical models.\n\n**The Shift from Supply-Side to Demand-Side Management**\nHistorically, water management relied heavily on supply-driven approaches, such as constructing large dams, irrigation channels, and inter-basin transfer schemes to \"drought-proof\" regions [3-5]. However, the environmental costs of over-extraction led to a \"maturing\" phase of water management, transitioning toward sustainable use, capping extractions, and buying back water for the environment [3, 6]. \n\nConsequently, authorities increasingly rely on demand management to secure water supplies without massive new infrastructure. For example, through water conservation, leakage reduction, and demand management programs, **Sydney has maintained its total water demand at early 1970s levels, despite a population increase of 1.3 million people** [2, 7]. \n\nAt the municipal level, aggressive demand management includes reducing non-revenue water (which can account for over 35% of losses due to pipe bursts and leaks) through pressure reduction and meter installation [8-10]. Municipalities are also leveraging alternative sources; for instance, the Rustenburg municipality in South Africa established an innovative agreement to supply treated wastewater to local mines in exchange for an equivalent volume of freshwater, deferring massive capital infrastructure investments [11, 12]. At the household level, integrating water-efficient appliances and using rainwater tanks for both indoor and outdoor purposes significantly reduces per-capita mains water demand [13, 14]. \n\n**Modelling Platforms for Integrated Water Resources Management (IWRM)**\nTo manage these complex systems, modern water planners utilize advanced platforms like the eWater Source modelling system to conduct **Integrated Water Resources Management (IWRM)** [15, 16]. These models incorporate a vast array of physical and regulatory processes, combining conceptual rainfall-runoff models, flow routing, groundwater-surface water interactions, and complex management rules to balance urban, irrigation, and ecological demands [17-20]. \n\nModelling is crucial for managing operational deliveries and minimizing wasted water. Traditionally, river operators relied on experience and simple water balances, which often resulted in \"operational surplus\"—releasing more water from headwater dams than necessary to buffer against travel-time uncertainties and sudden demand cancellations (rainfall rejections) [21-23]. To resolve this, advanced decision-support systems like **Computer Aided River Management (CARM)** integrate real-time telemetry, weather forecasts, and hydrodynamic models to accurately forecast inflows and route water, vastly reducing operational surplus and saving transmission losses [24, 25].\n\n**Allocating Water: Consumptive vs. Environmental Portfolios**\nA central function of river system models is simulating **Resource Assessment Systems (RAS)**, which are the legal rules used to share water among entitlement holders [26]. For example, under \"Continuous Sharing\" frameworks, individual users are allocated a specific share of a reservoir's capacity and inflows, allowing them to manage their water accounts independently based on priority levels and transmission \"share factors\" [27-29]. Planners use ordering algorithms, such as Network Linear Programming (NetLP) or rules-based heuristics, to evaluate how to distribute water from multi-reservoir systems most efficiently while minimizing supply shortfalls [30-32].\n\nA major evolution in demand management is the integration of the environment as a legitimate, active water consumer. With governments purchasing massive water entitlements, environmental managers must now practice **Environmental Water Portfolio Management** [33, 34]. Optimisation models are being developed specifically for these managers to dictate whether to release, carry over, or trade water allocations to minimize \"environmental shortfalls\" across multiple ecological assets under varying climate conditions [35-37]. Accounting for these environmental deliveries is highly complex because, unlike irrigation water that is physically extracted through a meter, environmental water is often delivered as in-stream flow targets, making it mathematically difficult to separate from baseflows or consumptive transit water [38-40].\n\n**Managing Urban and Non-Residential Demand**\nUrban water modeling must disaggregate demand to accurately forecast needs. **Non-residential use (such as schools, hospitals, and industry) can comprise up to 30% of a city's total water use** [41]. Because non-residential behaviors are highly heterogeneous, specialized multiple linear regression models are required to forecast this sector's demand based on time-lagged historical usage, seasonal changes, and restriction policies [42-44]. \n\nTo augment urban supplies and meet demand, cities are looking toward alternative sources like stormwater harvesting. To select the best sites and systems for stormwater harvesting, planners utilize Geographic Information Systems (GIS) paired with **Multi-Criteria Decision Analysis (MCDA)**. This integrated modelling approach allows decision-makers to rank alternative projects by systematically balancing conflicting objectives, such as minimizing infrastructure costs while maximizing environmental integrity and social amenity [45-47].\n\n**Optimising Trade-offs in Water Resources**\nUltimately, water resources management and modelling are about balancing competing trade-offs. For example, dam operators must constantly weigh **flood mitigation against water supply security**. Keeping a reservoir low creates \"airspace\" to capture floodwaters and protect downstream communities, but it risks supply security if subsequent rains fail; conversely, keeping a reservoir at Full Supply Level guarantees water security but exacerbates flood risks [48-50]. \n\nTo resolve such conflicts, researchers couple simulation models with multi-objective evolutionary algorithms (such as NSGA-II). This optimisation-simulation approach identifies the \"Pareto-optimal\" operating rules for multi-reservoir systems, allowing managers to maximize the reliability of environmental flows without deteriorating the reliability of supply for consumptive users [51-54].",
+      "sources_mentioned": [
+        "[41]",
+        "[26]"
+      ]
+    },
+    {
+      "id": "theme-5",
+      "theme": "Environmental and Specific Studies",
+      "description": "",
+      "subtopics": [
+        "Estuarine Wetlands (Hunter Estuary)",
+        "Orographic Precipitation (Coffs Harbour)"
+      ],
+      "query_response": "**The integration of environmental objectives into Water Resources Management has shifted from simply allocating minimum passing flows to treating the environment as a legitimate, active water user** [1, 2]. With the acquisition of large volumes of water entitlements by government agencies (such as the Commonwealth Environmental Water Holder), environmental managers are now tasked with actively managing a complex \"water portfolio\" [1, 3]. This requires new paradigms in hydrologic modelling to ensure water is delivered to multiple environmental assets to maximize ecological outcomes, while also balancing the needs of consumptive users [2, 4].\n\n**Defining Environmental Water Requirements (EWRs) and Ecological Responses**\nTo effectively manage environmental flows, planners use Environmental Water Requirements (EWRs) as a crucial link between River Systems Models and Ecological Response Models (ERMs) [4]. Rather than simply dictating a minimum flow volume, **modern EWRs utilize complex flow metrics—such as magnitude, frequency, timing, duration, and the sequencing of floods and droughts—to simulate natural conditions and maintain healthy aquatic ecosystems** [5, 6]. \n\nBy defining specific EWRs, managers can categorize the state of an ecological asset's hydrological regime as optimal, sub-optimal, or detrimental [7]. For example:\n*   An *optimal* regime fully supports the life cycle of the asset.\n*   A *sub-optimal* regime allows individuals to persist but may halt reproduction.\n*   A *detrimental* regime risks the death of the asset [8]. \n\nTo monitor these ecological responses in real-time, bioindicators are frequently used. In the MacKenzie River, for example, algae and biofilm communities are monitored because they respond rapidly to flow disturbances and changes in water quality, providing an early warning system for managers making real-time flow release decisions [9, 10].\n\n**Advanced Modelling and Optimisation Tools**\nThe complexities of Integrated Water Resources Management (IWRM) have necessitated the development of advanced tools, such as the eWater Source modelling platform, which integrates environmental demands, water quality, and ecosystem health into a single suite [11, 12]. \n\nBecause environmental demands often exceed available water, **optimisation models have been developed to serve as transparent, systematic tools that assist portfolio managers in making complex trade-off decisions** [1]. These models help managers decide whether to release environmental water, carry it over to the next season, or trade it, based on antecedent ecological conditions, climate, and system constraints [13, 14]. Multi-objective optimisation algorithms (such as the NSGA-II) are also applied to discover globally optimal operating rules that improve the reliability of environmental flows without compromising the supply to consumptive users [15, 16]. \n\nA unique challenge in modelling these systems is \"environmental accounting.\" Unlike irrigation water that is extracted and metered at a farm gate, environmental water is delivered into a river reach and continues to flow downstream [17, 18]. Models must therefore untangle how much of the gauged river flow should be debited as environmental usage amidst natural inflows, losses, and existing minimum flow rules [17, 19]. \n\n**Insights from Specific Environmental Studies**\nThe sources highlight several specific studies where targeted modelling has been used to assess and protect ecosystems:\n*   **Murray-Darling Basin Wetlands:** The MDB contains numerous sensitive, RAMSAR-listed wetlands that rely on specific inundation frequencies. Because passive satellite remote sensing struggles to map flood extents under dense vegetation canopies, hydrodynamic models combined with high-resolution LiDAR elevation data are used to rapidly map flood inundation depths and extents, allowing river managers to optimize the delivery of environmental flows to riparian ecosystems [20, 21].\n*   **Flinders and Gilbert Catchments:** In assessing the sustainability of proposed agricultural irrigation, specific environmental studies evaluate the impacts of creating new reservoirs. These studies examine risks such as cyanobacterial blooms, greenhouse gas emissions, dissolved oxygen dynamics, and the impact of reduced streamflow on critical dry-season refugial pools for aquatic fauna [22, 23]. \n*   **MacKenzie River:** This study investigates configuring consumptive water transfers to achieve ecological benefits. By timing reservoir releases for consumptive use as \"pulses\" or \"freshes,\" managers aim to mimic natural flow regimes, scour biofilms beneficially, and top up critical refuge pools, creating a cooperative approach with multiple socioeconomic and environmental benefits [5, 24, 25].\n*   **Hawkesbury-Nepean River:** Facing urban growth pressures, linked catchment, hydrodynamic, and water quality models (like TUFLOW/FABM) are used to simulate biogeochemical processes and assess the water quality impacts of differing environmental flow regimes and wastewater servicing options [26, 27].",
+      "sources_mentioned": [
+        "[8]",
+        "[7]",
+        "[4]",
+        "[1]"
+      ]
+    }
+  ],
+  "source_index": {
+    "[10]": {
+      "themes": [
+        "Hydraulic Models and Parameters",
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Hydraulic Models and Parameters"
+    },
+    "[24]": {
+      "themes": [
+        "Hydraulic Models and Parameters",
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Hydraulic Models and Parameters"
+    },
+    "[5]": {
+      "themes": [
+        "Hydraulic Models and Parameters",
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Hydraulic Models and Parameters"
+    },
+    "[14]": {
+      "themes": [
+        "Hydraulic Models and Parameters",
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Hydraulic Models and Parameters"
+    },
+    "[23]": {
+      "themes": [
+        "Hydraulic Models and Parameters",
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Hydraulic Models and Parameters"
+    },
+    "[8]": {
+      "themes": [
+        "Hydraulic Models and Parameters",
+        "Software and Systems",
+        "Environmental and Specific Studies"
+      ],
+      "first_mentioned_in": "Hydraulic Models and Parameters"
+    },
+    "[30]": {
+      "themes": [
+        "Design Flood Estimation Techniques",
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Design Flood Estimation Techniques"
+    },
+    "[13]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[11]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[47]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[48]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[3]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[7]": {
+      "themes": [
+        "Software and Systems",
+        "Environmental and Specific Studies"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[29]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[40]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[49]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[2]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[36]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[41]": {
+      "themes": [
+        "Software and Systems",
+        "Water Supply and Demand Management"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[37]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[28]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[50]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[39]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[57]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[52]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[6]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[27]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[43]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[53]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[56]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[22]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[31]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[4]": {
+      "themes": [
+        "Software and Systems",
+        "Environmental and Specific Studies"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[17]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[20]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[16]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[32]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[45]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[55]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[35]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[42]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[15]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[54]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[44]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[21]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[33]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[51]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[9]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[34]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[12]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[18]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[19]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[26]": {
+      "themes": [
+        "Software and Systems",
+        "Water Supply and Demand Management"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[38]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[25]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[46]": {
+      "themes": [
+        "Software and Systems"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    },
+    "[1]": {
+      "themes": [
+        "Software and Systems",
+        "Environmental and Specific Studies"
+      ],
+      "first_mentioned_in": "Software and Systems"
+    }
+  }
+}

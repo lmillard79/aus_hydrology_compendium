@@ -94,6 +94,16 @@ Integration of flood risk into land use decisions, development approvals, and in
 
 ---
 
+## Theme Detail Pages
+
+Explore detailed analysis of the main research themes:
+
+- [Infragravity Waves in Coastal Creeks](fma-2024/infragravity-waves.md) - Research on surf beat phenomena and their impact on coastal creek flooding
+- [2023 DT01 Flood Damage Tool](fma-2024/dt01-flood-damage-tool.md) - Modernization of flood damage assessment and economic justification methods
+- [Emergency Resources](fma-2024/emergency-resources.md) - Information systems, warning dissemination, and post-event management
+
+---
+
 ## Data
 
 Full JSON data: [fma_2024.json](../data/conference-papers/fma_2024.json)

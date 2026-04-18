@@ -1,0 +1,29 @@
+Theme: Climate Change and WSUD
+Conference: HWRS 2018
+Notebook: 0467eef1-2c0e-4f2e-8c20-fac928515239
+Query: Discuss what these sources say about Climate Change and WSUD, in the larger context of HWRS 2018: Hydrology and Water Resources Symposium.
+Sources Found: [13], [11], [24], [5], [3], [7], [29], [2], [23], [36], [28], [10], [6], [27], [14], [22], [31], [4], [17], [20], [16], [32], [35], [15], [21], [33], [9], [34], [12], [30], [18], [19], [26], [25], [8], [1]
+============================================================
+
+**Climate change is profoundly altering Australia’s hydrology, necessitating a shift toward adaptive planning and Water Sensitive Urban Design (WSUD) to manage urban water cycles and infrastructure resilience.** Within the larger context of the HWRS 2018, the sources frame climate change as a driver of deep uncertainty, while WSUD serves as a critical, yet climate-sensitive, tool for mitigating these impacts.
+
+### The Impact of Climate Change on Australian Hydrology
+The sources indicate that climate change is causing severe reductions in water availability and shifting seasonal rainfall patterns. In Australia's south-west, a warming climate has coincided with runoff decreasing by up to 70% over the past 50 years [1], [2]. In the south-east, temperate zones are experiencing drier cool seasons and wetter summers, a shift linked to the poleward expansion of the Southern Hemisphere Hadley Cell [3], [4], [5]. 
+
+Future projections suggest these trends will worsen. For instance, streamflows in the rivers surrounding Melbourne could decline by up to 55% by 2065 under high-emission scenarios [6]. Additionally, climate change is expected to double the incidence of extreme El Niño events [7] and increase severe rainfall intensities and sea levels, which will place immense pressure on existing flood defenses and infrastructure [8]. Because short historical instrumental records (often only 50–120 years long) fail to capture the full spectrum of natural climate variability and extremes, researchers are increasingly turning to proxy records, such as tree rings, to reconstruct past hydrology and better profile future climate change risks [9], [10], [11].
+
+### The Role of WSUD
+To combat the impacts of rapid urbanization, infill development, and climate change, WSUD (also known as "source control") is presented as a standard requirement for new urban infrastructure [12], [13], [14]. By implementing decentralized systems like leaky wells, soakaways, infiltration trenches, and rainwater tanks, WSUD aims to control stormwater at its origin [12], [15]. **The primary goals of WSUD are to attenuate peak flows, reduce the size of conventional underground pipe networks, increase stormwater reuse, and prevent polluted runoff from degrading natural receiving waters** [13], [16], [17], [18].
+
+### How Climate Change Affects WSUD Performance
+The HWRS 2018 sources reveal that the performance of WSUD infrastructure is directly sensitive to changing climatic variables, such as altered rainfall depths and potential evapotranspiration (PET). 
+
+**One specific study modeling WSUD treatment devices under projected 2040 and 2065 climate conditions found that their pollutant removal efficiency is generally expected to decrease** [14]-[19], [20]. 
+*   Devices relying on physical infiltration, such as infiltration basins and bioretention systems, are particularly sensitive to climate change and will experience moderate reductions in their ability to filter Total Suspended Solids (TSS) and Total Nitrogen (TN) [21], [22], [23]. 
+*   Conversely, the efficiency of large wetlands may actually *improve* under future climates. Reduced rainfall and increased evaporation lower the volume of wetland overflow, allowing the retained water more time to undergo biological treatment processes [20]. 
+*   To ensure future environmental compliance, engineers are advised to incorporate safety margins into the sizing of new WSUD devices to account for climate-driven efficiency losses [24].
+
+Interestingly, **climate change may positively impact some localized WSUD components, such as Rainwater Harvesting (RWH)**. A case study in Sydney analyzing future rainfall data (2080-2099) projected that household water savings from RWH systems could actually increase by 10% to 19% compared to the present day, depending on the tank size, ensuring the long-term sustainability of these systems [25], [26].
+
+### The Larger Context: Adaptive Management
+In the broader context of the HWRS 2018, the intersection of climate change and WSUD highlights the need to abandon static design models in favor of dynamic, risk-based management. Because climate change introduces massive uncertainty into rainfall projections through General Circulation Models (GCMs) [27]-[28], [29], [30], water managers are moving toward **adaptive portfolio approaches** [31], [32]. This includes adopting "Integrated Water Management" frameworks that break down siloed water cycle systems to deliver resilient, multi-benefit solutions [33], [34], as well as continuously updating cost-benefit analyses for flood adaptation to account for escalating climate risks [35], [36].

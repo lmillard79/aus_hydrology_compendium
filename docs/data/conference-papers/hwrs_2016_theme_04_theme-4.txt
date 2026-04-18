@@ -1,0 +1,27 @@
+Theme: Urban Water Evolution
+Conference: HWRS 2016
+Notebook: 46b9e4ac-d902-42bc-a26b-66a8cc8e445c
+Query: Discuss what these sources say about Urban Water Evolution, in the larger context of Australian Hydrologic and Water Resource Studies.
+Sources Found: [10], [11], [16], [5], [2], [8], [1]
+============================================================
+
+The evolution of urban water in Australia represents a profound paradigm shift from traditional, single-purpose infrastructure toward integrated, sustainable systems, deeply influencing and being influenced by modern Australian hydrologic and water resource modelling practices.
+
+**The Journey to a Water Sensitive City**
+The conceptual evolution of urban water management is captured by the **Urban Water Management Transitions Framework**, which outlines the progression of municipalities through six stages: Water Supply City, Sewered City, Drained City, Waterway City, Water Cycle City, and ultimately a Water Sensitive City [1]. A historical case study of Ballarat tracks this exact trajectory:
+*   **1850s–1920 (Water Supply City)**: Focused on establishing a reticulated water supply to cope with population booms during the gold rush [2].
+*   **1921–1980 (Sewered & Drained City)**: Expansion of sewerage and drainage networks to protect public health and prevent flooding, accompanied by a dramatic increase in water usage driven by population growth and higher living standards [3, 4].
+*   **1981–2015 (Waterway & Water Cycle City)**: A stabilization and eventual decline in per capita water use, despite continued population growth [5]. This period saw a heightened focus on the quality of wastewater discharge to protect streams (Waterway City) and, prompted by the Millennium Drought, the widespread adoption of water restrictions, alternative supplies (e.g., stormwater capture, rainwater tanks), and efficiency programs (Water Cycle City) [6, 7].
+
+**Water Conservation and Water Sensitive Urban Design (WSUD)**
+The Millennium Drought was a major catalyst for urban water evolution, proving that **water conservation measures are highly cost-effective and critical for urban water security** [8]. This era underscored the necessity of **source control measures**—like rainwater harvesting, water-efficient appliances, and domestic gardens—which collectively minimized downstream infrastructure needs, reduced water demands, and protected receiving environments [9, 10].
+
+This paradigm shift recognizes that conventional urban development replaces natural landscapes with impervious surfaces and highly efficient drainage, which drastically increases the frequency, rate, and volume of stormwater runoff [11]. To combat the "urban stream syndrome," modern WSUD aims to mimic pre-development flow and water quality regimes by retaining runoff on-site [10]. Innovation in this space is ongoing; for example, recent studies are investigating the use of **crumbed tyre rubber as a substitute for coarse aggregates in raingardens** to improve hydraulic conductivity and filter heavy metals from urban stormwater runoff [12-14].
+
+**Advancements in Urban Hydrological Modelling**
+This physical evolution of cities has necessitated sweeping changes in how Australian hydrologists model urban catchments, particularly within the context of the **Australian Rainfall and Runoff (ARR) 2016** updates.
+*   **Moving Beyond the Rational Method**: Historically, urban peak flows were estimated using the urban Rational Method and isolated design storm bursts, but this simplistic approach fails to capture the complex, volume-sensitive nature of modern urban catchments [11, 15]. Testing for the ARR revision showed that simple, uncalibrated models fail to reliably reproduce actual flood frequencies [16]. Instead, current best practice favors using continuous simulation or ensembles of full-volume storms, which better account for pre-burst rainfall, varying temporal patterns, and actual catchment storage [11, 15].
+*   **Complex Runoff Routing**: Detailed models (such as Mike 11, RORB, and Mike SHE) are now preferred for urban applications because they can accurately represent variable catchment conditions, underground pipes, and overland flow paths [16-18]. Studies like the one at Narellan Creek highlight the sensitivity of these models to whether hydrologists use a traditional design storm burst or an "Embedded Design Storm" (where the burst is nested within a 24-hour storm to account for antecedent rainfall filling up urban detention basins and overcoming initial losses) [19-21].
+*   **Rain on Grid (ROG) Modelling**: Commercial 2D modelling has increasingly adopted the ROG approach, where rainfall is applied directly to the 2D hydraulic mesh (e.g., a TUFLOW model) rather than relying on a separate hydrological model [22, 23]. To make these high-resolution urban flood maps usable, new filtering methods (like the "GHD method") have been developed to trace flow paths and calculate contributing catchment areas cell-by-cell, effectively eliminating artificial puddles and mapping urban overland flow with high precision [22, 24-26].
+
+In summary, Australian studies view urban water evolution as a continuous shift toward resilience and sustainability. This requires cities to embrace diverse, fit-for-purpose water sources and WSUD, while engineers must adopt increasingly sophisticated, ensemble-based, and 2D modelling techniques to accurately capture the altered hydrology of the modern urban landscape.

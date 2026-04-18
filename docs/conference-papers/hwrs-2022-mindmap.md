@@ -59,7 +59,7 @@ HWRS 2022
 
 ## Data
 
-Full JSON data: [hwrs_2022.json](../../data/conference-papers/hwrs_2022.json)
+Full JSON data: [hwrs_2022.json](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/master/docs/data/conference-papers/hwrs_2022.json)
 
 ---
 
