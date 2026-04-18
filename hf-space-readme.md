@@ -2,7 +2,7 @@
 title: Australian Hydrology Compendium
 emoji: 🌊
 colorFrom: blue
-colorTo: teal
+colorTo: green
 sdk: static
 pinned: false
 ---
