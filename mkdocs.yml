@@ -65,5 +65,12 @@ nav:
     - Overview: arr/index.md
   - Open Data:
     - Overview: open-data/index.md
+  - FMA 2024 Conference:
+    - Overview: fma-2024/index.md
+    - Climate Change: fma-2024/climate-change.md
+    - Technical Modelling: fma-2024/technical-modelling.md
+    - Forecasting & Emergency: fma-2024/forecasting-emergency.md
+    - Community Engagement: fma-2024/community-engagement.md
+    - Urban Planning: fma-2024/urban-planning.md
   - Glossary: glossary.md
   - About: about.md
