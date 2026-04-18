@@ -41,4 +41,4 @@ The cumulative knowledge base of Australian hydrology is scattered, siloed, and 
 
 ## Contributing
 
-See [About](about.md) for the project rationale and [CONTRIBUTING](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/main/CONTRIBUTING.md) for how to add or improve content.
+See [About](about.md) for the project rationale and [CONTRIBUTING](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/master/CONTRIBUTING.md) for how to add or improve content.

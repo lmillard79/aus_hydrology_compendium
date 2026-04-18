@@ -45,4 +45,4 @@ A probability distribution that models flood series as a mixture of two populati
 
 ---
 
-*Add new terms via pull request. See [CONTRIBUTING.md](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/main/CONTRIBUTING.md).*
+*Add new terms via pull request. See [CONTRIBUTING.md](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/master/CONTRIBUTING.md).*

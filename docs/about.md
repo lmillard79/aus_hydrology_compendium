@@ -42,7 +42,7 @@ The cumulative knowledge base of Australian hydrology is scattered across FMA co
 
 ## Contributing
 
-Pull requests are welcome. See [CONTRIBUTING.md](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/main/CONTRIBUTING.md) for guidelines on adding topic nodes, annotating references, or correcting errors.
+Pull requests are welcome. See [CONTRIBUTING.md](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/master/CONTRIBUTING.md) for guidelines on adding topic nodes, annotating references, or correcting errors.
 
 ## Author
 

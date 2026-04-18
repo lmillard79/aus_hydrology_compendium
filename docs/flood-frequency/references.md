@@ -103,4 +103,4 @@ This page collects landmark and supporting references for the [Flood Frequency A
 
 ---
 
-*This reference list is a living document. Add entries via pull request using the template above. See [CONTRIBUTING.md](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/main/CONTRIBUTING.md).*
+*This reference list is a living document. Add entries via pull request using the template above. See [CONTRIBUTING.md](https://github.com/lmillard79/Aus_Hydrology_Compendium/blob/master/CONTRIBUTING.md).*
