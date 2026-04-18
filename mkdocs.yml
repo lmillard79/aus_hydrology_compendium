@@ -75,13 +75,25 @@ nav:
   - Conference Papers:
     - Overview: conference-papers/index.md
     - FMA Conferences:
-      - FMA 2024 Mind Map: conference-papers/fma-2024-mindmap.md
-      - FMA 2023 Mind Map: conference-papers/fma-2023-mindmap.md
-      - FMA 2019 Mind Map: conference-papers/fma-2019-mindmap.md
-      - FMA 2020 Mind Map: conference-papers/fma-2020-mindmap.md
-      - FMA 2022 Mind Map: conference-papers/fma-2022-mindmap.md
-      - FMA 2025 Mind Map: conference-papers/fma-2025-mindmap.md
+      - FMA 2025: conference-papers/fma-2025-mindmap.md
+      - FMA 2024: conference-papers/fma-2024-mindmap.md
+      - FMA 2023: conference-papers/fma-2023-mindmap.md
+      - FMA 2022: conference-papers/fma-2022-mindmap.md
+      - FMA 2020: conference-papers/fma-2020-mindmap.md
+      - FMA 2019: conference-papers/fma-2019-mindmap.md
     - HWRS Conferences:
       - HWRS Mind Map Index: conference-papers/hwrs-index.md
+      - HWRS 2025: conference-papers/hwrs-2025-mindmap.md
+      - HWRS 2024: conference-papers/hwrs-2024-mindmap.md
+      - HWRS 2023: conference-papers/hwrs-2023-mindmap.md
+      - HWRS 2022: conference-papers/hwrs-2022-mindmap.md
+      - HWRS 2021: conference-papers/hwrs-2021-mindmap.md
+      - HWRS 2018: conference-papers/hwrs-2018-mindmap.md
+      - HWRS 2016: conference-papers/hwrs-2016-mindmap.md
+      - HWRS 2015: conference-papers/hwrs-2015-mindmap.md
+      - HWRS 2014: conference-papers/hwrs-2014-mindmap.md
+      - HWRS 2012: conference-papers/hwrs-2012-mindmap.md
+      - HWRS 2011: conference-papers/hwrs-2011-mindmap.md
+      - HWRS 2005: conference-papers/hwrs-2005-mindmap.md
   - Glossary: glossary.md
   - About: about.md

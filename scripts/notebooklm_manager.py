@@ -24,7 +24,7 @@ import asyncio
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -268,7 +268,7 @@ class NotebookLMManager:
             "sources_count": sources_count,
             "mind_map_title": title,
             "main_themes": themes,
-            "generated_date": datetime.utcnow().isoformat() + "Z",
+            "generated_date": datetime.now(timezone.utc).isoformat(),
             "notebooklm_url": f"https://notebooklm.google.com/notebook/{notebook_id}"
         }
     
@@ -390,7 +390,7 @@ class NotebookLMManager:
                     force=force
                 )
                 nb_config['extracted'] = True
-                nb_config['extracted_date'] = datetime.utcnow().isoformat()
+                nb_config['extracted_date'] = datetime.now(timezone.utc).isoformat()
                 if 'error' in nb_config:
                     del nb_config['error']
             except Exception as e:
@@ -408,7 +408,8 @@ class NotebookLMManager:
         topic: str, 
         context: Optional[str] = None,
         save: bool = False,
-        output_dir: str = 'docs/data/conference-papers'
+        output_dir: str = 'docs/data/conference-papers',
+        quiet: bool = False
     ) -> str:
         """
         Query NotebookLM about a specific topic (like clicking a mind map node).
@@ -431,23 +432,35 @@ class NotebookLMManager:
         else:
             prompt = f'Discuss what these sources say about {topic}.'
         
-        print(f"Querying NotebookLM...")
-        print(f"  Notebook: {notebook_id}")
-        print(f"  Topic: {topic}")
-        print(f"  Prompt: {prompt}")
+        if not quiet:
+            print(f"Querying NotebookLM...")
+            print(f"  Notebook: {notebook_id}")
+            print(f"  Topic: {topic}")
+            print(f"  Prompt: {prompt}")
         
         async with await self._get_client() as client:
             # Use the chat/ask functionality
-            response = await client.chat.ask(
+            result = await client.chat.ask(
                 notebook_id=notebook_id,
                 question=prompt
             )
+            
+            # Extract text from AskResult object
+            if hasattr(result, 'text'):
+                response = result.text
+            elif hasattr(result, 'answer'):
+                response = result.answer
+            elif hasattr(result, 'content'):
+                response = result.content
+            else:
+                response = str(result)
         
-        print(f"\n{'='*60}")
-        print(f"RESPONSE:")
-        print(f"{'='*60}")
-        print(response)
-        print(f"{'='*60}\n")
+        if not quiet:
+            print(f"\n{'='*60}")
+            print(f"RESPONSE:")
+            print(f"{'='*60}")
+            print(response)
+            print(f"{'='*60}\n")
         
         # Save to file if requested
         if save:
@@ -456,7 +469,7 @@ class NotebookLMManager:
             
             # Create filename from topic
             safe_topic = topic.replace(' ', '_').replace('/', '_').replace('\\', '_')[:50]
-            filename = f"query_{safe_topic}_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt"
+            filename = f"query_{safe_topic}_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}.txt"
             file_path = output_path / filename
             
             with open(file_path, 'w', encoding='utf-8') as f:
@@ -470,6 +483,199 @@ class NotebookLMManager:
             print(f"Saved to: {file_path}")
         
         return response
+    
+    async def query_all_themes(
+        self,
+        json_file: str,
+        notebook_id: str,
+        output_dir: str = 'docs/data/conference-papers',
+        delay: float = 2.0
+    ) -> dict:
+        """
+        Query all themes from an extracted notebook and save detailed responses.
+        
+        This reads the extracted JSON file, queries NotebookLM for each theme,
+        and builds an index of papers with citations.
+        
+        Args:
+            json_file: Path to extracted JSON file
+            notebook_id: Notebook ID to query
+            output_dir: Directory to save outputs
+            delay: Seconds between queries to avoid rate limiting
+            
+        Returns:
+            Dictionary with all theme responses and source index
+        """
+        import asyncio
+        
+        # Load the extracted data
+        with open(json_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        conference = data.get('conference', 'Unknown')
+        year = data.get('year', 'Unknown')
+        mind_map_title = data.get('mind_map_title', f'{conference} {year}')
+        themes = data.get('main_themes', [])
+        
+        print(f"\nQuerying {len(themes)} themes from {conference} {year}...")
+        print(f"Notebook: {notebook_id}")
+        print(f"Context: {mind_map_title}")
+        
+        # Prepare output directory
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+        
+        # Create safe filename prefix
+        safe_prefix = f"{conference.lower()}_{year}"
+        
+        # Dictionary to store all responses
+        all_responses = {
+            "metadata": {
+                "conference": conference,
+                "year": year,
+                "notebook_id": notebook_id,
+                "mind_map_title": mind_map_title,
+                "queried_date": datetime.now(timezone.utc).isoformat(),
+                "total_themes": len(themes)
+            },
+            "themes": [],
+            "source_index": {}  # Will aggregate all sources
+        }
+        
+        # Query each theme
+        for i, theme in enumerate(themes, 1):
+            theme_name = theme.get('theme', f'Theme {i}')
+            theme_id = theme.get('id', f'theme-{i}')
+            
+            print(f"\n[{i}/{len(themes)}] Querying: {theme_name}")
+            
+            try:
+                # Query NotebookLM (quiet mode for batch) with retry
+                max_retries = 2
+                response = None
+                
+                for attempt in range(max_retries + 1):
+                    try:
+                        response = await self.query_topic(
+                            notebook_id=notebook_id,
+                            topic=theme_name,
+                            context=mind_map_title,
+                            save=False,  # We'll save aggregated version
+                            quiet=True
+                        )
+                        break  # Success, exit retry loop
+                    except Exception as e:
+                        if "timed out" in str(e).lower() and attempt < max_retries:
+                            print(f"  Timeout, retrying ({attempt + 1}/{max_retries})...")
+                            await asyncio.sleep(5)  # Wait longer before retry
+                        else:
+                            raise  # Re-raise if not timeout or out of retries
+                
+                # Store response
+                theme_data = {
+                    "id": theme_id,
+                    "theme": theme_name,
+                    "description": theme.get('description', ''),
+                    "subtopics": theme.get('subtopics', []),
+                    "query_response": response,
+                    "sources_mentioned": []  # Will parse from response
+                }
+                
+                # Try to extract source citations from response
+                # Look for patterns like "Author et al. (Year)" or "Source: ..." or [1], [2]
+                import re
+                
+                # Pattern for various citation formats
+                citation_patterns = [
+                    # Numerical citations like [1], [2], [3]
+                    r'\[(\d+)\]',
+                    # Author-year citations like "Smith et al. (2024)"
+                    r'([A-Z][a-z]+(?:\s+et\s+al\.)?)\s*\((\d{4})\)',
+                    # Author-year in parentheses like "(Jones 2023)"
+                    r'\(([A-Z][a-z]+\s+\d{4})\)',
+                    # Source label
+                    r'Source:\s*([^\n]+)',
+                    # Quoted paper titles
+                    r'from\s+"([^"]+)"',
+                    # Reference to "Paper X" or "Document Y"
+                    r'(?:paper|document|study|report)\s+(\d+)',
+                ]
+                
+                sources_found = set()
+                for pattern in citation_patterns:
+                    matches = re.findall(pattern, response, re.IGNORECASE)
+                    for match in matches:
+                        if isinstance(match, tuple):
+                            if len(match) == 2 and match[1].isdigit():
+                                # Author (Year) format
+                                sources_found.add(f"{match[0]} ({match[1]})")
+                            else:
+                                sources_found.add(str(match[0]))
+                        else:
+                            # Single value - could be [1] or a number
+                            if match.isdigit():
+                                sources_found.add(f"[{match}]")
+                            else:
+                                sources_found.add(match)
+                
+                theme_data["sources_mentioned"] = list(sources_found)
+                
+                # Add to aggregated source index
+                for source in sources_found:
+                    if source not in all_responses["source_index"]:
+                        all_responses["source_index"][source] = {
+                            "themes": [],
+                            "first_mentioned_in": theme_name
+                        }
+                    all_responses["source_index"][source]["themes"].append(theme_name)
+                
+                all_responses["themes"].append(theme_data)
+                
+                # Save individual theme file
+                theme_file = output_path / f"{safe_prefix}_theme_{i:02d}_{theme_id}.txt"
+                with open(theme_file, 'w', encoding='utf-8') as f:
+                    f.write(f"Theme: {theme_name}\n")
+                    f.write(f"Conference: {conference} {year}\n")
+                    f.write(f"Notebook: {notebook_id}\n")
+                    f.write(f"Query: Discuss what these sources say about {theme_name}, in the larger context of {mind_map_title}.\n")
+                    f.write(f"Sources Found: {', '.join(sources_found) if sources_found else 'None detected'}\n")
+                    f.write(f"{'='*60}\n\n")
+                    f.write(response)
+                
+                print(f"  ✓ Saved: {theme_file}")
+                print(f"  Sources detected: {len(sources_found)}")
+                
+                # Delay between queries
+                if i < len(themes):
+                    await asyncio.sleep(delay)
+                    
+            except Exception as e:
+                print(f"  ✗ Error querying {theme_name}: {e}")
+                theme_data = {
+                    "id": theme_id,
+                    "theme": theme_name,
+                    "error": str(e)
+                }
+                all_responses["themes"].append(theme_data)
+        
+        # Save aggregated JSON with all responses
+        agg_file = output_path / f"{safe_prefix}_all_themes_detailed.json"
+        with open(agg_file, 'w', encoding='utf-8') as f:
+            json.dump(all_responses, f, indent=2, ensure_ascii=False)
+        
+        print(f"\n{'='*60}")
+        print(f"Complete! Processed {len(themes)} themes.")
+        print(f"Aggregated data: {agg_file}")
+        print(f"Source index: {len(all_responses['source_index'])} unique sources")
+        print(f"{'='*60}\n")
+        
+        # Print source index summary
+        if all_responses["source_index"]:
+            print("Sources Index:")
+            for source, info in sorted(all_responses["source_index"].items()):
+                print(f"  - {source} (mentioned in {len(info['themes'])} themes)")
+        
+        return all_responses
 
 
 def create_sample_config():
@@ -639,6 +845,33 @@ async def main():
         help='Directory to save query responses'
     )
     
+    # Query all themes command - batch query all mind map themes
+    query_all_parser = subparsers.add_parser(
+        'query-all-themes',
+        help='Query all themes from an extracted notebook and save detailed responses with source citations'
+    )
+    query_all_parser.add_argument(
+        '--json-file', 
+        required=True,
+        help='Path to extracted JSON file (e.g., docs/data/conference-papers/fma_2024.json)'
+    )
+    query_all_parser.add_argument(
+        '--notebook-id', 
+        required=True,
+        help='Notebook ID to query'
+    )
+    query_all_parser.add_argument(
+        '--output-dir',
+        default='docs/data/conference-papers',
+        help='Directory to save query responses'
+    )
+    query_all_parser.add_argument(
+        '--delay',
+        type=float,
+        default=2.0,
+        help='Delay between queries in seconds (default: 2)'
+    )
+    
     args = parser.parse_args()
     
     if args.command == 'create-config':
@@ -680,6 +913,14 @@ async def main():
             args.context,
             save=args.save,
             output_dir=args.output_dir
+        )
+    
+    elif args.command == 'query-all-themes':
+        await manager.query_all_themes(
+            json_file=args.json_file,
+            notebook_id=args.notebook_id,
+            output_dir=args.output_dir,
+            delay=args.delay
         )
 
 
