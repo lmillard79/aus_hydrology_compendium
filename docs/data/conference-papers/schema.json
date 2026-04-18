@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Conference Paper Mind Map Data Schema",
+  "type": "object",
+  "properties": {
+    "notebook": {
+      "type": "string",
+      "description": "NotebookLM notebook identifier (e.g., FMA_2024)"
+    },
+    "year": {
+      "type": "integer",
+      "description": "Conference year"
+    },
+    "conference": {
+      "type": "string",
+      "enum": ["FMA", "HWRS", "ANCOLD", "ARR"],
+      "description": "Conference series"
+    },
+    "sources_count": {
+      "type": "integer",
+      "description": "Total number of source documents"
+    },
+    "mind_map_title": {
+      "type": "string",
+      "description": "Title of the generated mind map"
+    },
+    "main_themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "theme": {"type": "string"},
+          "description": {"type": "string"},
+          "subtopics": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "key_papers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {"type": "string"},
+                "authors": {"type": "string"},
+                "year": {"type": "integer"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "generated_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "notebooklm_url": {
+      "type": "string",
+      "description": "Direct link to the NotebookLM notebook"
+    }
+  }
+}

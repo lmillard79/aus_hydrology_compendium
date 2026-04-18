@@ -1,0 +1,79 @@
+{
+  "notebook": "FMA_2024",
+  "year": 2024,
+  "conference": "FMA",
+  "sources_count": 118,
+  "mind_map_title": "Flood Risk Management: Coastal Dynamics and Economic Assessment Tools",
+  "main_themes": [
+    {
+      "id": "climate-change",
+      "theme": "Climate Change & Future Conditions",
+      "description": "Integrating climate science into engineering practice and policy frameworks",
+      "subtopics": [
+        "Updating National Guidelines - Integrating latest peer-reviewed climate science into ARR",
+        "Translating Science to Policy - Overcoming challenges of non-stationary climate models",
+        "Impacts on Planning Levels - Sensitivity analyses using RCPs for 1% AEP flood design",
+        "Tomorrow's Floodplain - Transition from surface water runoff to coastal inundation risk"
+      ],
+      "key_papers": [
+        {
+          "title": "Climate Change Integration in Rainfall and Runoff Guidelines",
+          "authors": "Various FMA 2024 authors",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "technical-modelling",
+      "theme": "Technical Modelling & Flood Estimation",
+      "description": "Advanced hydrologic and hydraulic modeling techniques",
+      "subtopics": [
+        "Reconciling Discrepancies - Addressing gaps between FFA estimates and modeled design flows",
+        "Updating IFD Data - Using new gauge data to supersede older Bureau of Meteorology estimates",
+        "Extending Short Records - Precipitation-streamflow regression for synthetic records",
+        "Implications of Changing FFA - Managing challenges when updated data alters flood understanding"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "forecasting-response",
+      "theme": "Forecasting, Monitoring & Emergency Response",
+      "description": "Real-time systems for flood prediction and emergency management",
+      "subtopics": [
+        "Real-Time Flash Flood Forecasting - Wholistic rapid-approach systems (FLASH, Arcide)",
+        "Distributed Sensor Networks - Adaptable water level and rainfall monitoring infrastructure",
+        "Resilient Infrastructure - Designing river gauges for extreme events",
+        "Compound Hazards - Understanding bushfire impacts on catchment hydrology"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "community-engagement",
+      "theme": "Community Engagement & Risk Communication",
+      "description": "Bridging technical knowledge with public understanding and action",
+      "subtopics": [
+        "Bridging Language Gap - Tools like 'My Flood Risk Disk' for risk communication",
+        "Indigenous Knowledge & Co-design - First Nations perspectives in planning",
+        "Managing Customer Perceptions - Addressing confirmation bias and flood mapping misunderstandings",
+        "Post-Flood Support - Mental health resources for traumatized communities",
+        "STEM Education - Using 3D models and simulations in schools"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "urban-planning",
+      "theme": "Urban Planning, Infrastructure & Policy Management",
+      "description": "Integration of flood risk into land use, development, and infrastructure decisions",
+      "subtopics": [
+        "Urban Densification - Managing stormwater and flood risks in high-density development",
+        "Impacts on Open Spaces - Quantifying damages to parks and community spaces",
+        "Rural Floodplain Management - Agricultural levees and ecological monitoring",
+        "Insurance & Hydrology - Rain on Grid modeling for flood claim management",
+        "International Perspectives - Learning from TMAC flood mapping programs"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T14:30:00Z",
+  "notebooklm_url": "https://notebooklm.google.com/notebook/58b99d93-4101-4e11-93d6-a377158f5a18"
+}
