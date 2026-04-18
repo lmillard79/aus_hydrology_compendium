@@ -54,6 +54,7 @@ jobs:
           cp hf-space-readme.md site/README.md
           cd site
           git init
+          git checkout -b main
           git add .
           git commit -m "Deploy to Hugging Face"
-          git push --force https://Lamilla79:${HF_TOKEN}@huggingface.co/spaces/Lamilla79/aus_hydrology_compendium main:main
+          git push --force https://Lamilla79:${HF_TOKEN}@huggingface.co/spaces/Lamilla79/aus_hydrology_compendium.git main
