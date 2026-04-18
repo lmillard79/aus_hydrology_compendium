@@ -2,6 +2,8 @@
 
 Automated extraction of mind maps from Google NotebookLM for the Australian Hydrology Compendium.
 
+**Estimated Time:** 20-25 minutes for full extraction and integration
+
 ## Features
 
 - **Batch Extract Mind Maps**: Extract mind maps from all your NotebookLM notebooks
@@ -12,12 +14,16 @@ Automated extraction of mind maps from Google NotebookLM for the Australian Hydr
 ## Prerequisites
 
 ```powershell
-# Install notebooklm-py with browser support
-pip install "notebooklm-py[browser]"
-
-# Install Playwright browser for authentication
+# Install all dependencies
+cd scripts
+pip install -r requirements.txt
 playwright install chromium
 ```
+
+**Requirements:**
+- Python 3.10-3.14
+- Google account with NotebookLM access
+- 200MB disk space for browser
 
 ## Quick Start
 
@@ -113,12 +119,83 @@ These JSON files follow the schema defined in `docs/data/conference-papers/schem
 | `extract` | Extract mind maps from config |
 | `extract-pending` | Extract only non-extracted notebooks |
 
-## Workflow
+## Complete Workflow
 
-1. **First time setup**: `create-config` → `login` → edit config with IDs
-2. **Daily extraction**: `extract-pending`
-3. **New conference year**: `create` → edit config → `extract-pending`
-4. **Regenerate all**: `extract --force`
+### Phase 1: First Time Setup (10 minutes)
+
+```powershell
+# 1. Create config file
+python notebooklm_manager.py create-config
+
+# 2. Login to NotebookLM (opens browser)
+notebooklm login
+
+# 3. List your notebooks to get IDs
+python notebooklm_manager.py list
+
+# 4. Edit scripts/notebooks_config.json
+#    - Replace PLACEHOLDER values with actual notebook IDs
+#    - Copy IDs from the list command output
+```
+
+### Phase 2: Batch Extraction (5 minutes)
+
+```powershell
+# Extract all pending notebooks
+python notebooklm_manager.py extract-pending
+
+# This creates:
+#   - docs/data/conference-papers/fma_YYYY.json
+#   - docs/data/conference-papers/hwrs_YYYY.json
+```
+
+### Phase 3: Generate Markdown (2 minutes)
+
+```powershell
+# Generate/update all conference papers markdown pages
+python generate_markdown.py
+
+# This updates:
+#   - docs/conference-papers/index.md (overview table)
+#   - docs/conference-papers/fma-YYYY-mindmap.md (individual pages)
+```
+
+### Phase 4: Build & Deploy (5 minutes)
+
+```powershell
+cd ..
+
+# Test locally
+venv\Scripts\mkdocs serve
+
+# Build site
+venv\Scripts\mkdocs build
+
+# Push to trigger deployment
+git add -A
+git commit -m "Add extracted mind maps from NotebookLM"
+git push origin main
+```
+
+## Alternative: Create New Notebook from PDFs
+
+If you have conference papers as PDFs:
+
+```powershell
+# 1. Create notebook from PDF folder
+python notebooklm_manager.py create `
+  --name "FMA 2025" `
+  --pdf-folder "E:\\ConferencePapers\\FMA_2025" `
+  --description "Floodplain Management Australia 2025 Conference Papers"
+
+# 2. Wait for upload to complete in NotebookLM web UI
+# 3. Generate mind map in web UI
+# 4. Get the new notebook ID
+python notebooklm_manager.py list
+
+# 5. Add to config and extract
+python notebooklm_manager.py extract-pending
+```
 
 ## Troubleshooting
 
@@ -155,9 +232,30 @@ mkdocs serve
 
 The extracted JSON will automatically be used by the conference papers pages.
 
+## Troubleshooting
+
+### "Authentication fails"
+```powershell
+# Clear and re-authenticate
+notebooklm login
+# Or force re-auth: notebooklm login --force
+```
+
+### "NotebookLM API not responding"
+The notebooklm-py library uses undocumented Google APIs. Check:
+- [GitHub issues](https://github.com/teng-lin/notebooklm-py/issues) for latest status
+- Your Google account has NotebookLM access at notebooklm.google.com
+
+### "Rate limiting / Too many requests"
+The script has built-in rate limiting. If you hit limits:
+- Wait 60 seconds between runs
+- Use `extract-pending` instead of `extract --force`
+
 ## Notes
 
 - Mind map generation takes 3-5 seconds per notebook
 - Each notebook must have mind map generated in NotebookLM web UI first
 - The script transforms NotebookLM's raw mind map JSON into the compendium schema
 - All timestamps are in UTC
+- Config file tracks extraction state to avoid duplicate work
+- Progress is logged to console; check for ✓ (success) or ✗ (error) markers
