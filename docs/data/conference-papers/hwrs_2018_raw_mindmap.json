@@ -1,0 +1,275 @@
+{
+  "name": "HWRS 2018: Hydrology and Water Resources Symposium",
+  "children": [
+    {
+      "name": "TUFLOW Solver Comparison",
+      "children": [
+        {
+          "name": "TUFLOW Classic",
+          "children": [
+            {
+              "name": "CPU-based"
+            },
+            {
+              "name": "Implicit finite difference"
+            },
+            {
+              "name": "Fixed timestep"
+            }
+          ]
+        },
+        {
+          "name": "TUFLOW HPC",
+          "children": [
+            {
+              "name": "GPU-based (Heavily Parallelised Compute)"
+            },
+            {
+              "name": "Explicit finite volume"
+            },
+            {
+              "name": "Adaptive timestep"
+            },
+            {
+              "name": "Significant run time reduction"
+            }
+          ]
+        },
+        {
+          "name": "Gowrie Creek Case Study",
+          "children": [
+            {
+              "name": "Toowoomba, QLD"
+            },
+            {
+              "name": "January 2011 Flood Event"
+            },
+            {
+              "name": "Roughness reduction in CBD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flood Frequency Analysis (FFA)",
+      "children": [
+        {
+          "name": "Brisbane River Catchment",
+          "children": [
+            {
+              "name": "26 stream gauging stations"
+            },
+            {
+              "name": "Probability distribution selection"
+            },
+            {
+              "name": "Log Pearson Type III (LP3) best fit"
+            },
+            {
+              "name": "Generalised Pareto (GP) second fit"
+            }
+          ]
+        },
+        {
+          "name": "Methodology",
+          "children": [
+            {
+              "name": "EasyFit software"
+            },
+            {
+              "name": "FLIKE software"
+            },
+            {
+              "name": "Goodness-of-fit tests (K-S, A-D, C-S)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Urban On-Site Detention (OSD)",
+      "children": [
+        {
+          "name": "ARR2016 Impact",
+          "children": [
+            {
+              "name": "Revised IFD estimates"
+            },
+            {
+              "name": "Ensemble temporal patterns"
+            }
+          ]
+        },
+        {
+          "name": "System Performance",
+          "children": [
+            {
+              "name": "Reduced peak flow magnitudes"
+            },
+            {
+              "name": "Shorter critical durations"
+            },
+            {
+              "name": "Original sizing remains adequate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climate Change and WSUD",
+      "children": [
+        {
+          "name": "Performance Trends",
+          "children": [
+            {
+              "name": "Efficiency generally reduced"
+            },
+            {
+              "name": "Wetlands may improve with PET increase"
+            },
+            {
+              "name": "Bioretention/Infiltration basins sensitive"
+            }
+          ]
+        },
+        {
+          "name": "Modelling",
+          "children": [
+            {
+              "name": "MUSIC software"
+            },
+            {
+              "name": "6-minute rainfall time series"
+            },
+            {
+              "name": "Flow duration curve scaling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hydrologic Reconstructions",
+      "children": [
+        {
+          "name": "Dendrochronology",
+          "children": [
+            {
+              "name": "Tree ring growth analysis"
+            },
+            {
+              "name": "Pre-instrumental data extension"
+            },
+            {
+              "name": "Lake Burbury (Tasmania) 1000-year study"
+            }
+          ]
+        },
+        {
+          "name": "Alternate wood properties",
+          "children": [
+            {
+              "name": "Latewood density"
+            },
+            {
+              "name": "Blue light intensity"
+            },
+            {
+              "name": "Stable isotopes"
+            },
+            {
+              "name": "Cell wall thickness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water Data and Management",
+      "children": [
+        {
+          "name": "Real Time Data Delivery",
+          "children": [
+            {
+              "name": "DELWP Victoria WMIS"
+            },
+            {
+              "name": "Cloud hosting (AWS)"
+            },
+            {
+              "name": "Telemetry expansion"
+            }
+          ]
+        },
+        {
+          "name": "Multi-variable Simulation",
+          "children": [
+            {
+              "name": "SWAT model"
+            },
+            {
+              "name": "Soil moisture + Streamflow calibration"
+            },
+            {
+              "name": "Improved water budget partitioning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flood Impact Assessments",
+      "children": [
+        {
+          "name": "Acceptable Impact Criteria",
+          "children": [
+            {
+              "name": "Peak level increase (Afflux)"
+            },
+            {
+              "name": "Duration of flooding"
+            },
+            {
+              "name": "Hydraulic hazard and velocity"
+            }
+          ]
+        },
+        {
+          "name": "Land Use Sensitivity",
+          "children": [
+            {
+              "name": "Residential: 10-50mm"
+            },
+            {
+              "name": "Industrial/Commercial: 50-150mm"
+            },
+            {
+              "name": "Agriculture: 150-400mm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Farm Dam Trends",
+      "children": [
+        {
+          "name": "Victoria 2000-2015",
+          "children": [
+            {
+              "name": "Stable growth since 2010 (0.3%/year)"
+            },
+            {
+              "name": "Higher growth 2000-2006 (1.4%/year)"
+            },
+            {
+              "name": "Manual digitisation from aerial imagery"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

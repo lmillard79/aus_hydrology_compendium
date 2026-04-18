@@ -1,0 +1,181 @@
+{
+  "name": "Water Resources Management and Modelling",
+  "children": [
+    {
+      "name": "Hydraulic Models and Parameters",
+      "children": [
+        {
+          "name": "Manning Roughness Coefficient (n)",
+          "children": [
+            {
+              "name": "Estimation via Nikuradse Equivalent Sand-Roughness (ks)"
+            },
+            {
+              "name": "Keulegan relationship with Hydraulic Radius (R)"
+            },
+            {
+              "name": "Chen Generalized Power-Law Model"
+            }
+          ]
+        },
+        {
+          "name": "Velocity Measurement Technologies",
+          "children": [
+            {
+              "name": "Acoustic Doppler Current Profiler (ADCP)"
+            },
+            {
+              "name": "Stationary Method (ADCP-SM)"
+            },
+            {
+              "name": "SonTek M9 Multi-band Acoustics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Design Flood Estimation Techniques",
+      "children": [
+        {
+          "name": "Design Event Approach (DEA)",
+          "children": [
+            {
+              "name": "Assumes AEP neutrality"
+            },
+            {
+              "name": "Fixed inputs lead to probability bias"
+            }
+          ]
+        },
+        {
+          "name": "Joint Probability Approach (JPA)",
+          "children": [
+            {
+              "name": "Monte Carlo Simulation Technique (MCST)"
+            },
+            {
+              "name": "Accounts for rainfall duration, intensity, and losses"
+            },
+            {
+              "name": "Regionalisation of rainfall temporal patterns"
+            }
+          ]
+        },
+        {
+          "name": "South African JPV Methodology",
+          "children": [
+            {
+              "name": "Joint Peak-Volume relationship"
+            },
+            {
+              "name": "Peak-over-threshold (POT) analysis"
+            },
+            {
+              "name": "Standardised observed flood hydrographs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software and Systems",
+      "children": [
+        {
+          "name": "eWater Source",
+          "children": [
+            {
+              "name": "NetLP (Network Linear Programming) ordering"
+            },
+            {
+              "name": "Rules-based ordering"
+            },
+            {
+              "name": "Catchment runoff modelling framework"
+            }
+          ]
+        },
+        {
+          "name": "Existing Tools",
+          "children": [
+            {
+              "name": "REALM (Victoria, Australia)"
+            },
+            {
+              "name": "IQQM (NSW and Queensland, Australia)"
+            },
+            {
+              "name": "RORB runoff routing program"
+            },
+            {
+              "name": "EPANet (Hydraulic simulation)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water Supply and Demand Management",
+      "children": [
+        {
+          "name": "Demand-Side Strategies",
+          "children": [
+            {
+              "name": "Leakage detection and pressure reduction"
+            },
+            {
+              "name": "Effluent reuse and water recycling"
+            },
+            {
+              "name": "Public awareness and billing improvement"
+            }
+          ]
+        },
+        {
+          "name": "System Optimization",
+          "children": [
+            {
+              "name": "Minimization of pumping costs"
+            },
+            {
+              "name": "Explicit vs. Implicit pump scheduling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Environmental and Specific Studies",
+      "children": [
+        {
+          "name": "Estuarine Wetlands (Hunter Estuary)",
+          "children": [
+            {
+              "name": "Mangrove vs. Saltmarsh dynamics"
+            },
+            {
+              "name": "Tidal reinstatement effects"
+            },
+            {
+              "name": "Carbon sequestration rates"
+            }
+          ]
+        },
+        {
+          "name": "Orographic Precipitation (Coffs Harbour)",
+          "children": [
+            {
+              "name": "Rainfall gradients and mountainous terrain"
+            },
+            {
+              "name": "Wind direction correlation (Easterly winds)"
+            },
+            {
+              "name": "Hierarchical IFD modeling"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

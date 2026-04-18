@@ -3,8 +3,60 @@
   "year": 2016,
   "conference": "HWRS",
   "sources_count": 48,
-  "mind_map_title": "HWRS 2016",
-  "main_themes": [],
-  "generated_date": "2026-04-18T11:43:17.226843Z",
+  "mind_map_title": "Australian Hydrologic and Water Resource Studies",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Historical Flood Records",
+      "description": "",
+      "subtopics": [
+        "Windsor/Hawkesbury-Nepean",
+        "Geelong Storm 2016"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Modelling and Analysis Techniques",
+      "description": "",
+      "subtopics": [
+        "Hydrologic Models",
+        "Calibration and Validation",
+        "Regional Estimation (RFFE)"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "National Assessments",
+      "description": "",
+      "subtopics": [
+        "AWRA System",
+        "ACCESS NWP"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Urban Water Evolution",
+      "description": "",
+      "subtopics": [
+        "Water Sensitive Cities"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-5",
+      "theme": "Specific Research Applications",
+      "description": "",
+      "subtopics": [
+        "Spatial Rainfall",
+        "Geomorphology",
+        "Groundwater"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:02:26.266714Z",
   "notebooklm_url": "https://notebooklm.google.com/notebook/46b9e4ac-d902-42bc-a26b-66a8cc8e445c"
 }

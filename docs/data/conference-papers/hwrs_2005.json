@@ -3,8 +3,58 @@
   "year": 2005,
   "conference": "HWRS",
   "sources_count": 66,
-  "mind_map_title": "HWRS 2005",
-  "main_themes": [],
-  "generated_date": "2026-04-18T11:46:11.564866Z",
+  "mind_map_title": "29th Hydrology and Water Resources Symposium (2005)",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Hydrologic Sensitivity",
+      "description": "",
+      "subtopics": [
+        "Models",
+        "Key Findings"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Stream Physical Conditions",
+      "description": "",
+      "subtopics": [
+        "Geomorphic Analysis",
+        "Hydraulic Habitat"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Modelling and Simulation",
+      "description": "",
+      "subtopics": [
+        "Monte Carlo Technique",
+        "Calibration Issues"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Climate and Storage",
+      "description": "",
+      "subtopics": [
+        "Indian Ocean Variability",
+        "Gravity Measurements"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-5",
+      "theme": "Urban Hydrology",
+      "description": "",
+      "subtopics": [
+        "Areal Reduction Factors (ARF)"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:04:23.016145Z",
   "notebooklm_url": "https://notebooklm.google.com/notebook/16a9555a-9116-494b-b809-edb8f57e9a7f"
 }

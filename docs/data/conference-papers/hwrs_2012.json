@@ -3,8 +3,60 @@
   "year": 2012,
   "conference": "HWRS",
   "sources_count": 145,
-  "mind_map_title": "HWRS 2012",
-  "main_themes": [],
-  "generated_date": "2026-04-18T11:45:02.357752Z",
+  "mind_map_title": "Water Resources Management and Modelling",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Hydraulic Models and Parameters",
+      "description": "",
+      "subtopics": [
+        "Manning Roughness Coefficient (n)",
+        "Velocity Measurement Technologies"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Design Flood Estimation Techniques",
+      "description": "",
+      "subtopics": [
+        "Design Event Approach (DEA)",
+        "Joint Probability Approach (JPA)",
+        "South African JPV Methodology"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Software and Systems",
+      "description": "",
+      "subtopics": [
+        "eWater Source",
+        "Existing Tools"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Water Supply and Demand Management",
+      "description": "",
+      "subtopics": [
+        "Demand-Side Strategies",
+        "System Optimization"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-5",
+      "theme": "Environmental and Specific Studies",
+      "description": "",
+      "subtopics": [
+        "Estuarine Wetlands (Hunter Estuary)",
+        "Orographic Precipitation (Coffs Harbour)"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:03:33.966048Z",
   "notebooklm_url": "https://notebooklm.google.com/notebook/46346d2d-10fc-444a-b311-e38a76caf180"
 }

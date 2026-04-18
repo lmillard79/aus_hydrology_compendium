@@ -1,0 +1,145 @@
+{
+  "name": "10th Hydraulics Conference Research",
+  "children": [
+    {
+      "name": "River Water Quality & Climate Change",
+      "children": [
+        {
+          "name": "Central Variables",
+          "children": [
+            {
+              "name": "Dissolved Oxygen (DO) decrease"
+            },
+            {
+              "name": "Biochemical Oxygen Demand (BOD) increase"
+            },
+            {
+              "name": "Rising Water Temperature"
+            }
+          ]
+        },
+        {
+          "name": "Methodology",
+          "children": [
+            {
+              "name": "QUAL2K Simulation Model"
+            },
+            {
+              "name": "Hypothetical Scenarios"
+            },
+            {
+              "name": "Fuzzy Waste Load Allocation Model (FWLAM)"
+            }
+          ]
+        },
+        {
+          "name": "Case Study",
+          "children": [
+            {
+              "name": "Tunga-Bhadra River, India"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sediment & Jet-Flipping Dynamics",
+      "children": [
+        {
+          "name": "Jet-Flipping Phenomenon",
+          "children": [
+            {
+              "name": "Digging phase (Attached bed-jet)"
+            },
+            {
+              "name": "Filling phase (Surface-jet)"
+            },
+            {
+              "name": "Apron length influence"
+            }
+          ]
+        },
+        {
+          "name": "Unsteady Flow Suspension",
+          "children": [
+            {
+              "name": "Accelerating vs Decelerating flow"
+            },
+            {
+              "name": "Ripple formation and vortices"
+            },
+            {
+              "name": "Acoustic Doppler (ADVP) & PTV methods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flow Resistance & Bedrock Evolution",
+      "children": [
+        {
+          "name": "Velocity Equations",
+          "children": [
+            {
+              "name": "Logarithmic equations (R-based)"
+            },
+            {
+              "name": "Discharge equations (Q-based)"
+            },
+            {
+              "name": "Manning-Strickler & Ferguson models"
+            }
+          ]
+        },
+        {
+          "name": "Bedrock Incision",
+          "children": [
+            {
+              "name": "Stream power mechanism"
+            },
+            {
+              "name": "Explicit Finite Analytic (EFA) model"
+            },
+            {
+              "name": "Taan River morphological changes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regional Water Management & Education",
+      "children": [
+        {
+          "name": "Caribbean Perspectives",
+          "children": [
+            {
+              "name": "UWI Broad-based curriculum"
+            },
+            {
+              "name": "Coastal hazard protection"
+            },
+            {
+              "name": "Climate change & food security"
+            }
+          ]
+        },
+        {
+          "name": "Nile Delta (JE-HydroNet)",
+          "children": [
+            {
+              "name": "Flash flood management (Wadi El-Arish)"
+            },
+            {
+              "name": "Salt water intrusion"
+            },
+            {
+              "name": "Aswan High Dam sediment impacts"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

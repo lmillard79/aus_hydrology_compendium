@@ -401,6 +401,75 @@ class NotebookLMManager:
         with open(config_path, 'w') as f:
             json.dump(config, f, indent=2)
         print(f"\nUpdated config: {config_path}")
+    
+    async def query_topic(
+        self, 
+        notebook_id: str, 
+        topic: str, 
+        context: Optional[str] = None,
+        save: bool = False,
+        output_dir: str = 'docs/data/conference-papers'
+    ) -> str:
+        """
+        Query NotebookLM about a specific topic (like clicking a mind map node).
+        
+        This mimics the 'Save to note' feature when clicking on a mind map node.
+        
+        Args:
+            notebook_id: The notebook ID
+            topic: The topic/node name to query
+            context: Optional context (e.g., "Flood Management and Research 2024")
+            save: Whether to save the response to a file
+            output_dir: Directory to save response files
+            
+        Returns:
+            The response text from NotebookLM
+        """
+        # Build the prompt like NotebookLM does for mind map nodes
+        if context:
+            prompt = f'Discuss what these sources say about {topic}, in the larger context of {context}.'
+        else:
+            prompt = f'Discuss what these sources say about {topic}.'
+        
+        print(f"Querying NotebookLM...")
+        print(f"  Notebook: {notebook_id}")
+        print(f"  Topic: {topic}")
+        print(f"  Prompt: {prompt}")
+        
+        async with await self._get_client() as client:
+            # Use the chat/ask functionality
+            response = await client.chat.ask(
+                notebook_id=notebook_id,
+                question=prompt
+            )
+        
+        print(f"\n{'='*60}")
+        print(f"RESPONSE:")
+        print(f"{'='*60}")
+        print(response)
+        print(f"{'='*60}\n")
+        
+        # Save to file if requested
+        if save:
+            output_path = Path(output_dir)
+            output_path.mkdir(parents=True, exist_ok=True)
+            
+            # Create filename from topic
+            safe_topic = topic.replace(' ', '_').replace('/', '_').replace('\\', '_')[:50]
+            filename = f"query_{safe_topic}_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt"
+            file_path = output_path / filename
+            
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(f"Topic: {topic}\n")
+                f.write(f"Context: {context or 'N/A'}\n")
+                f.write(f"Notebook: {notebook_id}\n")
+                f.write(f"Prompt: {prompt}\n")
+                f.write(f"{'='*60}\n\n")
+                f.write(response)
+            
+            print(f"Saved to: {file_path}")
+        
+        return response
 
 
 def create_sample_config():
@@ -539,6 +608,37 @@ async def main():
         help='Path to config file'
     )
     
+    # Query topic command - get summary for a mind map node
+    query_parser = subparsers.add_parser(
+        'query-topic',
+        help='Query NotebookLM about a specific topic (mind map node summary)'
+    )
+    query_parser.add_argument(
+        '--notebook-id', 
+        required=True,
+        help='Notebook ID to query'
+    )
+    query_parser.add_argument(
+        '--topic', 
+        required=True,
+        help='Topic/node name to query (e.g., "Infragravity Waves in Coastal Creeks")'
+    )
+    query_parser.add_argument(
+        '--context', 
+        default=None,
+        help='Optional context (e.g., "Flood Management and Research 2024")'
+    )
+    query_parser.add_argument(
+        '--save', 
+        action='store_true',
+        help='Save response to a file'
+    )
+    query_parser.add_argument(
+        '--output-dir',
+        default='docs/data/conference-papers',
+        help='Directory to save query responses'
+    )
+    
     args = parser.parse_args()
     
     if args.command == 'create-config':
@@ -572,6 +672,15 @@ async def main():
     
     elif args.command == 'extract-pending':
         await manager.batch_extract_from_config(args.config, force=False)
+    
+    elif args.command == 'query-topic':
+        response = await manager.query_topic(
+            args.notebook_id,
+            args.topic,
+            args.context,
+            save=args.save,
+            output_dir=args.output_dir
+        )
 
 
 if __name__ == '__main__':

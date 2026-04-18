@@ -1,0 +1,153 @@
+{
+  "name": "29th Hydrology and Water Resources Symposium (2005)",
+  "children": [
+    {
+      "name": "Hydrologic Sensitivity",
+      "children": [
+        {
+          "name": "Models",
+          "children": [
+            {
+              "name": "AWBM"
+            },
+            {
+              "name": "SIMHYD"
+            }
+          ]
+        },
+        {
+          "name": "Key Findings",
+          "children": [
+            {
+              "name": "Runoff more sensitive to rainfall than PET"
+            },
+            {
+              "name": "Sensitivity higher in low rainfall regions"
+            },
+            {
+              "name": "Linear relationship for mean annual runoff"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stream Physical Conditions",
+      "children": [
+        {
+          "name": "Geomorphic Analysis",
+          "children": [
+            {
+              "name": "Goulburn River channel changes"
+            },
+            {
+              "name": "GIS-based map georeferencing"
+            },
+            {
+              "name": "European settlement impacts"
+            }
+          ]
+        },
+        {
+          "name": "Hydraulic Habitat",
+          "children": [
+            {
+              "name": "Flow-type visual assessment"
+            },
+            {
+              "name": "Froude number as best descriptor"
+            },
+            {
+              "name": "In-stream heterogeneity index (Fti)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modelling and Simulation",
+      "children": [
+        {
+          "name": "Monte Carlo Technique",
+          "children": [
+            {
+              "name": "Window-based design tool"
+            },
+            {
+              "name": "Joint Probability Approach"
+            },
+            {
+              "name": "Rainfall and loss modules"
+            }
+          ]
+        },
+        {
+          "name": "Calibration Issues",
+          "children": [
+            {
+              "name": "Autocorrelated model errors"
+            },
+            {
+              "name": "AR(1) model for error removal"
+            },
+            {
+              "name": "Mean Squared Error (MSE) assumptions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climate and Storage",
+      "children": [
+        {
+          "name": "Indian Ocean Variability",
+          "children": [
+            {
+              "name": "Dipole Mode Index (DMI)"
+            },
+            {
+              "name": "Influence on winter rainfall"
+            },
+            {
+              "name": "Independence from ENSO"
+            }
+          ]
+        },
+        {
+          "name": "Gravity Measurements",
+          "children": [
+            {
+              "name": "Terrestrial water storage monitoring"
+            },
+            {
+              "name": "GRACE satellite mission"
+            },
+            {
+              "name": "Ground-based gravimeters (Scintrex CG-3M)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Urban Hydrology",
+      "children": [
+        {
+          "name": "Areal Reduction Factors (ARF)",
+          "children": [
+            {
+              "name": "Prospect Creek case study"
+            },
+            {
+              "name": "Spatial rainfall distribution"
+            },
+            {
+              "name": "Embedded design storms"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

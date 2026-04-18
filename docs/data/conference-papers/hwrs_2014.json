@@ -3,8 +3,59 @@
   "year": 2014,
   "conference": "HWRS",
   "sources_count": 88,
-  "mind_map_title": "HWRS 2014",
-  "main_themes": [],
-  "generated_date": "2026-04-18T11:44:26.111074Z",
+  "mind_map_title": "Hydrology and Water Resources Symposium 2014",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Broome Sandstone Aquifer Review",
+      "description": "",
+      "subtopics": [
+        "Aquifer Characteristics",
+        "La Grange Area Uses",
+        "Water Management"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Monthly Streamflow Forecasting",
+      "description": "",
+      "subtopics": [
+        "Methodology",
+        "Performance"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Dhaka City Flood Management",
+      "description": "",
+      "subtopics": [
+        "Current Problems",
+        "WSUD Solutions"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Rainfall Disaggregation Vietnam",
+      "description": "",
+      "subtopics": [
+        "Method of Fragments"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-5",
+      "theme": "Turbulence in Non-Uniform Flow",
+      "description": "",
+      "subtopics": [
+        "Flow Acceleration Effects",
+        "Predictive Models"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:03:15.687877Z",
   "notebooklm_url": "https://notebooklm.google.com/notebook/bb46da0e-a94e-43dd-b2f0-d99aee98d13f"
 }

@@ -1,0 +1,210 @@
+{
+  "name": "Australian Hydrology and Water Management Research",
+  "children": [
+    {
+      "name": "Design Rainfall and Flood Estimation",
+      "children": [
+        {
+          "name": "Areal Reduction Factors (ARF)",
+          "children": [
+            {
+              "name": "Modified Bell's method"
+            },
+            {
+              "name": "GEV distribution"
+            },
+            {
+              "name": "Thiessen polygon weighting"
+            },
+            {
+              "name": "New ARF equation forms"
+            }
+          ]
+        },
+        {
+          "name": "Regional Flood Frequency (RFFE)",
+          "children": [
+            {
+              "name": "RFFE Model 2015"
+            },
+            {
+              "name": "Gauged catchment database"
+            },
+            {
+              "name": "LP3 distribution & Bayesian estimation"
+            },
+            {
+              "name": "Catchment predictor variables"
+            }
+          ]
+        },
+        {
+          "name": "Monte Carlo Simulations",
+          "children": [
+            {
+              "name": "Importance sampling"
+            },
+            {
+              "name": "Variance reduction in extremes"
+            },
+            {
+              "name": "Joint probability approach"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water Resource Systems and Modelling",
+      "children": [
+        {
+          "name": "Supply System Optimization",
+          "children": [
+            {
+              "name": "WATHNET5 software"
+            },
+            {
+              "name": "MetroNet simplified model"
+            },
+            {
+              "name": "Pareto optimal solutions"
+            },
+            {
+              "name": "Sydney Metropolitan Water Plan"
+            }
+          ]
+        },
+        {
+          "name": "Source Modelling Platform",
+          "children": [
+            {
+              "name": "Integrated river system framework"
+            },
+            {
+              "name": "Murray-Darling Basin implementation"
+            },
+            {
+              "name": "Daily timestep operations"
+            },
+            {
+              "name": "Water sharing and trading"
+            }
+          ]
+        },
+        {
+          "name": "Hydrodynamic Models",
+          "children": [
+            {
+              "name": "HEC-RAS & HEC-DSSVue"
+            },
+            {
+              "name": "Ungauged lateral inflows module"
+            },
+            {
+              "name": "Komati and Lomati Rivers operation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climatology and Forecasting",
+      "children": [
+        {
+          "name": "Rainfall Forecasting",
+          "children": [
+            {
+              "name": "Australian Digital Forecast Database (ADFD)"
+            },
+            {
+              "name": "Inflow forecasting uncertainty"
+            },
+            {
+              "name": "Numerical Weather Prediction (NWP)"
+            }
+          ]
+        },
+        {
+          "name": "Heavy Rainfall Climatology",
+          "children": [
+            {
+              "name": "Hobart 50% AEP events"
+            },
+            {
+              "name": "Synoptic low pressure systems"
+            },
+            {
+              "name": "Tropical moisture channels"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hydrogeology and Recharge",
+      "children": [
+        {
+          "name": "Groundwater Data Standards",
+          "children": [
+            {
+              "name": "GroundWaterML2 (GML)"
+            },
+            {
+              "name": "Data interoperability"
+            },
+            {
+              "name": "OGC Hydro Domain Working Group"
+            }
+          ]
+        },
+        {
+          "name": "Recharge Estimation",
+          "children": [
+            {
+              "name": "Water Table Fluctuation (WTF) method"
+            },
+            {
+              "name": "Specific yield parameters"
+            },
+            {
+              "name": "Rainfall as primary control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paleoclimate and Long-term Balance",
+      "children": [
+        {
+          "name": "Paleoclimate Reconstruction",
+          "children": [
+            {
+              "name": "Murray-Darling Basin risk"
+            },
+            {
+              "name": "Reduced space objective analysis (RSOA)"
+            },
+            {
+              "name": "Remote proxy archives"
+            }
+          ]
+        },
+        {
+          "name": "Mine Site Water Balance",
+          "children": [
+            {
+              "name": "Top down parsimonious models"
+            },
+            {
+              "name": "Generalised Pike Algorithm"
+            },
+            {
+              "name": "Ecohydrology & vegetation focus"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

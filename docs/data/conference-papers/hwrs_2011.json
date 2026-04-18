@@ -3,8 +3,50 @@
   "year": 2011,
   "conference": "HWRS",
   "sources_count": 299,
-  "mind_map_title": "HWRS 2011",
-  "main_themes": [],
-  "generated_date": "2026-04-18T11:45:39.445763Z",
+  "mind_map_title": "10th Hydraulics Conference Research",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "River Water Quality & Climate Change",
+      "description": "",
+      "subtopics": [
+        "Central Variables",
+        "Methodology",
+        "Case Study"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Sediment & Jet-Flipping Dynamics",
+      "description": "",
+      "subtopics": [
+        "Jet-Flipping Phenomenon",
+        "Unsteady Flow Suspension"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Flow Resistance & Bedrock Evolution",
+      "description": "",
+      "subtopics": [
+        "Velocity Equations",
+        "Bedrock Incision"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Regional Water Management & Education",
+      "description": "",
+      "subtopics": [
+        "Caribbean Perspectives",
+        "Nile Delta (JE-HydroNet)"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:04:00.260729Z",
   "notebooklm_url": "https://notebooklm.google.com/notebook/439ffa10-d5f0-4744-8fc5-fe62a5c2b291"
 }

@@ -3,8 +3,89 @@
   "year": 2018,
   "conference": "HWRS",
   "sources_count": 61,
-  "mind_map_title": "HWRS 2018",
-  "main_themes": [],
-  "generated_date": "2026-04-18T11:42:49.614898Z",
+  "mind_map_title": "HWRS 2018: Hydrology and Water Resources Symposium",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "TUFLOW Solver Comparison",
+      "description": "",
+      "subtopics": [
+        "TUFLOW Classic",
+        "TUFLOW HPC",
+        "Gowrie Creek Case Study"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Flood Frequency Analysis (FFA)",
+      "description": "",
+      "subtopics": [
+        "Brisbane River Catchment",
+        "Methodology"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Urban On-Site Detention (OSD)",
+      "description": "",
+      "subtopics": [
+        "ARR2016 Impact",
+        "System Performance"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Climate Change and WSUD",
+      "description": "",
+      "subtopics": [
+        "Performance Trends",
+        "Modelling"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-5",
+      "theme": "Hydrologic Reconstructions",
+      "description": "",
+      "subtopics": [
+        "Dendrochronology",
+        "Alternate wood properties"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-6",
+      "theme": "Water Data and Management",
+      "description": "",
+      "subtopics": [
+        "Real Time Data Delivery",
+        "Multi-variable Simulation"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-7",
+      "theme": "Flood Impact Assessments",
+      "description": "",
+      "subtopics": [
+        "Acceptable Impact Criteria",
+        "Land Use Sensitivity"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-8",
+      "theme": "Farm Dam Trends",
+      "description": "",
+      "subtopics": [
+        "Victoria 2000-2015"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:02:04.228765Z",
   "notebooklm_url": "https://notebooklm.google.com/notebook/0467eef1-2c0e-4f2e-8c20-fac928515239"
 }

@@ -1,0 +1,179 @@
+{
+  "name": "Hydrology and Water Resources Symposium 2014",
+  "children": [
+    {
+      "name": "Broome Sandstone Aquifer Review",
+      "children": [
+        {
+          "name": "Aquifer Characteristics",
+          "children": [
+            {
+              "name": "30,000 km2 coverage"
+            },
+            {
+              "name": "150-200m thickness"
+            },
+            {
+              "name": "Highly transmissive"
+            },
+            {
+              "name": "Direct rainfall recharge"
+            }
+          ]
+        },
+        {
+          "name": "La Grange Area Uses",
+          "children": [
+            {
+              "name": "Traditional owner values"
+            },
+            {
+              "name": "Pastoral cattle grazing"
+            },
+            {
+              "name": "Horticultural irrigation"
+            },
+            {
+              "name": "Tourism and Mining"
+            }
+          ]
+        },
+        {
+          "name": "Water Management",
+          "children": [
+            {
+              "name": "50 GL/yr allocation limit"
+            },
+            {
+              "name": "Maintain saltwater interface"
+            },
+            {
+              "name": "Wetland protection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monthly Streamflow Forecasting",
+      "children": [
+        {
+          "name": "Methodology",
+          "children": [
+            {
+              "name": "Forecast guided stochastic scenarios"
+            },
+            {
+              "name": "WAPABA water balance model"
+            },
+            {
+              "name": "Bayesian joint probability"
+            },
+            {
+              "name": "Error updating/quantification"
+            }
+          ]
+        },
+        {
+          "name": "Performance",
+          "children": [
+            {
+              "name": "Skilful up to 5 months"
+            },
+            {
+              "name": "Lead-0 highest accuracy"
+            },
+            {
+              "name": "Reliable uncertainty representation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dhaka City Flood Management",
+      "children": [
+        {
+          "name": "Current Problems",
+          "children": [
+            {
+              "name": "Unplanned urbanisation"
+            },
+            {
+              "name": "Traditional drainage failure"
+            },
+            {
+              "name": "Aquifer vulnerability"
+            }
+          ]
+        },
+        {
+          "name": "WSUD Solutions",
+          "children": [
+            {
+              "name": "Infrastructure Compliant Strategy"
+            },
+            {
+              "name": "Leaky wells"
+            },
+            {
+              "name": "Soakaways"
+            },
+            {
+              "name": "Infiltration trenches"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rainfall Disaggregation Vietnam",
+      "children": [
+        {
+          "name": "Method of Fragments",
+          "children": [
+            {
+              "name": "Non-parametric conditioning"
+            },
+            {
+              "name": "Daily to hourly conversion"
+            },
+            {
+              "name": "Ba River case study"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turbulence in Non-Uniform Flow",
+      "children": [
+        {
+          "name": "Flow Acceleration Effects",
+          "children": [
+            {
+              "name": "Positive: accelerating flow"
+            },
+            {
+              "name": "Negative: decelerating flow"
+            },
+            {
+              "name": "Deviation from linear distribution"
+            }
+          ]
+        },
+        {
+          "name": "Predictive Models",
+          "children": [
+            {
+              "name": "Universal empirical formulas"
+            },
+            {
+              "name": "Horizontal/Vertical intensities"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

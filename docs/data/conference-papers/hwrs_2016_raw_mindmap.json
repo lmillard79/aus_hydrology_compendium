@@ -1,0 +1,175 @@
+{
+  "name": "Australian Hydrologic and Water Resource Studies",
+  "children": [
+    {
+      "name": "Historical Flood Records",
+      "children": [
+        {
+          "name": "Windsor/Hawkesbury-Nepean",
+          "children": [
+            {
+              "name": "Longest record since 1799"
+            },
+            {
+              "name": "Historical validation of levels"
+            },
+            {
+              "name": "Key observers: Russell and Tebbutt"
+            }
+          ]
+        },
+        {
+          "name": "Geelong Storm 2016",
+          "children": [
+            {
+              "name": "Flash flooding and damage"
+            },
+            {
+              "name": "Radar and gauge data fusion"
+            },
+            {
+              "name": "Rainfields products (2 & 3)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modelling and Analysis Techniques",
+      "children": [
+        {
+          "name": "Hydrologic Models",
+          "children": [
+            {
+              "name": "RORB (Runoff Routing)"
+            },
+            {
+              "name": "AWBM (Water Balance)"
+            },
+            {
+              "name": "ANN (Artificial Neural Networks)"
+            },
+            {
+              "name": "Rain on Grid (2D Hydraulic)"
+            }
+          ]
+        },
+        {
+          "name": "Calibration and Validation",
+          "children": [
+            {
+              "name": "Data length impacts"
+            },
+            {
+              "name": "NSE evaluation statistics"
+            },
+            {
+              "name": "Parameter estimation (PEST)"
+            }
+          ]
+        },
+        {
+          "name": "Regional Estimation (RFFE)",
+          "children": [
+            {
+              "name": "Predictor variables: Area, I62, SF"
+            },
+            {
+              "name": "Non-linear ANN models in NSW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "National Assessments",
+      "children": [
+        {
+          "name": "AWRA System",
+          "children": [
+            {
+              "name": "AWRA-L (Landscape)"
+            },
+            {
+              "name": "5km gridded soil moisture"
+            },
+            {
+              "name": "Operational daily updates"
+            }
+          ]
+        },
+        {
+          "name": "ACCESS NWP",
+          "children": [
+            {
+              "name": "Global and regional forecasting"
+            },
+            {
+              "name": "Land surface model (JULES)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Urban Water Evolution",
+      "children": [
+        {
+          "name": "Water Sensitive Cities",
+          "children": [
+            {
+              "name": "Transitions framework"
+            },
+            {
+              "name": "Ballarat case study"
+            },
+            {
+              "name": "Socio-political drivers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Specific Research Applications",
+      "children": [
+        {
+          "name": "Spatial Rainfall",
+          "children": [
+            {
+              "name": "Kriging interpolation"
+            },
+            {
+              "name": "Disaggregating daily to hourly"
+            },
+            {
+              "name": "Albert catchment study"
+            }
+          ]
+        },
+        {
+          "name": "Geomorphology",
+          "children": [
+            {
+              "name": "Gravel transport in Kauaeranga"
+            },
+            {
+              "name": "Aggradation and avulsion risks"
+            }
+          ]
+        },
+        {
+          "name": "Groundwater",
+          "children": [
+            {
+              "name": "Rote Island karst aquifer"
+            },
+            {
+              "name": "MODFLOW continuum modelling"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,8 +3,61 @@
   "year": 2015,
   "conference": "HWRS",
   "sources_count": 138,
-  "mind_map_title": "HWRS 2015",
-  "main_themes": [],
-  "generated_date": "2026-04-18T11:43:50.519285Z",
+  "mind_map_title": "Australian Hydrology and Water Management Research",
+  "main_themes": [
+    {
+      "id": "theme-1",
+      "theme": "Design Rainfall and Flood Estimation",
+      "description": "",
+      "subtopics": [
+        "Areal Reduction Factors (ARF)",
+        "Regional Flood Frequency (RFFE)",
+        "Monte Carlo Simulations"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-2",
+      "theme": "Water Resource Systems and Modelling",
+      "description": "",
+      "subtopics": [
+        "Supply System Optimization",
+        "Source Modelling Platform",
+        "Hydrodynamic Models"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-3",
+      "theme": "Climatology and Forecasting",
+      "description": "",
+      "subtopics": [
+        "Rainfall Forecasting",
+        "Heavy Rainfall Climatology"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-4",
+      "theme": "Hydrogeology and Recharge",
+      "description": "",
+      "subtopics": [
+        "Groundwater Data Standards",
+        "Recharge Estimation"
+      ],
+      "key_papers": []
+    },
+    {
+      "id": "theme-5",
+      "theme": "Paleoclimate and Long-term Balance",
+      "description": "",
+      "subtopics": [
+        "Paleoclimate Reconstruction",
+        "Mine Site Water Balance"
+      ],
+      "key_papers": []
+    }
+  ],
+  "generated_date": "2026-04-18T12:02:47.983345Z",
   "notebooklm_url": "https://notebooklm.google.com/notebook/41277736-8435-487e-bba0-5b2f790a8671"
 }
