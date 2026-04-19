@@ -1,0 +1,13 @@
+Enhanced Query: GAPS
+Conference: FMA 2023
+Notebook: b45571e2-ca22-49b4-ad5b-ab9094ddd245
+Timestamp: 2026-04-19T00:05:13.601919+00:00
+============================================================
+
+QUERY:
+What research gaps are identified in these papers? What future research directions or unanswered questions do the authors mention? What areas need more investigation?
+
+============================================================
+
+RESPONSE:
+Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'

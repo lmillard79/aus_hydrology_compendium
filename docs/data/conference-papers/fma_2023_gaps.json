@@ -1,0 +1,10 @@
+{
+  "query_type": "gaps",
+  "conference": "FMA",
+  "year": 2023,
+  "notebook_id": "b45571e2-ca22-49b4-ad5b-ab9094ddd245",
+  "timestamp": "2026-04-19T00:05:13.602693+00:00",
+  "prompt": "What research gaps are identified in these papers? What future research directions or unanswered questions do the authors mention? What areas need more investigation?",
+  "response": "Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'",
+  "themes_count": 6
+}

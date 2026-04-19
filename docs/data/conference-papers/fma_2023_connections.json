@@ -1,0 +1,10 @@
+{
+  "query_type": "connections",
+  "conference": "FMA",
+  "year": 2023,
+  "notebook_id": "b45571e2-ca22-49b4-ad5b-ab9094ddd245",
+  "timestamp": "2026-04-19T00:05:06.832247+00:00",
+  "prompt": "How do the different research themes in this notebook connect to each other? What are the cross-cutting issues and interdisciplinary connections? Provide specific examples of papers that bridge multiple themes.",
+  "response": "Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'",
+  "themes_count": 6
+}

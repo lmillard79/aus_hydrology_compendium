@@ -1,0 +1,13 @@
+Enhanced Query: PRACTITIONER
+Conference: FMA 2023
+Notebook: b45571e2-ca22-49b4-ad5b-ab9094ddd245
+Timestamp: 2026-04-19T00:05:20.698670+00:00
+============================================================
+
+QUERY:
+What are the key practical recommendations for floodplain managers, hydrologists, and water resources professionals? What actionable insights can practitioners apply immediately?
+
+============================================================
+
+RESPONSE:
+Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'

@@ -1,0 +1,10 @@
+{
+  "query_type": "practitioner",
+  "conference": "FMA",
+  "year": 2023,
+  "notebook_id": "b45571e2-ca22-49b4-ad5b-ab9094ddd245",
+  "timestamp": "2026-04-19T00:05:20.699381+00:00",
+  "prompt": "What are the key practical recommendations for floodplain managers, hydrologists, and water resources professionals? What actionable insights can practitioners apply immediately?",
+  "response": "Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'",
+  "themes_count": 6
+}

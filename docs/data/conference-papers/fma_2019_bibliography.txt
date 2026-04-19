@@ -1,0 +1,13 @@
+Enhanced Query: BIBLIOGRAPHY
+Conference: FMA 2019
+Notebook: 1e7cf6a8-f79f-4e09-a150-7fc45fb97dd7
+Timestamp: 2026-04-19T00:05:37.604294+00:00
+============================================================
+
+QUERY:
+List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.
+
+============================================================
+
+RESPONSE:
+Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'

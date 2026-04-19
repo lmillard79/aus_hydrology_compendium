@@ -1,0 +1,10 @@
+{
+  "query_type": "bibliography",
+  "conference": "FMA",
+  "year": 2023,
+  "notebook_id": "b45571e2-ca22-49b4-ad5b-ab9094ddd245",
+  "timestamp": "2026-04-19T00:05:00.095683+00:00",
+  "prompt": "List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.",
+  "response": "Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'",
+  "themes_count": 6
+}

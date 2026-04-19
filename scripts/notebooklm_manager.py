@@ -686,6 +686,171 @@ class NotebookLMManager:
         return all_responses
 
 
+    async def query_enhanced(
+        self,
+        json_file: str,
+        notebook_id: str,
+        query_type: str = 'bibliography',
+        output_dir: str = 'docs/data/conference-papers',
+        delay: float = 3.0
+    ) -> dict:
+        """
+        Run enhanced queries on a notebook for richer data extraction.
+        
+        Query types:
+        - bibliography: List all papers with titles, authors, years
+        - connections: How themes connect to each other
+        - gaps: Research gaps and future directions
+        - practitioner: Key recommendations for practitioners
+        - methods: Methodology comparison across papers
+        - timeline: Historical evolution of research themes
+        """
+        
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+        
+        # Load extracted data
+        json_path = Path(json_file)
+        if not json_path.exists():
+            print(f"Error: JSON file not found: {json_path}")
+            return {}
+        
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        conference = data.get('conference', 'Unknown')
+        year = data.get('year', 'Unknown')
+        mind_map_title = data.get('mind_map_title', f'{conference} {year}')
+        themes = data.get('main_themes', [])
+        
+        # Define queries for each type
+        query_templates = {
+            'bibliography': {
+                'prompt': 'List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.',
+                'filename_suffix': 'bibliography'
+            },
+            'connections': {
+                'prompt': 'How do the different research themes in this notebook connect to each other? What are the cross-cutting issues and interdisciplinary connections? Provide specific examples of papers that bridge multiple themes.',
+                'filename_suffix': 'connections'
+            },
+            'gaps': {
+                'prompt': 'What research gaps are identified in these papers? What future research directions or unanswered questions do the authors mention? What areas need more investigation?',
+                'filename_suffix': 'gaps'
+            },
+            'practitioner': {
+                'prompt': 'What are the key practical recommendations for floodplain managers, hydrologists, and water resources professionals? What actionable insights can practitioners apply immediately?',
+                'filename_suffix': 'practitioner'
+            },
+            'methods': {
+                'prompt': 'Compare and contrast the methodologies used across different papers. What are the dominant methods, models, and approaches? Which methods are emerging or innovative?',
+                'filename_suffix': 'methods'
+            },
+            'timeline': {
+                'prompt': 'How has research on flood hydrology and water resources evolved based on these papers? What were the major milestones, shifts in focus, or emerging trends over time?',
+                'filename_suffix': 'timeline'
+            }
+        }
+        
+        if query_type not in query_templates:
+            print(f"Error: Unknown query type '{query_type}'")
+            return {}
+        
+        template = query_templates[query_type]
+        
+        print(f"\n{'='*60}")
+        print(f"Enhanced Query: {query_type.upper()}")
+        print(f"Conference: {conference} {year}")
+        print(f"Notebook: {notebook_id}")
+        print(f"Themes: {len(themes)}")
+        print(f"{'='*60}\n")
+        
+        # Build context
+        themes_context = "\n".join([f"- {t.get('name', t.get('theme', 'Unknown'))}" for t in themes[:10]])
+        
+        prompt = f"""{template['prompt']}
+
+Context: {mind_map_title}
+
+Main Research Themes in this Notebook:
+{themes_context}
+
+Please provide a comprehensive response with specific citations to papers [1], [2], etc. where possible.
+"""
+        
+        # Query with retries
+        response = None
+        for attempt in range(3):
+            try:
+                print(f"Querying NotebookLM (attempt {attempt + 1}/3)...")
+                async with await self._get_client() as client:
+                    result = await client.chat.ask(
+                        notebook_id=notebook_id,
+                        question=prompt
+                    )
+                    # Handle different response types
+                    if hasattr(result, 'text'):
+                        response = result.text
+                    elif hasattr(result, 'answer'):
+                        response = result.answer
+                    elif isinstance(result, dict):
+                        response = result.get('text', result.get('answer', str(result)))
+                    else:
+                        response = str(result)
+                    
+                    # Check if we got a valid response
+                    if not response or response.strip() == '':
+                        response = "Error: Empty response from NotebookLM"
+                
+                # Success - break out of retry loop
+                if not response.startswith('Error:'):
+                    break
+                    
+            except Exception as e:
+                if 'timeout' in str(e).lower() and attempt < 2:
+                    print(f"  Timeout, retrying ({attempt + 1}/3)...")
+                    await asyncio.sleep(5)
+                else:
+                    print(f"  ✗ Error: {e}")
+                    response = f"Error querying NotebookLM: {e}"
+                    break
+        
+        # Save response
+        safe_prefix = f"{conference.lower()}_{year}"
+        output_file = output_path / f"{safe_prefix}_{template['filename_suffix']}.txt"
+        
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(f"Enhanced Query: {query_type.upper()}\n")
+            f.write(f"Conference: {conference} {year}\n")
+            f.write(f"Notebook: {notebook_id}\n")
+            f.write(f"Timestamp: {datetime.now(timezone.utc).isoformat()}\n")
+            f.write(f"{'='*60}\n\n")
+            f.write(f"QUERY:\n{template['prompt']}\n\n")
+            f.write(f"{'='*60}\n\n")
+            f.write(f"RESPONSE:\n{response}\n")
+        
+        print(f"\n✓ Saved: {output_file}")
+        
+        # Also save as JSON for structured access
+        json_file = output_path / f"{safe_prefix}_{template['filename_suffix']}.json"
+        result_data = {
+            "query_type": query_type,
+            "conference": conference,
+            "year": year,
+            "notebook_id": notebook_id,
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "prompt": template['prompt'],
+            "response": response,
+            "themes_count": len(themes)
+        }
+        
+        with open(json_file, 'w', encoding='utf-8') as f:
+            json.dump(result_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"✓ Saved JSON: {json_file}")
+        
+        return result_data
+
+
 def create_sample_config():
     """Create a sample configuration file."""
     config = {
@@ -880,6 +1045,39 @@ async def main():
         help='Delay between queries in seconds (default: 2)'
     )
     
+    # Query enhanced command - specialized queries for richer data
+    enhanced_parser = subparsers.add_parser(
+        'query-enhanced',
+        help='Run enhanced queries on notebooks (bibliography, connections, gaps, etc.)'
+    )
+    enhanced_parser.add_argument(
+        '--json-file', 
+        required=True,
+        help='Path to extracted JSON file (e.g., docs/data/conference-papers/fma_2024.json)'
+    )
+    enhanced_parser.add_argument(
+        '--notebook-id', 
+        required=True,
+        help='Notebook ID to query'
+    )
+    enhanced_parser.add_argument(
+        '--query-type',
+        choices=['bibliography', 'connections', 'gaps', 'practitioner', 'methods', 'timeline'],
+        required=True,
+        help='Type of enhanced query to run'
+    )
+    enhanced_parser.add_argument(
+        '--output-dir',
+        default='docs/data/conference-papers',
+        help='Directory to save query responses'
+    )
+    enhanced_parser.add_argument(
+        '--delay',
+        type=float,
+        default=3.0,
+        help='Delay between queries in seconds (default: 3)'
+    )
+    
     args = parser.parse_args()
     
     if args.command == 'create-config':
@@ -927,6 +1125,15 @@ async def main():
         await manager.query_all_themes(
             json_file=args.json_file,
             notebook_id=args.notebook_id,
+            output_dir=args.output_dir,
+            delay=args.delay
+        )
+    
+    elif args.command == 'query-enhanced':
+        await manager.query_enhanced(
+            json_file=args.json_file,
+            notebook_id=args.notebook_id,
+            query_type=args.query_type,
             output_dir=args.output_dir,
             delay=args.delay
         )

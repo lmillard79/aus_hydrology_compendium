@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-04-19T00:08:30.910930+00:00",
+  "completed": 1,
+  "failed": 1,
+  "skipped": 10,
+  "last_notebook": "FMA 2019",
+  "query_types": [
+    "bibliography",
+    "connections",
+    "gaps",
+    "practitioner"
+  ]
+}
