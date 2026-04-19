@@ -1,7 +1,7 @@
 Enhanced Query: CONNECTIONS
 Conference: FMA 2022
 Notebook: 3dcf95a8-33db-480d-be1b-deb1448b0d2e
-Timestamp: 2026-04-19T00:27:35.418293+00:00
+Timestamp: 2026-04-19T06:16:08.011774+00:00
 ============================================================
 
 QUERY:
@@ -10,30 +10,4 @@ How do the different research themes in this notebook connect to each other? Wha
 ============================================================
 
 RESPONSE:
-The research themes within this notebook are inherently interdependent, forming a holistic approach to floodplain management where scientific data, strategic policy, and community well-being intersect. 
-
-Here are the primary cross-cutting issues and interdisciplinary connections across the themes:
-
-**1. Technology and Monitoring as the Evidence Base for Planning and Governance**
-Technological advancements in modelling, telemetry, and forecasting are not isolated tools; they are the fundamental evidence base that governments use to design planning controls and allocate funding. 
-*   High-resolution flood modelling, LiDAR, and bathymetric data are used to define flood hazard mappings, which directly dictate land-use planning, mitigation infrastructure works, and emergency response policies [1], [2].
-*   Data management platforms, such as the cloud-based WISER system, bridge technology and governance by using radar rainfall data to provide real-time forecasting and automated early warnings to state emergency services (SES) and local councils, enabling rapid emergency management [3], [4].
-*   The effectiveness of these governance decisions relies heavily on the quality of the underlying flood models and the reliability of warning gauge networks [5]. 
-
-**2. Climate Change as the Catalyst for Adaptive Planning and Governance**
-The compounding uncertainties of climate change—such as rising sea levels and increased storm intensity—have shifted planning controls away from static rules toward flexible, adaptive governance frameworks. 
-*   Traditional reliance on the 1% Annual Exceedance Probability (AEP) flood standard is becoming insufficient, leading to disproportionate sensitivity to climate-induced changes in flood risk [6].
-*   In response, interdisciplinary "adaptation pathways" are being developed. These frameworks use monitored signals and performance thresholds to trigger flexible land-use decisions, allowing governments to iteratively adapt risk management plans based on the actual trajectory of sea-level rise [7], [8], [9], [10].
-*   Climate change impacts also force governance leaders to make difficult policy choices between funding complex, expensive engineering defence projects versus implementing planned retreat and relocation strategies [11]. 
-
-**3. Governance Frameworks Driving Strategic Investment in Resilience**
-Effective governance and schemes act as the operational umbrella that funds and implements technological tools and planning controls.
-*   The Queensland Reconstruction Authority (QRA) exemplifies a decentralized governance model that uses evidence-based decision-making—supported by economic assessment toolkits and state-wide risk assessments—to strategically fund disaster-ready communities and drive behavioral change in land use and built form [12], [13], [14], [15].
-*   Similarly, Regional Councils in New Zealand, alongside government ministries, are pooling multi-million dollar funding to utilize Floodplain Management Planning frameworks that actively evaluate and apply planning controls to control development in flood hazard areas [16], [17].
-
-### Specific Examples of Papers Bridging Multiple Themes
-
-*   **Tolerable Risk and Flood Planning Controls (Dall'Osso et al.):** *Bridges Technological Tools, Climate Change, and Planning Controls.* This paper details a probabilistic risk assessment tool that accounts for future predicted climate conditions and socio-economic indicators. It uses this complex modelling to consistently map "tolerability thresholds" to directly inform suitable flood planning controls and development assessments in levee-protected areas [18], [19].
-*   **Quantifying Flood Controls under Climate Scenarios (IAG Research):** *Bridges Planning Controls, Governance, and Climate Change.* This research aims to help floodplain managers and insurers understand economic risk by quantifying the effectiveness of three specific planning controls: location controls, floor level controls, and flood resilient building schemes. It explores the impact of climate change scenarios on these controls to determine where and when they should be implemented to ensure risk does not increase for future generations [20], [6], [21], [22], [23].
-*   **Sustainable Land Use and Sponge Cities (S. Bala):** *Bridges Planning Controls, Climate Change Impacts, and Governance.* This paper explores how rapid urbanization exacerbates climate change impacts and alters the hydrological characteristics of flood risks [24], [25]. It bridges these themes by advocating for "Sponge Cities" and sustainable science as a new planning paradigm, integrating local land-use policies, infiltration trenches, and green infrastructure to adapt to climate reality while calling for subsidized government funding schemes for disaster resilience [26], [27].
-*   **Enhanced Flood Studies for 2050 Planning Horizons:** *Bridges Technological Tools, Climate Change, and Planning Controls.* This research outlines how the development of 31 new and enhanced flood studies utilizes 2D modelling to map depth, hazard, and water surface elevations for both current and future (2050) conditions. By factoring in climate change and projected development, the technical data provides a consistent base to formulate policy, straightforward assessments, and greater deemed-to-satisfy development controls [1], [28].
+Error querying NotebookLM: Chat request timed out: 

@@ -1,7 +1,7 @@
 Enhanced Query: BIBLIOGRAPHY
 Conference: HWRS 2012
 Notebook: 46346d2d-10fc-444a-b311-e38a76caf180
-Timestamp: 2026-04-19T01:32:14.240103+00:00
+Timestamp: 2026-04-19T07:17:00.503895+00:00
 ============================================================
 
 QUERY:
@@ -10,4 +10,209 @@ List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 
 ============================================================
 
 RESPONSE:
-Error querying NotebookLM: Chat request timed out: 
+**1. Statistical Downscaling of General Circulation Model Outputs to Precipitation**
+*   **Authors:** D.A. Sachindra, F. Huang, Andrew F. Barton, B.J.C. Perera
+*   **Year Published:** 2012
+*   **Key Topic:** Environmental and Specific Studies [1].
+
+**2. A Daily River System Model for the Murray-Darling Basin: Development, Testing and Implementation**
+*   **Authors:** Dushmanta Dutta, Justin Hughes, Jai Vaze, Shaun Kim
+*   **Year Published:** 2012
+*   **Key Topic:** Software and Systems [2, 3].
+
+**3. Regionalisation of Rainfall Temporal Patterns in New South Wales for Application with the Monte Carlo Simulation Technique to Design Flood Estimation**
+*   **Authors:** Wilfredo Caballero, Ataur Rahman, Surendra Shrestha
+*   **Year Published:** 2012
+*   **Key Topic:** Design Flood Estimation Techniques [4].
+
+**4. Drainage design in Brunei Darussalam: Generation of Design Rainfall and Ocean Water Level Conditions**
+*   **Authors:** Chris Nielsen, Hj Mohd Sidek bin Hj Mohd Yusof, Claus Pedersen, Henrik Madsen
+*   **Year Published:** 2012
+*   **Key Topic:** Design Flood Estimation Techniques [5].
+
+**5. Identification of the Best-fit Probability Distributions in At-site Flood Frequency Analysis: A Case Study for Australia Using 127 Stations**
+*   **Authors:** Mohammad Ashrafuz Zaman, Ataur Rahman, Khaled Haddad, Dharma Hagare
+*   **Year Published:** 2012
+*   **Key Topic:** Design Flood Estimation Techniques [6].
+
+**6. Water Poverty Analysis of Selected River Basins in Nepal**
+*   **Authors:** Vishnu Prasad Pandey, Sujata Manandhar, Futaba Kazama
+*   **Year Published:** 2012
+*   **Key Topic:** Water Supply and Demand Management [7, 8].
+
+**7. Applying eWater Source as the catchment model for the Hawkesbury–Nepean Water Quality Model System**
+*   **Authors:** Rose Mannik, Agathe Boronkay, Phillip Jordan, Tony Church, Donna Hughes, Stephen Blockwell
+*   **Year Published:** 2012
+*   **Key Topic:** Software and Systems [9].
+
+**8. Configuring consumptive water transfers for ecological benefit: An algal response model for water resource operations**
+*   **Authors:** Islam Atazadeh, Keely Mills, Andrew Barton
+*   **Year Published:** 2012
+*   **Key Topic:** Environmental and Specific Studies [10].
+
+**9. Planning for the future: modelling anticipated changes in water quality**
+*   **Authors:** Al Preston, Imad A. Hannoun, E. John List, Peggy Roefer
+*   **Year Published:** 2012
+*   **Key Topic:** Environmental and Specific Studies [11].
+
+**10. Compiling preliminary State-wide estimates of evapotranspiration for Victoria using outputs from 1-dimensional modelling**
+*   **Authors:** Rachel Brown, Peter Hill, Khalif Jusuf, Bruce Greenop
+*   **Year Published:** 2012
+*   **Key Topic:** Hydraulic Models and Parameters [12].
+
+**11. Investigation of different loss and gain accounting methodologies for river system modelling**
+*   **Authors:** Shaun Sang Ho Kim, Jai Vaze, Dushmanta Dutta, Justin Hughes
+*   **Year Published:** 2012
+*   **Key Topic:** Hydraulic Models and Parameters [13].
+
+**12. Developing national virtual teaching tools for Hydrology**
+*   **Authors:** R. Willem Vervoort, Floris F. Van Ogtrop, Barry Croke
+*   **Year Published:** 2012
+*   **Key Topic:** Software and Systems [14].
+
+**13. Improving Hydrological Model Prediction via Hierarchical Mixture of Experts**
+*   **Authors:** Erwin Jeremiah, Ashish Sharma
+*   **Year Published:** 2012
+*   **Key Topic:** Hydraulic Models and Parameters [15].
+
+**14. Simulation of river-bed evolution due to channel widening**
+*   **Authors:** Thomas Berchtold, David Vetsch, Volker Weitbrecht
+*   **Year Published:** 2012
+*   **Key Topic:** Hydraulic Models and Parameters [16].
+
+**15. Changes to Sub-daily Rainfall Patterns in a Future Climate**
+*   **Authors:** Seth Westra, Jason Evans, Rajeshwar Mehrotra, Ashish Sharma
+*   **Year Published:** 2012
+*   **Key Topic:** Environmental and Specific Studies [17].
+
+**16. Application of a Space-Time Stochastic Model for Downscaling Future Rainfall Projections**
+*   **Authors:** Bhupendra A. Raut, Lorenzo de la Fuente, Alan W. Seed
+*   **Year Published:** 2012
+*   **Key Topic:** Environmental and Specific Studies [18].
+
+**17. Developing Empirical Hydraulic Geometry Relationships for Tidal Channels in NSW Wetlands**
+*   **Authors:** Jamie Ruprecht, William Glamore, Duncan Rayner
+*   **Year Published:** 2012
+*   **Key Topic:** Hydraulic Models and Parameters [19].
+
+**18. eWater’s Quality Assurance Approach for Developing and Applying Water Management Models**
+*   **Authors:** Peter Wallbrink, Joel Rahman, Emma Betts, Dugald Black
+*   **Year Published:** 2012
+*   **Key Topic:** Software and Systems [20].
+
+**19. Space Transformation with Multidimensional Scaling to Account for Topography-induced Local Anisotropy in Kriging**
+*   **Authors:** Min Liu, Jing Li, András Bárdossy
+*   **Year Published:** 2012
+*   **Key Topic:** Hydraulic Models and Parameters [21].
+
+**20. Assessing Catchment Runoff Responses under Dry and Wet Year Scenarios – a Case Study**
+*   **Authors:** K. S. Tan, Priya Crawford-Wilson, Bruce Rhodes
+*   **Year Published:** 2012
+*   **Key Topic:** Water Supply and Demand Management [22].
+
+**21. An Optimized, Real Time Water Delivery and Management System for the Murrumbidgee River**
+*   **Authors:** T. van Kalken, Nachi Nachiappan, Dan Berry, John Skinner
+*   **Year Published:** 2012
+*   **Key Topic:** Water Supply and Demand Management [23].
+
+**22. Improving the inputs to assessing the impact of stock and domestic farm dams in Queensland**
+*   **Authors:** Chloe R Wiesenfeld, Nicola Logan, Ahmed Naseem, Phillip Jordan
+*   **Year Published:** 2012
+*   **Key Topic:** Water Supply and Demand Management [24].
+
+**23. River Flow Forecasting Using an Integrated Approach of Wavelet Analysis and Artificial Neural Networks**
+*   **Authors:** Honey Badrzadeh, Ranjan Sarukkalige
+*   **Year Published:** 2012
+*   **Key Topic:** Hydraulic Models and Parameters [25].
+
+**24. Quality Controlling Daily Read Rainfall Data for the Intensity-Frequency-Duration (IFD) Revision Project**
+*   **Authors:** Janice Green, Fiona Johnson, Deacon McKay
+*   **Year Published:** 2012
+*   **Key Topic:** Design Flood Estimation Techniques [26].
+
+**25. Experimental Study of the Flow Structure Interactions between Bridge Piers**
+*   **Authors:** Chij K. Shrestha, Alireza Keshavarzi, Hadi Khabbaz, James Ball
+*   **Year Published:** 2012
+*   **Key Topic:** Hydraulic Models and Parameters [27].
+
+**26. Sampling in time and space – inclusion of rainfall spatial patterns and tidal influences in a joint probability framework**
+*   **Authors:** Kristen Sih, Peter Hill, Rory Nathan, Hamid Mirfenderesk
+*   **Year Published:** 2012
+*   **Key Topic:** Design Flood Estimation Techniques [28].
+
+**27. Understanding Treatment Characteristics of Constructed Stormwater Wetlands**
+*   **Authors:** Isri R. Mangangka, Prasanna Egodawatta, Jay Rajapakse, Ashantha Goonetilleke
+*   **Year Published:** 2012
+*   **Key Topic:** Environmental and Specific Studies [29].
+
+**28. Review of Flood Hazard Prediction on Urban Floodplains**
+*   **Authors:** Maree Riley, Grantley Smith, Conrad Wasko
+*   **Year Published:** 2012
+*   **Key Topic:** Design Flood Estimation Techniques [30].
+
+**29. Modeling Non-Residential Urban Water Use: Case Study on Two High Water Use Schools in Melbourne**
+*   **Authors:** S. Barua, A.W.M. Ng, S. Muthukumaran, P. Roberts, A. Athuraliya, N.T. Diamond, B.J.C. Perera
+*   **Year Published:** 2012
+*   **Key Topic:** Water Supply and Demand Management [31].
+
+**30. Evaluation of Urban Stormwater Harvesting Schemes Using Multi-criteria Assessment**
+*   **Authors:** P.M. Inamdar, A.K. Sharma, B.J.C. Perera
+*   **Year Published:** 2012
+*   **Key Topic:** Water Supply and Demand Management [32].
+
+**31. Proposed project methods for the Flinders and Gilbert Agricultural Resource Assessment**
+*   **Authors:** C. Petheram, I. Watson, P. Stone, M. Barber, R. Bartley, D. Brough, D. Burrows, N. Crossman, D. Dutta, M. Grundy, J. Hornbuckle, I. Jolly, J. Lerat, D. McJannet, T. Munday, R.K. Schmidt, N. Waltham, T. Webster
+*   **Year Published:** 2012
+*   **Key Topic:** Water Supply and Demand Management [33].
+
+**32. Application of Bayesian GLSR to estimate sub daily rainfall parameters for the IFD Revision Project**
+*   **Authors:** Fiona Johnson, Khaled Haddad, Ataur Rahman
+*   **Year Published:** 2012
+*   **Key Topic:** Design Flood Estimation Techniques [34].
+
+**33. Using Elevated Digital Images, Vegetation Mapping and Hydrodynamic Modelling to track Tidal Hydraulics and Saltmarsh Evolution**
+*   **Authors:** Lisa Granqvist, William Glamore
+*   **Year Published:** 2012
+*   **Key Topic:** Environmental and Specific Studies [35].
+
+**34. Optimisation as a Tool to Assist Environmental Portfolio Management**
+*   **Authors:** Avril Horne, Erin Murrihy, Brad Neal, Simon Lang, Nicola Falcon, Mike Stewardson
+*   **Year Published:** 2012
+*   **Key Topic:** Water Supply and Demand Management [36].
+
+**35. Estimation of Rare Design Rainfalls for New South Wales and the Australian Capital Territory: An Application of the CRC-FORGE Method**
+*   **Authors:** Nanda Nandakumar, Phillip Jordan, Erwin Weinmann, Kristen Sih
+*   **Year Published:** 2012
+*   **Key Topic:** Design Flood Estimation Techniques [37].
+
+**36. Using optimisation to inform the management of environmental water holdings**
+*   **Authors:** Alice E. Brown, Carmel A. Pollino
+*   **Year Published:** 2012
+*   **Key Topic:** Water Supply and Demand Management [38].
+
+**37. Multi-Objective Optimisation Method for Water Resources Management: A Multi-Reservoir System Case Study**
+*   **Authors:** Walter R. Godoy, Andrew F. Barton, B. J. C. Perera
+*   **Year Published:** 2012
+*   **Key Topic:** Water Supply and Demand Management [39].
+
+**38. Minimization of pumping costs in water distribution systems using explicit and implicit pump scheduling**
+*   **Authors:** A.M. Bagirov, H. Mala Jetmarova, A. Al Nuaimat, S.T. Ahmed, N. Sultanova, A.F. Barton
+*   **Year Published:** 2012
+*   **Key Topic:** Software and Systems [40].
+
+**39. The Use of Hydrodynamic Modelling and Remote Sensing to Assess Hydrological Connectivity of Floodplain Wetlands**
+*   **Authors:** Fazlul Karim, Steve Marvanek, Jim Wallace, Cuan Petheram
+*   **Year Published:** 2012
+*   **Key Topic:** Environmental and Specific Studies [41].
+
+**40. Spatiotemporal fuzzy based climate classification for Southeastern Australia**
+*   **Authors:** Maryam Montazerolghaem, Willem Vervoort, Budiman Minasny
+*   **Year Published:** 2012
+*   **Key Topic:** Environmental and Specific Studies [42].
+
+**41. Australian Network of Hydrologic Reference Stations – Advances In Design, Development and Implementation**
+*   **Authors:** Margot Turner, Mohammed Bari, Gnanathikkam Amirthanathan, Zahid Ahmad
+*   **Year Published:** 2012
+*   **Key Topic:** Software and Systems [43].
+
+*(Note: All papers listed originate from the 34th Hydrology and Water Resources Symposium (HWRS) held in Sydney, Australia in November 2012 [8, 44, 45].)*

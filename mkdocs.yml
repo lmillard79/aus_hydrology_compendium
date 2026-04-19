@@ -1,6 +1,7 @@
 site_name: Australian Hydrology Compendium
 site_description: A searchable index of flood hydrology and water resources knowledge for Australian practitioners
-site_url: https://lamilla79-aus_hydrology_compendium.hf.space
+site_url: https://lmillard79.github.io/aus_hydrology_compendium/
+site_author: Lindsay Millard
 repo_url: https://github.com/lmillard79/Aus_Hydrology_Compendium
 repo_name: lmillard79/Aus_Hydrology_Compendium
 
@@ -28,6 +29,7 @@ theme:
     - search.highlight
     - toc.integrate
     - content.code.copy
+    - navigation.tracking
 
 use_directory_urls: false
 

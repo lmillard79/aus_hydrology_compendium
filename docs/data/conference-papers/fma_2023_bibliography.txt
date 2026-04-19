@@ -1,7 +1,7 @@
 Enhanced Query: BIBLIOGRAPHY
 Conference: FMA 2023
 Notebook: b45571e2-ca22-49b4-ad5b-ab9094ddd245
-Timestamp: 2026-04-19T00:13:55.037886+00:00
+Timestamp: 2026-04-19T06:01:28.662133+00:00
 ============================================================
 
 QUERY:

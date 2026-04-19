@@ -1,7 +1,7 @@
 Enhanced Query: BIBLIOGRAPHY
 Conference: FMA 2020
 Notebook: 78047816-ad9a-4ce6-965b-8d85c5ded4a8
-Timestamp: 2026-04-19T00:32:44.000175+00:00
+Timestamp: 2026-04-19T06:20:27.377104+00:00
 ============================================================
 
 QUERY:
@@ -10,206 +10,164 @@ List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 
 ============================================================
 
 RESPONSE:
-### 🌟 Core Paper Matching Your Context (Property-Based Floodplain Management)
+**Core Paper on Property-Based Floodplain Management**
 
-**1. Purchase or Move? Lessons Learnt from Historic Property-Based Floodplain Management Schemes**
-*   **All Authors:** Alana Mosely
-*   **Year Published:** 2020
-*   **Key Topic:** Property-based floodplain management. This paper directly addresses the main themes of your query:
-    *   **Scheme Types:** Evaluates voluntary and compulsory house purchases, land-swaps, and house resilience (wet/dry flood-proofing and house raising) schemes [1-6].
-    *   **Eligibility Criteria:** Analyzes criteria used to determine property eligibility, such as repetitive historical flooding losses, location within high hazard/life-threatening areas, and the necessary relaxing of criteria to prevent splitting up families or socially impacting neighbors [7-11].
-    *   **Success Factors:** Highlights sound community engagement, strong local leadership, giving homeowners a variety of options, utilizing the momentum of recent disasters, and enabling tight-knit communities to remain together as key factors for success [11-14].
-    *   **Lessons Learnt:** Notes the importance of keeping eligibility criteria simple, the emotional toll and difficulty of relocations for the elderly, the necessity of establishing an income-generating or useful purpose for vacated lands, and the challenges posed by long project timeframes, safety/looting issues, and rising local housing prices [12-15].
+*   **Title:** Purchase or Move? Lessons Learnt from Historic Property-Based Floodplain Management Schemes [1], [2]
+*   **Authors:** Alana Mosely [3], [1]
+*   **Year Published:** 2020 [4]
+*   **Key Topic:** This paper directly addresses the core context by analyzing different **scheme types** such as voluntary and compulsory house purchases, land-swaps, and house resilience/wet-proofing schemes [5]. The study details the **eligibility criteria** used to identify qualifying properties (such as repetitive losses or location in high hazard areas) [6], [7]. It also explores the social challenges involved in these schemes, identifying key **success factors** (e.g., sound community engagement, giving homeowners options, strong local leadership) and **lessons learnt** (e.g., providing a useful purpose for vacated land, managing rising house prices, and recognizing that the elderly find it more difficult to relocate) from historic global schemes [2], [6], [8], [9]. 
 
----
+**Other Papers in the 2020 Digital Floodplain Management Australia National Conference**
 
-### 📚 Additional Full Papers and Presentations in this Notebook
-
-**2. ARR2019 Quirks: Embedded Bursts and At-Site IFD (ARR2019 Quirks and How to Deal with Them)**
-*   **All Authors:** Chris Ryan, Oscar Garratt
-*   **Year Published:** 2020
-*   **Key Topic:** Hydrological modelling using Australian Rainfall and Runoff (ARR) 2019 guidelines, focusing on detecting and "smoothing" embedded bursts in design storms, and verifying broadscale Intensity Frequency Depth (IFD) data with localized at-site analysis [16-19].
-
-**3. The Only Way Is Up – Flood Evacuation in Parramatta CBD**
-*   **All Authors:** Josh Nadiroglu, L Baxter, A Vincevicius, B Stinton
-*   **Year Published:** 2020
-*   **Key Topic:** Flood evacuation challenges for high-density CBD developments, assessing a "shelter in place" (vertical evacuation) approach for areas prone to flash flooding without significant warning times [20-24].
-
-**4. Real-time Flood Forecasting and Dam Operations for the Ross River**
-*   **All Authors:** Phillip Jordan, David Stephens, James Woolley, Ashley Astorquia, Zahid Ahmed, Cameron Druery, Michael Cawood
-*   **Year Published:** 2020
-*   **Key Topic:** Developing and implementing a real-time flood operations system (using waterRIDE and RORB) for the Ross River Dam to automate reporting and empower local disaster management groups [20, 25-29].
-
-**5. Saving Lives from Floods**
-*   **All Authors:** Shayne Baker, Adrian Mayhew
-*   **Year Published:** 2020
-*   **Key Topic:** Multi-agency rescue collaboration, outlining the four phases of flooding (prevention, preparedness, response, recovery), and training volunteer lifesavers to expand operational capacity during flood disasters [30-35].
-
-**6. Don’t Get in a Bog with Your RoG**
-*   **All Authors:** Ben Tate, Simon Hof
-*   **Year Published:** 2020
-*   **Key Topic:** Direct rainfall on grid (RoG) flood modelling, assessing the sensitivity of ARR2019 temporal patterns, losses, and roughness, while utilizing engineering judgement to save computational time and resources [30, 36, 37].
-
-**7. Flood Mitigation on Large Scale Infrastructure – Challenges and a Way Forward**
-*   **All Authors:** Ben Mason, Michael South
-*   **Year Published:** 2020
-*   **Key Topic:** Challenges faced by flood practitioners and floodplain managers during major transport infrastructure projects, emphasizing the necessity of early collaboration and integrating flood mitigation into a risk-cost-benefit framework [38-42].
-
-**8. Flood Considerations for Road Managers**
-*   **All Authors:** Danny Rose
-*   **Year Published:** 2020
-*   **Key Topic:** Road network management during floods, exploring local council responsibilities, road closures, and safety protocols following the tragic fatalities during the 2017 Ex-Tropical Cyclone Debbie [43-46].
-
-**9. Hunter Valley Flood Mitigation Scheme – Wallalong Levee, Aberdeen Levee and Wallis Creek Floodgates Upgrade Works**
-*   **All Authors:** Ben Patterson, Andrew McIntyre, Andrew Jackaman
-*   **Year Published:** 2020
-*   **Key Topic:** Assessing and upgrading legacy flood defense assets, featuring case studies on levee rehabilitation designs, river bank protection, and the hydraulic impacts of spillways and over-extended house pads [47-52].
-
-**10. Lessons from SA’s Largest Expansion of Flood Warning Services in 20 Years**
-*   **All Authors:** Belinda Skilton, A Cornish
-*   **Year Published:** 2020
-*   **Key Topic:** The complexities of expanding flood warning infrastructure in South Australia, resolving asset ownership and maintenance ambiguities among local councils, and overcoming technical design innovations [43, 53-55].
-
-**11. A Framework for Resilient Development on Floodplains**
-*   **All Authors:** Mike Edwards
-*   **Year Published:** 2020
-*   **Key Topic:** Balancing land-use planning with flood hazard information, proposing best-practice principles for transparent, non-discretionary development controls, fit-for-purpose flood mapping, and strategic planning [56-60].
-
-**12. Toowoomba’s Evolution in Flood Modelling and Floodplain Management**
-*   **All Authors:** Zita Dore, K Bashar, G Bebington, A Kolega, M Martin
-*   **Year Published:** 2020
-*   **Key Topic:** Developing comprehensive, LGA-wide direct rainfall hydraulic models (using TUFLOW HPC) adhering to ARR2019 guidelines to thoroughly map regional flood behavior, hazard extents, and structure immunity [61-65].
-
-**13. Using Flood Data for Strategic Purposes (Flood Data Exchange)**
-*   **All Authors:** Shaun Epe, A Frazer
-*   **Year Published:** 2020
-*   **Key Topic:** Implementation and benefits of the web-based NSW Flood Data Portal and Geospatial Emergency Mapping System (GEMS) for centralizing, sharing, and visualizing flood data for emergency response [56, 66-68].
-
-**14. A Flood Resilient Bruce Highway for North Queensland: Haughton River Floodplain Upgrade**
-*   **All Authors:** Tina O'Connell
-*   **Year Published:** 2020
-*   **Key Topic:** Utilizing Heavily Parallelised Compute (TUFLOW HPC) modelling to design the Bruce Highway upgrade, significantly improving flood immunity and managing afflux on a highly complex agricultural floodplain [69, 70].
-
-**15. Back to Basics – Testing the Validity of Wollongong Local Guidance for ARR2019**
-*   **All Authors:** Heath Sommerville, R Thomson, S Srbinovski, O Garratt-Symes, I Ghetti
-*   **Year Published:** 2020
-*   **Key Topic:** Testing ARR2019 standard approaches against localized escarpment topography in Wollongong, refining at-site Intensity Frequency Duration (IFD) rainfall depths, and verifying hydrological parameters [31, 71, 72].
-
-**16. Both Flood and Community Engagement Specialists Working Together for Flood-Informed Communities**
-*   **All Authors:** Stephen Yeo, S Ribbons, Holly Langler, A White, M Abood
-*   **Year Published:** 2020
-*   **Key Topic:** Collaborative strategies for translating technical flood studies into accessible community education campaigns, interactive flood mapping tools, and disaster preparedness initiatives in the Hawkesbury-Nepean Valley [47, 73-77].
-
----
-
-### 📄 Additional Conference Abstracts
-
-**17. Delivering on the Brisbane River Strategic Floodplain Management Plan**
-*   **All Authors:** Graeme Milligan
-*   **Year Published:** 2020
-*   **Key Topic:** Implementation of long-term strategic floodplain management and local land-use planning in the Brisbane River Catchment [78, 79].
-
-**18. Working Together for the Best Possible Flood Warnings in Queensland**
-*   **All Authors:** Graeme Milligan
-*   **Year Published:** 2020
-*   **Key Topic:** Regional coordination, stakeholder collaboration, and asset management for upgrading flood warning gauge networks [78, 80].
-
-**19. How Much is It Worth? Economic Values for Floodplain Management**
-*   **All Authors:** Rhys Thomson, D McLuckie, L Drynan, A Toniato
-*   **Year Published:** 2020
-*   **Key Topic:** Developing rapid assessment techniques and economic cost-benefit analyses (CBA) for non-direct property damages and intangible social/environmental impacts [20, 81-83].
-
-**20. TC Debbie Flood Studies – Lessons Learnt**
-*   **All Authors:** Robyn Birkett, T Corney
-*   **Year Published:** 2020
-*   **Key Topic:** Flood modelling for rural catchments following Tropical Cyclone Debbie, emphasizing the value of community-provided data for model calibration [20, 84].
-
-**21. AI Flash Flood Alert System**
-*   **All Authors:** Timothy Kallady, Paul Rasmussen
-*   **Year Published:** 2020
-*   **Key Topic:** Utilizing Artificial Intelligence to predict and alert communities about flash floods [30].
-
-**22. Planes, Trains and Automalls – A Dutch Innovation for Climate Change in Brisbane**
-*   **All Authors:** David Cox, I Varley
-*   **Year Published:** 2020
-*   **Key Topic:** Designing automated flood gates and internal site drainage for an automall precinct facing coastal and pluvial flooding under climate change conditions [85-87].
-
-**23. Raising Warragamba Dam: A Contingent Valuation Study of Flood Mitigation Versus Conservation**
-*   **All Authors:** Joel Dalberger, S Hasan, J Smart
-*   **Year Published:** 2020
-*   **Key Topic:** Assessing societal preferences and willingness to pay (WTP) regarding flood mitigation versus environmental and indigenous heritage conservation [47, 88].
-
-**24. Flood Words: How can we Communicate them more Effectively to the Public?**
-*   **All Authors:** N Dufty
-*   **Year Published:** 2020
-*   **Key Topic:** Translating technical flood terms into simple definitions and graphics to improve public consultation and engagement [89].
-
-**25. Non-Worsening Criteria: When Best Practice Isn’t Resilient**
-*   **All Authors:** Laurence Allan
-*   **Year Published:** 2020
-*   **Key Topic:** Defining terms like "adverse impact" and "actionable nuisance" when applying non-worsening criteria to urban developments in floodplains [61, 90, 91].
-
-**26. Planning to Action: Enabling Communities to Manage Flood Risk**
-*   **All Authors:** Rebecca Dick, D Wilkie
-*   **Year Published:** 2020
-*   **Key Topic:** Enabling communities to self-assess risks and set mitigation priorities through Regional Floodplain Management Strategies [61, 92].
-
-**27. Resilient Queensland: Perspectives of Community and Flood Resilience from Bauple to Boulia**
-*   **All Authors:** Steve Dredge, G Milligan, L Gannon
-*   **Year Published:** 2020
-*   **Key Topic:** Exploring the dynamic and contrasting perceptions of flood resilience between urban communities and remote outback regions [61, 93].
-
-**28. Analysis of Compound Flood Disasters**
-*   **All Authors:** Andrew Gissing, M Timms, R Crompton, L Coates
-*   **Year Published:** 2020
-*   **Key Topic:** Enhancing emergency risk management methodologies to account for cascading and compounding disaster events [56, 94].
-
-**29. Development of a Best Practice Flood Warning System**
-*   **All Authors:** J Charalambous, Allan Herring
-*   **Year Published:** 2020
-*   **Key Topic:** Evaluating the effectiveness, necessary accuracy, and ultimate purpose of state-of-the-art flood warning and intelligence systems [56, 95].
-
-**30. A Flood Resilient Victoria: Using Technology to Provide Multiple Benefits**
-*   **All Authors:** Kedar Kumthekar
-*   **Year Published:** 2020
-*   **Key Topic:** Implementing the FloodZoom intelligence platform to centralize flood data and meet statutory reporting obligations [56, 96].
-
-**31. Tasmanian Statewide Strategic Flood Mapping: Challenges and Uncertainties**
-*   **All Authors:** Audrey Lau, L Roberts, T Rigby, C Mazengarb, C Kain
-*   **Year Published:** 2020
-*   **Key Topic:** Producing a new state Digital Elevation Model (DEM) and capturing LiDAR data to develop statewide strategic flood maps [69, 97, 98].
-
-**32. Strategic Management of Flood Risk for Communities**
-*   **All Authors:** Duncan McLuckie, A Toniato
-*   **Year Published:** 2020
-*   **Key Topic:** Applying a risk-based management framework to integrate flood risk management, land-use planning, and emergency response [69, 99].
-
-**33. Flooding Impacts of Regional Farm Dams on Lowes Creek Maryland Precinct Development**
-*   **All Authors:** Maria Pinto
-*   **Year Published:** 2020
-*   **Key Topic:** Addressing the requirement for compensatory flood storage when reconfiguring or removing regional farm dams for urban expansion [69, 100].
-
-**34. In-situ Soil Moisture Monitoring in South Australia to improve Flash Flood Forecasts**
-*   **All Authors:** Dinesh Ratnayake, G Hewa
-*   **Year Published:** 2020
-*   **Key Topic:** Calibrating satellite soil moisture data with in-situ portable monitoring devices to improve flash flood forecasting reliability [69, 101].
-
-**35. The Assessment of Flood Vulnerability Using Socio-economic Indices**
-*   **All Authors:** Alireza Sadeghi-Pouya
-*   **Year Published:** 2020
-*   **Key Topic:** Utilizing parametric modelling and GIS to assess and score the spatial variance of socio-economic vulnerability to floods [43, 102].
-
-**36. Flood Emergency Planning for Disaster Resilience**
-*   **All Authors:** Katelyn Samson
-*   **Year Published:** 2020
-*   **Key Topic:** Implementing the Australian Institute for Disaster Resilience (AIDR) national guidelines and principles for flood emergency planning [43, 103].
-
-**37. Storm Tide Inundation Modelling for Flood Database**
-*   **All Authors:** Cara van Megchelen, Chris Scraggs, P Comino, E Wong
-*   **Year Published:** 2020
-*   **Key Topic:** Conducting comprehensive numerical modelling (Delft3D) for storm tide and wave inundation under present-day and future climate change scenarios [31, 104].
-
-**38. Innovative 3D Data Collection to Inform Farm Dam Failure Response Planning**
-*   **All Authors:** Tania Wilson, S Pulford, J Moreland
-*   **Year Published:** 2020
-*   **Key Topic:** Utilizing drone imagery and 3D mapping software to calculate dam storage volumes and prepare emergency response plans for farm dam failures [31, 105].
+*   **Title:** Non-Worsening Criteria: When Best Practice Isn’t Resilient [10]
+    *   **Authors:** Laurence Allan [11]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Explores the limitations and definitions of non-worsening criteria during flood impact assessments [11], [12].
+*   **Title:** Saving Lives from Floods [13]
+    *   **Authors:** Shayne Baker, Adrian Mayhew [13], [14]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Enhancing lifesaving rescue operations, flood preparation, and multi-agency response capacity during flood disasters [14], [15].
+*   **Title:** TC Debbie Flood Studies – Lessons Learnt [16]
+    *   **Authors:** Robyn Birkett, T. Corney [17]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Applying lessons learnt and community-provided data to calibrate rural flood studies after Tropical Cyclone Debbie [17].
+*   **Title:** Development of a Best Practice Flood Warning System [18]
+    *   **Authors:** J. Charalambous, Allan Herring [19]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Developing state-of-the-art flood warning systems and interpolating 2D flood surfaces [19].
+*   **Title:** Planes, Trains and Automalls – A Dutch Innovation for Climate Change in Brisbane [20]
+    *   **Authors:** David Cox, I. Varley [21]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Infrastructure design incorporating ARR19 methodologies to combat coastal, fluvial, and pluvial inundation [21], [22].
+*   **Title:** Raising Warragamba Dam: A Contingent Valuation Study of Flood Mitigation Versus Conservation [3]
+    *   **Authors:** Joel Dalberger, S. Hasan, J. Smart [23]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Utilizing contingent valuation to measure public preference between dam raising (flood mitigation) and heritage conservation [23].
+*   **Title:** Planning to Action: Enabling Communities to Manage Flood Risk [10]
+    *   **Authors:** Rebecca Dick, D. Wilkie [24]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Engaging local communities to assess risk tolerance and set regional flood mitigation priorities [24].
+*   **Title:** Toowoomba’s Evolution in Flood Modelling and Floodplain Management [10]
+    *   **Authors:** Zita Dore, K. Bashar, G. Bebington, A. Kolega, M. Martin [25], [26]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Developing LGA-wide regional direct rainfall models incorporating the ARR 2019 methodology [25], [27].
+*   **Title:** Resilient Queensland: Perspectives of Community and Flood Resilience from Bauple to Boulia [10]
+    *   **Authors:** Steve Dredge, G. Milligan, L. Gannon [28]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Contrasting flood resilience perceptions and strategic planning between urban and remote outback communities [28].
+*   **Title:** Flood Words: How can we Communicate them more Effectively to the Public? [29]
+    *   **Authors:** N. Dufty [29]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Strategies for effectively translating technical flood risk terms to support public consultation [29].
+*   **Title:** A Framework for Resilient Development on Floodplains [18]
+    *   **Authors:** Mike Edwards [30], [31]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Strategies for implementing effective land use planning and development controls on floodplains [30], [32].
+*   **Title:** Using Flood Data for Strategic Purposes [18]
+    *   **Authors:** Shaun Epe, A. Frazer [33], [34]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Centralizing flood data through the NSW Flood Data Portal to support strategic mapping [33], [35].
+*   **Title:** Analysis of Compound Flood Disasters [18]
+    *   **Authors:** Andrew Gissing, M. Timms, R. Crompton, L. Coates [36]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Analyzing the impacts and complexities of cascading and compound disaster events [36].
+*   **Title:** Real-time Flood Forecasting and Dam Operations for the Ross River [16]
+    *   **Authors:** Phillip Jordan, David Stephens, James Woolley, Ashley Astorquia, Zahid Ahmed, Cameron Druery, Michael Cawood [37], [38]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Implementing a real-time predictive flood forecasting and dam operations modeling system [37], [39].
+*   **Title:** A Flood Resilient Victoria: Using Technology to Provide Multiple Benefits [18]
+    *   **Authors:** Kedar Kumthekar [40]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Utilizing the FloodZoom platform to consolidate flood-related data for water corporations [40].
+*   **Title:** Tasmanian Statewide Strategic Flood Mapping: Challenges and Uncertainties [41]
+    *   **Authors:** Audrey Lau, L. Roberts, T. Rigby, C. Mazengarb, C. Kain [42]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Overcoming data challenges to produce statewide strategic flood maps to inform land-use planning [42], [43].
+*   **Title:** Flood Mitigation on Large Scale Infrastructure – Challenges and a Way Forward [44]
+    *   **Authors:** Ben Mason, Michael South [45], [46]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Assessing floodplain impacts, constraints, and mitigation requirements of large road and rail infrastructure projects [45], [47].
+*   **Title:** Strategic Management of Flood Risk for Communities [41]
+    *   **Authors:** Duncan McLuckie, A. Toniato [48]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Utilizing risk-based frameworks to drive strategic land use and community flood risk management [48].
+*   **Title:** Delivering on the Brisbane River Strategic Floodplain Management Plan [49]
+    *   **Authors:** Graeme Milligan [50]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Delivering structural and land-use actions under a whole-of-catchment floodplain management plan [50].
+*   **Title:** Working Together for the Best Possible Flood Warnings in Queensland [49]
+    *   **Authors:** Graeme Milligan [51]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Coordinating the Flood Warning Infrastructure Network using locally led catchment strategies [51].
+*   **Title:** Time Out – Flood Emergency Response for a Major Sports Venue [44]
+    *   **Authors:** Steven Molino, F. Dall’Osso [52]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Designing a multi-staged Flood Emergency Response Plan (FERP) for a sports stadium located on a floodplain [52], [53].
+*   **Title:** The Only Way Is Up – Flood Evacuation in Parramatta CBD [16]
+    *   **Authors:** J. Nadiroglu, L. Baxter, A. Vincevicius, B. Stinton [54], [55]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Evaluating shelter-in-place and vertical flood evacuation procedures in high-rise CBD developments [54], [55].
+*   **Title:** A Flood Resilient Bruce Highway for North Queensland: Haughton River Floodplain Upgrade [41]
+    *   **Authors:** Tina O'Connell [41], [56]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Upgrading sub-standard highway crossings and managing flood afflux during construction [56].
+*   **Title:** Hunter Valley Flood Mitigation Scheme – Wallalong Levee, Aberdeen Levee and Wallis Creek Floodgates Upgrade Works [3]
+    *   **Authors:** Ben Patterson, Andrew McIntyre, Andrew Jackaman [57], [58]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Investigating, rehabilitating, and designing critical flood defense assets like levees and floodgates [59], [60].
+*   **Title:** Flooding Impacts of Regional Farm Dams on Lowes Creek Maryland Precinct Development [41]
+    *   **Authors:** Maria Pinto [61]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Assessing the impacts of removing farm dams and implementing compensatory flood storage strategies [61].
+*   **Title:** In-situ Soil Moisture Monitoring in South Australia to Improve Flash Flood Forecasts [41]
+    *   **Authors:** Dinesh Ratnayake, G. Hewa [62]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Utilizing portable soil water monitoring to calibrate and improve flash flood forecasting accuracy [62].
+*   **Title:** Towards Zero Lives Lost Using Ensemble Flood Forecasts [20]
+    *   **Authors:** J. Robinson, Adam Smith, P. Fuller, C. Robinson, W. Wang, A. Boronkay [63]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Co-designing ensemble rainfall and flood forecasting models to extend evacuation lead times [63].
+*   **Title:** Flood Considerations for Road Managers [64]
+    *   **Authors:** Danny Rose [65], [66]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Examining road management strategies, infrastructure assets, and legal responsibilities during floods [65], [66].
+*   **Title:** ARR2019 Quirks and How to Deal with Them (Also titled: ARR2019 Quirks: Embedded Bursts and At-Site IFD) [64], [67]
+    *   **Authors:** Chris Ryan, Oscar Garratt [68], [67]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Smoothing embedded bursts in temporal patterns and verifying BOM IFD data with at-site analysis under ARR2019 [68], [67].
+*   **Title:** The Assessment of Flood Vulnerability Using Socio-economic Indices [64]
+    *   **Authors:** Alireza Sadeghi-Pouya [69]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Using socio-economic scoring and GIS to model spatial vulnerability to riverine flooding [69].
+*   **Title:** Flood Emergency Planning for Disaster Resilience [64]
+    *   **Authors:** Katelyn Samson [70]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Introducing a national handbook outlining principles and guidance for flood emergency planning [70].
+*   **Title:** Lessons from SA’s Largest Expansion of Flood Warning Services in 20 Years [64]
+    *   **Authors:** Belinda Skilton, A. Cornish [71], [72]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Analyzing infrastructure challenges, funding, and lessons learnt from establishing a regional flood warning network [71], [72].
+*   **Title:** Back to Basics – Testing the Validity of Wollongong Local Guidance for ARR2019 [73]
+    *   **Authors:** Heath Sommerville, R. Thomson, S. Srbinovski, O. Garratt-Symes, I. Ghetti [74], [75]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Using historic flow gauge data and FFA to test localized hydrological parameters against ARR2019 standards [74], [75].
+*   **Title:** Don’t Get in a Bog with Your RoG [13]
+    *   **Authors:** Ben Tate, Simon Hof [76], [77]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Applying the ARR2019 ensemble approach to direct rainfall on grid (RoG) modelling efficiently [76].
+*   **Title:** How Much is it Worth? Economic Values for Floodplain Management [16]
+    *   **Authors:** Rhys Thomson, D. McLuckie, L. Drynan, A. Toniato [78]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Quantifying non-direct property-related damages and placing economic value on social/environmental flood impacts [79], [80].
+*   **Title:** Storm Tide Inundation Modelling for Flood Database [73]
+    *   **Authors:** Cara van Megchelen, Chris Scraggs, P. Comino, E. Wong [81]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Utilizing Delft3D software to predict dynamic coastal storm tide and wave inundation [81].
+*   **Title:** Innovative 3D Data Collection to Inform Farm Dam Failure Response Planning [73]
+    *   **Authors:** Tania Wilson, S. Pulford, J. Moreland [82]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Processing remote drone imagery and LIDAR to model volumes and impacts of farm dam failures [82].
+*   **Title:** Both Flood and Community Engagement Specialists Working Together for Flood-Informed Communities [3]
+    *   **Authors:** Stephen Yeo, S. Ribbons, Holly Langler, A. White, M. Abood [83], [84]
+    *   **Year Published:** 2020 [4]
+    *   **Key Topic:** Fostering collaboration between technical flood specialists and communicators to disseminate accessible flood risk information [85], [86].

@@ -1,7 +1,7 @@
 Enhanced Query: BIBLIOGRAPHY
 Conference: FMA 2022
 Notebook: 3dcf95a8-33db-480d-be1b-deb1448b0d2e
-Timestamp: 2026-04-19T00:26:23.396736+00:00
+Timestamp: 2026-04-19T06:15:30.278472+00:00
 ============================================================
 
 QUERY:
@@ -10,4 +10,87 @@ List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 
 ============================================================
 
 RESPONSE:
-Error querying NotebookLM: Chat request timed out: 
+**1. Improving Flood Telemetry in Victoria** [1]
+*   **Authors:** D. Wilkie, J. Simkin, S. Lamb, B. Brown [1]
+*   **Year Published:** 2022 [1]
+*   **Key Topic:** **Technological Tools and Monitoring** (Focuses on developing robust, fit-for-purpose flood data collection networks and independent radio-based telemetry) [1, 2].
+
+**2. Flood-tide interactions within the lower Manning River during 2020 and 2021 flood events** [3]
+*   **Authors:** O. Makarynskyy, D. Makarynska, E. Vale, P. Hatton [3]
+*   **Year Published:** 2022 [3]
+*   **Key Topic:** **Technological Tools and Monitoring / Climate Change Impacts** (Analyzes the time lags and complex interactions between storm surges, tides, and river discharges in coastal estuaries) [3-5].
+
+**3. Quantifying residual risk beyond the 1% AEP event with climate change** [6]
+*   **Authors:** P. Conway, A. Dyer, A. Ignatov [6]
+*   **Year Published:** 2022 [6]
+*   **Key Topic:** **Planning Controls and Strategies / Climate Change Impacts** (Evaluates the theoretical limits of location controls, floor level setting, and flood resilient building practices under 2-degree and 3-degree warming scenarios) [7-10].
+
+**4. Sustainable land use development is essential in mitigating flood risks and creating liveable communities** [11]
+*   **Authors:** S. Bala [11]
+*   **Year Published:** 2022 [11]
+*   **Key Topic:** **Planning Controls and Strategies** (Explores global initiatives like China's 'Sponge City' program and the integration of sustainable science into urban floodplain planning) [11, 12].
+
+**5. The New Reality – Shifting Values in Flood Risk Management** [13]
+*   **Authors:** S. Westlake, S. Stacey, M. Beagle, M. Aliprantis [13]
+*   **Year Published:** 2022 [13]
+*   **Key Topic:** **Governance and Schemes** (Discusses central government co-investment, climate resilience funding programs, and embedding social procurement and Māori partnerships into project delivery) [13-15].
+
+**6. Use of observed flood data and flood modelling to test LiDAR accuracy** [16, 17]
+*   **Authors:** W. Bailey, M. deJong, Z. Ahmed [16, 17]
+*   **Year Published:** 2022 [16, 17]
+*   **Key Topic:** **Technological Tools and Monitoring** (Assesses topographic LiDAR biases and their implications for baseline flood modeling, specifically applied to the Ross River area) [16, 17].
+
+**7. Smart Alerting for the Hunter Valley Flood Mitigation Scheme With FLASH** [18]
+*   **Authors:** Cornelis Dingemanse, Gerd Deiter [18]
+*   **Year Published:** 2022 [18]
+*   **Key Topic:** **Technological Tools and Monitoring** (Details the implementation of cloud-based data warehouses, 3D digital twins, and operational forecasting dashboards for real-time alerting) [18-20].
+
+**8. The Future of Flood Risk Management in Queensland** [21]
+*   **Authors:** E. Harrison [21]
+*   **Year Published:** 2022 [21]
+*   **Key Topic:** **Governance and Schemes** (Outlines the Queensland Flood Risk Management Framework, emphasizing collaborative, decentralized models and strategic capability improvements) [21, 22].
+
+**9. Describing an Adaptation Pathway for Coastal Floodplain Management in Southwest Victoria** [23]
+*   **Authors:** Dr. Christine Lauchlan Arrowsmith, Graeme Jeffery, Peter Robertson [23]
+*   **Year Published:** 2022 [23, 24]
+*   **Key Topic:** **Planning Controls and Strategies / Climate Change Impacts** (Examines adaptive managed retreat, critical sea-level rise thresholds, and mapping decision points to avoid locking in future vulnerabilities) [23-25].
+
+**10. Getting the most out of flood studies: Connecting consultants, councils and classrooms** [26]
+*   **Authors:** Catherine Walker, Alex Nero, Isabelle Testoni, Madeline Mead [26]
+*   **Year Published:** 2022 [26]
+*   **Key Topic:** **Planning Controls and Strategies** (Focuses on improving community engagement and awareness by running educational programs in schools concurrently with flood studies) [26, 27].
+
+**11. How vegetation changes have altered flood levels in the Hawkesbury Nepean** [28]
+*   **Authors:** D. Tetley, R. Thomson, I. Testoni, A. Sud, S. Yeo [28]
+*   **Year Published:** 2022 [28]
+*   **Key Topic:** **Technological Tools and Monitoring** (Examines historical aerial imagery and hydraulic data to quantify how extensive vegetation growth over decades has elevated flood behavior profiles) [28-30].
+
+**12. Adaptation & Long-Term Planning For Low Lying Coastal Communities Against Sea Level Rise** [31]
+*   **Authors:** Harrison Oakley [31]
+*   **Year Published:** 2022 [31]
+*   **Key Topic:** **Planning Controls and Strategies / Climate Change Impacts** (Explores concept solutions, feasibility studies, and preliminary costing for adapting highly vulnerable coastal towns to long-term sea level projections) [31].
+
+**13. Observations of Recent Rain and Flood Events in South-East Queensland and Preparing for the Future** [32]
+*   **Authors:** Major General Jake Ellwood [32]
+*   **Year Published:** 2022 [32]
+*   **Key Topic:** **Governance and Schemes** (A photographic and operational retrospective on emergency response and infrastructure impacts during major regional flood events) [32].
+
+**14. Development of Flood Mitigation Solutions for Critical Assets and Infrastructure** [33]
+*   **Authors:** Michael Anthony, Mathew Trigg [33]
+*   **Year Published:** 2022 [33]
+*   **Key Topic:** **Technological Tools and Monitoring / Planning Controls and Strategies** (Showcases physical retro-fit products, gates, and isolation measures necessary to protect hospitals and emergency response centers from disruption) [33, 34].
+
+**15. A delicate water balance: environmental flows without a flow gauge** [35]
+*   **Authors:** P. Woods, T. Morrison, C. Ryan, S. Ardill, I. Burns, J. Simpson [35]
+*   **Year Published:** 2022 [35]
+*   **Key Topic:** **Technological Tools and Monitoring** (Describes approaches using stage-area-volume relationships, evaporation/seepage tracking, and hydraulic modeling to estimate ungauged flows in areas like Toorale) [35-37].
+
+**16. When is Flood Risk Tolerable? Innovative flood risk assessment and tolerability mapping to inform planning in levee-protected areas** [38]
+*   **Authors:** F. Dall’Osso, R. Garrett, N. Dufty, S. Molino, P. Grech, E. Deegan [38]
+*   **Year Published:** 2022 [38]
+*   **Key Topic:** **Planning Controls and Strategies** (Applies ALARP "As Low As Reasonably Practicable" thresholds to map socio-economic resilience indicators and guide development inside levee zones) [38, 39].
+
+**17. Drivers for Evacuating Vehicles: What are Reasonable Assumptions for Evacuation Modelling?** [40]
+*   **Authors:** Steven Molino, Dr. Kelsey Sanborn [40]
+*   **Year Published:** 2022 [40]
+*   **Key Topic:** **Planning Controls and Strategies / Technological Tools and Monitoring** (Focuses on dynamic, agent-based evacuation models and calculating the safety factors and delays caused by vehicle breakdowns, traffic, and route cuts during emergencies) [40, 41].

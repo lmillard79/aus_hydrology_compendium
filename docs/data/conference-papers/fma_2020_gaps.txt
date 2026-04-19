@@ -1,7 +1,7 @@
 Enhanced Query: GAPS
 Conference: FMA 2020
 Notebook: 78047816-ad9a-4ce6-965b-8d85c5ded4a8
-Timestamp: 2026-04-19T00:34:48.608745+00:00
+Timestamp: 2026-04-19T06:22:32.166040+00:00
 ============================================================
 
 QUERY:
@@ -10,19 +10,24 @@ What research gaps are identified in these papers? What future research directio
 ============================================================
 
 RESPONSE:
-The provided sources identify several research gaps, unanswered questions, and future directions related to property-based floodplain management, particularly concerning the economic, social, and communicative aspects of these schemes:
+Based on the provided papers, while authors do not always explicitly use the term "research gaps," they identify several poorly researched areas, ongoing challenges, and unanswered questions that require further investigation in the context of Property-Based Floodplain Management. 
 
-**Quantifying Intangible Costs and Benefits**
-A significant gap identified is the **failure to adequately capture intangible impacts in cost-benefit analyses for retreat options**, such as voluntary house purchases [1]. If these intangible benefits are not measured, the overall benefits of retreating are underestimated, leading to lower adoption of these schemes [1]. To address this, further research and development are needed regarding "rapid" assessment techniques for non-direct property damages, such as social impacts, environmental impacts, and risk to life, which will assist in creating comprehensive future economic guidance [2-4].
+Here is a comprehensive breakdown of the future research directions and areas needing more investigation, categorized by the main research themes in the notebook:
 
-**Longevity and Tracking of House Resilience**
-For house resilience schemes involving modifications like house raising or wet-proofing, there is a recognized challenge regarding the **longevity of the scheme outcomes** [5]. Future investigation and systematic measures are needed to **prevent the loss of knowledge when properties transfer ownership** [5]. The sources suggest exploring standardized solutions, such as adding notes on property flood reports, to ensure new owners remain aware of the resiliency measures that were previously undertaken [5].
+### 1. Scheme Types & Future Expansion
+*   **Adaptation to Climate Change:** With climate change driving increased discussions around "retreat" and "adaption," the necessity and prevalence of property-based management schemes (such as voluntary house purchases, land swaps, and house resilience) are expected to increase in the future [1]. 
+*   **Baseline for Future Research:** The synthesis of global case studies on these scheme types is intended to serve as a "useful starting point for further research" to assist practitioners during the preparation phase of future schemes [1].
 
-**Social Challenges and Community Preservation**
-The literature highlights that the most crucial factor in relocation schemes is maintaining a sense of community, and failing to acknowledge these bonds significantly diminishes the take-up of voluntary schemes [1]. Future strategies need to explore **better ways to keep tight-knit communities together** [6]. One successful direction for further application and study is the use of GIS to help families identify suitable, local houses for resettlement, which helps preserve the community while also preventing local governments from losing tax revenue [7]. Additionally, more investigation is needed into finding **beneficial, income-generating uses for vacated land**, as communities often struggle with the restricted use of the open space left behind after flood-prone properties are purchased and demolished [1, 8].
+### 2. Success Factors & Evaluation Gaps
+*   **Quantifying Intangible Benefits:** A major gap exists in the economic assessment of property-based schemes. Current Cost-Benefit Analyses (CBA) primarily focus on direct property-related damages, while social and environmental impacts are only considered qualitatively [2]. Research emphasizes that failing to capture "intangible impacts" causes the benefits of "retreat" options (like voluntary house purchases) to be underestimated and under-adopted [3]. Future research and guidance must focus on developing "rapid" assessment techniques to quantify these non-direct damages, such as risks to life and social infrastructure [4, 5].
+*   **Communication of Mitigation Terms:** Effective community engagement is a critical success factor [6, 7]. However, research shows that the translation of technical terms for the "mitigation" phase of the disaster cycle is poorly researched compared to early warning messaging [8]. Further investigation is needed to develop agreed-upon, non-technical definitions for basic terms like "floodwaters" to ensure the public can adequately understand and respond during scheme consultations [8].
 
-**Communication of Mitigation Terminology**
-Effective public consultation is critical for gaining acceptance of property-based programs, yet the **translation of technical terms specifically for the ‘mitigation’ phase of the disaster management cycle is currently "poorly researched"** [6, 9]. Future research is needed to establish agreed national or state-wide non-technical definitions for seemingly simple concepts (like "floodwaters"), as studies show even professional floodplain managers currently hold differing definitions [9]. 
+### 3. Lessons Learnt & Unanswered Questions
+*   **Beneficial Re-use of Vacated Land:** A persistent, unresolved challenge is determining what to do with the land once homes are purchased and demolished. While Australian councils emphasize the need for a "beneficial community use" to justify the expenditure of public funds, communities often struggle with restricted land uses and lack support for returning land to a natural state, sometimes demanding income-generating solutions instead [3, 9].
+*   **Longevity of House Resilience Schemes:** For schemes focused on "wet-proofing" or house raising, a major unanswered challenge is the longevity of the scheme's outcomes. Further investigation is needed to design measures that prevent a "loss-of-knowledge" regarding a property's flood modifications when the house is sold or transfers ownership [10].
+*   **Managing Social Vulnerabilities:** Existing programs struggle with the emotional and economic realities of relocation. Relocations are uniquely difficult for the elderly, who have long-standing connections to their communities [3, 11]. Furthermore, because flood-prone areas are often inhabited by economically disadvantaged populations, future schemes must investigate better ways to cover relocation costs (e.g., waiving transfer taxes) to overcome resistance to moving [3].
+*   **False Sense of Security:** House raising schemes require careful consideration and further study to ensure they do not inadvertently increase risk-to-life. There is a danger that raising a house creates a "false sense of security," leading residents to believe the upper level is a safe refuge during extreme events when evacuation is actually required [1].
 
-**Impacts of Climate Change**
-Finally, the sources emphasize that as climate change drives more global discussions around 'retreat' and 'adaption', **the implementation and relevance of property-based management schemes will likely increase in the future** [10]. Consequently, the lessons learned from historic relocations and buy-backs are intended to serve as a baseline and a starting point for further continuous research during the preparation of new schemes [6, 10].
+### 4. Eligibility Criteria
+*   **Balancing Technical Criteria with Social Cohesion:** A notable gap in standard eligibility frameworks is the tension between strict flood-risk criteria and social reality. Local governments have found that adhering strictly to hazard criteria can split up families or isolate residents if one house is purchased but the neighboring one is not [12, 13]. Future schemes need to investigate and formalize "social purchase criteria," which allow for the acquisition of neighboring properties that do not technically meet flood criteria but are socially impacted by the scheme [7, 13].
+*   **Simplicity in Communication:** Because eligibility criteria are often applied in lower socio-economic areas with lower baseline flood awareness, practitioners highlight the ongoing need to "keep it simple" when describing how eligibility is determined [3, 6]. Finding the balance between robust technical eligibility and simple public communication remains an area requiring careful planning.

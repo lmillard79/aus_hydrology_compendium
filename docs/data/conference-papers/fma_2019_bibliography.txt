@@ -1,7 +1,7 @@
 Enhanced Query: BIBLIOGRAPHY
 Conference: FMA 2019
 Notebook: 1e7cf6a8-f79f-4e09-a150-7fc45fb97dd7
-Timestamp: 2026-04-19T00:17:37.573072+00:00
+Timestamp: 2026-04-19T06:05:22.676159+00:00
 ============================================================
 
 QUERY:

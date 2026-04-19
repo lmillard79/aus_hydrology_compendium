@@ -1,7 +1,7 @@
 Enhanced Query: BIBLIOGRAPHY
 Conference: HWRS 2023
 Notebook: 56adea86-25c8-4051-b769-f4f4f0170800
-Timestamp: 2026-04-19T00:50:01.260989+00:00
+Timestamp: 2026-04-19T06:37:25.330026+00:00
 ============================================================
 
 QUERY:
@@ -10,4 +10,668 @@ List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 
 ============================================================
 
 RESPONSE:
-Error querying NotebookLM: Chat request timed out: 
+1. **Downstream fish passage on dam spillways: truths, myths, and realities during prototype operation**
+   * **Authors:** Hubert Chanson, Carlos Gonzalez
+   * **Year:** 2023
+   * **Key Topic:** Ecosystem Responses / Case Studies
+   * **Citation:** [1]
+
+2. **Probably some practical advice when using Flood Frequency Analysis utilities**
+   * **Authors:** Lindsay Millard
+   * **Year:** 2023
+   * **Key Topic:** Hydrological Modelling Techniques
+   * **Citation:** [2]
+
+3. **Enhancing resilience in a community roof harvesting rainwater system based on Monte Carlo analysis**
+   * **Authors:** Lynn Seo, Cuan Petheram
+   * **Year:** 2023
+   * **Key Topic:** Hydrological Modelling Techniques
+   * **Citation:** [3]
+
+4. **Estimates of design wet season rainfall depths across northern Australia**
+   * **Authors:** Michael Batchelor
+   * **Year:** 2023
+   * **Key Topic:** Climate and Future Trends
+   * **Citation:** [4]
+
+5. **Projecting rainfall and flood frequency curves under climate change**
+   * **Authors:** Conrad Wasko, Danlu Guo, Michelle Ho, Rory Nathan, Elisabeth Vogel
+   * **Year:** 2023
+   * **Key Topic:** Climate and Future Trends
+   * **Citation:** [5]
+
+6. **Experimental investigation of the effectiveness of macro-roughness in erosion protection**
+   * **Authors:** Laura Montano, Brett Miller
+   * **Year:** 2023
+   * **Key Topic:** Hydrological Modelling Techniques
+   * **Citation:** [6]
+
+7. **Lake Torrens (South Australia) arid catchment initial loss and continuing loss observations**
+   * **Authors:** Jarrah Muller, Anya Jones-Gill
+   * **Year:** 2023
+   * **Key Topic:** Case Studies and Extreme Events
+   * **Citation:** [7]
+
+8. **Catchment water balance modelling with timestep independence**
+   * **Authors:** Jarrah Muller
+   * **Year:** 2023
+   * **Key Topic:** Hydrological Modelling Techniques
+   * **Citation:** [8]
+
+9. **Solar farm flood hydraulics**
+   * **Authors:** Jarrah Muller
+   * **Year:** 2023
+   * **Key Topic:** Hydrological Modelling Techniques
+   * **Citation:** [9]
+
+10. **Storage-based Routing of Floods Through River Channels: Improving Parameterisation with Hydraulic Models**
+    * **Authors:** Richard Sharpe, Mohammadjafar Soltanjalili
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [10]
+
+11. **Projections of initial and continuing loss under climate change and the impacts on design flood estimation**
+    * **Authors:** Michelle Ho, Conrad Wasko, Declan O’Shea, Rory Nathan, Elisabeth Vogel, Ashish Sharma
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends
+    * **Citation:** [11]
+
+12. **Enhancing Infrastructure Upgrade Projects in Melbourne Area: Overcoming Challenges and Seizing Opportunities for Achieving Zero Afflux in Flood Modelling**
+    * **Authors:** Farshad Lotfiazad, Colin Rudd, Sai Htin Aung
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [12]
+
+13. **Estimation of flood magnitudes affected by combined outflows from a large dam and side-creek using long term continuous simulation**
+    * **Authors:** Martin Jacobs
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [13]
+
+14. **Establishing floodplain connectivity using time series satellite data**
+    * **Authors:** Somarathna P.D.S.N, Gurmeet Singh
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [14]
+
+15. **Radar-based Ensemble Forecasts to enhance flood forecasting and warnings in Australia**
+    * **Authors:** Carlos Velasco-Forero, Jayaram Pudashine, Justin Robinson, Alan W. Seed
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems
+    * **Citation:** [15]
+
+16. **Development of Hydraulic Models using Remote Sensing data**
+    * **Authors:** Gurmeet Singh, Farhana Noor, Richa Neupane, Somarathna P.D.S.N
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [16]
+
+17. **Engaging water sector stakeholders to identify impactful compound events and climate extremes**
+    * **Authors:** Steven Thomas, Irina Rudeva, Ulrike Bende-Michl
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends / Case Studies and Extreme Events
+    * **Citation:** [17]
+
+18. **The Development of Integrated Water End Use and Climate Responsive Demand Modelling for Urban Water Resources System Models in Darwin and Canberra**
+    * **Authors:** Russell Beatty, Alessandra Razera, Rachel Barrett, Rocianne Pinto
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Climate and Future Trends
+    * **Citation:** [18]
+
+19. **Application of space-time rainfall patterns derived from atmospheric reanalysis data to define the joint probability of riverine catchment and local stormwater flooding**
+    * **Authors:** Phillip Jordan, Suwash Acharya, Rob Swan
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [19]
+
+20. **Blending of Radar, Satellite and Gauge Rainfall data for Hydrological Applications**
+    * **Authors:** Jayaram Pudashine, Carlos Velasco-Forero
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [20]
+
+21. **Seasonal Hydrological Forecasting at the Bureau of Meteorology**
+    * **Authors:** C.A. Pickett-Heaps, P. Sunter, A. Cornish, W. Sharples, M. Pegios, R. Laugesen, C. Wilson
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems
+    * **Citation:** [21]
+
+22. **Water balances in pit lakes: integrating hydrogeology, surface water balances, and climate change**
+    * **Authors:** Andrea Garcia-Forero, Lorrayne Silva, Steve Chappell, Eleri John
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends / Hydrological Modelling Techniques
+    * **Citation:** [22]
+
+23. **Calibrating hydrological models for high-flow estimation using data science resampling methods**
+    * **Authors:** M. Zeinolabedini Rezaabad, L. Marshall, F. Johnson
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [23]
+
+24. **Robust Hydrological Model Calibration for Extreme Events**
+    * **Authors:** Caleb Dykman, Ashish Sharma, Rory Nathan, Conrad Wasko
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies and Extreme Events
+    * **Citation:** [24]
+
+25. **Benchmarking of a surrogate model optimisation to an event based hydrological model against traditional metaheuristic optimisation algorithms**
+    * **Authors:** Phil Pedruco, John Myers, Louisa Chen, Shilin Chen
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [25]
+
+26. **Flood Forecasting to Prepare Communities for Flood Events**
+    * **Authors:** Josh Terry, Alan Baker, Ben Patterson, Gerd Deiter
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems
+    * **Citation:** [26]
+
+27. **The Impact of Errors in Hydrological Predictions on Water Resource System Performance**
+    * **Authors:** David McInerney, Mark Thyer, Dmitri Kavetski, Seth Westra, Holger R Maier, Bree Bennett, Michael Leonard, Margaret Shanafield, Barry Croke, Hoshin Gupta
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [27]
+
+28. **Application of joint probability to respond to climate change and avoid cumulative extreme assumptions**
+    * **Authors:** Peter J Coombes
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends
+    * **Citation:** [28]
+
+29. **Estimating Rainfall Loss Values for Flood Modelling Using Catchment Characteristics**
+    * **Authors:** Matthew Tiller, Lucy Reading, Marc Miska, Prasanna Egodawatta
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [29]
+
+30. **The Investigation of Nature-based Solutions (NbSs) as Local Scour Countermeasures around Bridge Piers: A Numerical Study**
+    * **Authors:** Muhammad Zain Bin Riaz, Khy Lay Ly
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [30]
+
+31. **Intensification of sub-hourly heavy rainfall**
+    * **Authors:** Hooman Ayat, Jason P. Evans, Steven C. Sherwood, Joshua Soderholm
+    * **Year:** 2023
+    * **Key Topic:** Case Studies and Extreme Events / Climate and Future Trends
+    * **Citation:** [31]
+
+32. **A Structured Flood Mitigation Approach – A case Study: Road Level Crossing Removal Project**
+    * **Authors:** Ghasem Naghib, Tim Rhodes
+    * **Year:** 2023
+    * **Key Topic:** Case Studies and Extreme Events
+    * **Citation:** [32]
+
+33. **Fish passage considerations in closed conduit systems**
+    * **Authors:** Reilly X. Cox, Stefan Felder
+    * **Year:** 2023
+    * **Key Topic:** Ecosystem Responses / Hydrological Modelling Techniques
+    * **Citation:** [33]
+
+34. **Integrated water system modelling for the Resilient Water Futures strategy**
+    * **Authors:** Leon van der Linden, Steve Kotz, Michelle Irvine, Madeleine Greenlee
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends / Hydrological Modelling Techniques
+    * **Citation:** [34]
+
+35. **Improving the Rigour of Catchment-wide Hydrodynamic Modelling of the Rainfall-runoff Process**
+    * **Authors:** Daniel Williams, Darren Lyons, Ben Asquith
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [35]
+
+36. **A line of sight – how roadmaps support the water resources sector by linking strategy to technical scoping and delivery**
+    * **Authors:** Stephanie Kermode, Kaushal Kumandur
+    * **Year:** 2023
+    * **Key Topic:** Planning and Management Strategies
+    * **Citation:** [36]
+
+37. **A schematic modelling approach for estimating water quantity in water supply systems in Greater Sydney**
+    * **Authors:** Shengyang (Chris) Chen, Marlène van der Sterren, Mohammed Abedin
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [37]
+
+38. **Quantifying the Benefits of using Machine Learning for the Smart Design and Control of Stormwater Storages**
+    * **Authors:** Mark Thyer, Ruijie Liang, Holger R. Maier, Graeme Dandy, Rachel Murchland, Rick Hennig
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [38]
+
+39. **Extreme Flooding in the Kimberley and the Loss of WA's Fitzroy River Bridge**
+    * **Authors:** Krey Price
+    * **Year:** 2023
+    * **Key Topic:** Case Studies and Extreme Events
+    * **Citation:** [39]
+
+40. **Linked optimal stormwater management approach in an urban area to respond to climate change**
+    * **Authors:** Hamed Esfahani, Craig Hood
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends / Hydrological Modelling Techniques
+    * **Citation:** [40]
+
+41. **Advancing Environmental Management through Digital Twin Technology: A Demonstration and Future Outlook for Land and Water Resource Development in Australia**
+    * **Authors:** D. Branchaud, L. Seo, C. Petheram, Q. Fu, I. Watson
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Climate and Future Trends
+    * **Citation:** [41]
+
+42. **Does the ARR2019 ensemble temporal pattern method represent various storm types in NSW?**
+    * **Authors:** Jayden Fraser, Mark Babister, Behzad Jamali, Duncan McLuckie, Angela Toniato
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [42]
+
+43. **Spatio-temporal patterns of channel morphology: a case study of Dry Creek, South Australia**
+    * **Authors:** Tesfa Gebrie Andualem, Guna A Hewa, Stefan Peters, Baden R Myers, John Boland
+    * **Year:** 2023
+    * **Key Topic:** Case Studies and Extreme Events
+    * **Citation:** [43]
+
+44. **A Digital Twin for Optimising Cooling and Water Efficiency in Parks**
+    * **Authors:** Ben Cressall, Christian Urich, Joe Pasanen, Andrew Tovev, Cameron Owen, Sebastian Pfautsch
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [44]
+
+45. **HyFS a Hydrological Forecasting System for a Continent**
+    * **Authors:** Justin Robinson, Greg Keir, Wen Wang, Cynthia Robinson, Wei Wang
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems
+    * **Citation:** [45]
+
+46. **The AR&R2019 Design Flood Estimation Procedure A Need for Review**
+    * **Authors:** Ted Rigby, Anthony Barthelmess
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [46]
+
+47. **An ecohydrological approach for modelling and optimisation of vegetation health and ecosystem services in wetlands**
+    * **Authors:** Jose F. Rodriguez, Patricia M. Saco, Steven Sandi, Juan Quijano, Angelo Breda, Rebecca Carlier, Eliana Jorquera, George Kuczera, Li Wen, Neil Saintilan
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [47]
+
+48. **Ecogeomorphological modelling of a mangrove wetland in Pacific Islands**
+    * **Authors:** E. Jorquera, J. F. Rodríguez, J. P. Quijano Baron, A. Breda, S. Sandi, D. Verdon-Kidd, P. M. Saco
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [48]
+
+49. **New IFDs for Brisbane Region**
+    * **Authors:** S Blundy, M Babister, F Ling
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [49]
+
+50. **Adopting Regularised Linear Model within Peaks-over-threshold Framework for Regional Flood Frequency Analysis: A case study for south-east Australia**
+    * **Authors:** Xiao Pan, Gokhan Yildirim, Ataur Rahman
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [50]
+
+51. **Investigating machine learning methods for predicting soil carbon and nitrogen of bioretention systems; stormwater asset management**
+    * **Authors:** Emad Kavehei, Abdul Karim, Graham Jenkins, Maria Fernanda Adame
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [51]
+
+52. **Water and CO2 fluxes in a perennial pasture**
+    * **Authors:** Marcela Freitas Silva, Alberto Peixoto Neto, Edoardo Daly
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends
+    * **Citation:** [52]
+
+53. **Spatiotemporal Patterns of Rainfall Changes at Decadal Time Period in South-east Australia**
+    * **Authors:** Gokhan Yildirim, Xiao Pan, Ataur Rahman
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends / Case Studies
+    * **Citation:** [53]
+
+54. **Selecting representative evacuation events from large Monte Carlo data sets**
+    * **Authors:** M. Babister, W. Coenen, M. Retallick
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems / Hydrological Modelling
+    * **Citation:** [54]
+
+55. **Apprehending cybernetic water system dynamics and futures? A review of games and immersive environments for education and foresighting**
+    * **Authors:** Amy Wardrop, Katherine A. Daniell, Hannah R. Feldman
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends
+    * **Citation:** [55]
+
+56. **From resistance to resilience – adapting to the dichotomy of urban flood response induced by a changing climate**
+    * **Authors:** Suresh Hettiarachchi, Conrad Wasko, Ashish Sharma
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends
+    * **Citation:** [56]
+
+57. **Applying Computer Vision Approaches to Stream Gauging**
+    * **Authors:** Daniel Wagenaar, Nick Hutley
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Monitoring
+    * **Citation:** [57]
+
+58. **Low-flow modelling challenges and their impacts: A Greater Sydney Case Study for Warragamba Dam**
+    * **Authors:** Marlène van der Sterren, Amanda Newman, Rizwana Rumman
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [58]
+
+59. **Taking a downpour of data and turning it into a flood of knowledge - applications of radar rainfall in hydrology**
+    * **Authors:** Bronte Board, Urs Baeumer
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [59]
+
+60. **Spatially optimising natural flood management approaches across catchments**
+    * **Authors:** Eleanor Earl, Fiona Johnson, Lucy Marshall, David Sanderson
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [60]
+
+61. **Rainfall and flow monitoring in an arid catchment – Analysing 30 years of rainfall and flow data in Arcoona Creek in the Gammon Ranges**
+    * **Authors:** David Kemp
+    * **Year:** 2023
+    * **Key Topic:** Case Studies and Extreme Events
+    * **Citation:** [61]
+
+62. **Regional rainfall frequency analysis for Tasmania's West Coast**
+    * **Authors:** Benjamin James, Prafulla Pokhrel, Rory Nathan
+    * **Year:** 2023
+    * **Key Topic:** Case Studies and Extreme Events / Hydrological Modelling
+    * **Citation:** [62]
+
+63. **Benchmarking the differences between modelled flood peaks when using Monte Carlo and Ensemble approaches**
+    * **Authors:** Matt Scorah, Rory Nathan, Michelle Ho
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [63]
+
+64. **PNG Highland Storm Rainfall Response**
+    * **Authors:** Alexander Rogan, Vinny Kim, William Meynink
+    * **Year:** 2023
+    * **Key Topic:** Case Studies and Extreme Events
+    * **Citation:** [64]
+
+65. **Post extreme rain event modelling to assess catchment changes to inform restoration prioritisation: A case study of Poatina catchment flooding**
+    * **Authors:** Aaron Donald Smith, Dominic Frank Brown, Sagar Shiwakoti, Colin Terry
+    * **Year:** 2023
+    * **Key Topic:** Case Studies and Extreme Events
+    * **Citation:** [65]
+
+66. **Artificial Neural Network based long-term streamflow forecasting of Goulburn River using different input predictors**
+    * **Authors:** Shamotra Oad, Monzur Alam Imteaz
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems
+    * **Citation:** [66]
+
+67. **Achieving accuracy, stability, and parallelism in a new 1D hydraulic scheme for TUFLOW HPC**
+    * **Authors:** Greg Collecutt, Duncan Kitts, Russell Jones
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [67]
+
+68. **Lessons from an assessment of water supply system yield in South-East Queensland – climate change is already happening**
+    * **Authors:** Ian Varley, Anthony Kiem, George Kuczera, Pavel Kozarovski
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends / Case Studies
+    * **Citation:** [68]
+
+69. **Calibration and validation of water quality parameters in the Greater Sydney drinking water catchments**
+    * **Authors:** Asha Kelly, Madhavi A. Patterson, Marlène van der Sterren
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [69]
+
+70. **Updating the Quantile Regression Technique Regional Flood Frequency**
+    * **Authors:** Calvin Oppy, Luke A Gericke, Carlos Gonzalez
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [70]
+
+71. **Combination of SCS-CN and Rational Function Models to Estimate Long-Term Daily River Flow**
+    * **Authors:** Hossein Samadiboroujeni, Martin Haege
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [71]
+
+72. **Towards Resilient Water Supply Management: Innovative Forecasting Techniques for Medium to Long-Term Rainfall Anomalies**
+    * **Authors:** Ze Jiang, Golam Kibria, Ashish Sharma
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems / Climate and Future Trends
+    * **Citation:** [72]
+
+73. **Planning and Design for Seasonal Herbaceous Wetlands in future Growth Areas**
+    * **Authors:** Ian Pham, Greta Porras, Katy Marriott
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends
+    * **Citation:** [73]
+
+74. **Prediction of Seasonal Rainfall Using the Hybrid Machine Learning Algorithms**
+    * **Authors:** Rashid Farooq, Monzur Imteaz, Imtiaz Ahmad
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Climate and Future Trends
+    * **Citation:** [74]
+
+75. **Extrapolating to extremes: An arid zone catchments comparison of Advective and Diffusive flood hydrograph models and storm loss algorithms**
+    * **Authors:** Alexander Rogan, Jonathan Hartanto, William Meynink
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [75]
+
+76. **Software Application for Spatiotemporal Variability of Design Rainfall for Use in Hydrological Modeling in Qatar**
+    * **Authors:** Hassan Qasem, Niels-Erik Joergensen, Ataur Rahman, Husam A. Samman, Ahmad Sulaiman Saleh
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [76]
+
+77. **Extrapolating to extremes: A perennial stream comparison of Advective and Diffusive flood hydrograph models with embedded baseflow**
+    * **Authors:** William Meynink, Andrew Inderbitzin, Alexander Rogan
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [77]
+
+78. **Digital Twins to Establish Rain Gauge Site Exposure to Wind and Measurement Errors in an Arid Qatari Environment**
+    * **Authors:** Niels-Erik Joergensen, Hassan Qasem, Mohamed Jabir Almarri, Ataur Rahman, Flemming Vejen
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [78]
+
+79. **A New Approach to Integrated Environmental Modelling**
+    * **Authors:** Michael Barry, Tony Weber, Phillip Ryan, Felix Egger, Greg Collecutt
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [79]
+
+80. **Disaggregation of daily rainfall data to estimate at-site intensity-frequency-duration curves at sub-hourly timescales**
+    * **Authors:** Md. Atiqul Islam
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [80]
+
+81. **Hydraulics and Energy Dissipation on a Steep Stepped Spillway: Physical Modelling in a Large-size Facility**
+    * **Authors:** Jiayue Hu, Hubert Chanson
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [81]
+
+82. **Effect of Dual Bridge Piers. Learnings from CFD, Ducks and 2D modelling**
+    * **Authors:** David Cox, Tim Rhodes, Freddie Takhtemina, Carlos Gonzalez, Urs Baeumer
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [82]
+
+83. **Case study – Estimation of bridge pier form loss coefficients using 3D modelling**
+    * **Authors:** Thomas Ramsay, David Cox, James Apostolidis, Urs Baeumer, Jonah Chorley, Harrison Pimm
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [83]
+
+84. **Continuous Direct Rainfall Hydraulic Modelling with Coupled Surface / Ground Water Interaction: Real World Calibration within Oxley Creek Catchment**
+    * **Authors:** Shuang Gao, Abigail Lillo, Chris Huxley, Michael Barry, Phil Ryan, Bill Syme, Greg Collecutt, Blair Filer
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [84]
+
+85. **A review of strategies to mitigate cold water pollution from stratified dams**
+    * **Authors:** Fred Chaaya, Brett Miller, Matthew Gordos
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Mitigation
+    * **Citation:** [85]
+
+86. **Reynolds Stresses and Secondary Motion in Box Culvert Barrel: Implications in terms of Upstream Fish Passage at Road Crossings**
+    * **Authors:** Hui Ling Wong, Hubert Chanson
+    * **Year:** 2023
+    * **Key Topic:** Case Studies and Extreme Events / Ecosystem Responses
+    * **Citation:** [86]
+
+87. **Consideration of life safety risk equity principles in the assignment of design flood probability**
+    * **Authors:** Chris Nielsen
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems
+    * **Citation:** [87]
+
+88. **The Inconsistency between GSDM PMP rainfall Depth and Temporal Pattern**
+    * **Authors:** Eric Lam, Tamara Kohler
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [88]
+
+89. **Benchmarking MUSIC and GLM Models in Two Window Lakes in South-East Queensland**
+    * **Authors:** B.C Phillips, M. Griffin, S. Yu
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [89]
+
+90. **Assessing the reliability, efficiency and limitations of the TUFLOW 1D Model: A case study of the 2021 extreme river event calibration**
+    * **Authors:** Yucen Lu, Jasmine Lee
+    * **Year:** 2023
+    * **Key Topic:** Case Studies and Extreme Events / Hydrological Modelling
+    * **Citation:** [90]
+
+91. **Assessing Catchment Imperviousness Derived from Artificial Intelligence Models Using Information Entropy Methods**
+    * **Authors:** Siming Gong, James Ball, Nicholas Surawski
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [91]
+
+92. **Water quantity calibration and validation of storages in Greater Sydney drinking water catchments**
+    * **Authors:** Rizwana Rumman, Farhana Noor, Marlène van der Sterren
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [92]
+
+93. **Exploring memory of catchment represented by conceptual rainfall-runoff models**
+    * **Authors:** Thien Nguyen, Bree Bennett, Michael Leonard
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [93]
+
+94. **Multivariate time series-based streamflow forecasting**
+    * **Authors:** Sandhya Eswara, Andrew Barton, Tanveer Choudhury, Thomas Chubb
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems
+    * **Citation:** [94]
+
+95. **Extended Abstract for the Hydrology and Water Resources Symposium (HWRS 2023) [City on Alert]**
+    * **Authors:** Rémy Baudot
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems
+    * **Citation:** [95]
+
+96. **Understanding Hydrodynamic Drivers of Algal Blooms in the Berowra Creek Estuary**
+    * **Authors:** Calvin Li, Emma McCall, Michael Barry, Kaushal Kumandur, Frankie Coen, Paul Dunne
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques / Case Studies
+    * **Citation:** [96]
+
+97. **A Development of Long-Term Daily High-Resolution Grid Meteorological Data for South Korea based on Deep Learning**
+    * **Authors:** Yookyung Jeong, Kyuhyun Byun
+    * **Year:** 2023
+    * **Key Topic:** Climate and Future Trends / Hydrological Modelling
+    * **Citation:** [97]
+
+98. **Predicting Event Response in Coupled Catchment-Reservoir Models**
+    * **Authors:** Peter Yeates, Christopher Dallimore, Patricia Okely, Amanda Newman, Rizwana Rumman
+    * **Year:** 2023
+    * **Key Topic:** Hydrological Modelling Techniques
+    * **Citation:** [98]
+
+99. **How useful are global streamflow forecasts for Australian catchments?**
+    * **Authors:** Fiona Johnson, Gwyneth Matthews, Siming Gong, James Ball, Christel Prudhomme
+    * **Year:** 2023
+    * **Key Topic:** Flood Forecasting and Warning Systems
+    * **Citation:** [99]
+
+100. **Extreme event dam hydrology calibration using ARR2019 with a limited data collection sample**
+     * **Authors:** Lee Williams
+     * **Year:** 2023
+     * **Key Topic:** Case Studies and Extreme Events / Hydrological Modelling
+     * **Citation:** [100]
+
+101. **Upstream impact assessment of reservoir operation during floods: a case study of Narracan Dam**
+     * **Authors:** Yanni Wang, Tim Craig, Richard Mannix, David Stephens, Mitchell Barry
+     * **Year:** 2023
+     * **Key Topic:** Case Studies and Extreme Events
+     * **Citation:** [101]
+
+102. **Dynamic CA-ffé: a hybrid 1D/2D fast flood evaluation model for urban floods**
+     * **Authors:** Maziar Gholami Korzani, Ana Deletic
+     * **Year:** 2023
+     * **Key Topic:** Hydrological Modelling Techniques
+     * **Citation:** [102]
+
+103. **Are CMIP3 projections still plausible to 2030 for Tasmanian Catchments?**
+     * **Authors:** Kirsten Adams, Fiona Ling, Sarah Blundy, Michael Wright, Bryce Graham
+     * **Year:** 2023
+     * **Key Topic:** Climate and Future Trends
+     * **Citation:** [103]
+
+104. **Defining Catchment Delay and Non-Linearity Using Flow Data**
+     * **Authors:** Tim Rhodes, Kosta Tsourdalakis, Amir Behroozi
+     * **Year:** 2023
+     * **Key Topic:** Hydrological Modelling Techniques
+     * **Citation:** [104]
+
+105. **Water quantity and quality modelling for the Great Barrier Reef catchments and development of an operational-ready system**
+     * **Authors:** Urooj Khan, Benjamin Farmer, Richard Laugesen, James D'Andrea, Alex Cornish, Steven C. Wells, Steven J. Cole, Robert J. Moore
+     * **Year:** 2023
+     * **Key Topic:** Hydrological Modelling Techniques
+     * **Citation:** [105]
+
+106. **When zero does not equal zero - The need to transition from flood hazard management to a comprehensive flood risk mitigation approach**
+     * **Authors:** Roozbeh H-Nafari, Lucy Goss, Benjamin Robertson
+     * **Year:** 2023
+     * **Key Topic:** Flood Forecasting and Warning Systems / Risk Mitigation
+     * **Citation:** [106]
+
+107. **Not Again! A case study of heavy and recurring rainfall during a construction project**
+     * **Authors:** Rodney Ronalds
+     * **Year:** 2023
+     * **Key Topic:** Case Studies and Extreme Events
+     * **Citation:** [107]
+
+108. **On the Frequency of Flooding of the Barwon River at Geelong**
+     * **Authors:** Anthony Ladson, Phil Pedruco
+     * **Year:** 2023
+     * **Key Topic:** Case Studies and Extreme Events / Flood Frequency
+     * **Citation:** [108]
+
+109. **Surface Water Extent Mapping of Macquarie Marshes Through Satellite Data Fusion and Random Forest Analysis**
+     * **Authors:** Saba Zehra, R. Willem Vervoort
+     * **Year:** 2023
+     * **Key Topic:** Hydrological Modelling Techniques
+     * **Citation:** [109]
+
+110. **Assessing the Condition of Bioretention Basins; Investigating Influential Factors on Asset Performance**
+     * **Authors:** Emad Kavehei, Bishal Chudal, Darren Carlson, Jeffrey Rabbidge, Sujeewa Herath, Andrew Pearce, Aviva Coutinho, Cathy Kinsey
+     * **Year:** 2023
+     * **Key Topic:** Hydrological Modelling Techniques
+     * **Citation:** [110]
+
+111. **Eliminating Flood Risk on Stadium Construction Projects**
+     * **Authors:** Siobhan Maxwell, Brian Choi
+     * **Year:** 2023
+     * **Key Topic:** Case Studies and Extreme Events
+     * **Citation:** [111]

@@ -1,7 +1,7 @@
 Enhanced Query: BIBLIOGRAPHY
 Conference: HWRS 2016
 Notebook: 46b9e4ac-d902-42bc-a26b-66a8cc8e445c
-Timestamp: 2026-04-19T01:15:37.739604+00:00
+Timestamp: 2026-04-19T07:01:51.342543+00:00
 ============================================================
 
 QUERY:
@@ -10,292 +10,242 @@ List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 
 ============================================================
 
 RESPONSE:
-Here is the comprehensive bibliography of all the papers included in this notebook, drawn from the 2016 Hydrology and Water Resources Symposium (HWRS 2016). 
+1. **Using Three Dimensional Groundwater Flow Models for Major Infrastructure Projects: From Consenting to Construction**
+*Authors:* Theodora Avanidou, Theo S. Sarris
+*Year published:* 2016
+*Key topic:* 3-D groundwater flow modelling to manage environmental impacts and construct sustainable mitigation strategies for major infrastructure projects [1].
 
-**1.** 
-*   **Full Title:** Using Three Dimensional Groundwater Flow Models for Major Infrastructure Projects: From Consenting to Construction
-*   **All Authors:** Theodora Avanidou, Theo S. Sarris
-*   **Year Published:** 2016
-*   **Key Topic:** Groundwater flow modelling for environmental impact and mitigation in major infrastructure projects [1].
+2. **Windsor – Australia’s Longest Flood Record**
+*Authors:* Mark Babister, Terry McKeown, Monique Retallick
+*Year published:* 2016
+*Key topic:* Analyzing the historical flood record on the Hawkesbury Nepean river to improve modern flood frequency analysis techniques [2].
 
-**2.** 
-*   **Full Title:** Windsor – Australia’s Longest Flood Record
-*   **All Authors:** Mark Babister, Terry McKeown, Monique Retallick
-*   **Year Published:** 2016
-*   **Key Topic:** Analysis and validation of historical flood records on the Hawkesbury Nepean floodplain for flood frequency analysis [2].
+3. **The Australian Rainfall & Runoff Datahub**
+*Authors:* Mark Babister, Aaron Trim, Isabelle Testoni, Monique Retallick
+*Year published:* 2016
+*Key topic:* Creating an online platform that provides accessible spatial design inputs for practitioners conducting design flood estimations [3].
 
-**3.** 
-*   **Full Title:** The Australian Rainfall & Runoff Datahub
-*   **All Authors:** Mark Babister, Aaron Trim, Isabelle Testoni, Monique Retallick
-*   **Year Published:** 2016
-*   **Key Topic:** The development of an online data hub to provide easy access to spatial design inputs for flood estimation [3].
+4. **A Review of Stream Gauge Records for Design Flood Estimation**
+*Authors:* James E Ball, Annabel Kerr, Guilherme Carneiro Rocha, Atikul Islam
+*Year published:* 2016
+*Key topic:* Assessing the uncertainties and missing data challenges in extrapolating stream gauge records for out-of-bank flows in flood estimation [4].
 
-**4.** 
-*   **Full Title:** A Review of Stream Gauge Records for Design Flood Estimation
-*   **All Authors:** James E Ball, Annabel Kerr, Guilherme Carneiro Rocha, Atikul Islam
-*   **Year Published:** 2016
-*   **Key Topic:** Assessing the reliability and extrapolation of stream gauge records, particularly regarding out-of-bank flows [4], [5].
+5. **Application of daily SedNet for modelling catchment-scale sediment generation and transport: New Zealand case study**
+*Authors:* L.T. Cetin, A. Freebairn, S. Easton, M. Sands, P. Pedruco
+*Year published:* 2016
+*Key topic:* Using daily SedNet to simulate event-based sediment export, hillslope erosion, and sedimentation impacts in catchments [5].
 
-**5.** 
-*   **Full Title:** Application of daily SedNet for modelling catchment-scale sediment generation and transport: New Zealand case study
-*   **All Authors:** L.T. Cetin, A. Freebairn, S. Easton, M. Sands, P. Pedruco
-*   **Year Published:** 2016
-*   **Key Topic:** Using a daily time-stepping SedNet model to simulate event-based sediment export and erosion processes [6].
+6. **Testing models for simulating urban hydrology**
+*Authors:* Robin Connolly
+*Year published:* 2016
+*Key topic:* Evaluating various hydrology models (e.g., Rational Method, RORB, Mike 11) for their ability to simulate peak discharges in urban catchments [6].
 
-**6.** 
-*   **Full Title:** Testing models for simulating urban hydrology
-*   **All Authors:** Robin Connolly
-*   **Year Published:** 2016
-*   **Key Topic:** Evaluation of parameterisation and calibration techniques for hydrology models (e.g., RORB, Mike 11) in urban contexts [7].
+7. **A modern perspective on hydrology processes of two catchments in regional Victoria**
+*Authors:* Peter J Coombes, Mark Colegate, Luke Barber, Mark Babister
+*Year published:* 2016
+*Key topic:* Applying ARR2016 Regional Flood Frequency Estimation and ensemble storm events to model the hydrology of ungauged urban catchments [7].
 
-**7.** 
-*   **Full Title:** A modern perspective on hydrology processes of two catchments in regional Victoria
-*   **All Authors:** Peter J Coombes, Mark Colegate, Luke Barber, Mark Babister
-*   **Year Published:** 2016
-*   **Key Topic:** Application of regional flood frequency estimation and full-volume rain ensembles in ungauged urban catchments [8].
+8. **Stormwater, waterway benefits and water resources benefits of water conservation measures for Australian cities**
+*Authors:* Peter J Coombes, Michael Smit, Josh Byrne, Christopher J Walsh
+*Year published:* 2016
+*Key topic:* Evaluating the systemic benefits of household rainwater harvesting and water-efficient appliances on stormwater reduction and urban water security [8].
 
-**8.** 
-*   **Full Title:** Stormwater, waterway benefits and water resources benefits of water conservation measures for Australian cities
-*   **All Authors:** Peter J Coombes, Michael Smit, Josh Byrne, Christopher J Walsh
-*   **Year Published:** 2016
-*   **Key Topic:** Evaluating the systemic benefits of household water conservation (e.g., rainwater harvesting) on utility costs and urban stormwater management [9].
+9. **Water Balance of the Upper to Middle Niger Basin and the Impact of Climate Change**
+*Authors:* Boubacar Seydou Coulibaly, J. Ball, P. Hazelton, W. Milne-Home
+*Year published:* 2016
+*Key topic:* Analyzing the integrated surface and groundwater balance of the Niger Basin to understand prolonged drought and climate change impacts [9].
 
-**9.** 
-*   **Full Title:** Water Balance of the Upper to Middle Niger Basin and the Impact of Climate Change
-*   **All Authors:** Boubacar Coulibaly, J. Ball, P. Hazelton, W. Milne-Home
-*   **Year Published:** 2016
-*   **Key Topic:** Analyzing the integrated surface and groundwater balance in the Niger Basin to understand climate change impacts [10].
+10. **Relationship between meteorological and hydrological drought characteristics**
+*Authors:* D. M. C. S. Mimrose, L. N. N. Jayasuriya, M. A. Bhuiyan
+*Year published:* 2016
+*Key topic:* Utilizing Standardized Precipitation Index (SPI) and Standardized Hydrological Drought Index (SHDI) to analyze and forecast drought characteristics [10].
 
-**10.** 
-*   **Full Title:** Relationship between meteorological and hydrological drought characteristics
-*   **All Authors:** D. M. C. S. Mimrose, L. N. N. Jayasuriya, M. A. Bhuiyan
-*   **Year Published:** 2016
-*   **Key Topic:** Exploring the correlation between meteorological (SPI) and hydrological (SHDI) drought indices for drought preparedness [11].
+11. **The Journey to a Water Sensitive City – a Case Study of Ballarat, Victoria, Australia**
+*Authors:* David Ebbs, Harpreet Kandra, Peter Dahlhaus
+*Year published:* 2016
+*Key topic:* Tracing the historical evolution of water supply and urban water management in a specific city tracking its transition toward becoming a "Water Sensitive City" [11].
 
-**11.** 
-*   **Full Title:** The Journey to a Water Sensitive City – a Case Study of Ballarat, Victoria, Australia
-*   **All Authors:** David Ebbs, Harpreet Kandra, Peter Dahlhaus
-*   **Year Published:** 2016
-*   **Key Topic:** Tracking the historical evolution of a city's water management transitioning toward becoming a "Water Sensitive City" [12].
+12. **A multiproxy 1000-year hydroclimate reconstruction for eastern Australia, and implications for water resource management**
+*Authors:* Anna L. Flack, Anthony S. Kiem, Carly Tozer, Tessa Vance, Jason Roberts
+*Year published:* 2016
+*Key topic:* Utilizing paleoclimate archives to reconstruct historical wet and dry epochs, revealing prolonged extremes not captured in the instrumental record [12].
 
-**12.** 
-*   **Full Title:** A multiproxy 1000-year hydroclimate reconstruction for eastern Australia, and implications for water resource management
-*   **All Authors:** Anna L. Flack, Anthony S. Kiem, Carly Tozer, Tessa Vance, Jason Roberts
-*   **Year Published:** 2016
-*   **Key Topic:** Using paleoclimate data to reconstruct long-term hydroclimate records and identify pre-instrumental extreme wet/dry epochs [13], [14].
+13. **Development and Calibration of HEC-RAS Model for the Juqueriquere River Basin in Sao Paulo, Brazil**
+*Authors:* Vassiliki Terezinha Galvao Boulomytis, Antonio Carlos Zuffo, Monzur Alam Imteaz, José Gilberto Dalfré Filho
+*Year published:* 2016
+*Key topic:* Utilizing and calibrating a HEC-RAS model to evaluate geometric river features and adjust Manning's roughness coefficients [13].
 
-**13.** 
-*   **Full Title:** Development and Calibration of HEC-RAS Model for the Juqueriquere River Basin in Sao Paulo, Brazil
-*   **All Authors:** Vassiliki Terezinha Galvao Boulomytis, Antonio Carlos Zuffo, Monzur Alam Imteaz, José Gilberto Dalfré Filho
-*   **Year Published:** 2016
-*   **Key Topic:** Calibrating Manning's roughness coefficients in hydraulic models to accurately assess river basin discharge capacity [15], [16].
+14. **Accounting for water at a national level**
+*Authors:* Janice Green, Aaron Wassing, Dene Moliere
+*Year published:* 2016
+*Key topic:* Using standardized modeling to create the National Water Account for tracking water rights, allocations, and availability across Australia [14].
 
-**14.** 
-*   **Full Title:** Accounting for water at a national level
-*   **All Authors:** Janice Green, Aaron Wassing, Dene Moliere
-*   **Year Published:** 2016
-*   **Key Topic:** The development of the National Water Account to standardize and transparently report water availability, trades, and usage across Australia [17].
+15. **New Design Rainfalls for Australia – Lessons Learned...**
+*Authors:* Janice Green, Cathy Beesley, Cynthia The
+*Year published:* 2016
+*Key topic:* Methodological steps and lessons learned in the creation of comprehensive new design rainfalls across Australia [15].
 
-**15.** 
-*   **Full Title:** New Design Rainfalls for Australia – Lessons Learned...
-*   **All Authors:** Janice Green, Cathy Beesley, Cynthia The
-*   **Year Published:** 2016
-*   **Key Topic:** The methodology, statistical techniques, and lessons learned from developing the new Australian design rainfalls (IFDs) [18].
+16. **Evaluation of a model for disaggregating point daily rainfall into hourly rainfields: the Albert catchment case study**
+*Authors:* Yeboah Gyasi-Agyei
+*Year published:* 2016
+*Key topic:* Interpolating and disaggregating point daily rainfall data into hourly, 1km-resolution spatial grid arrays for hydrological modeling [16].
 
-**16.** 
-*   **Full Title:** Evaluation of a model for disaggregating point daily rainfall into hourly rainfields: the Albert catchment case study
-*   **All Authors:** Yeboah Gyasi-Agyei
-*   **Year Published:** 2016
-*   **Key Topic:** Generating high-resolution hourly spatial rainfields from point daily rainfall data for hydrological modelling [19].
+17. **Application of AWRA-L gridded soil moisture data for flood estimation**
+*Authors:* P Hill, R Nathan, J Zhang
+*Year published:* 2016
+*Key topic:* Using AWRA-L daily simulated soil moisture outputs to formulate prediction equations for storm initial and continuing losses [17].
 
-**17.** 
-*   **Full Title:** Application of AWRA-L gridded soil moisture data for flood estimation
-*   **All Authors:** P Hill, R Nathan, J Zhang
-*   **Year Published:** 2016
-*   **Key Topic:** Using modeled soil moisture data to develop prediction equations for initial and continuing loss in flood estimation [20].
+18. **Attenuation of nutrients through a ferruginous cemented sand layer in sandy soils**
+*Authors:* Marino Evangelisti, Rosemary Edwards, Owen Hoar
+*Year published:* 2016
+*Key topic:* Discovering and analyzing a "coffee rock" aquitard layer capable of naturally removing dissolved nutrients from groundwater under new urban developments [18].
 
-**18.** 
-*   **Full Title:** Attenuation of nutrients through a ferruginous cemented sand layer in sandy soils
-*   **All Authors:** Marino Evangelisti, Rosemary Edwards, Owen Hoar
-*   **Year Published:** 2016
-*   **Key Topic:** Monitoring groundwater quality to demonstrate nutrient attenuation by a "coffee rock" aquitard in urban development zones [21].
+19. **How big was the January 2016 Geelong storm really? A novel use of radar data**
+*Authors:* K. Xuereb
+*Year published:* 2016
+*Key topic:* Evaluating the spatial significance, intensities, and Annual Exceedance Probability (AEP) of an extreme rainfall event using radar and gauge data [19], [20].
 
-**19.** 
-*   **Full Title:** How big was the January 2016 Geelong storm really? A novel use of radar data.
-*   **All Authors:** K. Xuereb
-*   **Year Published:** 2016
-*   **Key Topic:** Using spatial radar data alongside ground gauge data to assess the spatial significance and Annual Exceedance Probability of a major storm event [22], [23].
+20. **Novel Methods for Improved Filtering of Rain on Grid Results for Flood Mapping**
+*Authors:* Elliot Jones, Daniel Copelin
+*Year published:* 2016
+*Key topic:* Developing a Python-based technique utilizing TauDEM to automate and improve flow path connectivity in 2D "Rain on Grid" flood mapping [21].
 
-**20.** 
-*   **Full Title:** Novel Methods for Improved Filtering of Rain on Grid Results for Flood Mapping
-*   **All Authors:** Elliot Jones, Daniel Copelin
-*   **Year Published:** 2016
-*   **Key Topic:** Improving the visualization and continuity of Rain on Grid (ROG) 2D flood maps using TauDEM algorithms to trace flow paths [24].
+21. **Development of a groundwater model for a tropical eogenetic karst aquifer in Rote Island, Indonesia**
+*Authors:* Dua Kudushana Singgih Yejezkial Klaas, Monzur Alam Imteaz
+*Year published:* 2016
+*Key topic:* Developing and validating a steady-state and transient MODFLOW groundwater flow model to predict spring recharge for a karst aquifer [22].
 
-**21.** 
-*   **Full Title:** Development of a groundwater model for a tropical eogenetic karst aquifer in Rote Island, Indonesia
-*   **All Authors:** Dua Kudushana Singgih Yejezkial Klaas, Monzur Alam Imteaz
-*   **Year Published:** 2016
-*   **Key Topic:** Creating a MODFLOW groundwater framework for assessing the vulnerability of a diffuse-flow karst catchment resource [25], [26].
+22. **Long-term Rainfall Prediction using Large Scale Climate Variables through Linear and Non-linear Methods**
+*Authors:* H. M. Rasel, Rijwana Ishat Esha, Monzur Alam Imteaz, Dua Klaas
+*Year published:* 2016
+*Key topic:* Using multi-variate non-linear Artificial Neural Network (ANN) modeling to predict seasonal rainfall tied to large-scale climate variables [23].
 
-**22.** 
-*   **Full Title:** Long-term Rainfall Prediction using Large Scale Climate Variables through Linear and Non-linear Methods
-*   **All Authors:** H. M. Rasel, Rijwana Ishat Esha, Monzur Alam Imteaz, Dua Klaas
-*   **Year Published:** 2016
-*   **Key Topic:** Forecasting seasonal rainfall utilizing non-linear Artificial Neural Networks (ANN) combined with large-scale climate variables (ENSO, IOD, SAM) [27].
+23. **Effect of Observational Uncertainty on Hydrological Modelling**
+*Authors:* Shailesh Kumar Singh, Subhajit Dutta
+*Year published:* 2016
+*Key topic:* Assessing how observational errors in meteorological input data (like rainfall) create predictive uncertainty in top-net hydrologic models using data depth functions [24].
 
-**23.** 
-*   **Full Title:** Effect of Observational Uncertainty on Hydrological Modelling
-*   **All Authors:** Shailesh Kumar Singh, Subhajit Dutta
-*   **Year Published:** 2016
-*   **Key Topic:** Quantifying uncertainty in hydrological model predictions using data depth functions and Monte Carlo simulations on rainfall inputs [28].
+24. **The State of Hydrologic Practice in Victoria, Australia**
+*Authors:* Anthony Ladson
+*Year published:* 2016
+*Key topic:* A comprehensive review of current rural flood modeling practices highlighting the transition parameters necessary for new ARR2016 guidelines [25].
 
-**24.** 
-*   **Full Title:** The State of Hydrologic Practice in Victoria, Australia
-*   **All Authors:** Anthony Ladson
-*   **Year Published:** 2016
-*   **Key Topic:** A review of recent flood studies to summarize current hydrologic modeling practices (primarily RORB) versus ARR guidelines [29].
+25. **Interdependence of design losses and temporal patterns in design flood estimation**
+*Authors:* Melanie Loveridge, Mark Babister
+*Year published:* 2016
+*Key topic:* Addressing the joint probability issues and sensitivities observed when combining regionalized initial losses with historical temporal patterns [26].
 
-**25.** 
-*   **Full Title:** Interdependence of design losses and temporal patterns in design flood estimation
-*   **All Authors:** Melanie Loveridge, Mark Babister
-*   **Year Published:** 2016
-*   **Key Topic:** Investigating the complex interplay between regional temporal patterns and design losses during joint probability flood assessments [30].
+26. **Gravel transport and aggradation in the Kauaeranga River**
+*Authors:* G. Macky
+*Year published:* 2016
+*Key topic:* Using 2D modeling (MIKE Flood) to assess gravel transport budgets and its exacerbating effect on channel aggradation and flooding risks [27], [28].
 
-**26.** 
-*   **Full Title:** Gravel transport and aggradation in the Kauaeranga River
-*   **All Authors:** G. Macky
-*   **Year Published:** 2016
-*   **Key Topic:** Assessing a gravel transport budget and its exacerbating effect on hydraulic flood risks and river aggradation [31], [32].
+27. **Role of Consistent and Transparent Water Accounting Modelling for Sustainable Water Resource Management (SWRM)**
+*Authors:* Uttam Manandhar, M Seker
+*Year published:* 2016
+*Key topic:* Developing a generalized computational module to transparently simulate complex water carryover rules and allocations across Victorian river basins [29].
 
-**27.** 
-*   **Full Title:** ROLE OF CONSISTENT AND TRANSPARENT WATER ACCOUNTING MODELLING FOR SUSTAINABLE WATER RESOURCE MANAGEMENT (SWRM)
-*   **All Authors:** U Manandhar, M Seker
-*   **Year Published:** 2016
-*   **Key Topic:** Developing a generalized module to model complex carryover and annual accounting rules for individual water users in river systems [33], [34].
+28. **Defensive Engineering or Engineering a Defence**
+*Authors:* Greg McMahon
+*Year published:* 2016
+*Key topic:* Evaluating the legal and technical liability issues regarding the operations and risk management of the Wivenhoe Dam during the 2011 Brisbane Flood [30].
 
-**28.** 
-*   **Full Title:** Defensive Engineering or Engineering a Defence
-*   **All Authors:** Greg McMahon
-*   **Year Published:** 2016
-*   **Key Topic:** A critique of operator liability and the role of engineering expertise and organizational risk management during the 2011 Brisbane River Flood [35].
+29. **Using interpolation of pre-computed hydrodynamic simulations to forecast flood inundation**
+*Authors:* A. Chiaverini, R. Measures, G. Smart, G. Turek
+*Year published:* 2016
+*Key topic:* Interpolating libraries of pre-computed historical 2D hydrodynamic simulations to achieve rapid real-time flood forecasting [31].
 
-**29.** 
-*   **Full Title:** Using interpolation of pre-computed hydrodynamic simulations to forecast flood inundation
-*   **All Authors:** A. Chiaverini, R. Measures, G. Smart, G. Turek
-*   **Year Published:** 2016
-*   **Key Topic:** Real-time forecasting of flood inundation maps by interpolating from a large library of pre-computed 2D hydrodynamic simulations [36], [37].
+30. **Impact of Natural Variability on Design Flood Flows and Levels**
+*Authors:* Rory Nathan, David Stephens, Mitchell Smith, Phillip Jordan, Matt Scorah, David Shepherd, Peter Hill, Bill Syme
+*Year published:* 2016
+*Key topic:* Analyzing how natural variability of soil moisture, losses, and storm patterns impacts flood peaks through Monte Carlo simulation [32].
 
-**30.** 
-*   **Full Title:** Impact of Natural Variability on Design Flood Flows and Levels
-*   **All Authors:** Rory Nathan, David Stephens, Mitchell Smith, Phillip Jordan, Matt Scorah, David Shepherd, Peter Hill, Bill Syme
-*   **Year Published:** 2016
-*   **Key Topic:** Examining how natural hydrologic variability propagates through event-based Monte Carlo simulations to affect final flood depth estimations [38].
+31. **Application of ARR FLIKE for At-Site Flood Frequency Analysis: A Case Study in New South Wales, Australia**
+*Authors:* Himadri Paul, Atatur Rahman, Mahmudul Haque
+*Year published:* 2016
+*Key topic:* Applying the FLIKE software across 20 catchments to determine the best fit probability distributions for at-site flood frequency analysis [33].
 
-**31.** 
-*   **Full Title:** Application of ARR FLIKE for At-Site Flood Frequency Analysis: A Case Study in New South Wales, Australia
-*   **All Authors:** Himadri Paul, Atatur Rahman, Mahmudul Haque
-*   **Year Published:** 2016
-*   **Key Topic:** Evaluating multiple probability distributions and low-flood censoring methods for at-site flood frequency analysis using ARR FLIKE [39], [40].
+32. **Trends in Rainfall in New South Wales, Australia**
+*Authors:* Evan Hajani, Himadri Paul, Ataur Rahman
+*Year published:* 2016
+*Key topic:* Utilizing the Mann-Kendall test to evaluate the historical upward and downward trends in annual maximum rainfall and rainy days indices [34].
 
-**32.** 
-*   **Full Title:** Trends in Rainfall in New South Wales, Australia
-*   **All Authors:** Evan Hajani, Himadri Paul, Ataur Rahman
-*   **Year Published:** 2016
-*   **Key Topic:** Utilizing the Mann-Kendall test to detect long-term historical trends in extreme and annual rainfall indices across NSW [41].
+33. **Comparing Design Storm Burst and Embedded Design Storm Approaches in the Narellan Creek Catchment, NSW**
+*Authors:* B.C. Phillips, C. Thomas, M. Pinto
+*Year published:* 2016
+*Key topic:* Contrasting hydrologic outputs resulting from traditional Design Storm Bursts against the newer Embedded Design Storm (Rain on Grid) approaches [35].
 
-**33.** 
-*   **Full Title:** Comparing Design Storm Burst and Embedded Design Storm Approaches in the Narellan Creek Catchment, NSW
-*   **All Authors:** B.C. Phillips, C. Thomas, M. Pinto
-*   **Year Published:** 2016
-*   **Key Topic:** Hydrological impact comparison between Direct Rainfall Method (Embedded Design Storms) and traditional design storm burst approaches in flood studies [42].
+34. **Application of ANN in Regional Flood Estimation: A Case Study for New South Wales, Australia**
+*Authors:* Sasan Kordrostami, Zaved Khan, Ataur Rahman
+*Year published:* 2016
+*Key topic:* Using non-linear Artificial Neural Networks (ANN) to predict regional flood frequencies for ungauged catchments [36].
 
-**34.** 
-*   **Full Title:** Application of ANN in Regional Flood Estimation: A Case Study for New South Wales, Australia
-*   **All Authors:** Sasan Kordrostami, Zaved Khan, Ataur Rahman
-*   **Year Published:** 2016
-*   **Key Topic:** Exploring Artificial Neural Network (ANN) based regional flood frequency estimation models utilizing different catchment predictor variables [43].
+35. **Rainwater Harvesting Potential in Sydney: Are We Harvesting Enough?**
+*Authors:* Caleb Christian Amos, Ataur Rahman
+*Year published:* 2016
+*Key topic:* Assessing the water savings, reliability, and lifecycle economic viability of diverse rainwater tank sizes against government BASIX standards [37].
 
-**35.** 
-*   **Full Title:** Rainwater Harvesting Potential in Sydney: Are We Harvesting Enough?
-*   **All Authors:** Caleb Christian Amos, Ataur Rahman
-*   **Year Published:** 2016
-*   **Key Topic:** Continuous simulation modeling and economic analysis (NPV, BCR) of household rainwater tank sizes to optimize water savings [44], [45].
+36. **Regional Flood Modelling in Tasmania: Comparison of ARR RFFE Model and Kriging**
+*Authors:* Shafi Noor, Ataur Rahman
+*Year published:* 2016
+*Key topic:* Assessing whether ordinary kriging spatial interpolation yields better error reduction than the ARR Regional Flood Frequency Estimation (RFFE) model [38].
 
-**36.** 
-*   **Full Title:** Regional Flood Modelling in Tasmania: Comparison of ARR RFFE Model and Kriging
-*   **All Authors:** Shafi Noor, Ataur Rahman
-*   **Year Published:** 2016
-*   **Key Topic:** Testing ordinary kriging spatial interpolation against the ARR Regional Flood Frequency Estimation model for ungauged catchments [46].
+37. **Variability in Calibration and Validation Data Lengths in Relation to Obtaining the Best Parameter Set of a Hydrological Model**
+*Authors:* Gokhan Yildirim, Md. M. Haque, Ataur Rahman
+*Year published:* 2016
+*Key topic:* Exploring how variations in the lengths and types of calibration/validation data (e.g., wet, dry, normal periods) impact hydrological model performance [39].
 
-**37.** 
-*   **Full Title:** Variability in Calibration and Validation Data Lengths in Relation to Obtaining the Best Parameter Set of a Hydrological Model
-*   **All Authors:** Gokhan Yildirim, Md. M. Haque, Ataur Rahman
-*   **Year Published:** 2016
-*   **Key Topic:** Assessing how the selection of wet, dry, and peak calibration/validation periods impacts the parameter optimization of the AWBM model [47], [48].
+38. **Evaluation of Hydrological Drought Severity: A Case Study**
+*Authors:* S. Rahman, L. N. N. Jayasuriya, M. A. Bhuiyan
+*Year published:* 2016
+*Key topic:* Utilizing the Standardized Hydrological Drought Index (SHDI) at multiple time scales to establish threshold values for real-time drought warning systems [40].
 
-**38.** 
-*   **Full Title:** EVALUATION OF HYDROLOGICAL DROUGHT SEVERITY: A CASE STUDY
-*   **All Authors:** S. Rahman, L. N. N. Jayasuriya, M. A. Bhuiyan
-*   **Year Published:** 2016
-*   **Key Topic:** Transforming Standardized Hydrological Drought Index (SHDI) values into mean monthly streamflow thresholds to better manage and forecast droughts [49].
+39. **Comparison of Two Modelling Approaches for a Pilot Catchment Flood Study in Qatar**
+*Authors:* Abdullah Al-Mamoon, Benjamin Regan, Carlos Sylianteng, Ataur Rahman, Hassan Qassem
+*Year published:* 2016
+*Key topic:* Comparing a coupled hydrologic/hydraulic model against a 2D “rain on grid” model for developing a unified country-wide flood risk methodology [41].
 
-**39.** 
-*   **Full Title:** Comparison of Two Modelling Approaches for a Pilot Catchment Flood Study in Qatar
-*   **All Authors:** Abdullah Al-Mamoon, Benjamin Regan, Carlos Sylianteng, Ataur Rahman, Hassan Qassem
-*   **Year Published:** 2016
-*   **Key Topic:** Evaluating a 2D "rain on grid" method against a coupled hydrologic/hydraulic model for mapping flood risks in arid, flat terrain [50].
+40. **Experiences Exploring the Feasibility of Constructing a Very Large Scale 2D Flood Model of Tasmania**
+*Authors:* E Rigby, A Barthelmess, C Mazengarb, R Garcia
+*Year published:* 2016
+*Key topic:* Discussing the challenges and success in creating an enormous, single, state-wide unstructured-grid 2D flood model utilizing GPU architecture [42].
 
-**40.** 
-*   **Full Title:** Experiences Exploring the Feasibility of Constructing a Very Large Scale 2D Flood Model of Tasmania
-*   **All Authors:** E Rigby, A Barthelmess, C Mazengarb, R Garcia
-*   **Year Published:** 2016
-*   **Key Topic:** Developing a single, unstructured grid statewide 2D hydrodynamic model to standardise regional flood planning levels [51], [52].
+41. **Increase in vertical permeability after the M7.1 Darfield (Canterbury) Earthquake**
+*Authors:* H. K. Rutter, S. C. Cox, J. J. Weir, C. Rajanayaka
+*Year published:* 2016
+*Key topic:* Exploring sustained regional groundwater and piezometric level changes arising from altered vertical permeability caused by a major earthquake [43].
 
-**41.** 
-*   **Full Title:** Increase in vertical permeability after the M7.1 Darfield (Canterbury) Earthquake
-*   **All Authors:** H. K. Rutter, S. C. Cox, J. J. Weir, C. Rajanayaka
-*   **Year Published:** 2016
-*   **Key Topic:** Analyzing sustained post-earthquake groundwater level shifts and modeling increases in regional vertical permeability [53], [54].
+42. **The Role of Tyre Crumbs as a Substitute for Coarse Aggregates in Stormwater Management Features**
+*Authors:* Mitchell Sarpi, Niranjali Jayasuriya, Muhammed A Bhuiyan
+*Year published:* 2016
+*Key topic:* Analyzing the performance and hydraulic conductivity of crumbed tire rubber as an aggregate substitute in raingardens to filter urban stormwater [44].
 
-**42.** 
-*   **Full Title:** The Role of Tyre Crumbs as a Substitute for Coarse Aggregates in Stormwater Management Features
-*   **All Authors:** Mitchell Sarpi, Niranjali Jayasuriya, Muhammed A Bhuiyan
-*   **Year Published:** 2016
-*   **Key Topic:** Experimental study of the hydraulic conductivity of crumb rubber filters used in Water Sensitive Urban Design [55].
+43. **How does uncertainty in land use change influence flow and sediment projections?**
+*Authors:* Bikesh Shrestha, Thomas A. Cochrane, Brian S. Caruso, Mauricio E. Arias
+*Year published:* 2016
+*Key topic:* Investigating how future spatial projections of agriculture and forestry land-use shifts alter catchment-level hydrological flows and sediment yields [45].
 
-**43.** 
-*   **Full Title:** How does uncertainty in land use change influence flow and sediment projections?
-*   **All Authors:** Bikesh Shrestha, Thomas A. Cochrane, Brian S. Caruso, Mauricio E. Arias
-*   **Year Published:** 2016
-*   **Key Topic:** Investigating the hydrological and sediment yield implications of using different land-use change models and constraints in the Mekong Basin [56], [57].
+44. **Water resources implications of near-real time national soil moisture assessment**
+*Authors:* Robert M. Argent, Adam B. Smith, Imtiaz Dharssi
+*Year published:* 2016
+*Key topic:* Forecasting and delivering national-scale, near-real-time soil moisture predictions utilizing operational AWRA-L and ACCESS numerical weather prediction models [46].
 
-**44.** 
-*   **Full Title:** Water resources implications of near-real time national soil moisture assessment
-*   **All Authors:** Robert M. Argent, Adam B. Smith, Imtiaz Dharssi
-*   **Year Published:** 2016
-*   **Key Topic:** Utilizing landscape water balance models (AWRA-L) and numerical weather predictions to generate near-real time soil moisture assessments [58].
+45. **Regional Temporal Patterns for Australia**
+*Authors:* Isabelle Testoni, Mark Babister, Monique Retallick, Melanie Loveridge
+*Year published:* 2016
+*Key topic:* Detailing the methodology and selection criteria applied to construct the 12-region database of historical storm temporal patterns for ARR2016 [47].
 
-**45.** 
-*   **Full Title:** Regional Temporal Patterns for Australia
-*   **All Authors:** Isabelle Testoni, Mark Babister, Monique Retallick, Melanie Loveridge
-*   **Year Published:** 2016
-*   **Key Topic:** The criteria, filtering, and selection methods used to create the new national database of regional temporal patterns for ARR [59].
+46. **Policy responses to the identification by Maori of flows necessary to maintain their cultural values**
+*Authors:* Gail Tipa, Kyle Nelson, Mandy Home, Myra Tipa
+*Year published:* 2016
+*Key topic:* Outlining assessments utilized by Maori to correlate specific streamflow thresholds with the satisfaction of cultural values and mahinga kai (food gathering) practices [48].
 
-**46.** 
-*   **Full Title:** Policy responses to the identification by Maori of flows necessary to maintain their cultural values
-*   **All Authors:** Gail Tipa, Kyle Nelson, Mandy Home, Myra Tipa
-*   **Year Published:** 2016
-*   **Key Topic:** Utilizing the Cultural Flow Preference Assessment to systematically quantify and integrate indigenous values into regional water management plans [60], [61].
+47. **Extremes in rainfall and runoff in the Monsoonal North West of Australia derived from paleoclimate archives**
+*Authors:* Danielle C Verdon-Kidd, Gregory R Hancock, John BC Lowry
+*Year published:* 2016
+*Key topic:* Constructing 500-year rainfall reconstructions from multiproxy paleoclimate datasets to quantify historical durations of extreme wet and dry regimes [49].
 
-**47.** 
-*   **Full Title:** Extremes in rainfall and runoff in the Monsoonal North West of Australia derived from paleoclimate archives
-*   **All Authors:** Danielle C Verdon-Kidd, Gregory R Hancock, John BC Lowry
-*   **Year Published:** 2016
-*   **Key Topic:** Generating a 500-year rainfall and streamflow reconstruction from remote paleoclimate records to assess long-term drought and flood risks [62], [63].
-
-**48.** 
-*   **Full Title:** A methodology for optimisation of mine water management infrastructure
-*   **All Authors:** Amir Hedjripour
-*   **Year Published:** 2016
-*   **Key Topic:** System modeling and cost-optimization of mine water dam storage capacities and inter-facility dewatering configurations to meet no-spill criteria [64].
+48. **A methodology for optimisation of mine water management infrastructure**
+*Authors:* Amir Hedjripour
+*Year published:* 2016
+*Key topic:* Modeling the capacities and dewatering configurations required for mine water sedimentation dams using AR&R rainfall temporal patterns [50].

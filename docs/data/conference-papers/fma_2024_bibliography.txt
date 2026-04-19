@@ -1,7 +1,7 @@
 Enhanced Query: BIBLIOGRAPHY
 Conference: FMA 2024
 Notebook: 58b99d93-4101-4e11-93d6-a377158f5a18
-Timestamp: 2026-04-19T05:56:22.621906+00:00
+Timestamp: 2026-04-19T05:58:03.677585+00:00
 ============================================================
 
 QUERY:
@@ -10,5 +10,89 @@ List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 
 ============================================================
 
 RESPONSE:
-Error querying NotebookLM: Authentication expired or invalid. Redirected to: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2F&dsh=S539941362%3A1776578182289145&followup=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2F&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AT1y2_WG7s1dlgC8OUbCtWeLcBniZUx9EuIuAmyPBkGJk3FL6d2lmzQSh9QtAW5I6EXzdr9X0EsC-w
-Run 'notebooklm login' to re-authenticate.
+Here is a comprehensive bibliography of the papers and presentations found in the notebook from the 2024 Floodplain Management Australia (FMA) National Conference. They are categorised by your requested main themes where applicable, followed by other notable research presented.
+
+### Main Theme: Infragravity Waves in Coastal Creeks
+*   **Title:** **Infragravity Wave Considerations in Small Coastal Creeks** [1], [2]
+    *   **Authors:** Geoff Newell, Daniel Rodger, Crispin Smythe [1], [2]
+    *   **Year Published:** 2024 [3]
+    *   **Key Topic:** The presence and impact of infragravity waves (surf beats) on design storm tide levels and development adjacent to small coastal creeks [1], [4], [2].
+
+### Main Theme: 2023 DT01 Flood Damage Tool
+*   **Title:** **Benchmarking the 2023 DT01 Flood Damage Tool in Seven Sub-catchment(s) in Sydney, NSW** (also referenced as Benchmarking the 2022 and 2023 DT01 Flood Damage Tool(s) to seven sub-catchment(s)) [5], [6], [7]
+    *   **Authors:** M. Griffin, H. Rahimi, P. Rahman, S. Zaman, M. Southwell, J. Ogg, R. Georges [5], [7]
+    *   **Year Published:** 2024 [6]
+    *   **Key Topic:** Evaluating the differences and implications of the new NSW 2023 DT01 Damage Tool compared to older tools in calculating residential and non-residential flood damages [8], [9], [10].
+
+### Main Theme: Emergency Resources & Management
+*   **Title:** **NSW Flood Data Portal: From the Beginning, Linking Critical Data to Disaster Response** [11]
+    *   **Authors:** Melissa Daley, Keiran O’Fee [11]
+    *   **Year Published:** 2024 [11]
+    *   **Key Topic:** How accessibility to critical data through the NSW Flood Data Portal enhances the effectiveness of emergency management planning and response [11], [12].
+*   **Title:** **Applying the Bureau of Meteorology's Flood Scenarios Outlook to Emergency Response Coordination** [13]
+    *   **Authors:** T. Jory, A. Schofield [13]
+    *   **Year Published:** 2024 [13]
+    *   **Key Topic:** Utilising new forecasting products from the BoM to benefit emergency management organisations during severe weather responses [13], [14].
+*   **Title:** **After the floodwaters recede – Improving support for flood affected residents** [15]
+    *   **Authors:** Mel Taylor, Fiona Miller, Kim Johnston, Barbara Ryan, Anne Lane, Rachel King, Nicola Moore [15]
+    *   **Year Published:** 2024 [15]
+    *   **Key Topic:** Improving evidence-based policy and support services for residents recovering from flood disasters [15].
+*   **Title:** **No escape: secondary risks in flood-isolated communities** [16]
+    *   **Authors:** E. O’Shannessy, S. Stanton-Drudy, S. Raini, A. Toniato [16]
+    *   **Year Published:** 2024 [16]
+    *   **Key Topic:** Addressing the often underestimated secondary risks of flooding, such as disruption of services and medical emergencies, in isolated communities [16].
+
+### Other Notable Flood Management & Research Papers
+
+*   **Title:** **Navigating the Future: Lessons for Risk-Based Assessment of Coastal Flooding and Erosion** [17]
+    *   **Authors:** C. Lauchlan Arrowsmith, N. Smith, C. Dougall [17]
+    *   **Year Published:** 2024 [17]
+    *   **Key Topic:** Planning for evolving climate conditions through risk-based assessments of coastal hazards [17].
+*   **Title:** **The flow must go on: more robust river gauges for future extremes** [18], [19]
+    *   **Authors:** Van Cuong Nguyen, Simon Rodgers [18], [19]
+    *   **Year Published:** 2024 [18]
+    *   **Key Topic:** Using hydraulic models to design robust gauging station infrastructure after the devastating 2023 Kimberley floods [20], [19].
+*   **Title:** **Risks to day-to-day coastal floodplain drainage with rising sea levels** [21], [22]
+    *   **Authors:** Alice Harrison, Kate Waddington, Toby Tucker, Will Glamore, Duncan Rayner [21], [22]
+    *   **Year Published:** 2024 [21]
+    *   **Key Topic:** Evaluating the risk of sea level rise on tidal drainage windows and surface water drainage in coastal floodplains [23], [22].
+*   **Title:** **Impacts of pre-burst on extreme floods. A case study in southeast Queensland** [24]
+    *   **Authors:** Ash Rasheed, Benson Liu, Hench Wang, David Stephens [24]
+    *   **Year Published:** 2024 [24]
+    *   **Key Topic:** Analyzing the effect of pre-burst rainfall components on extreme flood events [24].
+*   **Title:** **Rip Rap to Rock Bags: Physical modelling of high flow cases** [25]
+    *   **Authors:** Dan Messiter [25]
+    *   **Year Published:** 2024 [25]
+    *   **Key Topic:** Physical modelling of scour protection structures during high flow scenarios [25].
+*   **Title:** **New tools assisting adaptive pathway planning for sea level rise in NSW** [26]
+    *   **Authors:** Galen Lewis, David Hanslow, Bruce Coates, Matthew Phillips, Bronson McPherson [26]
+    *   **Year Published:** 2024 [26]
+    *   **Key Topic:** Developing gauge-based tools to forecast and plan for increasing "nuisance" tidal inundation linked to sea level rise [27], [28].
+*   **Title:** **RegioFEM – a floodplain evaluation method to support future-oriented flood risk management** [29]
+    *   **Authors:** Markus Eder, Mathew Herrnegger, Karl Hogl, Lukas Löschner, Ralf Nordbeck, Patrick Scherhaufer, Bernhard Schober, Walter Seher, Wesemann Johannes, Nina Zahnt, Helmut Habersack [29]
+    *   **Year Published:** 2024 [29]
+    *   **Key Topic:** New evaluation methodologies to support future flood risk planning [29].
+*   **Title:** **Leveraging distributed sensor networks for enhanced flash flood monitoring** [30]
+    *   **Authors:** S. Igloi, I. Atkinson [30]
+    *   **Year Published:** 2024 [30]
+    *   **Key Topic:** Implementing scalable, real-time distributed sensor networks to monitor flash floods and understand catchment conditions [30].
+*   **Title:** **FRT - A land use based approach to flood damages assessment for Queensland** [31]
+    *   **Authors:** L. Joseph, B. Patterson, J. Terry, D. Honor [31]
+    *   **Year Published:** 2024 [31]
+    *   **Key Topic:** Utilising an "area" based assessment tool to better understand agricultural and open space damages caused by flooding [31].
+*   **Title:** **2022 floods in the Northern Rivers: impacts on businesses and their recovery** [32]
+    *   **Authors:** T. Maqsood, A. Fouladi, K. Dale, M. Edwards [32]
+    *   **Year Published:** 2024 [32]
+    *   **Key Topic:** Post-disaster survey findings validating vulnerability models for businesses affected by the 2022 Northern Rivers floods [32].
+*   **Title:** **Tomorrow’s floodplain: a change in thinking on future coastal flooding** [33]
+    *   **Authors:** R. Sharp, T. Devlin, W. Bishop [33]
+    *   **Year Published:** 2024 [33]
+    *   **Key Topic:** Exploring the difference between catchment and coastal flooding and rethinking planning controls for future sea level rises [33], [34].
+*   **Title:** **Review Part I of the Current Wivenhoe Dam Flood Manual - a Mixture of Understandings** [35]
+    *   **Authors:** McMahon G. [35]
+    *   **Year Published:** 2024 [35]
+    *   **Key Topic:** A review of dam operation methodologies (Risk Management vs Rain-on-Ground) for Wivenhoe Dam [36], [35]. 
+*   **Title:** **Conceptualising household flood preparedness: Explaining attitudes, coping strategies and information needs** (presented as Flood Community Resilience) [37], [38]
+    *   **Authors:** Dr. Willow Forsyth [38]
+    *   **Year Published:** 2024 [37], [38]
+    *   **Key Topic:** Household flood preparedness, local flood intelligence, and communication barriers [37], [38].
