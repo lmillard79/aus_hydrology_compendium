@@ -1,0 +1,48 @@
+# Flood Modelling and Forecasting
+
+**Conference:** HWRS 2025 — HWRS 2025: Hydrology and Water Resources Research  
+**Theme 1 of HWRS 2025**
+
+---
+
+## Overview
+
+- Calibration Metrics
+- AI and Machine Learning
+- Regional Analysis
+- Inundation Mapping
+
+---
+
+## Detailed Analysis
+
+**Flood modelling and forecasting** are central themes at the Hydrology and Water Resources Symposium (HWRS) 2025, which focuses on "Charting resilient futures" [1]. The research presented highlights a significant transition from traditional, stationary modelling techniques toward dynamic, probabilistic, and AI-driven frameworks designed to handle the "deep uncertainty" of a changing climate [2]. 
+
+**Transitioning to Continuous and Probabilistic Modelling**
+Traditional event-based models, which rely on Annual Exceedance Probability (AEP) neutral parameter values, often overestimate flood magnitudes compared to monitored historical data [3, 4]. To overcome these limitations, the industry is increasingly adopting **Continuous Simulation Modelling (CSM)** and **Monte Carlo simulations**. 
+*   **CSM** generates long-term streamflow datasets—such as a 136-year hourly sequence developed for the Darling Downs—by simulating rainfall-runoff processes over extended periods. This implicitly accounts for complex interactions between variable rainfall and antecedent catchment moisture [5, 6].
+*   **Monte Carlo frameworks** randomly sample the joint probability of multiple flood-producing factors (e.g., pairing a moderate storm with a saturated catchment, or a massive storm with a dry catchment) to generate unbiased, synthetic hydrographs [7]. Recent software advancements, such as the integration of Monte Carlo methods into tools like Storm Injector, have drastically reduced the computational time and variability previously associated with stochastic sampling [8, 9].
+
+**Adapting Models to Climate Change (ARR2019 v4.2)**
+A major challenge discussed across the sources is that historical climate sequences are no longer adequate guides for the future—a concept summarized as "stationarity is dead" [10]. The updated **Australian Rainfall and Runoff (ARR2019 v4.2)** guidelines introduce revised climate change adjustments based on Shared Socioeconomic Pathways (SSPs) [11, 12]. 
+Applying these updated guidelines has profound impacts on design floods. For example, applying the SSP5-8.5 scenario to a proposed urban development in Victoria increased detention basin volume requirements by up to 56% [13]. In rural Victoria, updated climate change factors increased existing condition flows by over 400% [13]. To adapt continuous simulation models to these new horizons, researchers are now scaling historical sub-daily rainfall datasets using GCM projections to ensure future simulations preserve realistic temporal and spatial storm patterns [14, 15].
+
+**Artificial Intelligence and Machine Learning**
+There is a substantial shift away from traditional statistical forecasting techniques toward Artificial Intelligence (AI) and Machine Learning (ML), which excel at mapping non-linear, multi-scale hydroclimatic relationships [16].
+*   **Artificial Neural Networks (ANN):** When applied to Regional Flood Frequency Analysis across 113 Victorian catchments, ANN models significantly outperformed the traditional Index Flood Method (IFM) in accurately predicting flood quantiles [17, 18].
+*   **Long Short-Term Memory (LSTM) Networks:** LSTMs are highly effective at capturing temporal patterns and delayed hydrological responses to global climate drivers like ENSO and the Indian Ocean Dipole [19, 20]. In a pilot study on the Namoi River, an LSTM model was successfully integrated into a visual dashboard for the State Emergency Service (SES), accurately forecasting flood levels, timing, and uncertainty bounds up to 48 hours in advance with zero false alarms [21-23].
+
+**Long-Range Forecasting and Spatial Inundation Mapping**
+While standard flood forecasts are typically limited to a 7-day horizon, the Bureau of Meteorology is developing **long-range flood inundation outlooks** capable of predicting floods weeks to months in advance [24, 25]. This prototype system drives the AWRA-L hydrological model using ACCESS-S2 seasonal climate predictions [26]. It then applies a Bayesian Joint Probability (BJP) model to estimate the likelihood of exceeding minor, moderate, or major flood thresholds [26, 27]. To make these forecasts spatially actionable, the system uses **Height Above Nearest Drainage (HAND)** terrain analysis to translate flood probabilities into high-resolution inundation maps, aiding emergency response and infrastructure planning [28, 29].
+
+**Addressing Calibration and Structural Uncertainties**
+Despite computational advances, practitioners face severe physical and structural roadblocks in flood modelling:
+*   **Rating Curve Extrapolation:** High-flow data is notoriously difficult and dangerous to collect, forcing modellers to extrapolate rating curves to estimate extreme flood events. An analysis of Australia's Hydrologic Reference Stations revealed that over 60% of stations rely on "significant to extreme" extrapolation to estimate 1:100 AEP events, introducing massive uncertainty into the historical data used to calibrate flood models [30, 31].
+*   **Calibration Metrics:** When calibrating urban models, simpler metrics that focus on the peaks of flood hydrographs—such as the Relative Peak Flow Error (RPFE)—have been shown to yield predictions that are far more consistent with At-Site Flood Frequency Analysis than complex aggregate metrics like the Nash-Sutcliffe Efficiency (NSE) [32, 33].
+*   **1D vs. 2D vs. CFD Hydraulics:** For assessing complex structural impacts like bridges or Nature-based Solutions (NbS), traditional 1D and even 2D models have limitations. 2D models offer superior floodplain mapping but often rely on simplified, empirical loss estimates for bridge piers and decks [34, 35]. **Computational Fluid Dynamics (CFD)** can resolve complex 3D flow fields and non-hydrostatic pressures around structures, but the massive computational cost restricts its use to highly localized areas rather than entire floodplains [34, 36].
+
+---
+
+**See Also:**
+- [← HWRS 2025 Mind Map Overview](../hwrs-2025-mindmap.md)
+- [Conference Papers Home](../index.md)

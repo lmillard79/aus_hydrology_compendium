@@ -1,0 +1,40 @@
+# Social Impact Analysis
+
+**Conference:** FMA 2019 — Floodplain Risk Management (FRM)  
+**Theme 2 of FMA 2019**
+
+---
+
+## Overview
+
+- Methodologies
+- Assessment Factors
+
+---
+
+## Detailed Analysis
+
+**Social Impact Analysis is a foundational component of Floodplain Risk Management (FRM)**, as evaluating the economic, social, cultural, and environmental values within a catchment is essential for identifying and selecting appropriate flood mitigation options [1]. Best practice guidelines state that management options must be tested against current practices and community exposure, which requires a thorough understanding of the social, economic, and environmental benefits and costs of those options [2, 3].
+
+To conduct an effective social impact analysis, FRM practitioners must **"understand the society first"** [4]. This involves profiling communities using demographic data (such as Census statistics and Social Atlas mapping), prior social research, direct community engagement, and social network analysis [3-6]. Reframing the problem to understand flood risk holistically requires examining the integration of flood hazard, exposure, and vulnerability, including underlying social factors like poverty and migration drivers [7, 8].
+
+**Evaluating Social Costs and Benefits**
+The disaster social sciences indicate that there are many social benefits and costs that must be assessed for different flood, property, and response modification options before, during, and after a flood [3]. For example, while building a levee provides social benefits by reducing exposure and vulnerability, a qualitative assessment reveals potential social costs [6, 9]. These costs include the **'levee paradox'** (where communities develop a false sense of security, leading to increased risk-taking or reduced preparedness), inequity for residents living outside the levee, negative impacts on visual amenity, and the dislocation of social capital [3, 6, 9]. 
+
+When analyzing FRM options, studies utilize assessment matrices that check criteria such as:
+*   Exposure and vulnerability [9]
+*   Equity and social capital [9]
+*   Visual amenity and community development [9]
+*   Property values and insurance premiums [9]
+
+**Quantifying and Qualifying Social Disruptions**
+While traditional Cost-Benefit Analyses (CBA) often fail to quantify social and environmental impacts because they are qualitative, there is a push to better evaluate these intangible losses to support FRM decision-making [10-12]. FRM studies assess social disruptions such as **road traffic delays, displacement from homes, safety risks, and loss of scenic amenity** [13]. When dollar-term quantification is difficult, Multi-Criteria Assessment (MCA) is typically used alongside economic models to evaluate non-quantified benefits, such as reducing the risk to life [11]. 
+
+**Community Perceptions and Psychology**
+Social impact analysis also requires understanding community psychology and behavior. It is important to account for local psychologies, such as **optimism bias**, and to utilize existing social capital when developing warning systems and communication strategies [14, 15]. Furthermore, stakeholders react differently to flood risks and impacts. For instance, a "Retreater" who is emotionally scarred by a major flood may simply want to sell their property and leave, which subsequently impacts community perceptions and affordable housing [16]. Because individuals want to understand how FRM decisions will impact their property rights, development potential, and perceived property values, working closely with the community is critical to helping them make good decisions that reduce the burden on future generations [17].
+
+---
+
+**See Also:**
+- [← FMA 2019 Mind Map Overview](../fma-2019-mindmap.md)
+- [Conference Papers Home](../index.md)

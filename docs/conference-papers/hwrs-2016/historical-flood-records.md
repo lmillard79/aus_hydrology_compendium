@@ -1,0 +1,31 @@
+# Historical Flood Records
+
+**Conference:** HWRS 2016 — Australian Hydrologic and Water Resource Studies  
+**Theme 1 of HWRS 2016**
+
+---
+
+## Overview
+
+- Windsor/Hawkesbury-Nepean
+- Geelong Storm 2016
+
+---
+
+## Detailed Analysis
+
+**Historical flood records are fundamental to Australian hydrologic and water resource studies, but they require careful validation and are often too brief to capture the true spectrum of extreme events.** 
+
+**Australia's longest written flood record, located at Windsor on the Hawkesbury Nepean River, dates back to 1799 and is critical for understanding long-term flood behavior and the climate cycles that drive it** [1, 2]. This extensive history was compiled from private diaries, newspaper accounts, and official observations [3]. However, early colonial records often contain misleading or confused information, and historical flood level estimates cannot simply be accepted at face value [1, 4]. For example, a 1799 flood initially estimated by observers to be a 50-foot rise was later debunked and realistically adjusted to around 33 feet through careful comparison with subsequent floods [5]. **When rigorously validated and corrected, these early historical records can be effectively incorporated into modern flood frequency analyses to improve flood risk understanding** [1, 4].
+
+Despite the value of early written records, **Australia's instrumental (gauged) flood and streamflow records generally only cover the period post-1900, which is insufficient to fully indicate true hydroclimatic variability or the risks of extreme flood-dominated epochs** [6, 7]. Furthermore, instrumental gauge records inherently contain observational uncertainties [8, 9]. Because gauges typically measure water levels (stage) rather than direct flow, significant uncertainty is introduced during large historical floods when stage-discharge rating curves must be heavily extrapolated beyond measured bounds [8, 10]. Even so, the ongoing collection of instrumental data is vital; recent updates to the Australian Rainfall and Runoff (ARR) guidelines have utilized an additional 30 years of historical streamflow data to improve Regional Flood Frequency Estimators across the country [11, 12].
+
+Because the instrumental record is so brief, researchers increasingly rely on paleoclimate proxies—such as ice cores, tree rings, corals, and sediment deposits—to reconstruct deep historical flood and rainfall records spanning 500 to 1,000 years [6, 13, 14]. **These deep historical reconstructions reveal that the modern instrumental record substantially underestimates the frequency, duration, and magnitude of extreme wet (flood) and dry (drought) periods** [6, 14]. In the Monsoonal North West, for instance, a 500-year reconstruction showed that historical rainfall events exceeded the maximum modern recorded event by over 20% [15]. Similarly, in eastern Australia, studies show that over 71% of the pre-instrumental period (1000–1899) has no modern equivalent, meaning that prolonged and severe wet and dry epochs were historically normal but absent from modern observations [6, 16].
+
+The reliance on short instrumental records has profound implications for modern water resource management. **Because current water infrastructure, planning, and policy are based almost entirely on post-1900 records, they account for only a small fraction (e.g., 29% in eastern Australia) of the actual hydroclimatic variability experienced over the last millennium** [16, 17]. This suggests that existing dams, spillways, and flood mitigation strategies may be severely underprepared to handle the types of prolonged, extreme flood events that deep historical records prove have occurred in the past and are likely to occur again [17, 18].
+
+---
+
+**See Also:**
+- [← HWRS 2016 Mind Map Overview](../hwrs-2016-mindmap.md)
+- [Conference Papers Home](../index.md)

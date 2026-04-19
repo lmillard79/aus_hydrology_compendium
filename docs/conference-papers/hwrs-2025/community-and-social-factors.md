@@ -1,0 +1,42 @@
+# Community and Social Factors
+
+**Conference:** HWRS 2025 — HWRS 2025: Hydrology and Water Resources Research  
+**Theme 4 of HWRS 2025**
+
+---
+
+## Overview
+
+- Citizen Science (The People's Catchment)
+- Flood Sentinel Networks
+- First Nations Water Governance
+- Public-Private Partnerships (PPP)
+- UHF/CB Radio Communication
+
+---
+
+## Detailed Analysis
+
+The research presented for HWRS 2025 heavily emphasizes that the success of hydrological engineering and water resource management is inextricably linked to human dimensions, equity, and public participation. Across the symposium, several core themes regarding community and social factors emerge:
+
+**Equity, Social Justice, and Human Rights**
+Effective water governance requires frameworks that address systemic inequalities and integrate diverse cultural perspectives. Researchers advocating for a new Australian national water agreement stress the necessity of a **human rights-based approach (HRBA) that centers on First Law** [1, 2]. This framework moves beyond individualistic views to recognize the profound relationships between people, water, Country, and all life, noting that the implementation of the United Nations Declaration on the Rights of Indigenous Peoples (UNDRIP) is critical for achieving water justice [3-6]. 
+
+Similarly, equity is recognized as a major issue in flood risk governance. Traditional "flood avoidance" policies impose severe, often undisclosed societal costs onto communities, leading to soaring insurance premiums and diminished property values [7, 8]. Researchers advocate for shifting to **"flood resilience" pathways evaluated through welfare economics and social justice principles** (such as Pareto Optimum and Kaldor Hicks criteria) to ensure fairer policy outcomes that drastically reduce the financial burden paid by individual households [9-11].
+
+**Citizen Science and Community-Led Intelligence**
+In rural and regional catchments where rapid-onset flooding occurs and official warning systems may fall short, community self-organization is a vital resource [12, 13]. "The People's Catchment" project highlights the power of **community flood intelligence networks driven by citizen science** [14]. By training "Flood Sentinels" to collect and share local rainfall and streamflow data, communities can build trust, enhance situational awareness, and overcome fragmented official governance [15-17]. Furthermore, researchers found that these community networks rely heavily on resilient social infrastructure and offline communication methods, such as UHF/CB radios, which remain operational during extreme weather events when standard communications fail [18, 19].
+
+**Social Licence and Public Participation**
+The successful adoption of innovative strategies, such as Nature-based Solutions (NbS) for flood mitigation, is highly dependent on public acceptance [20]. Building a **"social licence" for policy reform requires robust public participation and collaborative partnerships** to integrate local knowledge and address competing priorities, such as the tension between sustainable catchment planning and the demand for affordable housing [20-23]. 
+
+To empower communities to participate and make informed decisions, authorities must also optimize **community-centred flood risk communication** [24]. To be effective in planning contexts (e.g., buying or renovating property), risk communication must be translated from technical jargon into clear, specific messaging that defines hazard impacts and provides actionable guidance [24, 25].
+
+**Intergenerational Engagement and Behavioral Shifts**
+Adaptive water management must also account for shifting demographics. In the Murray-Darling Basin, youth out-migration has resulted in an aging voter base, which risks creating a lag in the uptake of innovative climate adaptation strategies [26-28]. Because young people are increasingly turning away from traditional party politics toward grassroots, issue-based action, researchers argue that **genuine, continuous engagement with youth is critical to building long-term capacity and climate preparedness** in the water sector [29, 30]. Finally, broader transformations toward water sustainability—such as those needed in complex urban water regimes—rely on catalyzing **behavioral and societal shifts** through community deliberation, addressing deep cognitive assumptions, and reframing narratives around water use [31, 32].
+
+---
+
+**See Also:**
+- [← HWRS 2025 Mind Map Overview](../hwrs-2025-mindmap.md)
+- [Conference Papers Home](../index.md)

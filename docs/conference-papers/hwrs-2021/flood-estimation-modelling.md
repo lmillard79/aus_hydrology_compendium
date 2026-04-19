@@ -1,0 +1,49 @@
+# Flood Estimation & Modelling
+
+**Conference:** HWRS 2021 — HWRS 2022 Hydrology and Water Resources Research  
+**Theme 1 of HWRS 2021**
+
+---
+
+## Overview
+
+- ARR2019 Design Rainfall
+- Hydrologic Toolsets
+- Technological Innovations
+
+---
+
+## Detailed Analysis
+
+**The HWRS 2022 research landscape highlights a significant transitional period for flood estimation and modelling in Australia.** Practitioners are heavily focused on leveraging high-resolution 2D hydraulic modelling, optimizing the implementation of the complex ARR2019 guidelines, embracing machine learning for real-time forecasting, and addressing mounting uncertainties from climate change and poor calibration data.
+
+**The Evolution of 2D Hydraulic Modelling and the Decline of 1D**
+The transition from 1D to 2D hydraulic modelling is essentially complete, and the industry is now moving towards abandoning 1D open channel cross-sections altogether [1-3]. Recent software advancements, notably **Sub-Grid Sampling (SGS) and Quadtree mesh refinement**, allow 2D models (like TUFLOW HPC) to accurately represent sub-grid topographical features—such as deep-sided channels—without needing heavily parameterized 1D-2D links [2, 4-8]. 
+
+Concurrently, **Direct Rainfall (or Rain-on-Grid) modelling is becoming an increasingly viable alternative to traditional lumped hydrologic models** [9-15]. By applying rainfall directly to a 2D hydraulic grid, modellers can achieve a much higher resolution of physical catchment characteristics and simulate complex overland flow paths more realistically [9, 10, 16-18]. However, this method requires rigorous validation against recorded data to ensure accuracy [19, 20].
+
+**Implementing and Evaluating ARR2019**
+The introduction of the Australian Rainfall and Runoff 2019 (ARR2019) guidelines significantly increased the complexity of design flood estimation by requiring the assessment of an ensemble of ten design storm temporal patterns [21-23]. To avoid the massive computational burden of running thousands of hydraulic simulations, researchers advocate for **hydrologic pre-processing** [24]. Using tools like WBNM to identify a small subset of "within tolerance" critical events allows modellers to accurately generate catchment-wide design flood surfaces in hydrodynamic models with far fewer runs [25-29].
+
+Studies assessing the ARR2019 design rainfall method in Queensland found **no systemic underestimation bias**, contrasting with previous findings in New South Wales and Victoria [30-32]. However, the research identified specific geographic clusters of overestimation that require further investigation to improve confidence [33, 34]. Furthermore, for very frequent floods, researchers are exploring **Peaks-Over-Threshold (POT) approaches** in Regional Flood Frequency Analysis (RFFA) as an alternative to the Annual Maximum (AM) series, which often loses useful flood data and creates biased estimates for small to medium-sized floods [35-50].
+
+**Innovation in Flood Forecasting and Machine Learning**
+There is a critical drive to generate real-time flood forecasts, particularly for sudden urban stormwater flooding [51, 52]. Because high-resolution 2D hydraulic models are computationally intensive and too slow for real-time deployment, **Machine Learning (ML) surrogate models are being developed** [53-55]. By training ML algorithms on the inputs and outputs of complex hydrodynamic models, practitioners can generate highly accurate real-time spatial flood forecasts in seconds rather than hours, dramatically improving early warning times [54, 56]. 
+
+At a macro level, researchers are testing **cloud-based, state-wide inundation forecasting systems** that integrate meteorological data, gridded hydrological models (Wflow), and reduced-complexity inundation solvers (SFINCS) within frameworks like Delft-FEWS to predict compound flooding events across coastal Australia [57-66].
+
+**Managing Calibration Challenges and System Uncertainties**
+A major limitation in contemporary modelling is the **lack of high-quality calibration data, specifically measured inflows and velocities during extreme flood events** [67-69]. For high-flow rating curves, researchers often rely on 2D hydraulic models calibrated only against surveyed post-flood debris marks. Because velocity and discharge are rarely measured directly during peak floods, adjusting model roughness to match flood marks can introduce significant uncertainty regarding the actual flow rates and hazard velocities [70-77].
+
+To address uncertainties in complex, interconnected systems (like the Menindee Lakes), modern approaches **dynamically couple hydrological models with hydraulic models**. This combined method better characterizes non-linear channel responses, operational decision-making, and flow partitioning during extreme events [78-87].
+
+**Climate Change and Assessing True Flood Damage**
+Current design practices often attempt to account for climate change by factoring up rainfall intensities. However, studies show that **catchment response times decrease as rainfall intensity increases** [88, 89]. Modellers are proposing dynamic methodologies that vary response times based on intensity while keeping loss parameters constant to produce more reliable flood flow estimates [88, 90]. 
+
+Finally, HWRS 2022 research stresses that the industry must **shift focus from simply estimating the probability of flood occurrences to accurately estimating actual disaster impacts** [91, 92]. Current flood damage models are highly uncertain because they rely almost exclusively on water depth. To improve community resilience and the cost-benefit analysis of mitigation strategies, future damage functions must incorporate flow velocity, building vulnerability, preventive measures, and socio-economic status [93-96].
+
+---
+
+**See Also:**
+- [← HWRS 2021 Mind Map Overview](../hwrs-2021-mindmap.md)
+- [Conference Papers Home](../index.md)

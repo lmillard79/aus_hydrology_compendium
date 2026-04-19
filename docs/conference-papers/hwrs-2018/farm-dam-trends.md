@@ -1,0 +1,34 @@
+# Farm Dam Trends
+
+**Conference:** HWRS 2018 — HWRS 2018: Hydrology and Water Resources Symposium  
+**Theme 8 of HWRS 2018**
+
+---
+
+## Overview
+
+- Victoria 2000-2015
+
+---
+
+## Detailed Analysis
+
+In the context of the HWRS 2018 symposium, the sources highlight that while farm dams are critical for agricultural production and regional water security, **their steady accumulation over recent decades has significantly altered natural catchment flow regimes**, particularly impeding the low flows vital for the ecological health of ephemeral streams [1], [2], [3].
+
+A detailed assessment of farm dam development in Victoria from 2000 to 2015 reveals that **the overall rate of farm dam growth has slowed significantly**, progressing through three distinct chronological phases [4], [5], [6]:
+
+*   **High Growth (July 2000 to June 2006):** The growth rate was relatively high and constant, at 1.4% per year for the number of dams and 1.3% per year for storage capacity [5], [6]. This surge was likely driven by landowners seeking water security during the Millennium Drought, combined with a 2002 change to the Victorian Water Act that prohibited new unlicensed irrigation dams, sparking a rush to install stock and domestic dams [7], [6].
+*   **Declining Growth (July 2006 to June 2010):** The growth rate experienced a gradual decline. This may have been linked to the gradual easing of the drought or reduced access to loan financing during the Global Financial Crisis [5], [8].
+*   **Stabilization (July 2010 to June 2015):** **The annual growth rate dropped and stabilized at approximately 0.3%** for both the number and capacity of farm dams [9], [8]. This rate is roughly one-quarter of what was observed in the early 2000s, reflecting a return to normal rainfall patterns after the Millennium Drought broke in late 2009 [9], [10].
+
+If the stable 2010–2015 growth rate is maintained, the projected ten-year growth from 2010 to 2020 would be only 3.9% in total dam numbers and 3.5% in storage capacity [11], [12].
+
+Interestingly, **in some regions, farm dams are currently being removed**, primarily because rural-residential land is being subdivided for urban development [13], [14]. When attempting to predict recent growth rates using explanatory variables—such as changes in population density, household income, land use, or mean annual rainfall—researchers found no strong correlations over the 2010-2015 period [9], [15], [16]. However, spatial data indicates that **farm dam densities are typically highest on properties between 0.5 and 50 hectares**, heavily correlating with rural-residential properties and hobby farms rather than large-scale agriculture [17].
+
+To manage the long-term ecological consequences of this historical farm dam development, HWRS 2018 also featured research on mitigation programs. In South Australia’s Mount Lofty Ranges, for instance, the government is implementing the "Securing Low Flows" project [1], [18]. This involves **retrofitting existing farm dams with bypass or release devices**, allowing ecologically vital low-flow water to pass downstream into the natural environment while ensuring the landholder’s primary water security is not compromised [19], [20], [21].
+
+---
+
+**See Also:**
+- [← HWRS 2018 Mind Map Overview](../hwrs-2018-mindmap.md)
+- [Conference Papers Home](../index.md)

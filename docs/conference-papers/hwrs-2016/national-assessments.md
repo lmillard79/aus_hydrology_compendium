@@ -1,0 +1,29 @@
+# National Assessments
+
+**Conference:** HWRS 2016 — Australian Hydrologic and Water Resource Studies  
+**Theme 3 of HWRS 2016**
+
+---
+
+## Overview
+
+- AWRA System
+- ACCESS NWP
+
+---
+
+## Detailed Analysis
+
+The Millennium drought in the early 2000s exposed a critical gap in Australia's ability to answer national-level questions regarding water availability, usage, environmental allocations, and trade [1, 2]. In response, the Australian Government established "A National Plan for Water Security," mandating the Bureau of Meteorology to collect comprehensive water data and annually publish the **National Water Account** [3]. 
+
+**The National Water Account (NWA)** merges the science of hydrology with the rigor of financial accounting to provide a transparent, standardized annual report on the status of Australia's water resources [1, 4]. **It focuses on ten nationally significant water management regions** that account for approximately 70-80% of national water use and 80% of the population [5, 6]. To generate this assessment, data is collated from over 50 reporting partners, synthesizing climate, metered, modeled, and license data [7, 8]. The NWA produces three key statements for each region: the Statement of Water Assets and Water Liabilities, the Statement of Changes in Water Assets and Water Liabilities, and the Statement of Physical Water Flows [9]. 
+
+To support the National Water Accounts and broader water resource assessments, CSIRO and the Bureau of Meteorology developed the **Australian Water Resources Assessment (AWRA) Modelling System** [10]. A key component of this is **AWRA-L, a continental-scale landscape water balance model** [10, 11]. AWRA-L simulates variables such as soil moisture, runoff, deep drainage, and evapotranspiration on a daily timestep at a ~5km spatial resolution from 1911 to the present [10-13]. This system provides **near-real-time national soil moisture assessments**, which are utilized by agricultural sectors (such as ABARES), regional water authorities, and the general public for both tactical and strategic decision-making, drought monitoring, and crop yield prediction [12, 14, 15].
+
+The outputs from these national assessment tools have had a profound impact on broader Australian hydrologic practice, particularly in design flood estimation for the updated Australian Rainfall and Runoff (ARR) guidelines [16, 17]. Hydrologic studies found that **AWRA-L modeled soil moisture data explains the variability of flood losses significantly better than traditional methods**, such as the antecedent precipitation index (API) [16, 18, 19]. Consequently, AWRA-L soil moisture data was used to define hydrologic regions across Australia and develop national prediction equations for estimating storm initial losses and continuing losses [20, 21]. These prediction equations now form the basis for the regional loss recommendations provided in ARR Book 5 [16, 21].
+
+---
+
+**See Also:**
+- [← HWRS 2016 Mind Map Overview](../hwrs-2016-mindmap.md)
+- [Conference Papers Home](../index.md)

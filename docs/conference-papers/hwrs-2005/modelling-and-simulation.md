@@ -1,0 +1,53 @@
+# Modelling and Simulation
+
+**Conference:** HWRS 2005 — 29th Hydrology and Water Resources Symposium (2005)  
+**Theme 3 of HWRS 2005**
+
+---
+
+## Overview
+
+- Monte Carlo Technique
+- Calibration Issues
+
+---
+
+## Detailed Analysis
+
+**The 2005 Hydrology and Water Resources Symposium highlights a significant paradigm shift in modelling and simulation, moving away from isolated, deterministic, "one-size-fits-all" applications towards integrated, probabilistic, and component-based modelling.** The sources reveal several core themes regarding how hydrologic systems were being conceptualized and simulated at the time:
+
+### 1. The Shift to Component-Based and Integrated Modelling
+A major focus of the symposium is the transition toward **component-based environmental modelling, where complex models are constructed by linking smaller, modular pieces** (e.g., rainfall-runoff routines, routing, and filtering components) [1]. The CRC for Catchment Hydrology’s **Catchment Modelling Toolkit** exemplifies this trend, offering a unified repository of linkable software tools—such as the Rainfall Runoff Library (RRL), MUSIC (stormwater improvement), RAP (river analysis), and SCL (stochastic climate data) [2, 3]. 
+
+This modularity allows researchers and managers to **tailor model complexity to the specific problem, data availability, and current hydro-climatic knowledge** [4]. It forces a departure from using a single model as a "hammer" for every "nail," prompting careful consideration of "top-down" (matching model complexity to real-world complexity) versus "bottom-up" (using the simplest configuration that calibrates accurately) approaches [5, 6].
+
+Furthermore, **Integrated Assessment (IA) and Integrated Scenario Modelling (ISM) are emphasized to unite diverse disciplines** [7, 8]. Examples include:
+*   **Coupling hydrology and economics:** Linking the resource allocation model (REALM/GSM) with econometric sub-models to simulate temporary water trading in Victoria [9-11].
+*   **Coupling hydrology, hydraulics, and ecology:** The Ecological Response Models (ERM) module within RAP takes hydraulic outputs from models like HEC-RAS and applies habitat suitability rules to predict ecological responses to flow changes [12-14].
+*   **Integrating flood warning systems:** Decision support systems like DSSFCMR embed the URBS hydrological model and HEC-RAS hydraulic model directly into geographic information systems (GIS) for real-time spatial flood forecasting [15, 16].
+
+### 2. Embracing Uncertainty: Stochastic and Probabilistic Methods
+Because historical data provides only a single realization of past climate, the sources emphasize **stochastically generated data to quantify the risks of climate variability** [17, 18]. Several papers focus on refining stochastic generation:
+*   **Rainfall Generation:** Models like the nested Transition Probability Matrix (TPM) [19], Hidden Markov Models (HMM), and Autoregressive (AR) models are used to simulate daily and monthly multi-site rainfall [20-22].
+*   **Joint Probability Approaches:** For design flood estimation, the symposium highlights replacing traditional Design Event Approaches with the **Monte Carlo Simulation Technique**. By treating variables like rainfall duration, intensity, temporal patterns, and initial loss as probability distributions, tools like the URBS-Monte Carlo Simulation Technique (UMCST) allow for a much more explicit and holistic assessment of flood risks across large catchments [23-25].
+*   **Extreme Estuarine Flooding:** The Hydro-climatic Modelling Based Joint Probability (MBJP) method strings together six different stochastic and deterministic models (including daily rainfall, spatial cascades, SIMHYD runoff, and coastal ocean levels) to simulate 2,000 years of concurrent hourly forcing sequences for estuarine flood estimation [26, 27]. 
+
+### 3. Model Calibration, Error, and Structural Rigidities
+The 2005 symposium features critical evaluations of how models are calibrated and where their structural limitations lie. 
+*   **Challenging Calibration Assumptions:** Westra and Ball investigate the common use of the Mean Squared Error (MSE) objective function in calibrating systems like the Storm Water Management Model (SWMM). They find that **ignoring the presence of autocorrelated errors during calibration can fundamentally compromise the optimization process**, though simply removing the autocorrelation does not automatically improve predictive capacity [28-30].
+*   **Dynamic Model Structures:** To overcome the rigidity of single conceptual models, Marshall et al. propose **Hierarchical Mixtures of Experts (HME)**. Instead of assuming that a catchment's runoff mechanisms are static, an HME framework probabilistically switches between different model parameterizations (e.g., "quick-flow" vs. "slow-flow" states) depending on current antecedent moisture conditions, fundamentally reducing bias [31-33].
+*   **Automated Parameter Estimation:** In large-scale numerical models like the Great Artesian Basin's MODFLOW groundwater models, manual trial-and-error calibration is being replaced by sophisticated software like PEST, allowing for continuous aquifer property variation and better resolution of highly complex datasets [34, 35].
+
+### 4. Evaluating Farm Dams and Specific Land-Use Impacts
+The practical challenge of modeling anthropogenic impacts, such as farm dams, is explored through models of varying complexity. The Tool for Estimating Dam Impact (TEDI) relies on stochastic selections of dam sizes and simple lumped routing [36, 37]. To test if TEDI's simplicity is a liability, its outputs are compared against CHEAT (Complex Hydrological Evaluation of the Assumptions in TEDI), which utilizes detailed GIS topology and spatially explicit cascading networks [38, 39]. The findings suggest that **highly complex spatial modeling of farm dams often provides negligible practical improvement over conceptually simple models**, justifying the use of simpler models when data is scarce [40, 41].
+
+### 5. Hydrologic Sensitivity to Climate Change
+Models are also being rigorously tested for their sensitivity to projected climate shifts. A comparison between the AWBM and SIMHYD conceptual rainfall-runoff models demonstrates that **modelled runoff is three to five times more sensitive to changes in rainfall than to changes in potential evapotranspiration (PET)** [42, 43]. The models reveal that percentage changes in runoff will be highly amplified—typically two to three times the percentage change in rainfall—especially in catchments with naturally low rainfall and low runoff coefficients [42, 44]. 
+
+Overall, the sources from the 2005 Symposium portray a discipline transitioning toward high-resolution, modular tools capable of handling profound uncertainty, with a clear focus on linking hydrological physics to broad-scale ecological and socioeconomic outcomes.
+
+---
+
+**See Also:**
+- [← HWRS 2005 Mind Map Overview](../hwrs-2005-mindmap.md)
+- [Conference Papers Home](../index.md)

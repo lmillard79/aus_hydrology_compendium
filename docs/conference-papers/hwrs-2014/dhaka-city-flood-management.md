@@ -1,0 +1,43 @@
+# Dhaka City Flood Management
+
+**Conference:** HWRS 2014 — Hydrology and Water Resources Symposium 2014  
+**Theme 3 of HWRS 2014**
+
+---
+
+## Overview
+
+- Current Problems
+- WSUD Solutions
+
+---
+
+## Detailed Analysis
+
+At the Hydrology and Water Resources Symposium (HWRS) 2014, the challenges of urban hydrology, design floods, and groundwater-surface water interactions were prominent themes. Within this context, a specific study presented by Ahammed, Alankarage, and Argue focused heavily on transitioning **Dhaka City from a traditional, inadequate drainage model to a sustainable "stormwater source control" model** [1].
+
+**The Root Causes of Flooding in Dhaka**
+Before 1940, Dhaka City possessed an excellent natural drainage system consisting of 24 natural waterways and a large retention wetland pond [2]. However, rapid and unplanned urbanization, illegal occupation of floodplains by real estate developers, and the dumping of industrial waste have severely disrupted these natural drainage paths [2]. Today, about 85% of the city drains through 40 lined channels that are designed to handle only a 1-year Average Recurrence Interval (ARI) storm [2, 3]. 
+
+Because the existing system treats stormwater purely as a nuisance to be quickly disposed of into nearby waterways, it overflows nearly every year following medium to heavy rainfall [4]. This has led to highly destructive floods—most notably in 1988, 1998, and 2004, which inundated up to 53% of the city's land and caused millions of dollars in financial losses [5]. Furthermore, the rapid increase in impervious surfaces has prevented natural rainwater infiltration, causing severe drying of the underlying aquifer and creating stagnant surface waters that serve as mosquito breeding grounds [6].
+
+**Proposed Solution: Infrastructure Compliant Stormwater Management (ICSM)**
+To address this without entirely replacing the city's existing drainage infrastructure, the researchers proposed an **Infrastructure Compliant Stormwater Management (ICSM) strategy** utilizing **Water Sensitive Urban Design (WSUD)** principles [4]. 
+
+The ICSM strategy works by calculating the "gap" between the capacity of the current drainage system (1-year ARI) and the ultimate flood protection objective (e.g., a 100-year ARI storm) [7]. The existing pipes and channels continue to manage runoff from paved and pervious areas, while the excess "gap" volume—primarily generated from rooftops—is captured and managed on-site using infiltration-based WSUD technologies [4, 8].
+
+**Application in the Banani Suburb**
+To prove the viability of this strategy, the authors conducted a detailed case study in Dhaka's Banani suburb, where residential allotments are typically 500 m² and consist of roughly 48% roof area [9]. The study found that capturing roof runoff could essentially close the gap required for 100-year ARI flood protection [8]. 
+
+To achieve this, the authors recommended installing specific WSUD structures on each 500 m² residential allotment:
+*   **Four leaky wells** (2.5 meters deep and 2.3 meters in diameter) wrapped in geo-textile fabric [8], OR
+*   **Two soakaways** (6.0 meters long, 6.0 meters wide, and 0.5 meters deep) [8].
+
+**Broader Impacts**
+By implementing these localized WSUD technologies, Dhaka could achieve a **100-year ARI level of flood protection**, reducing severe inundation to highly manageable "nuisance flooding" of just a few cubic meters per property [8]. Beyond flood mitigation, this source-control approach aligns with the broader hydrological goals discussed at HWRS 2014 by actively **facilitating aquifer recharge** and transforming hazardous stormwater into a safely managed water resource [6, 10].
+
+---
+
+**See Also:**
+- [← HWRS 2014 Mind Map Overview](../hwrs-2014-mindmap.md)
+- [Conference Papers Home](../index.md)

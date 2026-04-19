@@ -1,0 +1,43 @@
+# Climate Change & Uncertainty
+
+**Conference:** HWRS 2021 — HWRS 2022 Hydrology and Water Resources Research  
+**Theme 2 of HWRS 2021**
+
+---
+
+## Overview
+
+- Stationarity Issues
+- Future Projections
+- Adaptation Strategies
+
+---
+
+## Detailed Analysis
+
+The concept of hydrologic **"stationarity"**—the assumption that historical climatic and streamflow data reliably predict the future—is widely considered dead due to anthropogenic climate change [1-3]. In the context of the HWRS 2022 research, this paradigm shift has forced water resource planners and engineers into a realm of **"deep uncertainty"**, where making long-term decisions based on a single predictive baseline is no longer viable [4-6].
+
+**The Nature of Climate Change Uncertainty**
+While Global Climate Models (GCMs) forecast future temperature increases with very high confidence, **projections regarding rainfall are highly inconsistent and uncertain** [7, 8]. Planners face compound uncertainties originating from several factors:
+*   **Variable Emission Scenarios:** Future outcomes depend heavily on unpredictable human behaviors and greenhouse gas trajectories, typically modelled using divergent Representative Concentration Pathways (RCPs), such as the intermediate RCP 4.5 and the worst-case RCP 8.5 [9-12].
+*   **Model Limitations:** There is high uncertainty in the representation of climate processes within different GCMs, as well as in the techniques used to dynamically downscale these global models into Regional Climate Models (RCMs) applicable to local catchments [13-16].
+*   **Catchment Behavior Changes:** Climate change and prolonged droughts can alter fundamental rainfall-runoff relationships. For instance, long-term shifts in evapotranspiration and soil moisture can cause reductions in catchment runoff that are significantly larger than the relative reduction in actual precipitation [17, 18].
+
+**Impacts on Infrastructure and Flood Risk**
+A changing climate renders "business as usual" approaches to urban drainage and infrastructure design insufficient [19, 20]. Models indicate that global warming will likely increase rainfall intensity for given Annual Exceedance Probabilities (AEPs), which directly drives up peak flood flows and threatens existing infrastructure capacities [17, 21, 22]. Furthermore, dynamic and rapidly changing weather patterns can converge to create **multi-hazard extreme events**, posing unforeseen and disastrous risks to civil infrastructure such as dams, levees, and bridges [23, 24]. To mitigate these high-impact disasters, there is a recognized need to merge civil engineering practices with advanced atmospheric science [25, 26].
+
+**Challenges in Water Security and Yield Estimation**
+Uncertainty makes determining the long-term yield of urban water supply networks incredibly difficult. Traditional water balance models rely heavily on historical data; however, applying a climate change signal to these models introduces immense complexity [27, 28]. Research highlights that, currently, there is a lack of standardized guidelines for incorporating climate change forecasts into water security models, leading to variations in how utilities calculate future supply-demand gaps [29, 30].
+
+**Adaptation and Assessment Strategies**
+To navigate this deep uncertainty, researchers and practitioners at HWRS 2022 advocate for advanced modelling techniques and robust planning philosophies:
+*   **Stochastic Modelling and Ensembles:** Rather than relying on a single historic record, planners are using stochastic climate generators to create thousands of equally likely synthetic weather sequences [31-33]. By simulating systems across an ensemble of climate models (e.g., evaluating the 10th, 50th, and 90th percentiles), decision-makers can quantify the confidence intervals and bounds of uncertainty for future water shortfalls [34, 35].
+*   **Scenario-Neutral Stress Testing:** Because top-down climate projections are highly uncertain, some researchers recommend a "bottom-up" or "scenario-neutral" approach (such as the *foreSIGHT* framework). This method stress-tests a water system against a massive range of artificially perturbed climate attributes (like extreme dry spells or varied evaporation rates) to discover the exact thresholds at which the system will fail, independent of any specific climate forecast [36-39]. 
+*   **Operational Yield Approaches:** Standard yield estimations often rely on static "time-slices" (e.g., conditions exactly in 2050). Emerging "operational yield" models use dynamic, continuous simulations that represent progressive climate shifts over time. This helps planners identify the exact operational constraints of a system and the precise timing of when new supply infrastructure will be needed [40-42].
+*   **Robust Adaptation over Perfect Prediction:** Because predicting the exact future is impossible, the industry focus is shifting toward **preparation, reliability, and resilience**. This involves embracing "no-regret" strategies (actions that provide benefits regardless of how the climate changes), developing reversible or modular designs, and applying a "fail-safely" rather than "fail-safe" philosophy to protect communities from extreme events [43, 44].
+
+---
+
+**See Also:**
+- [← HWRS 2021 Mind Map Overview](../hwrs-2021-mindmap.md)
+- [Conference Papers Home](../index.md)

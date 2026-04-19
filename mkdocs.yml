@@ -83,34 +83,118 @@ nav:
   - Conference Papers:
     - Overview: conference-papers/index.md
     - FMA Conferences:
-      - FMA 2025:
-        - Overview: conference-papers/fma-2025-mindmap.md
-        - Disaster Adaptation Plans: conference-papers/fma-2025/disaster-adaptation-plans.md
-        - Modelling and Analysis: conference-papers/fma-2025/modelling-analysis.md
-        - Infrastructure and Land Planning: conference-papers/fma-2025/infrastructure-land-planning.md
-        - Governance and Programs: conference-papers/fma-2025/governance-programs.md
-      - FMA 2024:
-        - Overview: conference-papers/fma-2024-mindmap.md
-        - Infragravity Waves: conference-papers/fma-2024/infragravity-waves.md
-        - DT01 Flood Damage Tool: conference-papers/fma-2024/dt01-flood-damage-tool.md
-        - Emergency Resources: conference-papers/fma-2024/emergency-resources.md
-      - FMA 2023: conference-papers/fma-2023-mindmap.md
-      - FMA 2022: conference-papers/fma-2022-mindmap.md
-      - FMA 2020: conference-papers/fma-2020-mindmap.md
-      - FMA 2019: conference-papers/fma-2019-mindmap.md
+      - FMA 2025: conference-papers/fma-2025-mindmap.md
+      - FMA 2024: conference-papers/fma-2024-mindmap.md
+      - FMA 2023:
+        - Overview: conference-papers/fma-2023-mindmap.md
+        - Flood Mapping Limitations: conference-papers/fma-2023/flood-mapping-limitations.md
+        - Mappable Constraints: conference-papers/fma-2023/mappable-constraints.md
+        - Factors Beyond Maps: conference-papers/fma-2023/factors-beyond-maps.md
+        - Unprecedented vs Unplanned: conference-papers/fma-2023/unprecedented-vs-unplanned.md
+        - Best Practice Solutions: conference-papers/fma-2023/best-practice-solutions.md
+        - Warning Infrastructure: conference-papers/fma-2023/warning-infrastructure.md
+      - FMA 2022:
+        - Overview: conference-papers/fma-2022-mindmap.md
+        - Planning Controls and Strategies: conference-papers/fma-2022/planning-controls-and-strategies.md
+        - Climate Change Impacts: conference-papers/fma-2022/climate-change-impacts.md
+        - Technological Tools and Monitoring: conference-papers/fma-2022/technological-tools-and-monitoring.md
+        - Governance and Schemes: conference-papers/fma-2022/governance-and-schemes.md
+      - FMA 2020:
+        - Overview: conference-papers/fma-2020-mindmap.md
+        - Scheme Types: conference-papers/fma-2020/scheme-types.md
+        - Success Factors: conference-papers/fma-2020/success-factors.md
+        - Lessons Learnt: conference-papers/fma-2020/lessons-learnt.md
+        - Eligibility Criteria: conference-papers/fma-2020/eligibility-criteria.md
+      - FMA 2019:
+        - Overview: conference-papers/fma-2019-mindmap.md
+        - Bureau of Meteorology (BoM): conference-papers/fma-2019/bureau-of-meteorology-bom.md
+        - Social Impact Analysis: conference-papers/fma-2019/social-impact-analysis.md
+        - Economic Assessment Framework: conference-papers/fma-2019/economic-assessment-framework.md
+        - Data and Quality Assurance: conference-papers/fma-2019/data-and-quality-assurance.md
+        - Management Options: conference-papers/fma-2019/management-options.md
     - HWRS Conferences:
       - HWRS Mind Map Index: conference-papers/hwrs-index.md
-      - HWRS 2025: conference-papers/hwrs-2025-mindmap.md
-      - HWRS 2024: conference-papers/hwrs-2024-mindmap.md
-      - HWRS 2023: conference-papers/hwrs-2023-mindmap.md
-      - HWRS 2022: conference-papers/hwrs-2022-mindmap.md
-      - HWRS 2021: conference-papers/hwrs-2021-mindmap.md
-      - HWRS 2018: conference-papers/hwrs-2018-mindmap.md
-      - HWRS 2016: conference-papers/hwrs-2016-mindmap.md
-      - HWRS 2015: conference-papers/hwrs-2015-mindmap.md
-      - HWRS 2014: conference-papers/hwrs-2014-mindmap.md
-      - HWRS 2012: conference-papers/hwrs-2012-mindmap.md
-      - HWRS 2011: conference-papers/hwrs-2011-mindmap.md
-      - HWRS 2005: conference-papers/hwrs-2005-mindmap.md
+      - HWRS 2025:
+        - Overview: conference-papers/hwrs-2025-mindmap.md
+        - Flood Modelling and Forecasting: conference-papers/hwrs-2025/flood-modelling-and-forecasting.md
+        - Climate Change and Variability: conference-papers/hwrs-2025/climate-change-and-variability.md
+        - Water Resource Management: conference-papers/hwrs-2025/water-resource-management.md
+        - Community and Social Factors: conference-papers/hwrs-2025/community-and-social-factors.md
+      - HWRS 2024:
+        - Overview: conference-papers/hwrs-2024-mindmap.md
+        - Extreme Flood Events: conference-papers/hwrs-2024/extreme-flood-events.md
+        - Renewable Energy Infrastructure: conference-papers/hwrs-2024/renewable-energy-infrastructure.md
+        - Stormwater & Dam Analytics: conference-papers/hwrs-2024/stormwater-dam-analytics.md
+        - Climate Change & Hydrology: conference-papers/hwrs-2024/climate-change-hydrology.md
+      - HWRS 2023:
+        - Overview: conference-papers/hwrs-2023-mindmap.md
+        - Flood Forecasting and Warning Systems: conference-papers/hwrs-2023/flood-forecasting-and-warning-systems.md
+        - Hydrological Modelling Techniques: conference-papers/hwrs-2023/hydrological-modelling-techniques.md
+        - Case Studies and Extreme Events: conference-papers/hwrs-2023/case-studies-and-extreme-events.md
+        - Climate and Future Trends: conference-papers/hwrs-2023/climate-and-future-trends.md
+      - HWRS 2022:
+        - Overview: conference-papers/hwrs-2022-mindmap.md
+        - Flood Estimation & Modelling: conference-papers/hwrs-2022/flood-estimation-modelling.md
+        - Climate Change & Uncertainty: conference-papers/hwrs-2022/climate-change-uncertainty.md
+        - Urban Water Security: conference-papers/hwrs-2022/urban-water-security.md
+        - Data Science in Hydrology: conference-papers/hwrs-2022/data-science-in-hydrology.md
+      - HWRS 2021:
+        - Overview: conference-papers/hwrs-2021-mindmap.md
+        - Flood Estimation & Modelling: conference-papers/hwrs-2021/flood-estimation-modelling.md
+        - Climate Change & Uncertainty: conference-papers/hwrs-2021/climate-change-uncertainty.md
+        - Urban Water Security: conference-papers/hwrs-2021/urban-water-security.md
+        - Data Science in Hydrology: conference-papers/hwrs-2021/data-science-in-hydrology.md
+      - HWRS 2018:
+        - Overview: conference-papers/hwrs-2018-mindmap.md
+        - TUFLOW Solver Comparison: conference-papers/hwrs-2018/tuflow-solver-comparison.md
+        - Flood Frequency Analysis (FFA): conference-papers/hwrs-2018/flood-frequency-analysis-ffa.md
+        - Urban On-Site Detention (OSD): conference-papers/hwrs-2018/urban-on-site-detention-osd.md
+        - Climate Change and WSUD: conference-papers/hwrs-2018/climate-change-and-wsud.md
+        - Hydrologic Reconstructions: conference-papers/hwrs-2018/hydrologic-reconstructions.md
+        - Water Data and Management: conference-papers/hwrs-2018/water-data-and-management.md
+        - Flood Impact Assessments: conference-papers/hwrs-2018/flood-impact-assessments.md
+        - Farm Dam Trends: conference-papers/hwrs-2018/farm-dam-trends.md
+      - HWRS 2016:
+        - Overview: conference-papers/hwrs-2016-mindmap.md
+        - Historical Flood Records: conference-papers/hwrs-2016/historical-flood-records.md
+        - Modelling and Analysis Techniques: conference-papers/hwrs-2016/modelling-and-analysis-techniques.md
+        - National Assessments: conference-papers/hwrs-2016/national-assessments.md
+        - Urban Water Evolution: conference-papers/hwrs-2016/urban-water-evolution.md
+        - Specific Research Applications: conference-papers/hwrs-2016/specific-research-applications.md
+      - HWRS 2015:
+        - Overview: conference-papers/hwrs-2015-mindmap.md
+        - Design Rainfall and Flood Estimation: conference-papers/hwrs-2015/design-rainfall-and-flood-estimation.md
+        - Water Resource Systems and Modelling: conference-papers/hwrs-2015/water-resource-systems-and-modelling.md
+        - Climatology and Forecasting: conference-papers/hwrs-2015/climatology-and-forecasting.md
+        - Hydrogeology and Recharge: conference-papers/hwrs-2015/hydrogeology-and-recharge.md
+        - Paleoclimate and Long-term Balance: conference-papers/hwrs-2015/paleoclimate-and-long-term-balance.md
+      - HWRS 2014:
+        - Overview: conference-papers/hwrs-2014-mindmap.md
+        - Broome Sandstone Aquifer Review: conference-papers/hwrs-2014/broome-sandstone-aquifer-review.md
+        - Monthly Streamflow Forecasting: conference-papers/hwrs-2014/monthly-streamflow-forecasting.md
+        - Dhaka City Flood Management: conference-papers/hwrs-2014/dhaka-city-flood-management.md
+        - Rainfall Disaggregation Vietnam: conference-papers/hwrs-2014/rainfall-disaggregation-vietnam.md
+        - Turbulence in Non-Uniform Flow: conference-papers/hwrs-2014/turbulence-in-non-uniform-flow.md
+      - HWRS 2012:
+        - Overview: conference-papers/hwrs-2012-mindmap.md
+        - Hydraulic Models and Parameters: conference-papers/hwrs-2012/hydraulic-models-and-parameters.md
+        - Design Flood Estimation Techniques: conference-papers/hwrs-2012/design-flood-estimation-techniques.md
+        - Software and Systems: conference-papers/hwrs-2012/software-and-systems.md
+        - Water Supply and Demand Management: conference-papers/hwrs-2012/water-supply-and-demand-management.md
+        - Environmental and Specific Studies: conference-papers/hwrs-2012/environmental-and-specific-studies.md
+      - HWRS 2011:
+        - Overview: conference-papers/hwrs-2011-mindmap.md
+        - River Water Quality & Climate Change: conference-papers/hwrs-2011/river-water-quality-climate-change.md
+        - Sediment & Jet-Flipping Dynamics: conference-papers/hwrs-2011/sediment-jet-flipping-dynamics.md
+        - Flow Resistance & Bedrock Evolution: conference-papers/hwrs-2011/flow-resistance-bedrock-evolution.md
+        - Regional Water Management & Education: conference-papers/hwrs-2011/regional-water-management-education.md
+      - HWRS 2005:
+        - Overview: conference-papers/hwrs-2005-mindmap.md
+        - Hydrologic Sensitivity: conference-papers/hwrs-2005/hydrologic-sensitivity.md
+        - Stream Physical Conditions: conference-papers/hwrs-2005/stream-physical-conditions.md
+        - Modelling and Simulation: conference-papers/hwrs-2005/modelling-and-simulation.md
+        - Climate and Storage: conference-papers/hwrs-2005/climate-and-storage.md
+        - Urban Hydrology: conference-papers/hwrs-2005/urban-hydrology.md
+
   - Glossary: glossary.md
   - About: about.md

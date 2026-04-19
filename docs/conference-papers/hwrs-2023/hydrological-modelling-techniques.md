@@ -1,0 +1,44 @@
+# Hydrological Modelling Techniques
+
+**Conference:** HWRS 2023 — HWRS 2023: Hydrological Modelling and Flood Management  
+**Theme 2 of HWRS 2023**
+
+---
+
+## Overview
+
+- Calibration and Optimization
+- Infiltration and Losses
+- Direct Rainfall (Rain-on-Grid)
+
+---
+
+## Detailed Analysis
+
+**Advancements in Traditional Lumped and Storage-Based Models**
+Hydrological modelling at HWRS 2023 demonstrated a significant push to refine traditional storage-based routing models (such as RORB, WBNM, SIMHYD, and AWBM). Researchers are finding new ways to decouple channel and catchment routing parameters by leveraging 2D hydraulic models to generate synthetic flow records, allowing for the validation of non-linearity parameters across rare to extreme flood magnitudes [1, 2]. To address limitations in continuous simulation models, adaptations have been made to achieve timestep independence, allowing models that were originally designed for daily climate data to function effectively with sub-daily forcing data [3, 4]. Other studies explored replacing standard routing techniques with advective and diffusive flood hydrograph models that incorporate embedded, nonlinear baseflow algorithms to more realistically simulate how catchment wetness affects quick-flow runoff [5, 6].
+
+**Innovative Calibration and Machine Learning Integration**
+**The integration of machine learning and data science has emerged as a major technique to improve model calibration and forecasting.** To address the computational burden of calibrating complex models, surrogate model optimization techniques like "AutoCal" use machine learning to build response surfaces, significantly accelerating the calibration process compared to traditional metaheuristic algorithms like Nelder-Mead or Particle Swarm Optimization [7, 8]. Additionally, data science resampling methods (such as over-sampling) are being used to artificially balance training datasets, which improves the predictive skill of conceptual models when attempting to estimate rare, high-flow extreme events from limited historical records [9, 10]. 
+
+Machine learning, particularly Long Short-Term Memory (LSTM) networks, is also being heavily utilized for multivariate time-series streamflow forecasting. These models successfully combine localized weather parameters, historical flow data, and even global streamflow forecasts (like the Copernicus GloFAS system) to predict future streamflow and flood timing [11-13].
+
+**Direct Rainfall and Catchment-Wide Hydrodynamic Modelling**
+**There is a notable paradigm shift from lumped sub-catchment hydrology toward continuous, catchment-wide hydrodynamic simulation using the "direct rainfall" (or rain-on-grid) approach.** Empowered by GPU acceleration and high-resolution topography, models like TUFLOW HPC can now efficiently simulate entire catchments at the grid-cell level [14-17]. 
+
+A critical advancement in this space is the coupling of surface water models with groundwater and soil infiltration dynamics (such as the Green-Ampt method). Simulating horizontal and vertical hydraulic conductivity accurately replicates the timing, magnitude, and receding limbs of long-term continuous rainfall-runoff without needing to manually reset loss parameters between storm events [18-21]. This integrated approach is also being extended to holistic environmental platforms that simultaneously simulate 2D hydrology, 1D drainage structures, and first-principles pollutant wash-off, which subsequently feed seamlessly into downstream 3D receiving water quality models [22-24].
+
+**Hybrid and Fast Flood Evaluation Tools**
+To balance the spatial accuracy of 2D hydrodynamic models with the rapid speed required for real-time forecasting and urban planning, researchers are developing hybrid modeling tools. **The Dynamic CA-ffé model, for example, combines a 1D stormwater drainage system (SWMM) with a 2D Cellular Automata surface model.** This integration allows for data exchange between the surface and subsurface at specified intervals, enabling rapid predictions of urban pluvial floods and manhole surcharges within seconds or minutes [25-27]. Operational forecasting also relies heavily on these fast-evaluation systems; the FLASH system utilizes ultra-fast hydrodynamic modeling (such as Quadtree meshing) combined with real-time radar rainfall to provide highly localized community flood warnings [28-30].
+
+**Harnessing High-Resolution Spatial and Radar Data**
+Traditional hydrological models rely heavily on point-based rain gauges, which carry spatial and temporal limitations. Modern techniques increasingly utilize blended spatial data to reduce uncertainty. The blending of weather radar, satellite imagery, and rain gauge data (using systems like STEPS and Rainfields) provides highly accurate, localized precipitation inputs for hydrological models, improving confidence in both model calibration and real-time forecasting [31-34]. Furthermore, remote sensing indices (like the Normalized Difference Moisture Index and Tasseled Cap Wetness) and satellite imagery are being actively used to delineate complex floodplain connectivity and calibrate hydraulic models in ungauged or data-poor terrains [35-37].
+
+**Scrutinizing Design Flood Estimation Procedures**
+Amidst these technical advancements, the symposium also featured critical reviews of the standard Australian Rainfall and Runoff (ARR2019) design flood estimation procedures. Modellers benchmarked and debated the nuances of using the Ensemble versus the Monte Carlo methods for design flood estimation [38-40]. Discussions highlighted industry concerns about whether the 10-pattern ensemble method effectively represents complex storm mechanisms in certain regions, or if the procedure introduces biases and inconsistencies when translating rainfall depth into peak flow estimates [41, 42].
+
+---
+
+**See Also:**
+- [← HWRS 2023 Mind Map Overview](../hwrs-2023-mindmap.md)
+- [Conference Papers Home](../index.md)

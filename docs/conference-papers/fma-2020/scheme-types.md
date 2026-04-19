@@ -1,0 +1,55 @@
+# Scheme Types
+
+**Conference:** FMA 2020 — Property-Based Floodplain Management  
+**Theme 1 of FMA 2020**
+
+---
+
+## Overview
+
+- Voluntary House Purchase (VHP)
+- Voluntary Land-Swap
+- House Resilience
+- Compulsory Purchase
+
+---
+
+## Detailed Analysis
+
+In the context of Property-Based Floodplain Management, schemes are designed to interact directly with private land and dwellings to reduce risk-to-life and property damage during flood events [1, 2]. Because these schemes deal with people's homes, which hold significant emotional value, their successful implementation is often more of a social challenge than a technical one [3]. 
+
+Research into these initiatives categorizes them into **four primary scheme types**:
+
+### 1. Voluntary House Purchase Schemes (VHPs)
+Voluntary house purchase schemes (or buy-backs) are typically considered a "last option" in a council's flood risk management plan when structural mitigation measures are insufficient or not cost-effective [4, 5]. 
+*   **Purpose and Benefits:** These schemes aim to remove people from high-hazard, life-threatening areas, which also reduces the public funds spent on emergency responses. Additionally, clearing the land improves flood conveyance [4].
+*   **The Process:** Councils typically secure funding (often shared between local, state, and federal governments) and contact eligible homeowners [6]. The property is formally valued as though no flood risk exists to ensure social equity [6]. Upon purchase, the council usually demolishes the structures and reverts the land to open green space or recreational areas [6, 7].
+*   **Challenges:** VHPs are time-intensive, sometimes taking up to 20 years to complete [7]. Social challenges include homeowners dealing with post-disaster trauma, strong generational ties to the land, or feeling short-changed by valuations [8, 9]. Furthermore, vacated properties can present safety issues like looting or illegal dumping [9]. 
+
+### 2. Compulsory Purchase / Relocation Schemes
+While compulsory property purchases occur for other large-scale infrastructure projects, they are **rarely used for flood mitigation in Australia** [10]. 
+*   **International Context:** In the UK and New Zealand, legislation allows for compulsory acquisition for flood schemes; however, authorities strongly prefer to negotiate voluntary purchases [10, 11]. Taking a voluntary approach is generally considered more cost-effective than engaging in the potentially expensive and lengthy legal battles associated with compulsory acquisitions [11].
+
+### 3. Voluntary Land-Swap Schemes
+Land-swap schemes involve the government providing a new parcel of land in exchange for a flood-prone property, often to support the relocation of an entire community [12]. 
+*   **Historical and Modern Examples:** Australian examples include the historical relocations of Gundagai (following the 1852 flood) and Clermont (1916) to higher ground [13]. A modern example is the Lockyer Valley Relocation Policy, where the council purchased land to create a new estate for residents of Grantham following the devastating 2011 floods [13]. 
+*   **Mechanics and Challenges:** These schemes often use a ballot or lottery system to allocate new lots, while landowners bear the cost of building or moving their houses to the new block [13]. Community buy-in is essential for success. Tight-knit communities often wish to remain together, making it important that the new settlement is in close proximity to the original town [10, 14, 15]. 
+
+### 4. House Flood Damage Reduction / Resilience Schemes
+Instead of removing the house, these schemes focus on improving the physical structure of the home to withstand flooding. This includes **voluntary house raising (VHR)** and building resilience strategies like **"wet-proofing" or "dry flood proofing"** [16-18].
+*   **Implementation:** In NSW, councils can apply for state funding to implement VHR schemes in low-hazard areas [16]. Brisbane City Council piloted a "Flood Resilient Homes" program offering in-home assessments, tailored reports, and financial assistance paid directly to contractors for property modifications [17, 19, 20].
+*   **Technical and Social Limitations:** House raising requires careful implementation, as it can create a false sense of security; residents might believe their raised home is a safe refuge, potentially increasing risk-to-life if they fail to evacuate high-hazard areas [3]. Furthermore, techniques like wet-proofing are generally not suitable in areas with high-velocity floodwaters that could cause structural damage [18]. 
+*   **Longevity and Equity:** A major challenge is ensuring the longevity of resilience measures (e.g., ensuring new buyers are aware of the home's flood modifications) and managing public perception regarding the equitable use of rate-payer funds to subsidise private homes in flood zones [18, 20].
+
+### Key Success Factors and Lessons Learnt
+Across all scheme types, several universal factors dictate success:
+*   **Community Engagement:** Dedicated community engagement, facilitated by experts who can communicate technical details simply, is vital [8, 15]. 
+*   **Recent Disasters as a Catalyst:** Experiencing a recent disaster acts as a strong impetus, making property owners significantly more willing to participate in voluntary schemes [15]. 
+*   **Providing Options:** Giving homeowners a combination of options (e.g., offering a choice between a house buyout, a land swap, or house raising) gives people a sense of ownership and control, resulting in higher uptake [15].
+*   **Simple Eligibility Criteria:** Using clear, simple language to communicate why certain properties are eligible (and others are not) helps mitigate community panic or frustration [21].
+
+---
+
+**See Also:**
+- [← FMA 2020 Mind Map Overview](../fma-2020-mindmap.md)
+- [Conference Papers Home](../index.md)

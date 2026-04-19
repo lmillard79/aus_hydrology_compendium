@@ -1,0 +1,32 @@
+# Hydrologic Sensitivity
+
+**Conference:** HWRS 2005 — 29th Hydrology and Water Resources Symposium (2005)  
+**Theme 1 of HWRS 2005**
+
+---
+
+## Overview
+
+- Models
+- Key Findings
+
+---
+
+## Detailed Analysis
+
+At the 29th Hydrology and Water Resources Symposium in 2005, hydrologic sensitivity was primarily explored in the context of predicting how climate change will impact water resources. Specifically, a key study by Chiew, Jones, and Boughton investigated the **sensitivity of catchment runoff to changes in rainfall and potential evapotranspiration (PET)** using two widely used conceptual rainfall-runoff models: AWBM and SIMHYD [1, 2]. 
+
+The research presented at the symposium highlighted several critical insights into hydrologic sensitivity:
+
+*   **Rainfall is the Dominant Driver:** Modelled runoff was found to be highly sensitive to rainfall—about **three to five times more sensitive to rainfall than to PET** [2, 3]. For both the AWBM and SIMHYD models, a percentage change in mean annual rainfall results in a percentage change in mean annual runoff that is approximately two to three times larger [2, 4]. 
+*   **Predictability via Linear Relationships:** The researchers demonstrated that for the range of climate change impacts projected for Australia over the next few decades (up to a 15% change in rainfall and a 10% increase in PET), hydrologic sensitivity can be accurately estimated using a simple linear relationship [5, 6]. In this relationship, an increase in rainfall translates to increased runoff, while an increase in PET leads to reduced runoff [3, 7]. This finding is highly valuable, as it allows water resource managers to rapidly estimate the impacts of climate change prior to undertaking complex and time-consuming modeling studies [6, 8].
+*   **Catchment Characteristics Influence Sensitivity:** A catchment's physical and climatic characteristics greatly dictate its hydrologic sensitivity. Runoff is noticeably **more sensitive to rainfall in low-rainfall and low-runoff regions** [2, 9]. Because rainfall-runoff is a "threshold process" (meaning a certain amount of rain must wet the soil before any runoff occurs), small percentage changes in rain have mathematically larger percentage impacts on runoff in drier areas [10, 11]. Furthermore, sensitivity to rainfall is heightened in catchments with smaller effective storage capacities, which are characterized by less vegetation (a lower leaf area index) and a smaller soil plant water holding capacity [9, 12].
+*   **Model-Dependent Sensitivity to Evapotranspiration:** While both models showed consistent sensitivity to rainfall, they differed in their sensitivity to PET [4, 13]. A 1% increase in PET resulted in about a 0.8% reduction in runoff in the AWBM model, but only a 0.5% reduction in the SIMHYD model [2, 13]. This variance occurs because the two models handle evapotranspiration differently: AWBM simulates it directly as PET, whereas SIMHYD calculates it as a dependency of both PET and soil wetness [13, 14]. 
+
+In the larger context of the 2005 symposium, these findings underscored that while different hydrological models might disagree slightly on the exact impacts of temperature (PET) changes, the choice of model is ultimately less critical when assessing the impacts of rainfall changes, as both models handle rainfall sensitivity with high consistency [4]. Understanding this hydrologic sensitivity is framed as a crucial step for managing Australia's land and water resources in the face of rising global temperatures and shifting rainfall patterns [8, 15].
+
+---
+
+**See Also:**
+- [← HWRS 2005 Mind Map Overview](../hwrs-2005-mindmap.md)
+- [Conference Papers Home](../index.md)
