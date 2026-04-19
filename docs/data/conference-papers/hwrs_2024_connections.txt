@@ -1,0 +1,36 @@
+Enhanced Query: CONNECTIONS
+Conference: HWRS 2024
+Notebook: 2d7b4294-3e77-486f-8ac2-ce83050b3edb
+Timestamp: 2026-04-19T00:46:32.367418+00:00
+============================================================
+
+QUERY:
+How do the different research themes in this notebook connect to each other? What are the cross-cutting issues and interdisciplinary connections? Provide specific examples of papers that bridge multiple themes.
+
+============================================================
+
+RESPONSE:
+The research themes in this notebook are deeply interconnected through the cross-cutting challenges of **hydrological non-stationarity, adaptive infrastructure management, and the need for resilient design** in the face of deep climatic uncertainty. Rather than treating these themes in isolation, researchers are increasingly combining them to understand how changing weather patterns impact both natural environments and built infrastructure.
+
+Here is how these themes connect, along with specific papers that bridge these interdisciplinary boundaries:
+
+### **1. Bridging Climate Change and Extreme Flood Events**
+A primary cross-cutting issue is **hydrological non-stationarity**—the reality that historical climate and streamflow data are no longer sufficient to predict future risks because the relationships between rainfall and runoff are fundamentally changing [1], [2]. This intersection explores how shifting climate baselines alter the frequency and severity of extreme floods.
+*   **Retallick et al.** bridges these themes by conducting a comprehensive analysis of how updated Australian Rainfall and Runoff (ARR) climate change guidelines impact the 1% Annual Exceedance Probability (AEP) design flood levels across eastern Australia [3], [4], [5].
+*   **Babister et al.** introduces a novel approach to estimating lifetime flood exposure risk, recognizing that **design rainfall and flood probabilities are now changing every year** rather than remaining static over a structure's design life [6], [7], [8].
+*   **O'Shea et al.** tackles the deep uncertainty of climate change on flood risk by presenting a "bottom-up" event-based design flood estimation model, illustrating how extreme rainfall intensities and changing antecedent catchment wetness jointly influence the magnitude of frequent and rare floods [9], [10], [11].
+*   **Hamers et al.** brings in socio-economic considerations, modelling the two-way interactions between climate change, land use planning, and future flood risk, demonstrating that zoning policies and socio-economic development can drastically influence flood damage alongside climate factors [12], [13], [14].
+
+### **2. Bridging Climate Change, Stormwater, and Dam Analytics**
+Traditional methods of managing stormwater and dams (like installing larger pipes or building larger reservoirs) are often costly and disruptive. The interdisciplinary connection here focuses on **adaptive management and real-time control (RTC)** to optimize existing infrastructure under changing climate conditions.
+*   **Thyer et al.** explores the adaptive ability of **real-time control of smart stormwater storages** to maintain pre-development hydrographs. Their work shows that smart orifice controls can actively adapt to both increased urbanization and climate change-induced peak inflows (up to a 95% increase) without requiring expensive physical infrastructure upgrades [15], [16], [17].
+*   **Huang et al.** applies a multi-objective optimization framework to **reservoir operations**, demonstrating that adapting operating policies can mitigate the impacts of future changes in water availability and demand driven by climate change, thereby extending the service life of existing dams [18], [19], [20]. 
+*   **Lam & Liu** evaluate how changing rainfall patterns and potential evapotranspiration from climate change models (NARCliM 1.5) will impact the treatment efficiency of **Water Sensitive Urban Design (WSUD)** infrastructure, such as bioretention basins and rain tanks [21], [22], [23].
+
+### **3. Bridging Renewable Energy Infrastructure with Floods and Hydrology**
+The transition to renewable energy heavily relies on understanding extreme floods and complex water systems, as many of these massive infrastructure projects are situated in remote, flood-prone, or hydrologically sensitive areas. 
+*   **Azarnivand et al.** directly connects renewable energy to extreme flood events by exploring the challenges of **flood modelling for wind farms, solar farms, and battery energy storage systems (BESS)**. These projects feature geographically dispersed electronic assets highly vulnerable to flood damage, often located in remote areas where hydrological data and high-resolution terrain mapping are scarce [24], [25], [26], [27]. 
+*   **Muller et al.** connects renewable energy with advanced surface and groundwater analytics by detailing the loosely coupled modelling method used for the **Snowy 2.0 pumped hydro energy storage project**. This research assesses how tunnel excavations for the renewable energy project might impact baseflow discharges and alpine stream perennialism during construction and operation [28], [29], [30].
+
+### **4. The Overarching Challenge: Systemic Interactions**
+Underpinning all of these themes is the realization that human interventions (like dams and urbanization) and climate change compound one another. For example, **Robertson et al.** demonstrates how projecting future runoff requires models that can account for both climate change and the **hydrological impacts of on-farm dams and bushfires**, bridging climate projections with dam analytics to prevent the under- or over-estimation of future water availability [31], [32], [33], [34].

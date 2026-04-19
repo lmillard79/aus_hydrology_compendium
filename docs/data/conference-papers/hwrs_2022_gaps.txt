@@ -1,0 +1,35 @@
+Enhanced Query: GAPS
+Conference: HWRS 2022
+Notebook: 2892e798-5d06-49a0-93c0-7282a17e2a66
+Timestamp: 2026-04-19T00:59:39.083627+00:00
+============================================================
+
+QUERY:
+What research gaps are identified in these papers? What future research directions or unanswered questions do the authors mention? What areas need more investigation?
+
+============================================================
+
+RESPONSE:
+**Flood Estimation & Modelling**
+*   **Need for High-Quality Real-World Data:** A major gap in current hydraulic modelling is the lack of comprehensive, high-quality, real-world data sets for model calibrations and solver benchmarking [1, 2]. Authors stress that reducing uncertainty depends heavily on collecting reliable field data during and after flood events [3-5]. 
+*   **Improved Guidance for Hydraulic Structures:** Current Australian industry guidance lacks protocols for extracting results from 2D and 3D models for floodway design, relying instead on inadequate 1D approaches. Updating these methods requires long-term effort and confirmation through physical and numerical modelling [6, 7]. Furthermore, measuring floodwater velocity at high flows (potentially using drones) is needed to calibrate roughness and improve the accuracy of high-flow river rating curves where flow measurements are usually unavailable [8-10].
+*   **ARR2019 Design Rainfall Biases:** Investigations into the ARR2019 design rainfall method in Queensland revealed unexplained spatial clustering of overestimation (e.g., around Cairns and north of Brisbane) and underestimation in small catchments (<200 km²). Future research is needed to determine the causes of these biases [11-13]. 
+*   **Regional Flood Frequency Analysis (RFFA):** The Peaks-Over-Threshold (POT) approach shows promise for very frequent floods, but researchers identified gaps needing further investigation, such as testing different average events per year, exploring different elimination methods, and assessing non-stationarity and climate change within the POT paradigm [14, 15]. Additionally, initial findings suggesting that the degree of regional heterogeneity does not impact the relative error of flood quantiles require further study [16, 17].
+*   **Stochastic Rainfall to Streamflow Discrepancies:** A critical knowledge gap exists in understanding why "good" modelled rainfall from Stochastic Rainfall Models (SRMs) sometimes translates into "poor" simulated streamflow when fed into hydrological models. Future research is needed to identify the sources of these rainfall discrepancies [18-20].
+
+**Climate Change & Uncertainty**
+*   **Addressing Hydrologic Non-Stationarity:** Historic runoff responses are changing, with catchments generating less runoff recently than in the past under similar hydrological conditions. Researchers emphasize the need to study this non-stationarity to establish scientific reasoning and determine if this is a universal phenomenon (e.g., across Greater Sydney supply catchments) [21, 22].
+*   **Handling Deep Uncertainty in Projections:** Due to high uncertainty in climate model rainfall predictions, authors suggest researching new methods such as stochastic data generation based on temperature as a covariate, or incorporating paleoclimate data to overcome the flawed assumption of hydrologic stationarity [23-27]. 
+*   **Standardising Climate Change Guidelines:** There is currently no standardized approach in Queensland to stipulate how to apply climate change signals to water security assessments. Future directions require developing clear guidelines on incorporating climate change results into decision-making frameworks [28-30].
+*   **Merging Civil Engineering and Atmospheric Science:** There is a significant gap in understanding rapid, multi-hazard weather convergences (e.g., wet falls followed by extreme freezes and bomb cyclones). Civil engineers and atmospheric scientists must collaborate to evaluate the risks these dynamic weather patterns pose to civil infrastructure [31-33].
+
+**Urban Water Security**
+*   **Cybernetic Approaches to Water Governance:** Existing mechanistic models of water governance often exclude broader societal, cultural, and ecological feedback. Future steps require implementing a "cybernetic approach" that involves eliciting the diverse languages and perspectives of all water actors to build trust and set up more inclusive governance foundations [34-36].
+*   **Pollutant Generation and Water Quality:** With changing population densities and shifts toward automated/green vehicles, there is a need to research and update pollutant runoff characteristics used in water quality modelling [37, 38]. Additionally, the water quality treatment devices currently designed are likely undersized for future climate change-induced rainfall intensities, representing a significant challenge for future industry policy and guidance [39, 40]. 
+*   **Cascade Water Supply Systems (CWSS):** Despite their historical importance, there is a significant lack of spatial and temporal water quality data for CWSS. A specific area needing more attention is the nitrification and denitrification processes in the sediment-water interface, which generates ammonia (NH4-N) within these systems [41-43].
+
+**Data Science in Hydrology**
+*   **Dynamic Machine Learning (ML) Surrogate Models:** While ML surrogate models offer massive computational speedups, they traditionally assume a static environment and must be entirely retrained if an urban landscape changes. Future implementation relies on "modularization" techniques to minimize the computational burden of updating these physics-based models for dynamic, ever-developing urban environments [44-46].
+*   **Enhancing Digital Twins with Socioeconomic Data:** Future developments for ML-based flood forecasting systems should integrate digital twin platforms with residential, commercial, and municipal property values. By including social data, authorities can better understand the impacts of flooding on vulnerable communities and target interventions to reduce social inequality [47, 48].
+*   **Improving Flow Peak Tracking:** Current peak flow tracking tools for river operations could be expanded to allow operators to predict downstream responses for individual environmental water releases. This will require more detailed classification and segregation of peak data according to antecedent catchment conditions [49, 50].
+*   **Expanding Artificial Intelligence (AI) Applications:** Following the successful application of models like Decision Trees for pan evaporation prediction [51, 52], researchers recommend applying these models with different inputs (such as the El Niño Southern Oscillation and Indian Ocean Dipole) to investigate the effects of broader climate indices on streamflow [53].

@@ -1,0 +1,13 @@
+Enhanced Query: BIBLIOGRAPHY
+Conference: HWRS 2012
+Notebook: 46346d2d-10fc-444a-b311-e38a76caf180
+Timestamp: 2026-04-19T01:32:14.240103+00:00
+============================================================
+
+QUERY:
+List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.
+
+============================================================
+
+RESPONSE:
+Error querying NotebookLM: Chat request timed out: 

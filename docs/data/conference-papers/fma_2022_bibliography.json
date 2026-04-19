@@ -1,0 +1,10 @@
+{
+  "query_type": "bibliography",
+  "conference": "FMA",
+  "year": 2022,
+  "notebook_id": "3dcf95a8-33db-480d-be1b-deb1448b0d2e",
+  "timestamp": "2026-04-19T00:26:23.397253+00:00",
+  "prompt": "List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.",
+  "response": "Error querying NotebookLM: Chat request timed out: ",
+  "themes_count": 4
+}

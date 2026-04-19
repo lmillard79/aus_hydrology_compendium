@@ -1,7 +1,7 @@
 Enhanced Query: BIBLIOGRAPHY
 Conference: FMA 2023
 Notebook: b45571e2-ca22-49b4-ad5b-ab9094ddd245
-Timestamp: 2026-04-19T00:05:00.095009+00:00
+Timestamp: 2026-04-19T00:13:55.037886+00:00
 ============================================================
 
 QUERY:
@@ -10,4 +10,4 @@ List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 
 ============================================================
 
 RESPONSE:
-Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'
+Error querying NotebookLM: Chat request timed out: 

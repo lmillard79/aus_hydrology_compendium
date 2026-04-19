@@ -1,0 +1,10 @@
+{
+  "query_type": "bibliography",
+  "conference": "HWRS",
+  "year": 2023,
+  "notebook_id": "56adea86-25c8-4051-b769-f4f4f0170800",
+  "timestamp": "2026-04-19T00:50:01.261681+00:00",
+  "prompt": "List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.",
+  "response": "Error querying NotebookLM: Chat request timed out: ",
+  "themes_count": 4
+}

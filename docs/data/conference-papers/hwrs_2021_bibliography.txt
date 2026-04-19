@@ -1,0 +1,98 @@
+Enhanced Query: BIBLIOGRAPHY
+Conference: HWRS 2021
+Notebook: 2892e798-5d06-49a0-93c0-7282a17e2a66
+Timestamp: 2026-04-19T01:03:13.475560+00:00
+============================================================
+
+QUERY:
+List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.
+
+============================================================
+
+RESPONSE:
+**Flood Estimation & Modelling**
+
+*   **Apelt, C. J., & Chanson, H.** (2022). *Hydraulics of Minimum Energy Loss weir: the Chinchilla MEL weir during the Nov-Dec 2021 Flood Event*. **Key Topic: Flood Estimation & Modelling** [1].
+*   **Ayre, R., Malone, T., Ruffini, J., & Tibaldi, J.** (2022). *Wivenhoe, January 2011: The Dam Truth*. **Key Topic: Flood Estimation & Modelling** [2].
+*   **Barthelmess, A., Rigby, T., & Kelly, A.** (2022). *Assessment of Development Related Impacts on Design Flood Behaviour*. **Key Topic: Flood Estimation & Modelling** [3].
+*   **Bin Faris, F., Ball, J. E., & Bharathy, G. K.** (2022). *Dynamically Linked Stormwater and Traffic Models*. **Key Topic: Flood Estimation & Modelling** [4].
+*   **Blundy, S., Ling, F., & Babister, M.** (2022). *Use of Australian Water Availability Project (AWAP) rainfalls for calibration of flood models*. **Key Topic: Flood Estimation & Modelling** [5, 6].
+*   **Chaokitka, S., & Chanson, H.** (2022). *Hydraulics of a broad-crested weir with rounded edges: physical Modelling*. **Key Topic: Flood Estimation & Modelling** [7].
+*   **Chanson, H., & Memory, O.** (2022). *Hysteresis, Non-Linearity and Instabilities on Circular Crested Weir*. **Key Topic: Flood Estimation & Modelling** [8].
+*   **Chanson, H., & Shi, R.** (2022). *Optical measurements in dam spillways during major flood events: a down-to-earth review of pros and cons*. **Key Topic: Flood Estimation & Modelling** [9].
+*   **Chen, S., van Megchelen, C., Hughes, D., Amir Abdollahian, M., & van der Sterren, M.** (2022). *Application of Spatial Rainfall in Hourly Rainfall-Runoff Modelling for Operational Systems*. **Key Topic: Flood Estimation & Modelling** [10].
+*   **Collecutt, G., Baeumer, U., Gao, S., & Syme, W.** (2022). *Bridge Deck Afflux Modelling – Benchmarking of CFD and SWE Codes to Real-World Data*. **Key Topic: Flood Estimation & Modelling** [11].
+*   **De Kleermaeker, S., Leijnse, T., Morales, Y., Druery, C., & Maguire, S.** (2022). *Developing a real-time data and modelling framework for operational flood inundation forecasting in Australia*. **Key Topic: Flood Estimation & Modelling** [12].
+*   **Gao, S., Ryan, P., Syme, W., & Collecutt, G.** (2022). *The End of the 1D Open Channel Cross-Section?* **Key Topic: Flood Estimation & Modelling** [13].
+*   **Hasanzadeh Nafari, R., & Sheers, L.** (2022). *An immediate need to make conversations about disaster impacts, not the probability of occurrence - application of disaster loss estimation in flood risk management*. **Key Topic: Flood Estimation & Modelling** [14, 15].
+*   **Hu, J., Li, Y., & Chanson, H.** (2022). *Hydrodynamic instabilities and wave motion in fish-friendly box culverts equipped with full-height sidewall baffles*. **Key Topic: Flood Estimation & Modelling** [16].
+*   **Huxley, C., Syme, W., Ryan, P., & Collecutt, G.** (2022). *Hydraulic Modelling 2D Cell Size Result Convergence – Comparing the Performance of Different Shallow Water Equation Solution Schemes*. **Key Topic: Flood Estimation & Modelling** [17].
+*   **Jacobs, M.** (2022). *Catchment Response Times Decrease with Increased Rainfall Intensity*. **Key Topic: Flood Estimation & Modelling** [18].
+*   **Jordan, P., Acharya, S., Close, A., Shen, Y., Hughes, E., & Stephens, D.** (2022). *Hydrological and hydraulic modelling of design floods for the Menindee Lakes*. **Key Topic: Flood Estimation & Modelling** [19, 20].
+*   **Karimian, T., Leslie, R., & Stephens, K.** (2022). *Flood risk evaluation for rail structures*. **Key Topic: Flood Estimation & Modelling** [21].
+*   **Khezri, N., McMillan, R., Dutton, L., & Gonzalez, C.** (2022). *Hydrologic and hydraulic analysis to assess potential for fish passage at road culverts*. **Key Topic: Flood Estimation & Modelling** [22].
+*   **Ladson, A. R., Lawson, N. J., & Keller, R. J.** (2022). *Making Weirs Safer*. **Key Topic: Flood Estimation & Modelling** [23].
+*   **Lee, J., & Lu, Y.** (2022). *How effectively consider data uncertainties during a hydraulic model calibration process*. **Key Topic: Flood Estimation & Modelling** [24].
+*   **Leng, X., & Chanson, H.** (2022). *Modelling Fish-Friendly Culvert: an Academic Approach to a Practical Engineering Problem*. **Key Topic: Flood Estimation & Modelling** [25].
+*   **Mashiah, G.** (2022). *Making the impossible possible – saving the town of Maclean in the March 2022 flood*. **Key Topic: Flood Estimation & Modelling** [26].
+*   **McManus, A., Greco, A., & Ta, H.** (2022). *Overcoming Flood Challenges on the Pakenham Level Crossing Removal Project*. **Key Topic: Flood Estimation & Modelling** [27].
+*   **Rigby, T., & Barthelmess, A.** (2022). *Hydrologic Modelling as a Pre-Processor for ARR19 Design Flood Modelling*. **Key Topic: Flood Estimation & Modelling** [28].
+*   **Ryan, P., Syme, W., Gao, S., & Collecutt, G.** (2022). *Direct Rainfall Hydraulic Model Validation*. **Key Topic: Flood Estimation & Modelling** [29].
+*   **Sharpe, R.** (2022). *Energy Losses at Piers in 2D Hydraulic Models: An Adaption to the FHWA Loss Coefficients*. **Key Topic: Flood Estimation & Modelling** [30].
+*   **Sheers, L., & Hasanzadeh Nafari, R.** (2022). *The devil is in the detail, a comparison of TUFLOW Classic and Heavily Parallelised Compute Sub-Grid Sampling (HPC-SGS) solvers*. **Key Topic: Flood Estimation & Modelling** [31].
+*   **Syme, B.** (2022). *Hydraulic Modelling The Past, The Present, The Future*. **Key Topic: Flood Estimation & Modelling** [32].
+*   **Thomson, K.** (2022). *PRACTICAL APPLICATION OF CFD FOR FISH PASSAGE DESIGN*. **Key Topic: Flood Estimation & Modelling** [33].
+*   **Thomson, K., & Redenbach, M.** (2022). *UNDERSTANDING CONE FISHWAY FLOW REGIMES WITH CFD*. **Key Topic: Flood Estimation & Modelling** [34].
+*   **Tong, F., Rodgers, S., & Watson, A.** (2022). *A Case Study Using a 2D Hydraulic Model for River Rating Curve*. **Key Topic: Flood Estimation & Modelling** [35].
+*   **Toombes, L., & Ayre, R.** (2022). *Resetting Expectations of Brisbane’s Flood Protection*. **Key Topic: Flood Estimation & Modelling** [36].
+*   **Zhang, G., Gaffney, A., & Russell, C.** (2022). *An Efficient Approach to Bookending Long-Term Continuous Hydraulic Simulation of Road Closure*. **Key Topic: Flood Estimation & Modelling** [37, 38].
+*   **Unknown Author** (2022). *LGA Wide Investigation of Residential Inundation and Establishment of Decision-Making Framework in Redland City Council*. **Key Topic: Flood Estimation & Modelling** [39].
+*   **Unknown Author** (2022). *Performance of referable dams in South East Queensland during the February 2022 flood event*. **Key Topic: Flood Estimation & Modelling** [40].
+*   **Unknown Author** (2022). *Hydraulic design considerations for floodways: improving public safety with best practices*. **Key Topic: Flood Estimation & Modelling** [41].
+
+**Climate Change & Uncertainty**
+
+*   **Campos Teixeira, P., Ordens, C. M., McIntyre, N., Pagliero, L., & Crosbie, R.** (2022). *Spatial distribution of atmospheric chloride deposition in a small island – the case of South Pacific’s Norfolk Island*. **Key Topic: Climate Change & Uncertainty** [42].
+*   **Cetin, L., Alcorn, M., Kemp, A., & Greg, V.** (2022). *Exploring uncertainty in predicting annual nutrient and sediment loads to Port Phillip Bay*. **Key Topic: Climate Change & Uncertainty** [43].
+*   **Ettema, R.** (2022). *Merging of Civil Engineering and Atmospheric Science: An Example from America’s Northern Great Plains*. **Key Topic: Climate Change & Uncertainty** [44, 45].
+*   **Kazemi, H., Ang, L., Cheng, S., & Hookey, G.** (2022). *ASSESSING THE POTENTIAL IMPACTS OF CLIMATE CHANGE ON MINING OPERATIONS - A CASE STUDY*. **Key Topic: Climate Change & Uncertainty** [46].
+*   **Kirsch, S., & Holden, L.** (2022). *Review of Available Techniques to Reflect Climate Change Signal in Generated Rainfall Datasets for Quantitative Water Security Assessment*. **Key Topic: Climate Change & Uncertainty** [47].
+*   **Ladson, A. R., & Pedruco, P.** (2022). *An Approximate Method to Determine Climate Change Induced Increases in Flood Peaks*. **Key Topic: Climate Change & Uncertainty** [48].
+*   **Pokhrel, P., & Rasheed, A.** (2022). *Changes in the water partitioning behaviour of Tasmanian catchments*. **Key Topic: Climate Change & Uncertainty** [49].
+*   **Rotsey, A., Fletcher, K., Ly, S., & Stovold, M.** (2022). *Changed Climate: Different Drainage – The Future of Urban Drainage*. **Key Topic: Climate Change & Uncertainty** [50].
+*   **Zhan, W., Buckley, S., Genova, P., Grobler, J., Redenbach, M., & Eskola, K.** (2022). *Selecting and Processing High Resolution Climate Projections in Queensland Mine Water Planning and Hydrologic Assessment*. **Key Topic: Climate Change & Uncertainty** [51].
+*   **Unknown Author** (2022). *What can Australian Rainfall and Temperature Trends tell us about Climate Change (and what can’t they can’t tell us)?* **Key Topic: Climate Change & Uncertainty** [52].
+
+**Urban Water Security**
+
+*   **Atiquzzaman, M., Nachiappan, N., Berry, D., & Kelly, V.** (2022). *Efficient Airspace Operations at Burrinjuck Dam, Murrumbidgee Valley to lessen the flood impact at downstream townships*. **Key Topic: Urban Water Security** [53].
+*   **Berghout, B., & Lockart, N.** (2022). *Application of a Novel Approach to Calculating Yield for Source Water Supply Planning*. **Key Topic: Urban Water Security** [54].
+*   **Brewis, E.** (2022). *Urban water security in Queensland: expectations of managing risk*. **Key Topic: Urban Water Security** [55].
+*   **Daniell, K. A., Feldman, H. R., & Shaw, F.** (2022). *Understanding languages and perspectives: a first step to a cybernetic approach to water governance?* **Key Topic: Urban Water Security** [56].
+*   **Dong, S., & Henderson, C.** (2022). *Infrastructure Sustainability ratings: Challenges in establishing criteria and demonstrating compliance for water quality*. **Key Topic: Urban Water Security** [57].
+*   **Herron, A., Barry, M., Tavakol, E., Kermode, S., & Masuleh, N.** (2022). *Onsite sewage system modelling: Lot scale releases with catchment scale impacts*. **Key Topic: Urban Water Security** [58].
+*   **Kammanankada, H. R., & Peirson, W. L.** (2022). *Application of Tube Fishways to Weirs*. **Key Topic: Urban Water Security** [59].
+*   **Kermode, S., Dunne, P., & Coen, F.** (2022). *Integrated modelling management – Can we deliver integrated water resources management and sustainable outcomes without it?* **Key Topic: Urban Water Security** [60].
+*   **Lane, C., Priman, R., Coysh, J., & Vitkovsky, J.** (2022). *Urban water security in Queensland: Understanding supply risks and uncertainties*. **Key Topic: Urban Water Security** [61].
+*   **Lockart, N., & Berghout, B.** (2022). *The Flow of Numbers through the Lower Hunter Water Security Plan*. **Key Topic: Urban Water Security** [62].
+*   **Maher, B., Nielsen, C., & White, I.** (2022). *Water Resources in Queensland 2022*. **Key Topic: Urban Water Security** [63].
+*   **Newman, J. P., Culley, S. A., Westra, S., van der Linden, L., & Irvine, M.** (2022). *Understanding Kangaroo Island water supply reliability in future climates and the path to augmentation solutions*. **Key Topic: Urban Water Security** [64].
+*   **Pagliero, L., McIntyre, N., Aitken, D., Bolz, P., Ordens, C. M., Campos, L., Garcia, G., Jamett, N., Leon, S. H., & Cisternas, L.** (2022). *Sustainable integration of seawater into regional water supply networks*. **Key Topic: Urban Water Security** [65].
+*   **Pathberiyage, G. G. P., Barton, A., Kandra, H. S., & Dassanayake, K. B.** (2022). *A Review of Cascade Water Supply Systems*. **Key Topic: Urban Water Security** [66].
+*   **Priman, R., & Gordon, C.** (2022). *Urban Water Security in Queensland: There is no substitute for robust analysis*. **Key Topic: Urban Water Security** [67].
+*   **Rhodes, B., Kularathna, U., Jahanbani, H., & Ashbolt, S.** (2022). *Yield estimates for water resource planning: Uncertainties, Challenges and Opportunities*. **Key Topic: Urban Water Security** [68].
+*   **Rumman, R., Cairns, J., & van der Sterren, M.** (2022). *Deployment and training for end-users of a decision support system for water resources planning and operations for Greater Sydney*. **Key Topic: Urban Water Security** [69].
+*   **Sheedy, T., Cetin, L., Szemis, J., Shrestha, K., & Biswas, R. R.** (2022). *An Integrated Water Resource Model for Townsville’s bulk water supply management*. **Key Topic: Urban Water Security** [70].
+*   **van der Linden, L., Newman, J., Davis, G., Adams, G., & Kotz, S.** (2022). *The Headworks Optimisation Model for Adelaide, guiding us through an increasingly uncertain world*. **Key Topic: Urban Water Security** [71].
+*   **Unknown Author** (2022). *Spatial sensitivity of generalised equations for rainwater savings based on rainfall, tank volume, roof area and water demand*. **Key Topic: Urban Water Security** [72].
+
+**Data Science in Hydrology**
+
+*   **Abed, M., Imteaz, M. A., Ahmed, A. N., & Huang, Y. F.** (2022). *Application of Decision Tree Algorithm for Predicting Monthly Pan Evaporation Rate*. **Key Topic: Data Science in Hydrology** [73].
+*   **Cao, W., Zhang, C., Zhao, Z., Hofmann, H., & Li, L.** (2022). *Field Investigation of Iron Transformation in the Subterranean Estuary of a Coastal Bay*. **Key Topic: Data Science in Hydrology** [74, 75].
+*   **Garcia, M., & Juan, A.** (2022). *Mesh Modularization Enables Surrogate Modelling for 2D Hydrodynamic Solvers*. **Key Topic: Data Science in Hydrology** [76].
+*   **Gonzalez Rodriguez, L., McCallum, A., & Kent, D.** (2022). *Detection of Sedimentation in Water Storages Using Distributed Temperature Sensing (DTS)*. **Key Topic: Data Science in Hydrology** [77].
+*   **Hunter, J., Bennett, J., Robinson, K., & Willis, M.** (2022). *Observed data, synthetic data and regionalisation: challenges of predicting streamflow in an operational context*. **Key Topic: Data Science in Hydrology** [78].
+*   **Ng, T. L., Robertson, D., Bishop, A., & Thomson, J.** (2022). *Forecasting Irrigation Water Demands from Orders*. **Key Topic: Data Science in Hydrology** [79].
+*   **Unknown Author** (2022). *Developing an Artificial Intelligence Based Continuous Monthly Stream flow Forecasting Model*. **Key Topic: Data Science in Hydrology** [80].
+*   **Unknown Author** (2022). *Long Term Seasonal Rainfall Forecasting using Artificial Neural Network: Case Study of Northern Territory, Australia*. **Key Topic: Data Science in Hydrology** [81].

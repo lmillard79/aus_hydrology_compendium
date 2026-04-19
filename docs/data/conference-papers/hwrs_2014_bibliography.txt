@@ -1,0 +1,203 @@
+Enhanced Query: BIBLIOGRAPHY
+Conference: HWRS 2014
+Notebook: bb46da0e-a94e-43dd-b2f0-d99aee98d13f
+Timestamp: 2026-04-19T01:28:10.616148+00:00
+============================================================
+
+QUERY:
+List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.
+
+============================================================
+
+RESPONSE:
+Here is a comprehensive bibliography of the papers presented at the Hydrology and Water Resources Symposium 2014, extracted from the provided notebook sources:
+
+**1. A Comparison of Annual Maximum and Partial Duration Series in Frequency Analysis**
+*   **Authors:** R. Srikanthan [1, 2]
+*   **Year Published:** 2014 [1]
+*   **Key Topic:** Flood Frequency Analysis [1]
+
+**2. A Monte Carlo Framework for the Brisbane River Catchment Flood Study**
+*   **Authors:** F.L.M. Diermanse, D.G. Carroll, J.V.L. Beckers, R. Ayre and J.M. Schuurmans [3]
+*   **Year Published:** 2014 [3]
+*   **Key Topic:** Monte Carlo Framework / Flood Study [3]
+
+**3. A Review of the Broome Sandstone Aquifer to Enable Planning for Irrigation and Other Uses**
+*   **Authors:** Robert Paul, Richard George and Peter Gardiner [4]
+*   **Year Published:** 2014 [4]
+*   **Key Topic:** Broome Sandstone Aquifer Review / Groundwater [4, 5]
+
+**4. An Overview of Preparation of Streamflow Database for ARR Project 5 Regional Flood Method**
+*   **Authors:** Ataur Rahman, Khaled Haddad, Ayesha S Rahman, Md Mahmudul Haque, George Kuczera and Erwin Weinmann [6]
+*   **Year Published:** 2014 [6]
+*   **Key Topic:** Streamflow Database / Regional Flood Method [6]
+
+**5. An Overview of the New RFFE Model 2014**
+*   **Authors:** Ataur Rahman [7]
+*   **Year Published:** 2014 [7]
+*   **Key Topic:** Regional Flood Frequency Estimation [7]
+
+**6. Application of Post-Processing to NWP Model Precipitation Forecasts in Australia (Post-Processing Precipitation Forecasts from a Numerical Weather Prediction Model in Australia)**
+*   **Authors:** Durga Lal Shrestha, David Robertson, James Bennett, QJ Wang [8]
+*   **Year Published:** 2014 [8]
+*   **Key Topic:** Precipitation Forecasts [8]
+
+**7. Box-Cox transformation for representing residual errors of hydrological models**
+*   **Authors:** McInerney [9]
+*   **Year Published:** 2014 [9]
+*   **Key Topic:** Hydrological Model Errors / Quantifying Uncertainty [9]
+
+**8. Daily Rainfall Disaggregation for a Monsoon Catchment in Vietnam**
+*   **Authors:** Phuong Cu Thi, and James E Ball [10]
+*   **Year Published:** 2014 [10]
+*   **Key Topic:** Rainfall Disaggregation Vietnam [10]
+
+**9. Development and Application of a Large Flood Regionalisation Model for Australia**
+*   **Authors:** Khaled Haddad, Ataur Rahman, Erwin Weinmann, George Kuczera [11]
+*   **Year Published:** 2014 [11]
+*   **Key Topic:** Flood Regionalisation Model [11]
+
+**10. Development of a Methodology for Catchments Exhibiting Sheetflow Characteristics in the Pilbara Region**
+*   **Authors:** Adam Broit and Greg Boytar [12]
+*   **Year Published:** 2014 [12]
+*   **Key Topic:** Sheetflow Characteristics / Surface Water Hydrology [12]
+
+**11. Drainage Philosophy for 200 km Access Road in the Pilbara**
+*   **Authors:** Damon Grace, Michael Gillen, Shannon Dooland, Walter Makoni and Sam Pruiti-Ciarello [13]
+*   **Year Published:** 2014 [13]
+*   **Key Topic:** Drainage Philosophy / Surface Water Hydrology [13]
+
+**12. East Coast Lows (ECLs) and east Australian droughts and floods**
+*   **Authors:** A.S. Kiem & C. Twomey [14]
+*   **Year Published:** 2014 [14]
+*   **Key Topic:** East Coast Lows and Droughts/Floods [14]
+
+**13. Environmental flows planning to improve ecological realism and address operational reality**
+*   **Authors:** Nick Marsh, Nick Bond and Amanda Wealands [11]
+*   **Year Published:** 2014 [11]
+*   **Key Topic:** Environmental Flows [11]
+
+**14. Experiences Selecting, Implementing and Reviewing the Performance of a Debris Flow Model**
+*   **Authors:** Ted Rigby, Colin Mazengarb, Michael Stevenson and Matt Hannon [15]
+*   **Year Published:** 2014 [15]
+*   **Key Topic:** Debris Flow Model [15]
+
+**15. Flood Hydrology in an Arid Area - Findings from the Gammon Ranges Project**
+*   **Authors:** David Kemp and Chris Wright [16]
+*   **Year Published:** 2014 [16]
+*   **Key Topic:** Flood Hydrology / Arid Area [16]
+
+**16. Flood management using ‘stormwater source control’ principles in Dhaka City, Bangladesh**
+*   **Authors:** Faisal Ahammed, Guna Alankarage and John R. Argue [17]
+*   **Year Published:** 2014 [17]
+*   **Key Topic:** Dhaka City Flood Management [17]
+
+**17. Force balance components in a mildly curved channel with and without bank vegetation**
+*   **Authors:** Sam Gorrick and Jose F. Rodríguez [18]
+*   **Year Published:** 2014 [18]
+*   **Key Topic:** River Hydraulics / Force Balance [18]
+
+**18. Forecast guided stochastic scenarios of monthly streamflows out to 12 months**
+*   **Authors:** Q. J. Wang, J. C. Bennett, Y. Song, P. Pokhrel, D. E. Robertson, M. Li and A. Schepen [19]
+*   **Year Published:** 2014 [19]
+*   **Key Topic:** Monthly Streamflow Forecasting [19]
+
+**19. Geomorphic, Hydraulic and Sediment Transport Modelling for Mine-related Channel Realignment - Case Study: Caves Creek, Pilbara, Western Australia**
+*   **Authors:** Mike Harvey, Mark Pearcey, Krey Price and Bishnu Devkota [20]
+*   **Year Published:** 2014 [20]
+*   **Key Topic:** Geomorphic and Hydraulic Modelling [20]
+
+**20. Good Health and Economic Benefits Suggests Removal of Bottled Water in Shanghai**
+*   **Authors:** Peng [21, 22]
+*   **Year Published:** 2014 [21]
+*   **Key Topic:** Economic Benefits / Water Resource Management [21, 22]
+
+**21. Hydrologic Reference Stations to Monitor Climate-Driven Streamflow Variability and Trends**
+*   **Authors:** Sophie Xiaoyong Zhang, Mohammed Bari, Gnanathikkam Amirthanathan, David Kent, Andrew MacDonald and Daehyok Shin [23]
+*   **Year Published:** 2014 [23]
+*   **Key Topic:** Climate-Driven Streamflow Variability [23]
+
+**22. Improving Fuzzy-based Model for Seasonal River Flow Forecasting**
+*   **Authors:** Honey Badrzadeh and Ranjan Sarukkalige [24]
+*   **Year Published:** 2014 [24]
+*   **Key Topic:** River Flow Forecasting / Fuzzy-based Model [24]
+
+**23. Intercomparison of methods for regionalising rainfall-runoff model predictions over large domains**
+*   **Authors:** Neil R. Viney, Jai Vaze, Bill Wang, Yongqiang Zhang, Ang Yang, Jamie Vleeshouwer, Avijeet Ramchurn, Andrew Frost [25]
+*   **Year Published:** 2014 [25]
+*   **Key Topic:** Rainfall-runoff Model Prediction [25]
+
+**24. Mahaweli Ganga Water Resources Model Development**
+*   **Authors:** Sudharma Elakanda, Mohammed Nanseer, David Milton, Keiko Yamagata, and Amir Deen [26]
+*   **Year Published:** 2014 [26]
+*   **Key Topic:** Water Resources Model Development / Hydrology [26, 27]
+
+**25. Participatory GIS: A Tool Towards Water Resources Management In Coastal Area of Bangladesh**
+*   **Authors:** Md. Mostafizur Rahman, and Md. Mahbubur Rahman [28]
+*   **Year Published:** 2014 [28]
+*   **Key Topic:** Water Resources Management / Participatory GIS [28]
+
+**26. Pilbara Regional Flood Frequency Analysis**
+*   **Authors:** Davies [29]
+*   **Year Published:** 2014 [29]
+*   **Key Topic:** Flood Frequency Analysis [29]
+
+**27. Post-urban Water Prediction Modelling Gnangara Mound, Western Australia**
+*   **Authors:** Carl Davies, Kelly Lavell, Angela Filardi, Joanne Tierney, Simon Hewitt and Dan Williams [30]
+*   **Year Published:** 2014 [30]
+*   **Key Topic:** Groundwater Modelling / Water Prediction [30]
+
+**28. Predicting Sediment Liberation, Transport and Fate Following Dam Decommissioning**
+*   **Authors:** Kathryn Russell, Anthony Ladson and John Tilleard [31]
+*   **Year Published:** 2014 [31]
+*   **Key Topic:** Sediment Transport / Dam Decommissioning [31]
+
+**29. Reconstructing Flood and Drought Cycles in the Murray-Darling Basin using Paleoclimate Archives**
+*   **Authors:** Michelle Ho, Danielle C. Verdon-Kidd and Anthony S. Kiem [32]
+*   **Year Published:** 2014 [32]
+*   **Key Topic:** Paleoclimate Flood and Drought Cycles [32]
+
+**30. Robust optimisation of urban water resource systems in the face of known and unknown unknowns**
+*   **Authors:** Mohammad Mortazavi-Naeini, George Kuczera, Anthony S. Kiem, Ben Henley, Brendan Berghout, Emma Turner and Lijie Cui [33]
+*   **Year Published:** 2014 [33]
+*   **Key Topic:** Urban Water Resource Systems Optimisation [33]
+
+**31. SOM-ANN-based rainfall-runoff modelling using data of multiple stations**
+*   **Authors:** Masoud Mehrvand, Vahid Nourani, and H. Baghanam [34, 35]
+*   **Year Published:** 2014 [35]
+*   **Key Topic:** Rainfall-Runoff Modelling [35]
+
+**32. Stochastic Simulation of Space-Time Rainfall Patterns for the Brisbane River Catchment**
+*   **Authors:** Alan Seed, Phillip Jordan, Clive Pierce, Michael Leonard, Rory Nathan and Eva Kordomenidi [36]
+*   **Year Published:** 2014 [36]
+*   **Key Topic:** Space-Time Rainfall Patterns [36]
+
+**33. The AWRA modelling system**
+*   **Authors:** Neil R. Viney, Jai Vaze, Jamie Vleeshouwer, Ang Yang, Albert van Dijk, Andrew Frost [37]
+*   **Year Published:** 2014 [37]
+*   **Key Topic:** Water Resources Assessment Modelling [37]
+
+**34. The performance of a new ensemble flood and short-term streamflow forecasting system for Australia**
+*   **Authors:** D. E. Robertson, J. C. Bennett, D. Shrestha, Q. J. Wang, D. J. Enever, H. A. P. Hapuarachchi and N. K. Tuteja [38]
+*   **Year Published:** 2014 [38]
+*   **Key Topic:** Streamflow Forecasting [38]
+
+**35. The Variability of “Nature’s Limit” in South Australia**
+*   **Authors:** Carly Tozer, Danielle Verdon-Kidd and Anthony Kiem [39]
+*   **Year Published:** 2014 [39]
+*   **Key Topic:** Climate Variability / Drought Risk [39]
+
+**36. Uncertainty in Estimation of Urban Rainfall and Runoff**
+*   **Authors:** Phillips [40]
+*   **Year Published:** 2014 [40]
+*   **Key Topic:** Urban Rainfall and Runoff Uncertainty [40]
+
+**37. Using the DRASTIC Model for Determination of Groundwater Vulnerability in Shallow Aquifer in Broke, NSW, Australia**
+*   **Authors:** Sedigheh “Sara” Askarimarnani, and Garry Willgoose [41]
+*   **Year Published:** 2014 [41]
+*   **Key Topic:** Groundwater Vulnerability [41]
+
+**38. Why the observed turbulence intensities in non-uniform flow deviate from those in uniform flow?**
+*   **Authors:** Ishraq Alfadhli, Shu-Qing Yang and Muttucumaru Sivakumar [42, 43]
+*   **Year Published:** 2014 [43]
+*   **Key Topic:** Turbulence in Non-Uniform Flow [42, 43]

@@ -1,0 +1,308 @@
+Enhanced Query: BIBLIOGRAPHY
+Conference: HWRS 2018
+Notebook: 0467eef1-2c0e-4f2e-8c20-fac928515239
+Timestamp: 2026-04-19T01:09:30.740723+00:00
+============================================================
+
+QUERY:
+List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.
+
+============================================================
+
+RESPONSE:
+Here is a comprehensive bibliography of the papers presented in the notebook for the HWRS 2018 (Hydrology and Water Resources Symposium). 
+
+**1. Improved information for future decision making** [1], [2]
+*   **Authors:** A. Chapman, B. Wilkinson
+*   **Year:** 2018
+*   **Key Topic:** Stream rating tables, flood warning networks, and 2D hydrodynamic modelling.
+
+**2. Selection of appropriate water-sensitive systems for stormwater quantity control in South Australia** [3]
+*   **Authors:** Farjana Akhter, John Argue, Guna Hewa, Faisal Ahammed, Baden Myers
+*   **Year:** 2018
+*   **Key Topic:** Water Sensitive Urban Design (WSUD), infiltration systems, and stormwater quantity control.
+
+**3. The Greater Bunbury Groundwater and Surface Water Interactions Model: recalibration and validation to use it as a decision support tool for water management, south-west Western Australia** [4]
+*   **Authors:** Muhammad Shafiqul Alam
+*   **Year:** 2018
+*   **Key Topic:** Coupled surface water and groundwater interactions modelling and water management.
+
+**4. Applicability of Kriging to Regional Flood Estimation Problem in Victoria** [5]
+*   **Authors:** Sabrina Ali, Ataur Rahman, Melanie Loveridge
+*   **Year:** 2018
+*   **Key Topic:** Regional Flood Frequency Analysis (RFFA), Kriging, and ungauged basins.
+
+**5. Application of WaterGuide – a framework for improved water resource management in Jordan** [6]
+*   **Authors:** Kate Austin, Huw Pohlner
+*   **Year:** 2018
+*   **Key Topic:** Water resource management, sustainable yield assessment, and the WaterGuide framework.
+
+**6. TUFLOW Classic and HPC Comparison Using a Coupled 1D/2D Model of Toowoomba** [7]
+*   **Authors:** Monika Balicki, Mitchell Redenbach, Wendy Carlisle, Kazi Bashar
+*   **Year:** 2018
+*   **Key Topic:** TUFLOW Solver Comparison, 1D/2D hydraulic modelling, and computational run times.
+
+**7. Apportioning Allocations to Users of Multi-Storage Water Supply Systems: A case study of making a complex volume shared system more transparent** [8]
+*   **Authors:** Andrew Barton, Kym Wilson
+*   **Year:** 2018
+*   **Key Topic:** Water allocations, multi-reservoir systems, and volume sharing frameworks.
+
+**8. Securing low flows – a trial project to install low flow devices on existing farm dams** [9]
+*   **Authors:** Helen Braithwaite, Kumar Savadamuthu, Paul Wainwright
+*   **Year:** 2018
+*   **Key Topic:** Farm Dam Trends, low flow devices, and environmental water requirements.
+
+**9. Time saving automation For ARR2016** [10]
+*   **Authors:** K. Brakell, J. Sercombe, D. Whiteley, S. Redfern, N. Klein
+*   **Year:** 2018
+*   **Key Topic:** ARR2016 guidelines, digital engineering, and automated flood/blockage assessment modelling.
+
+**10. Monitoring Irrigation Volumes using Climate Data and Remote Sensing Observations** [11]
+*   **Authors:** David Bretreger, Juan Quijano, John Awad
+*   **Year:** 2018
+*   **Key Topic:** Irrigation scheduling, remote sensing, climate data, and crop evapotranspiration.
+
+**11. Supplementing Flood Frequency Analysis with Pre-record Paleofloods** [12]
+*   **Authors:** Adam Broit
+*   **Year:** 2018
+*   **Key Topic:** Flood Frequency Analysis (FFA) and paleoflood hydrology.
+
+**12. Modelling microbial source pathways at the catchment scale** [13]
+*   **Authors:** Lydia T. Cetin, Philip Pedruco, Kate Byrnes, Jonathan Dixon, Pei Tillman, Sarah Holland Clift, Phillip Birtles
+*   **Year:** 2018
+*   **Key Topic:** Microbial source pathways, Enterococci modelling, and water quality.
+
+**13. A proposed method and case study for detection of change in waterway health due to flow** [14]
+*   **Authors:** Ashley Sparrow, Nick Bond, Suzanne Witteveen, Terry Chan
+*   **Year:** 2018
+*   **Key Topic:** Waterway health, environmental flows, ecological monitoring, and step-wise regression.
+
+**14. Bottom up systems analysis of urban water resources and market mechanisms for pricing water and sewage services** [15]
+*   **Authors:** Peter J. Coombes, Michael E. Barry, Michael Smit
+*   **Year:** 2018
+*   **Key Topic:** Urban water resources, market mechanisms, water tariffs, and bottom-up systems analysis.
+
+**15. A New Approach to Integrated Water Management in Victoria, Australia - Achieving Greater Results Through Collaboration and Partnerships** [16]
+*   **Authors:** Dennis Corbett, Abby Farmer
+*   **Year:** 2018
+*   **Key Topic:** Integrated Water Management (IWM), water policy, and institutional collaboration.
+
+**16. Evidence of Climate Change in South-East Australian Water Data** [17]
+*   **Authors:** Allen Amin, Ian Cordery
+*   **Year:** 2018
+*   **Key Topic:** Climate change evidence, streamflow trends, and interseasonal variability.
+
+**17. Large Basins or Small Dams? Reducing Flood Risk to Communities Through Design and Construction** [18]
+*   **Authors:** D. Cox, I. Lonie, D. Carroll, T. Rhodes
+*   **Year:** 2018
+*   **Key Topic:** Dam design, flood risk reduction, and failure impact assessments.
+
+**18. Challenges and opportunities in developing and implementing the Melbourne Water System Strategy** [19]
+*   **Authors:** David J. M. Flower, Bruce G. Rhodes
+*   **Year:** 2018
+*   **Key Topic:** Melbourne Water System Strategy, water supply system yield, and climate change adaptation.
+
+**19. Testing the robustness of optimal operating plans under various future hydro-climatic scenarios** [20]
+*   **Authors:** W. R. Godoy, A. F. Barton, K. Wilson, B. J. C. Perera
+*   **Year:** 2018
+*   **Key Topic:** Multi-objective optimisation, optimal operating plans, climate change scenarios, and the Wimmera-Mallee Water Supply System.
+
+**20. Integrated modelling of spatio-temporal variability in stream water quality across Victorian catchments** [21]
+*   **Authors:** D. Guo, A. Lintern, J.A. Webb, D. Ryu, S. Liu, A.W. Western
+*   **Year:** 2018
+*   **Key Topic:** Stream water quality, spatio-temporal variability, and Bayesian hierarchical statistical models.
+
+**21. From hydrodynamic modelling to operational decision making: managing bar openings at Toby Inlet to improve water quality** [22]
+*   **Authors:** J. Hall, J. Frazer
+*   **Year:** 2018
+*   **Key Topic:** Hydrodynamic modelling, estuary bar openings, and water quality management.
+
+**22. Evaluating the effect of farm management on nutrient inflows to receiving water bodies in WA using paddock and catchment models** [23]
+*   **Authors:** J. Hall, A. Herron, G. Gunarathne, R. Cresswell, M. Walton
+*   **Year:** 2018
+*   **Key Topic:** Farm management, nutrient inflows, catchment modelling, and paddock models (OVERSEER/APSIM).
+
+**23. Which way did the water go? Floodplain decisions for environmental benefits.** [24]
+*   **Authors:** Andrew Herron, Mark Southwell, Tony Weber, Lisa Walpole, Paul Frazier
+*   **Year:** 2018
+*   **Key Topic:** Environmental water benefits, integrated hydrodynamic modelling, and floodplain decisions.
+
+**24. Flood Frequency Analysis for the Brisbane River Catchment** [25]
+*   **Authors:** S M Anwar Hossain, Ataur Rahman
+*   **Year:** 2018
+*   **Key Topic:** Flood Frequency Analysis (FFA), probability distributions, and the Brisbane River.
+
+**25. Trends in farm dam development over time in Victoria, 2000-2015** [26]
+*   **Authors:** Phillip Jordan, Georgina Race, Robert Morden, David Shepherd, Simon Lang, Rory Nathan
+*   **Year:** 2018
+*   **Key Topic:** Farm Dam Trends, dam storage capacities, and hydrologic impacts.
+
+**26. An Investigation into the Efficacy of Australian Rainfall & Runoff 2016 Procedures in the Mount Lofty Ranges, South Australia** [27]
+*   **Authors:** David J. Kemp, Guna Hewa
+*   **Year:** 2018
+*   **Key Topic:** ARR2016 procedures, RORB modelling, and peak flow estimates.
+
+**27. The Frederick Street catchment in Adelaide – a review of the 1960s rational method design and change in drainage standard due to infill development** [28]
+*   **Authors:** David J. Kemp, David Pezzaniti, Baden Myers
+*   **Year:** 2018
+*   **Key Topic:** Urban catchments, rational method, infill development, and underground drainage standards.
+
+**28. Performance of urban On-Site Detention systems using ARR2016 design rainfall inputs** [29]
+*   **Authors:** Jason Ko, Fiona Johnson
+*   **Year:** 2018
+*   **Key Topic:** Urban On-Site Detention (OSD), ARR2016 design rainfall inputs, temporal pattern ensembles, and peak flow mitigation.
+
+**29. Effect of Climate Change on Performance WSUD Treatment Devices** [30]
+*   **Authors:** Eric C. Lam, Michelle Gribler
+*   **Year:** 2018
+*   **Key Topic:** Climate Change and WSUD, MUSIC modelling, and pollutant reduction rates.
+
+**30. Characterising the location and rarity of annual maxima rainfall in the GTSM-R coastal zone** [31]
+*   **Authors:** Simon Lang, Jing (Ashley) Zhang, Matthew Scorah, Rory Nathan, Mark Pearse
+*   **Year:** 2018
+*   **Key Topic:** Annual maxima rainfall, extreme rainfall probabilities, AWAP data, and the GTSM-R coastal zone.
+
+**31. Climate change impact assessment for WaterNSW infrastructure strategy** [32]
+*   **Authors:** Selvaratnam Maheswaran, Ashish Sharma, Raj Mehrotra
+*   **Year:** 2018
+*   **Key Topic:** Climate change impact assessment, water supply infrastructure, and regional climate modelling (NARCliM).
+
+**32. ARR has changed. What about my Cost-Benefit Analysis?** [33]
+*   **Authors:** Sam Marginson
+*   **Year:** 2018
+*   **Key Topic:** Cost-benefit analysis (CBA), ARR2016 vs ARR1987, and climate change adaptation.
+
+**33. Forecast Based Operations I - A Comparison with the Rain-on-Ground Operational Rationale** [34]
+*   **Authors:** Greg McMahon
+*   **Year:** 2018
+*   **Key Topic:** Dam operations, Forecast Based Operations (FBO), Rain-on-Ground (ROG), and flood mitigation management.
+
+**34. Victorian Water Register – Next Generation** [35]
+*   **Authors:** Dr. Brett Miller
+*   **Year:** 2018
+*   **Key Topic:** Victorian Water Register, Water Entitlement Framework, Automation, and Artificial Intelligence.
+
+**35. Future perspective of rainwater harvesting: A case study for Sydney** [36]
+*   **Authors:** M. Moniruzzaman, M. A. Imteaz
+*   **Year:** 2018
+*   **Key Topic:** Rainwater harvesting, future rainfall data, and climate change modelling.
+
+**36. Investigation of the Use of Australian Water Availability Project Rainfall Data for the Development of eWater Source Models for Water Planning in NSW** [37]
+*   **Authors:** Nanda Nandakumar, Ashok Raut, Gurmeet Singh, Selvaratnam Maheswaran
+*   **Year:** 2018
+*   **Key Topic:** AWAP rainfall data, eWater Source models, water planning, and the Sacramento model.
+
+**37. Making it Rain with Shiny** [38]
+*   **Authors:** Andrew Barker, Evan O’Brien
+*   **Year:** 2018
+*   **Key Topic:** Data science/Shiny web framework applications, temporal rainfall patterns, complete storms, and ARR16.
+
+**38. Comparison of Annual Maximum and Peaks-over-Threshold methods in Flood Frequency Analysis** [39]
+*   **Authors:** Xiao Pan, Ataur Rahman
+*   **Year:** 2018
+*   **Key Topic:** Flood Frequency Analysis (FFA), Annual Maximum Series (AMS), and Peaks-over-Threshold (POT) methods.
+
+**39. A changing flow regime in southern Victoria** [40]
+*   **Authors:** Dave Parker, Dorian Rave, Lisa Lowe, Rory Nathan, Mark Stacey
+*   **Year:** 2018
+*   **Key Topic:** Flow regimes, environmental flows, Sustainable Water Strategies, and waterway health.
+
+**40. Assessing climate change impacts on rural flooding in Victoria** [41]
+*   **Authors:** P. Pedruco, J.M. Szemis, R. Brown, R. Lett, A.R. Ladson, A.S. Kiem, F.H.S. Chiew
+*   **Year:** 2018
+*   **Key Topic:** Climate change impacts, rural flooding, flood quantiles, and initial losses.
+
+**41. Determination of Pre-burst Rainfalls for Australian Rainfall and Runoff** [42]
+*   **Authors:** Scott Podger, Mark Babister, Mikayla Ward
+*   **Year:** 2018
+*   **Key Topic:** Pre-burst rainfalls, ARR 2016, and design temporal pattern ensembles.
+
+**42. Proposing a Relationship Between Number of Pipe Bursts and Pipe Pressures in Water Distribution Systems** [43]
+*   **Authors:** Savalan P. Akbarkhiavi, Monzur A. Imteaz
+*   **Year:** 2018
+*   **Key Topic:** Water distribution systems (WDS), pipe bursts, and pressure index (PI).
+
+**43. Event-based versus duration-based assessment for long-term modelling of mining impacts** [44]
+*   **Authors:** Krey Price
+*   **Year:** 2018
+*   **Key Topic:** Mine closure plans, open-pit mines, floodplain hydrology, long-term modelling, and pit capture.
+
+**44. Understanding Deep Aquifer Responses to Interseam Materials of Brown Coal Mines** [45]
+*   **Authors:** Sid Rastogi, Andrew F. Barton, Rae Mackay, Harpreet Kandra, Ali Tolooiyan
+*   **Year:** 2018
+*   **Key Topic:** Brown coal mines, deep aquifer systems, and groundwater modelling.
+
+**45. Calibration of Sacramento Model for a Catchment with Unknown Abstraction** [46]
+*   **Authors:** Ashok K. Raut, Nanda Nandakumar, Golam Kibria
+*   **Year:** 2018
+*   **Key Topic:** Sacramento model calibration, rainfall-runoff simulation, and unknown abstractions.
+
+**46. Benchmarking the selection of probability neutral hydrologic design floods for use in 2D hydraulic models** [47]
+*   **Authors:** Matthew Scorah, David Stephens, Rory Nathan
+*   **Year:** 2018
+*   **Key Topic:** Probability neutral hydrologic design floods, 2D hydraulic models, representative hydrographs, and the Monte Carlo framework.
+
+**47. Groundwater Condition Report for Decision Making** [48]
+*   **Authors:** Rezina Shams
+*   **Year:** 2018
+*   **Key Topic:** Groundwater condition reporting, hydrograph trends, confined aquifers, and surface water reservoir analogies.
+
+**48. Investigations on Irrigation Diversions using eWater Source Models and Satellite Imagery in Regulated Richmond River** [49]
+*   **Authors:** Gurmeet Singh, Golam Kibria, Selvaratnam Maheswaran
+*   **Year:** 2018
+*   **Key Topic:** Irrigation diversions, eWater Source Models, satellite imagery (Sentinel-2), and crop coefficients.
+
+**49. Construction of a Rainfall-Runoff Model in Liberia, Africa** [50]
+*   **Authors:** Katherine Szabo, Simon Lang
+*   **Year:** 2018
+*   **Key Topic:** Rainfall-runoff modelling, eWater Source, GR4J model, and the Mt Coffee Hydropower Plant.
+
+**50. Assessing long term climate change impacts on environmental flow compliance and shortfalls in the Yarra River** [51]
+*   **Authors:** J.M. Szemis, C. Edwards, S. Treadwell, P. Sandercock
+*   **Year:** 2018
+*   **Key Topic:** Climate change impacts, environmental flow compliance, and SIMHYD modelling on the Yarra River.
+
+**51. Methodology for Determining Floodway / Flow Conveyance Extent in Australian Floodplains** [52]
+*   **Authors:** C.R. Thomas, R. Golaszewski, R. Cox
+*   **Year:** 2018
+*   **Key Topic:** Floodway delineation, flow conveyance extent, velocity-depth product, and floodplain management.
+
+**52. Estimating Peak Flows in Urban Catchments (Contextual Title)** [53]
+*   **Authors:** Rhys Thomson, Brett C. Phillips, Luke Evans, Allan Goyen
+*   **Year:** 2018
+*   **Key Topic:** Peak flow estimation, urban catchments, rational method alternatives, and the RFFE model.
+
+**53. The potential for tree ring hydrologic reconstructions in Australia – what does the future hold?** [54]
+*   **Authors:** Danielle Verdon-Kidd, Kathryn Allen, Matthew Goodwin, Patrick Baker, Stuart Allie
+*   **Year:** 2018
+*   **Key Topic:** Hydrologic Reconstructions, dendroclimatology, pre-instrumental records, and water policy.
+
+**54. A quick method for estimating the Probable Maximum Flood in the Coastal GTSMR Zone** [55]
+*   **Authors:** S. Watt, D. Sciacca, M. Hughes, P. Pedruco
+*   **Year:** 2018
+*   **Key Topic:** Probable Maximum Flood (PMF) estimation, Coastal GTSMR Zone, and regression equations.
+
+**55. MAKING IT REAL - THE DELIVERY OF REAL TIME WATER DATA IN VICTORIA.** [56]
+*   **Authors:** Paul J. Wilson, Jasjit Chaggar
+*   **Year:** 2018
+*   **Key Topic:** Real-time water data, telemetry, and cloud hosting.
+
+**56. The Australian Water Resource Assessment Landscape model – AWRA-L: improved performance and regional calibration** [57]
+*   **Authors:** Andrew J. Frost, David P. Wright
+*   **Year:** 2018
+*   **Key Topic:** AWRA-L model, water balance, landscape water yield, and regional calibration.
+
+**57. Benchmarking Hydrological and Hydraulic Models in a Gauged Urban Catchment in the ACT** [58]
+*   **Authors:** Brett C. Phillips, Stephen Yu
+*   **Year:** 2018
+*   **Key Topic:** Hydrological and hydraulic benchmarking, Giralang gauged urban catchment, XP-RAFTS, and TUFLOW HPC.
+
+**58. Defining acceptable impacts for flood impact assessments** [59]
+*   **Authors:** M. Retallick, M. Babister
+*   **Year:** 2018
+*   **Key Topic:** Flood Impact Assessments, two-dimensional hydraulic models, and acceptable impact criteria.
+
+**59. Multi-variable hydrological simulation in a semi-arid catchment towards effective water resources management** [60]
+*   **Authors:** A. Binesh, I.Y. Yeo
+*   **Year:** 2018
+*   **Key Topic:** Hydrological simulation, semi-arid catchments, SWAT model, and multi-variable calibration.

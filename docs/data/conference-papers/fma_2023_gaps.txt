@@ -1,7 +1,7 @@
 Enhanced Query: GAPS
 Conference: FMA 2023
 Notebook: b45571e2-ca22-49b4-ad5b-ab9094ddd245
-Timestamp: 2026-04-19T00:05:13.601919+00:00
+Timestamp: 2026-04-19T00:16:12.411497+00:00
 ============================================================
 
 QUERY:
@@ -10,4 +10,27 @@ What research gaps are identified in these papers? What future research directio
 ============================================================
 
 RESPONSE:
-Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'
+**Data Scarcity and Information Sharing**
+One of the most significant barriers identified is the lack of reliable data for rare or unprecedented events. **Floods of low Annual Exceedance Probability (1% or rarer) have little or no historical observation data to validate design information or modelled forecasts**, meaning intelligence at the extremities of rating curves is sparse [1]. Additionally, researchers identify a specific gap in the **under-utilization of records from Aboriginal and Torres Strait Islander peoples, as well as paleo flood data**, representing a missed opportunity to formally incorporate this information into modern flood intelligence [2]. 
+
+Information sharing is also deemed immature. There are **poor mechanisms for sharing post-flood data between organizations and industry professionals**, limiting the creation of accurate and consistent flood mapping [3]. Researchers ask why there is no publicly available repository for flood data, as obtaining data from local councils is currently a very time-consuming process [4]. 
+
+**Nature-Based Solutions (NbS)**
+While Nature-Based Solutions are gaining traction, significant empirical and research gaps remain:
+*   **Lack of empirical data for large floods:** There is very little empirical data on the impact of NbS on flooding, as existing data mostly focuses on "small" floods [5].
+*   **Vegetation impacts:** More research and data are needed to understand the extent to which different vegetation types impact drag force, roughness, and changing water velocity [4].
+*   **Quantifying co-benefits:** There is little empirical data on how the ecological and economic co-benefits of NbS function as a whole system. Future directions must quantify these co-benefits (e.g., water quality, groundwater recharge, carbon sequestration) to justify their implementation to stakeholders who only want to "stop floods" [4, 6, 7].
+
+**Technological Advancements: AI, Machine Learning, and Modelling**
+The transition toward Machine Learning (ML) and predictive models has opened several unanswered questions and areas for future investigation:
+*   **Machine Learning viability and accuracy:** Because ML relies on historical data to find patterns, researchers question whether the available regional data is sufficient for accurate flood prediction. Unanswered questions include determining **what degree of accuracy is sufficient for disaster managers**, and how the costs of traditional model development compare to ML development costs [8]. Furthermore, ML models suffer from diminished performance when data is limited or new assets are added, posing a barrier to their deployment [9].
+*   **Filling rainfall data gaps with crowdsourcing:** Sub-daily precipitation data is critical, yet official pluviograph networks often offer insufficient coverage. Future research directions include investigating the utility of uncontrolled **Personal Weather Station (PWS) networks to capture spatiotemporal variations in rainfall** and hindcast extreme flood events [10-12].
+*   **Uncertainty analysis:** Despite its importance in design, there is a **poor understanding of uncertainty analysis methods**, a lack of supporting guidance and training, and limited access to suitable digital tools [13]. Future directions include integrating sensitivity and uncertainty analyses more smoothly into decision-making frameworks [14].
+
+**Emergency Management, Evacuation, and Policy**
+Moving beyond maps involves evaluating how humans interact with flood hazards and the policies that govern them:
+*   **Shelter-in-Place and Social Sciences:** While shelter-in-place strategies are debated, a key unanswered question is "how quick is quickly" when waiting for floodwaters to recede. Researchers call for **investigations into the tolerable duration of isolation for different communities**, stressing that future analysis must incorporate social sciences alongside flood hazard considerations [15, 16]. 
+*   **Flood Emergency Management Plans (FEMPs):** There is **very little guidance for councils to understand which new development applications are suitable for FEMPs**. More work is needed to understand when it is appropriate to use FEMPs to manage residual risks for future development, and to address the naive assumptions about human behavior that often underpin them [17].
+*   **Levee Management:** A notable gap in current frameworks is the lack of strategy for **reinforcing unmanaged levees that have a strategic benefit** in the days or weeks ahead of a flood [18].
+*   **Guideline Updates and Climate Change:** Core guidelines like Australian Rainfall and Runoff (AR&R) have recognized gaps and need strong advocacy to remain relevant and up-to-date in a changing climate [19]. Furthermore, there is a recognized gap involving the **varying assessments of climate change future scenarios** [20].
+*   **Insurance Definitions:** Differentiating between "stormwater" and "floodwater" remains highly challenging when storms and riverine flooding co-occur. Future discussions are needed to investigate **ways to reclassify the definition of flooding** to streamline insurance processes and reduce the mental toll on the insured [21].

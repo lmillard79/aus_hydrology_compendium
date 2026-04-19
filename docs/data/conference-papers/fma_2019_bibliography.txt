@@ -1,7 +1,7 @@
 Enhanced Query: BIBLIOGRAPHY
 Conference: FMA 2019
 Notebook: 1e7cf6a8-f79f-4e09-a150-7fc45fb97dd7
-Timestamp: 2026-04-19T00:05:37.604294+00:00
+Timestamp: 2026-04-19T00:17:37.573072+00:00
 ============================================================
 
 QUERY:
@@ -10,4 +10,4 @@ List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 
 ============================================================
 
 RESPONSE:
-Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'
+Error querying NotebookLM: Chat request timed out: 

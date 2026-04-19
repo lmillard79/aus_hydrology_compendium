@@ -1,0 +1,13 @@
+Enhanced Query: BIBLIOGRAPHY
+Conference: HWRS 2023
+Notebook: 56adea86-25c8-4051-b769-f4f4f0170800
+Timestamp: 2026-04-19T00:50:01.260989+00:00
+============================================================
+
+QUERY:
+List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.
+
+============================================================
+
+RESPONSE:
+Error querying NotebookLM: Chat request timed out: 

@@ -52,6 +52,15 @@ async def batch_enhanced_queries(
     all_notebooks.extend(config.get('notebooks', []))
     all_notebooks.extend(config.get('hwrs_notebooks', []))
     
+    # Add conceptual notebooks (cross-cutting themes)
+    conceptual_notebooks = config.get('conceptual_notebooks', [])
+    for nb in conceptual_notebooks:
+        # Normalize to same structure as conference notebooks
+        nb['conference'] = 'Conceptual'
+        nb['year'] = nb.get('name', 'Unknown')  # Use name as identifier
+        nb['is_conceptual'] = True
+    all_notebooks.extend(conceptual_notebooks)
+    
     # Filter to only extracted notebooks
     extracted_notebooks = [
         nb for nb in all_notebooks 

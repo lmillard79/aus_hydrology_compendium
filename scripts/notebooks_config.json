@@ -1,4 +1,22 @@
 {
+  "conceptual_notebooks": [
+    {
+      "id": "YOUR_FFA_NOTEBOOK_ID_HERE",
+      "name": "Flood Frequency Analysis",
+      "type": "methodology",
+      "description": "Cross-conference collection of FFA methods, techniques, and applications",
+      "sources_count": 0,
+      "extracted": false
+    },
+    {
+      "id": "YOUR_BAYESIAN_NOTEBOOK_ID_HERE",
+      "name": "Bayesian Analysis in Hydrology",
+      "type": "methodology",
+      "description": "Bayesian methods, uncertainty quantification, and probabilistic approaches",
+      "sources_count": 0,
+      "extracted": false
+    }
+  ],
   "notebooks": [
     {
       "id": "58b99d93-4101-4e11-93d6-a377158f5a18",

@@ -74,6 +74,10 @@ nav:
     - Forecasting & Emergency: fma-2024/forecasting-emergency.md
     - Community Engagement: fma-2024/community-engagement.md
     - Urban Planning: fma-2024/urban-planning.md
+  - Cross-Cutting Themes:
+    - Overview: conceptual-themes/index.md
+    - Flood Frequency Analysis: conceptual-themes/flood-frequency-analysis.md
+    - Bayesian Analysis: conceptual-themes/bayesian-analysis.md
   - Conference Papers:
     - Overview: conference-papers/index.md
     - FMA Conferences:

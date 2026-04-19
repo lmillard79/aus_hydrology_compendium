@@ -1,0 +1,261 @@
+Enhanced Query: BIBLIOGRAPHY
+Conference: HWRS 2024
+Notebook: 2d7b4294-3e77-486f-8ac2-ce83050b3edb
+Timestamp: 2026-04-19T00:45:34.986496+00:00
+============================================================
+
+QUERY:
+List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.
+
+============================================================
+
+RESPONSE:
+**1. Is conventional hydrological calibration methodology fully reliable for estimating extreme events? Application to six catchments in VIC** [1]
+*   **Authors:** Monte Azmi, Kosta Tsourdalakis, Nam Nguyen
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**2. Comparing Flood Modelling Approaches: MIKE+ To TUFLOW in Tauranga, New Zealand** [2]
+*   **Authors:** Ramisa Bhuiyan, Alvin Li, Jonathan Dixon
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**3. Stochastic storm regression for extreme rainfall estimation in the West Coast of Tasmania** [3]
+*   **Authors:** Prafulla Pokhrel, Benjamin James, Rory Nathan
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**4. Subseasonal forecasts of high flow events in the Murray-Darling Basin: Balonne River case study** [4]
+*   **Authors:** James C Bennett, David E Robertson, Zeqing Huang, Andrew Schepen
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**5. Review of Indicators of Sensitive Overland Flowpaths in Urban Areas in the City of Sydney, NSW** [5]
+*   **Authors:** V. Jofreh, M. Griffin, B.C Phillips, S. McTaggart, J. Jayanti, W. Yum
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**6. Managing Low Flows in Flood Frequency Analysis in Eastern Australia** [6]
+*   **Authors:** Laura Rima, Khaled Haddad, Ataur Rahman
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**7. A novel approach for water demand modelling at fine spatial resolutions** [7]
+*   **Authors:** Vihan Weeraratne, Tak Kwin Chang, Amin Talei, Valentijn Pauwels
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**8. IFD Update for Southeast Queensland** [8]
+*   **Authors:** Ashiq Rasheed, Phillip Jordan, Declan O’Shea, Leah Traill, Michel Raymond
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**9. A Monthly Water Balance Model For Evaluation Of Climate Change Impacts On The Streamflow of Ginganga and Kelani Ganga Basins, Sri Lanka (HWRS 2024)** [9]
+*   **Authors:** Dorji Khandu
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**10. Surface Water Allocation Policies in the NT - A case study of water availability in the Roper River** [10]
+*   **Authors:** Julian Orth, David Newton
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**11. Development of improved methods for quality control of rainfall observations** [11]
+*   **Authors:** Blair Trewin, Andrew Frost, Jayaram Pudashine, Carlos Velasco-Forero, Vincent Villani, Q.J. Wang, Yuhang Zhang
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**12. On-Site Stormwater Detention Versus Drainage Infrastructure Upgrades: A Cost Benefit Analysis** [12]
+*   **Authors:** Rodney Ronalds, Grant Halcrow
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**13. A Fusion of Model and Data to Infill Missing Pixels in Flood Monitoring Satellite Images** [13]
+*   **Authors:** Xinqi Guo, QJ Wang, Andrew Western, Dongryeol Ryu, Wendy Sharples, Jiawei Hou
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**14. Monitoring the Maxes: Measuring and reporting exceedances in design criteria** [14]
+*   **Authors:** Jonathan Klaric, Benjamin Kus, Ashis Dey
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**15. Forecast-Informed Coupled Optimisation-Hydrological Models for Environmental Watering in the Murrumbidgee River** [15]
+*   **Authors:** Tze Ling Seline Ng, David E. Robertson
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**16. Simulating low flows in northern Murray-Darling Basin river system models** [16]
+*   **Authors:** Shaun Sang Ho Kim, Russell Crosbie, Warrick Dawes, Jai Vaze, Bill Wang, Cherry Mateo, Jahangir Alam
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**17. Development and evaluation of "climate-proof" rainfall runoff model parameter libraries** [17]
+*   **Authors:** Shaun Sang Ho Kim, Justin Hughes
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**18. AAD killed the afflux criteria! Or did it? A critical look at the role these criteria have in approvals.** [18]
+*   **Authors:** Peter Woodman, Gavin Hay, Mardi Medwell-Squier, Greg Eaton
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**19. Monitoring urban water supply under extreme events in Australia** [19]
+*   **Authors:** Samaneh Seifollahi-Aghmiuni, Dena Farokhi
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**20. Sensitivity of input parameters of infiltration-on-grid in a 2D integrated hydrologic-hydrodynamic flood modeling** [20]
+*   **Authors:** P.D.P.O. Peramuna, S. DeSilva, S. Venkatesan, N.G.P.B. Neluwala, K.K. Wijesundara, P.B.R. Dissanayake
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**21. Hydromechanical Contributions to Mine Stability linked to Aquifer Depressurisation and Heterogenous Material Underlying the Mine Void, Development of Conceptual Model** [21]
+*   **Authors:** Sid Rastogi, Andrew Barton, Harpreet Kandra, Sanjive Narendranathan
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**22. There’s something fishy about flow: How metrics inform fish and vegetation responses** [22]
+*   **Authors:** Christine Lauchlan Arrowsmith, Geoff Vietz, Zeb Tonkin, Christopher Jones
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**23. Understanding future evapotranspiration and water availability - how do we balance computational tractability and process representation?** [23]
+*   **Authors:** Fiona Johnson, Jie Jian, Richard Beecham, Dushmanta Dutta
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**24. A comparison of NSW Palaeo Stochastic Climate rainfall and Bureau of Meteorology IFD data** [24]
+*   **Authors:** Jarrah Muller, Anya Jones-Gill, Harrison Callen
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**25. Low-impact Weirs: Strategies in reducing impacts of weirs** [25]
+*   **Authors:** James Zulfan, Laura Montano, Fiona Johnson, Stefan Felder
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**26. Integrating Modelling and Data Analysis for Enhanced Water Quality Management in Berowra Creek** [26]
+*   **Authors:** Niloo Masuleh, Andrew Herron, Lydia Cetin
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**27. Reliability of alternate water system configurations evaluated with headworks modelling** [27]
+*   **Authors:** Leon van der Linden, Steve Kotz, Cael Keenan, Julian Whiting, Michelle Irvine, Ashley Kingsborough, Madeleine Greenlee
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**28. Disaggregation of Rainfall to Finer Temporal Resolutions for Developing Non-Stationary IFD Curves employing an analytical approach** [28]
+*   **Authors:** Harshanth Balacumaresan, Iqbal Hossain, Monzur Alam Imteaz
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**29. Loosely coupled surface and groundwater modelling method (eWater Source and MODFLOW-USG) for assessment of the effects of tunnel excavation on baseflow discharges and headwater alpine stream perennialism during construction and operation of the Snowy 2.0 pumped hydro energy storage project** [29]
+*   **Authors:** Jarrah Muller, Anya Jones-Gill, Doug Weatherill
+*   **Year Published:** 2024
+*   **Key Topic:** Renewable Energy Infrastructure
+
+**30. Building Stability and floods – lessons from the 2022 NSW Floods** [30]
+*   **Authors:** Julia Sa, Rhys Thomson, Louise Collier, Emma Maratea
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**31. Hydrological horizons: exploring challenges and opportunities in renewable energy development** [31]
+*   **Authors:** Ali Azarnivand, Farshad Lotfiazad, Darcy Bulach
+*   **Year Published:** 2024
+*   **Key Topic:** Renewable Energy Infrastructure
+
+**32. The impact of longer dry spells expected with climate change on water quality in urban catchments** [32]
+*   **Authors:** Angelina Newton, Suresh Hettiarachchi, Ashish Sharma
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**33. Enhancing Catchment Runoff Simulations using Soil Moisture Dependent Hydraulic Conductivity** [33]
+*   **Authors:** Shuang Gao, Lucy Reading, Jakob Lowry, Greg Collecutt, Philip Ryan, Bill Syme
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**34. Unlocking the Value of Seasonal Streamflow Forecasts through Allocation Outlooks** [34]
+*   **Authors:** Tristan D.J. Graham, Quan J. Wang, Jim Foreman, Matthew Bethune, Emily Uhe, Andrew W. Western, Wenyan Wu, Mark Bailey, Senlin Zhou, Aftab Ahmad
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**35. Demystifying the Storylines Approach - Applying Climate Projections to Water Management Questions** [35]
+*   **Authors:** Jacquie Bellhouse, Margot Turner, Sandie McHugh
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**36. Automated Outliers Detection in Groundwater-level Observations** [36]
+*   **Authors:** Suwash Acharya, Shishutosh Barua, Agathe Boronkay, Eloise Nation, Elisabetta Carrara
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**37. The need for an industry-led response to the challenges of urban water demand modelling and forecasting** [37]
+*   **Authors:** Russell Beatty, Matthew Hardy, Christian Urich, Cheryl Bertelkamp, Valentijn Pauwels, Simon Fane
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**38. A comparison of Water Balance Dam Breach Hydrographs vs Dam Breach Hydraulic Terrain Modification Analysis** [38]
+*   **Authors:** Lee Williams, Ali Djozan
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**39. Optimising the Operation of Stormwater Systems with Multiple Storages** [39]
+*   **Authors:** Jerry Liang, Graeme Dandy, Mark Thyer, Holger Maier
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**40. Physical hydraulic modelling of Rock Bag stability under riverine conditions** [40]
+*   **Authors:** Daniel Gilbert, Ben Modra, Dan Messiter, Arnaud Diemont
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**41. Adaptive ability of real-time control of stormwater storages to match predevelopment hydrographs under future climate and land-use change** [41]
+*   **Authors:** Mark Thyer, Ruijie Liang, Holger Maier, Graeme Dandy
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**42. Utilising mixed methods of defining joint probability of catchment and coastal flooding to increase certainty and utility of flood risk analysis** [42]
+*   **Authors:** Peter Coombes, Robert Swan
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**43. An application of adaptive planning to integrated water cycle management - harnessing avoidable costs** [43]
+*   **Authors:** Patricia Lee, Karrena Bethke, Shane Cowie
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**44. Development of 1-kilometre resolution daily Australian gridded rainfall data** [44]
+*   **Authors:** Mohammed A. Bari, Alex Evans, Andrew Frost, Mohammad M. Hasan, Blair Trewin
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology
+
+**45. Extreme Flood Estimation in south-west WA 2.0: The Past Generation** [45]
+*   **Authors:** Leanne Pearce
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**46. Analysing Hydrological Model Calibration Using Automated Continuous Modelling Framework** [46]
+*   **Authors:** A. Kabir, H. A. P. Prasantha, A. Cornish, Z. Hughes-Miller, H. Kazemi, C. Wilson, B. Deeks, M. A. Bari, J. D'Andrea
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**47. Limitations of sewer network modelling software and the use of Artificial Neural Networks models to overcome these limitations** [47]
+*   **Authors:** Mahinda Jayasooriya, Andrew Barton, Tanveer Choudhoury, Ahmad Harahsheh
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**48. Instrumentation opportunities to improve the design and safety of hydraulic structures** [48]
+*   **Authors:** Stefan Felder, Matthias Kramer, Benjamin Hohermuth, Daniel Valero
+*   **Year Published:** 2024
+*   **Key Topic:** Stormwater & Dam Analytics
+
+**49. Flood forecast time assessment for the Hawkesbury-Nepean Valley** [49]
+*   **Authors:** Phillip Jordan, Rocianne Pinto, Paul Fuller, Rory Nathan, Michael Manton, Michel Raymond
+*   **Year Published:** 2024
+*   **Key Topic:** Extreme Flood Events
+
+**50. Adventures in Tasmanian low flow simulation: water supply risk assessment using stochastically generated rainfall** [50]
+*   **Authors:** Stephen Purvis, Bofu Yu
+*   **Year Published:** 2024
+*   **Key Topic:** Climate Change & Hydrology

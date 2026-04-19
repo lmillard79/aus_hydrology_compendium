@@ -1,0 +1,34 @@
+Enhanced Query: GAPS
+Conference: FMA 2025
+Notebook: d12b5b0a-4d09-405b-a6eb-7e1de55a02a8
+Timestamp: 2026-04-19T00:24:32.001760+00:00
+============================================================
+
+QUERY:
+What research gaps are identified in these papers? What future research directions or unanswered questions do the authors mention? What areas need more investigation?
+
+============================================================
+
+RESPONSE:
+**Disaster Adaptation Plans (DAPs)**
+*   **Multi-Hazard Decision Making:** A key unanswered question is how to make effective flood management decisions in a multi-hazard environment, particularly when dealing with the compound interactions of co-located, coincident, and cascading hazards like earthquakes, coastal erosion, and floods [1-3]. There is a need to build a comprehensive multi-hazard evidence base that spans economic, built, social, and natural domains [4]. 
+*   **AI and Machine Learning Limitations:** While there are opportunities to use AI/ML for extracting flood data from satellite, drone, and oblique imagery, current models lack generalisability across diverse regions and flood types [5, 6]. Operational deployment is hindered by computational constraints, inconsistent data availability, and a lack of integrated systems linking these models with real-time emergency response infrastructure [6]. Future research is needed to leverage real-time satellite feeds, social media inputs, and customised AI workflows tailored to local forecasting needs [6, 7].
+
+**Modelling and Analysis**
+*   **Surrogate Models and Event Selection:** High-resolution hydraulic models are computationally demanding, which limits the number of flood events that can be simulated [8, 9]. While surrogate (machine learning) models show promise for fast predictions, there is a lack of established approaches for selecting the most informative events to simulate [8, 9]. Future research directions for these models include critical event selection, groundwater analysis, weather predictions, and oceanography [9, 10].
+*   **Continuous Simulation (CS):** Continuous simulation is identified as a promising but underutilised technique [11, 12]. Research gaps include addressing model stability during dry periods and overcoming limitations in current modelling packages [11]. Further investigation is needed into how CS can account for changing antecedent conditions over time and evaluate the frequency and duration of wetland inundation or road closures [12, 13].
+*   **Real-time Modelling Boundaries:** When modelling diverse flood dynamics (riverine, flash flooding, and overland flow), researchers question where to "draw the line" regarding model scope, resolution, and computational feasibility for rapid forecasting [14-16].
+*   **Functional Floodplain Mapping:** The use of automated conveyance mapping techniques raises unanswered questions regarding what constitutes an acceptable cumulative flood level impact, and what roughness values are most appropriate when applying encroachment techniques [17].
+*   **Climate Change and Temporal Gaps:** There is an acknowledged temporal gap between the generation of new scientific climate data and the pressure to make planning decisions, raising the question of what should be considered the "best available information" [18]. Specific technical gaps requiring targeted research include multi-level climate change scenarios risk assessments, rain-on-grid modelling approaches, coastal flood modelling frameworks, and hazard-based urban planning [19, 20]. Additionally, rural catchments that are sparsely gauged require further investigation to ensure hydrologic models do not subject future communities to unacceptable risks [21].
+*   **Vulnerability Models:** Geoscience Australia is working to fill specific gaps in analytical flood vulnerability models, particularly for two-storey McMansions, two-storey blocks of flats, single-storey commercial complexes, and CBD buildings with an unknown number of basement levels [22].
+
+**Infrastructure and Land Planning**
+*   **Transport Infrastructure Impacts:** There are unanswered questions regarding how to justify non-compliant flood impacts from transport infrastructure [23]. Researchers are investigating whether Quantitative Design Limits (QDLs) align with best industry practice, under what specific circumstances their exceedance can be justified, and whether these limits can be traded or offset [24]. Furthermore, assessing linear infrastructure requires moving beyond simple design peak flows to account for complex regional flow constraints, extended rainfall periods, and volumetric dependencies [25-27].
+*   **Agricultural "Build Back Better" (BBB):** The BBB discourse currently focuses heavily on construction, civil engineering, and the built environment [28]. A significant gap is the need to develop agricultural-specific BBB concepts that incorporate social, psychological, and community recovery aspects rather than just physical infrastructure [28].
+*   **Planning Systems and "Tolerable Risk":** There is a lack of clarity in planning frameworks regarding what constitutes "tolerable risk" and who gets to set that benchmark [29]. Planners are also investigating how adaptive management approaches can be practically applied at both the broader metropolitan scale and the site-specific planning permit stage [30].
+
+**Governance and Programs**
+*   **Warning Systems and Human Behaviour:** There is a persistent gap between forecast information and actual community preparedness, as evidenced during the Black Summer bushfires and 2022 East Coast floods [31, 32]. While there is theoretical research on response capabilities, there is relatively scant research into how underlying psychological and sociological factors interrelate, or how they link with other elements of effective flood early warning systems [33].
+*   **Project Response Indicators (PRIs):** The use of PRIs to identify threshold triggers for management responses is hindered by limited information for some hazards [34-36]. These metrics require further investigation and must be more deeply informed by the values and risk tolerances of affected communities to support detailed adaptation strategies [36-38].
+*   **Insurance and Affordability:** Future research is planned to combine flood models with insurance data to track where flood exposure contributes to cost-of-living pressures [39, 40]. This involves developing machine learning models to estimate the insurance coverage of providers not represented in the National Insurance Database [39].
+*   **Policy and Scenario Guidance:** There is a clear call for state governments to provide transparent guidance on exactly which climate scenarios should be used for which specific planning purposes to drive consistency across jurisdictions [41].

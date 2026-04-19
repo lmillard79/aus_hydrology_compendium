@@ -1,0 +1,245 @@
+Enhanced Query: BIBLIOGRAPHY
+Conference: HWRS 2025
+Notebook: 40bc32bb-c70f-4b05-9709-6626e73f9e1f
+Timestamp: 2026-04-19T00:39:22.145489+00:00
+============================================================
+
+QUERY:
+List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.
+
+============================================================
+
+RESPONSE:
+Here is a comprehensive bibliography of the papers included in this notebook from the Hydrology and Water Resources Symposium (HWRS) 2025, extracted from the detailed program and full paper documents. They are categorized based on your main research themes where applicable. 
+
+**Afrin, N., Rahman, A., & Haddad, K.** (2025). *Comparison of Artificial Neural Network and Index Flood Method for Regional Flood Frequency Analysis in Victoria, Australia*. Key Topic: Flood Modelling and Forecasting [1, 2].
+
+**Alexandra, J.** (2025). *Slowing the waters – nature-based solutions to floods and water quality*. Key Topic: Flood Modelling and Forecasting / Water Resource Management [3, 4].
+
+**Alexandra, J.** (2025). *Sustaining water quality under climate change*. Key Topic: Climate Change and Variability / Water Resource Management [5, 6].
+
+**Andualem, T. G., Male, D. A., Demeke, G. G., Hewa, G., Vetrimurugan, & Huang, J.-C.** (2025). *Impact of Annual Evaporative Index Deviations on Runoff Dynamics: A Budyko Framework and SWAT Model Approach*. Key Topic: Flood Modelling and Forecasting [7, 8].
+
+**Ball, J., Alvarez, H. P., Surawski, N., & Saco, P.** (2025). *Rainfall on Urban Catchments: A System-Wide Perspective*. Key Topic: Flood Modelling and Forecasting [9-11].
+
+**Bani, S., Imteaz, M., Hossain, I., & Morrison, P.** (2025). *Assessing the Predictive Value of Paired Climate Drivers for Victorian Spring Streamflow Using Artificial Intelligence*. Key Topic: Climate Change and Variability [12, 13].
+
+**Basnett, A.** (2025). *Harnessing Investment in Nature: Unlocking Private Finance for Environmental Restoration and Protection to Future-Proof Infrastructure in a Volatile Climate*. Key Topic: Water Resource Management [14, 15].
+
+**Batchelor, M., Millard, L., & Hamer, H.** (2025). *Scaling of historical sub-daily rainfall datasets to represent future climate conditions*. Key Topic: Climate Change and Variability [16, 17].
+
+**Beatty, R., Kozarovski, P., & Varley, I.** (2025). *Australia climate trends, drivers and forecasts – water resources planning in the context of uncertainty*. Key Topic: Climate Change and Variability / Water Resource Management [18, 19].
+
+**Bush, C., Galia, D., & Gillam, P.** (2025). *How to achieve Mean Annual Runoff Volume (MARV) targets with the largest stormwater harvesting scheme in Australia*. Key Topic: Water Resource Management [20, 21].
+
+**Carlier, R., Kuczera, G., Rodriguez, J. F., & Saco, P. M.** (2025). *Dynamic Water Management in Wetlands: A Feedback-Driven, History-Informed Optimisation Framework*. Key Topic: Water Resource Management [22, 23].
+
+**Carroll, D. G., Kelly, K., Rauf, A., Sedigh, M., & Carroll, D. J.** (2025). *Simplified Ensemble Design Event Approach*. Key Topic: Flood Modelling and Forecasting [24, 25].
+
+**Carroll, D., Cullen, R., Millard, L., Abeynayake, J., & Carroll, D. (Donnie)** (2025). *Improving robustness of hydrological design estimation for linear infrastructure projects using Monte Carlo Simulation techniques*. Key Topic: Flood Modelling and Forecasting [26, 27].
+
+**Charalambous, J.** (2025). *Extreme Flood Estimation – The first piece of the Puzzle to construct a Historical Flood Record Spanning 2,000 years - A Case Study for the Brisbane River*. Key Topic: Flood Modelling and Forecasting [28, 29].
+
+**Chen, L.** (2025). *Performance and uncertainty of breach formation models across varying dam sizes and types*. Key Topic: Flood Modelling and Forecasting [30, 31].
+
+**Coombes, P. J.** (2025). *Utilising Local Rainfall Intensity, Temperature and Storm Tide Relationships in Systems Frameworks to Downscale Climate Change Forecasts*. Key Topic: Climate Change and Variability [32, 33].
+
+**Coombes, P. J., Daniell, K. A., Swan, R., Allan, A., & Barry, M. E.** (2025). *Flood avoidance or flood resilience? Pathways for greater equity in flood risk governance*. Key Topic: Community and Social Factors [34, 35].
+
+**Craig, T., Northfield, A., & O'Shea, D.** (2025). *Fast-Tracking Climate Adjustments in Legacy Flood Models*. Key Topic: Climate Change and Variability / Flood Modelling [36, 37].
+
+**Cressall, B., Perrin, S., Starrs, D., Jordan, P., Rahman, J., Hughes, L., & Tian, C.** (2025). *A Geospatial Investigation of Runoff Dams Across the ACT's Water Management Areas*. Key Topic: Water Resource Management [38].
+
+**Croke, B.** (2025). *Opportunities for engaging with the International Association of Hydrological Sciences*. Key Topic: Community and Social Factors [39, 40].
+
+**Cullen, R., Millard, L., Guse, H., Carroll, D., & Abeynayake, J.** (2025). *Beyond the event-based horizon: URBS models for long-term continuous simulation in the Darling Downs*. Key Topic: Flood Modelling and Forecasting [41, 42].
+
+**Daenke, S.** (2025). *Forecasting and Modelling of the 2025 Cooper Creek Flood Event*. Key Topic: Flood Modelling and Forecasting [43, 44].
+
+**Devanand, A., Chiew, F., Khan, Z., Post, D., Robertson, D., Zheng, H., & Grose, M.** (2025). *Climate projections to assess regional water availability in the Murray Darling Basin*. Key Topic: Climate Change and Variability [45, 46].
+
+**Dey, S., Booksmythe, I., Kahn, A., Miller, K., O'Reilly, W., Ogden, R., & Starrs, D.** (2025). *A model-based assessment of infrastructure and non-infrastructure management options for algal bloom mitigation in an urban lake*. Key Topic: Water Resource Management [47, 48].
+
+**Dykman, C., Sharma, A., Wasko, C., & Nathan, R.** (2025). *Anywhere everywhere all the time: a tool for constrained continuous subdaily rainfall generation across Australia*. Key Topic: Climate Change and Variability [49, 50].
+
+**Ebbs, H.** (2025). *Forecasting irrigation demands to support operational decision making on the River Murray*. Key Topic: Water Resource Management [51, 52].
+
+**Enayati, M., Zecchin, A. C., & Dandy, G. C.** (2025). *Evaluating deep learning-climate interactions in the downscaling of GCM precipitation for Australian catchments*. Key Topic: Climate Change and Variability [53, 54].
+
+**Felder, S., Martino, J., Suthers, I., Cox, R., Kammanankada, H., Jeremy, Y., Arastia, F., Farzadkhoo, M., & Kingsford, R.** (2025). *Developing innovative pipe fishways for native Australian fish*. Key Topic: Water Resource Management [55, 56].
+
+**Feldman, H. R.** (2025). *Engaging young people in water policy futures*. Key Topic: Community and Social Factors [57, 58].
+
+**Filer, B., Mistry, D., & Andrews, S.** (2025). *Simplifying Flood Forecasting by Categorising Calibration Parameters*. Key Topic: Flood Modelling and Forecasting [59, 60].
+
+**Fraser, J., Babister, M., & Jamali, B.** (2025). *The NSW Design Storm Method: Introducing pre-burst patterns and AEP dependent losses*. Key Topic: Flood Modelling and Forecasting [61, 62].
+
+**Fu, B., Starrs, D., & Dey, S.** (2025). *Assessing water security vulnerability due to climate change*. Key Topic: Climate Change and Variability / Water Resource Management [63, 64].
+
+**Gao, S., Ryan, P., Lillo, A., Nielsen, E., Reading, L., & Syme, B.** (2025). *Application of Genetic Algorithm to Calibrate Soil Parameters in TUFLOW Direct Rainfall Catchment Runoff Simulation*. Key Topic: Flood Modelling and Forecasting [65, 66].
+
+**Gao, Z., Robertson, D. E., Ng, T. L., Russell, P., Chiew, F. H. S., & Frdelja, J.** (2025). *A robust framework for water supply system evaluation under changing climate using stochastic data*. Key Topic: Climate Change and Variability / Water Resource Management [67, 68].
+
+**Garratt, O., Collier, L., & Raghuraman, D.** (2025). *Optimising flooding, riparian and development outcomes*. Key Topic: Flood Modelling and Forecasting [69, 70].
+
+**Gilbert, D., Mason, M., Harrison, A., & Amies, J.** (2025). *Assessing the impacts of climate change on saline dynamics on NSW estuaries*. Key Topic: Climate Change and Variability [71, 72].
+
+**Gois, J., & Rogan, A.** (2025). *Application of Multi-spectral Satellite Imaging for the Monitoring and Modelling of an Eroding Macro-Tidal Estuary*. Key Topic: Water Resource Management [73, 74].
+
+**Graham, T., Kiri, U., Voss, S., & Abeynayake, J.** (2025). *Darling Downs Flood Study – Hydraulic modelling insights*. Key Topic: Flood Modelling and Forecasting [75, 76].
+
+**Greenlee, M., Thonder, J., & Charlton, A.** (2025). *A collaborative and innovative approach to water resilience in South Australia*. Key Topic: Water Resource Management / Community and Social Factors [77, 78].
+
+**Guse, H., Cullen, R., & Gericke, L.** (2025). *Evaluating empirical estimation techniques for 170 ungauged catchments*. Key Topic: Flood Modelling and Forecasting [79, 80].
+
+**Hasnain, S., Guillaume, J. H. A., Qureshi, M. E., & Ross, A.** (2025). *Benchmarking Farm Modernisation to Enable Groundwater Resilience in NSW: A Systems Approach to Water Futures*. Key Topic: Water Resource Management [81, 82].
+
+**Harvey, N., Guillaume, J. H. A., Croke, B., Jakeman, A., & Razavi, S.** (2025). *Cold Case: Investigating Uncertainties in Hydrological Modelling of the Australian Alps*. Key Topic: Climate Change and Variability [83, 84].
+
+**Hay, N., Kia, A., Prinsley, R., Alexandra, J., Smith, J., & Croke, B.** (2025). *The People's Catchment: Community Flood Intelligence Using Citizen Science for Risk Management*. Key Topic: Community and Social Factors [85, 86].
+
+**Henderson, H., Alexandra, J., Prinsley, R., Cordova, A., & Hunt, S.** (2025). *On Social Acceptance of Nature-Based Flood Mitigation: A Case Study of Ipswich, Queensland*. Key Topic: Community and Social Factors / Flood Modelling [87, 88].
+
+**Holden, L., & Jordan, P.** (2025). *A business case for Monte Carlo flood hydrologic analysis in a changing climate*. Key Topic: Flood Modelling and Forecasting / Climate Change [89, 90].
+
+**Hou, J., Sharples, W., Brakhasi, F., Pickett-Heaps, C., Ghajarnia, N., & Carrara, E.** (2025). *Long-range flood inundation forecasting: a prototype for Australia*. Key Topic: Flood Modelling and Forecasting [91, 92].
+
+**Hunter, J.** (2025). *Artificial intelligence in rainfall-runoff modelling: A comparative exploration on 561 Australian catchments*. Key Topic: Flood Modelling and Forecasting [93, 94].
+
+**Imteaz, M. A., Islam, A., & Hossain, I.** (2025). *Artificial Neural Networks for the prediction of bushfire using climate indices: a case study for Victoria*. Key Topic: Climate Change and Variability [95, 96].
+
+**Jagger, A., Guo, D., Jakeman, A., Nicholson, A., Lalor, D., Guillaume, J. H. A., Croke, B., & Wang, Q.** (2025). *Towards an Evidence-Based Framework to Inform River Salinity Risk Assessment and Management in the NSW Murray-Darling Basin*. Key Topic: Water Resource Management [97, 98].
+
+**Jamali, B., Babister, H., & Babister, M.** (2025). *A simple and efficient algorithm for design flood map interpolations*. Key Topic: Flood Modelling and Forecasting [99, 100].
+
+**Kahn, A., Dey, S., Starrs, D., & Fu, B.** (2025). *ACT Water Resource Assessment under the Historical Climate Scenario*. Key Topic: Water Resource Management [101, 102].
+
+**Kamphorst, M., Voortman, H. G., & O'Brien, E.** (2025). *An analysis of historic sea level rise along the east coast of Australia to assist with flood planning in the face of uncertainty*. Key Topic: Climate Change and Variability / Flood Modelling [103, 104].
+
+**Karunatilaka, P., Myers, B., Hewa, G., Umali, B., & O'Hehir, J.** (2025). *Climate-driven variability in groundwater extraction by Eucalyptus globulus plantations in South Australia’s Lower Limestone Coast*. Key Topic: Climate Change and Variability / Water Resource Management [105, 106].
+
+**Karunanayake, C., Hewa, G. A., Peters, S., Kemp, D., Daniell, T., Boland, J., & Myers, B.** (2025). *Rating the curve? The hidden roadblocks*. Key Topic: Flood Modelling and Forecasting [107, 108].
+
+**Kemp, D., & Hewa, G.** (2025). *RORB Modelling to Derive or Apply Regional Loss and Storage Parameters – The Timestep is Important in Small Catchments*. Key Topic: Flood Modelling and Forecasting [109, 110].
+
+**Khan, Z., Chiew, F., Zheng, H., Teng, J., Devanand, A., Post, D., & Robertson, D.** (2025). *Floodplain inundation simulation using CaMa-Flood across the Murray-Darling Basin*. Key Topic: Flood Modelling and Forecasting [111, 112].
+
+**Khosravi, N., Holden, L., Millet, P., & Rasheed, A.** (2025). *A Hydrologist's Review of Ex-Tropical Cyclone Alfred*. Key Topic: Climate Change and Variability / Flood Modelling [113, 114].
+
+**Kim, S. S. H., Crosbie, R., Dawes, W., Vaze, J., Wang, B., Mateo, C., May, R., Nair, S., & Alam, J.** (2025). *Improved Representation of Transmission Losses in Drought-Affected Rivers*. Key Topic: Water Resource Management [115, 116].
+
+**Klaric, J., Kus, B., & Dey, A.** (2025). *Exploring the sensitivity of uncertainty in climate change parameters for design outcomes*. Key Topic: Climate Change and Variability [117, 118].
+
+**Kuczera, G., Totaro, V., Iacobellis, V., Retallick, M., & Babister, M.** (2025). *Are LP3 and GEV Fit-for-Purpose in Flood Frequency Analysis?* Key Topic: Flood Modelling and Forecasting [119, 120].
+
+**Lam, E.** (2025). *An Improved Method for Adjusting Rainfall Time Series to Account for Climate Change Impact*. Key Topic: Climate Change and Variability [121, 122].
+
+**Lemaire, S., Brakell, K., Duncan, B., & Beck, J.** (2025). *The influence of the El Niño-Southern Oscillation cycle on flood flows in major rivers in Eastern Australia*. Key Topic: Climate Change and Variability [123, 124].
+
+**Li, C., Burns, M. J., Duncan, H. D., & Fletcher, T. D.** (2025). *Which flow metrics may best capture catchment-scale hydrological impacts of WSUD?* Key Topic: Water Resource Management [125, 126].
+
+**Lu, Y., Mortimer, S., & Lee, J.** (2025). *Critical Assessment of 1D and 2D Culvert Modelling in TUFLOW: Practical Challenges and Case Study Insights*. Key Topic: Flood Modelling and Forecasting [127, 128].
+
+**Lukin, C., & Musgrove, C.** (2025). *A comparison of the AWBM, GR4J and Sacramento models performance in the Staaten River basin*. Key Topic: Flood Modelling and Forecasting [129, 130].
+
+**May, R., Nair, S., Kim, S., Crosbie, R., Alam, J., Korn, A., & Roberts, T.** (2025). *Variable Loss Dynamics for Low Flow Simulation in SOURCE via the AARS plugin*. Key Topic: Water Resource Management [131, 132].
+
+**McInerney, D., Leonard, M., Robertson, D., Westra, S., Nguyen, D. C. H., Shokri, A., Thyer, M., & Maier, H. R.** (2025). *Exploring the Causal Influence of Climate Impacts on Hydrological and Water Resource Management*. Key Topic: Climate Change and Variability [133, 134].
+
+**McNamara, K., & Rogan, A.** (2025). *Remote Sensing Meets Hydrology: Modelling an ungauged Western Australian Salt Lake*. Key Topic: Water Resource Management [135, 136].
+
+**Meegahakumbura, S., Li, Y., & Chandrasena, G.** (2025). *Copper-Modified Zeolite for Microbial Risk Reduction in Urban Stormwater Treatment / Transport and Deposition of Bacteria in Copper-Modified Zeolite Biofilter Media*. Key Topic: Water Resource Management [119, 137-139].
+
+**Mehta, A., Weeks, C. S., Seevinck, J., Goonetilleke, A., Delmo, K., & Teo, M.** (2025). *Towards community-centred flood risk communication in planning contexts*. Key Topic: Community and Social Factors [140, 141].
+
+**Millard, L., Batchelor, M., Hamer, H., & Gericke, L.** (2025). *Of fragments and cubes, a century of continuous rainfall in the Darling Downs*. Key Topic: Flood Modelling and Forecasting [142].
+
+**Mohammadpour Khoie, M. M., Guo, D., & Wasko, C.** (2025). *Making hydrologic event identification robust and practical for large-sample rainfall-runoff analyses in Australia*. Key Topic: Flood Modelling and Forecasting [143, 144].
+
+**Morden, R., Nyman, P., Khaledi, J., Egger, F., & Kiem, A. S.** (2025). *Synthetic rainfall generators for hydrological models – what is the right tool for my question?* Key Topic: Climate Change and Variability / Flood Modelling [145, 146].
+
+**Motiei, M., & Nguyen, M.** (2025). *Assessing the Impacts of ARR2019 v4.2 Climate Change Guidelines on Urban and Infrastructure Planning: A Case Study*. Key Topic: Climate Change and Variability [147, 148].
+
+**Nyman, P., Rahman, J., Richards, P., Khaledi, J., Sheridan, G., & Joyce, K.** (2025). *Water quality model for burned catchments in Australia*. Key Topic: Water Resource Management [149, 150].
+
+**Oad, S., Imteaz, M. A., Islam, A., Hussain, I., & Jakhrani, S. H.** (2025). *Comparative Analysis of K-Nearest Neighbors and Long Short-Term Memory for monthly streamflow prediction*. Key Topic: Flood Modelling and Forecasting [151, 152].
+
+**Orth, J., & Dearnley, C.** (2025). *A Pragmatic Approach to Road Immunity and Resilience Standards*. Key Topic: Flood Modelling and Forecasting / Water Resource Management [153, 154].
+
+**Pannipitiya, N., & Pannipitiya, D.** (2025). *ARR 2019 Version 4.2 Climate Change Impacts on Stormwater Management for Solar Farms*. Key Topic: Climate Change and Variability [155, 156].
+
+**Panosot, G., Watt, S., & Sharpe, R.** (2025). *Development and application of pre-burst temporal pattern ensembles for design flood hydrology*. Key Topic: Flood Modelling and Forecasting [157].
+
+**Peña-Arancibia, J., Vleeshouwer, J., Yu, Y., Dino, A., McVicar, T., & Van Niel, T.** (2025). *Landsat-based 30 m monthly actual evapotranspiration for Australia: implementation and enhancements*. Key Topic: Climate Change and Variability [158, 159].
+
+**Phillips, B. C., Jofreh, V., & Yu, S.** (2025). *Exploring the ramifications for NSW planning of ARR version 4.2 climate change guidance*. Key Topic: Climate Change and Variability [160, 161].
+
+**Pickett-Heaps, C., Ghajarnia, N., Sharples, W., Hou, J., Bahramian, K., Gamage, N., Muncaster, S., Feikema, P., & Carrara, E.** (2024/2025). *Development of a Long-Range Flood Outlook for Australia*. Key Topic: Flood Modelling and Forecasting [162].
+
+**Prinsley, R., Sedighkia, M., Herath, P., Alexandra, J., Webster, T., Cordova, A., Smith, J., Hunt, S., Menzies, K., Falconer, N., Manning, M., & Croke, B.** (2025). *Nature-based Solutions for Riverine Flood Resilience*. Key Topic: Flood Modelling and Forecasting / Water Resource Management [163, 164].
+
+**Raut, A. K., Han, X., Srivastava, A., Perera, H., Hameed, T., Tuteja, N. K., & Oliveira, L.** (2025). *Burrinjuck Dam Catchment Rainfall Runoff – A Case Study*. Key Topic: Flood Modelling and Forecasting [165, 166].
+
+**Rigby, T., & Barthelmess, A.** (2025). *Mitigating the Impact of Extrapolated Rating Tables on Australian Flood Modelling*. Key Topic: Flood Modelling and Forecasting [167, 168].
+
+**Rigby, T., & Barthelmess, A.** (2025). *Quantification of Rating Extrapolation Levels in Australian Hydrologic Datasets*. Key Topic: Flood Modelling and Forecasting [169, 170].
+
+**Rogan, A., & Kim, V.** (2025). *A likelihood based hydrologic design approach for a non-stationary climate*. Key Topic: Climate Change and Variability / Flood Modelling [171, 172].
+
+**Rogencamp, G., Gericke, L., & Thompson, J.** (2025). *Application of the Link Flood Study approach to a network of highways*. Key Topic: Flood Modelling and Forecasting [173, 174].
+
+**Ronalds, R.** (2025). *Lifecycle Payback of Stormwater Pollutants in Small Hard-Lined Bioretention Basins*. Key Topic: Water Resource Management [175, 176].
+
+**Roy, A., Valsala, R., Chanda, K., & Sarukkalige, R.** (2025). *Numerical Comparison of Benzene Biodegradation in Aerobic and Anaerobic Systems within a Variable-Density Unsaturated Zone*. Key Topic: Water Resource Management [177, 178].
+
+**Ryan, C.** (2025). *A Model Agnostic Platform for Monte Carlo Hydrology in Australia*. Key Topic: Flood Modelling and Forecasting [179, 180].
+
+**Sanches, V. H., Lade, S. J., Clement, S., Guillaume, J. H. A., & Iwanaga, T.** (2025). *Using Resilience and Pathway Diversity to Couple Farmer and Policy Decisions in an Integrated Water Model in the Lower Campaspe Catchment*. Key Topic: Community and Social Factors [181, 182].
+
+**Saraswat, C., & Daniell, K.** (2025). *Catalyzing Systemic Acceleration: Phased Interventions for Transforming Urban Water Regimes Towards Sustainability*. Key Topic: Water Resource Management [183, 184].
+
+**Saraswat, C., & Daniell, K.** (2025). *Quantum Innovations for Water Systems: Sensing, Computing and Communication*. Key Topic: Water Resource Management [185, 186].
+
+**Sedighkia, M., Prinsley, R., Croke, B., & Alexandra, J.** (2025). *Modelling Nature-based Flood Mitigation in Australia: Addressing Scale, Data, Computational Costs, and Uncertainties*. Key Topic: Flood Modelling and Forecasting [187, 188].
+
+**Seo, L., & Petheram, C.** (2025). *Towards a machine learning approach to evaluate the geological suitability of potential dam sites*. Key Topic: Water Resource Management [189, 190].
+
+**Sharma, A., Sinha, J., & Marshall, L.** (2025). *From Physics based Machine Learning to Physics based Remote Sensing in Hydrology?* Key Topic: Flood Modelling and Forecasting [191, 192].
+
+**Sharpe, R.** (2025). *Discordance in design flood models and flood frequency analyses: is it the design rainfall estimates?* Key Topic: Flood Modelling and Forecasting [193, 194].
+
+**Silva, M., Gato-Trinidad, S., & Hossain, I.** (2025). *Evaluation of Meteorological, Agricultural, and Hydrological Drought Indices and Base Period Effects in Victoria, Australia*. Key Topic: Climate Change and Variability [195, 196].
+
+**Simpson, A., Zheng, L., Wu, W., & Wang, Y.** (2025). *Intelligent pump operation for water distribution systems: an AI-based optimisation approach*. Key Topic: Water Resource Management [197, 198].
+
+**Smith, G., Carmody, E., & Rayner, D.** (2025). *Assessing Nature Restoration as an Alternative Agribusiness for Climate Vulnerable Floodplains*. Key Topic: Climate Change and Variability / Water Resource Management [199, 200].
+
+**Stancu, M., & Chian, G.** (2025). *BOM the Builder: Innovative Algorithms for Meteorological Template Generation and Climate Change Scaling in Australian Stormwater Modeling*. Key Topic: Climate Change and Variability [201, 202].
+
+**Tan, J., Neal, B., Lloyd, J., Dharmadi, S., Russell, P., Szabo, K., Austin, K., & Steendam, G.** (2025). *Impact of incremental change in climate reference period length on water availability in Victoria*. Key Topic: Climate Change and Variability [203, 204].
+
+**Tan, K. S., Neal, B., O'Shea, D., & Yurisich, R.** (2025). *Storage outlook projections incorporating seasonal streamflow forecast and ENSO outlook*. Key Topic: Water Resource Management [205, 206].
+
+**Taylor, K. S., Poelina, A., Woods, G., Fanaian, S., Williams, J., & Grafton, R. Q.** (2025). *First Law and a human rights-based approach for Australia's new national water agreement*. Key Topic: Community and Social Factors [207, 208].
+
+**Toombes, L.** (2025). *2D or not 2D, that is the question. Is CFD the answer?* Key Topic: Flood Modelling and Forecasting [209, 210].
+
+**Tran, V. P., Ball, J., & Surawski, N.** (2025). *Does the Calibration Metric Matter for Estimation of Urban Design Floods?* Key Topic: Flood Modelling and Forecasting [211-213].
+
+**Wang, Q., Guo, D., Guillaume, J. H. A., Croke, B. F. W., & Jakeman, A. J.** (2025). *Assessing and Identifying Potential Improvements to Water Quality Models with Graphical Evaluation Methods*. Key Topic: Water Resource Management [214, 215].
+
+**Wardrop, A., Breihut, C., & Daniell, K.** (2025). *Policy Instruments for governing water in cross-border areas: The case of the Murray Darling Basin, in Australia*. Key Topic: Water Resource Management [216, 217].
+
+**Weber, T., Nguyen, H., Abiodun, L., Fu, B., & Starrs, D.** (2025). *Understanding net urban water balances in determining water diversions in the Murray Darling Basin*. Key Topic: Water Resource Management [218, 219].
+
+**Wijekoon, T., Hewa, G. A., Kemp, D., To, H., & Gamage, S. H. P. W.** (2025). *Improving Design Flood Estimation in South Australia: A Non-parametric Evaluation of Hydrological Losses in Mount Lofty Ranges Catchments*. Key Topic: Flood Modelling and Forecasting [220, 221].
+
+**Wright, M., Dunning, N., & Ling, F.** (2025). *Modelling reservoir system operations in eWater Source and WATHNET*. Key Topic: Water Resource Management [222, 223].
+
+**Wu, W., Eamen, L., Dandy, G. C., Maier, H. R., Razavi, S., Kwakkel, J., Huang, J., & Kuczera, G.** (2025). *Is the Traditional Way We Manage Water Resources Obsolete in the Face of Deep Uncertainty?* Key Topic: Water Resource Management [224, 225].
+
+**Yan, W., Duncan, L., Treadwell, S., & Gilbert, F.** (2025). *Clearly defining environmental water needs in a competitive water market*. Key Topic: Water Resource Management [226, 227].
+
+**Yan, W., Treadwell, S., Burkitt, J., & Frazer, J.** (2025). *Flow for Frogs: Toadlet-Focused Water Management at Devilbend Reserve*. Key Topic: Water Resource Management [228, 229].
+
+**Zheng, H., Chiew, F. H. S., Post, D., Robertson, D., Khan, Z., & Devanand, A.** (2025). *Assessing hydrological impacts of snow-dwindling in alpine headwaters across Southeast Australia*. Key Topic: Climate Change and Variability [230, 231].

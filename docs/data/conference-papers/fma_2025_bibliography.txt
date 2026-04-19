@@ -1,0 +1,177 @@
+Enhanced Query: BIBLIOGRAPHY
+Conference: FMA 2025
+Notebook: d12b5b0a-4d09-405b-a6eb-7e1de55a02a8
+Timestamp: 2026-04-19T00:22:31.642417+00:00
+============================================================
+
+QUERY:
+List ALL the papers in this notebook with their: 1) Full title, 2) All authors, 3) Year published, 4) Key topic. Format as a bibliography. Include as many papers as possible.
+
+============================================================
+
+RESPONSE:
+Here is a comprehensive bibliography of the papers included in this notebook, categorized by their main research themes within the context of Disaster Adaptation and Floodplain Management. 
+
+### **Disaster Adaptation Plans (DAPs)**
+
+*   **Assessing Business Resilience: 2022 Northern Rivers Floods** [1]
+    *   **Authors:** Ken Dale, Stuart Butt, Mark Edwards, Tariq Maqsood, Afshin Fouladi [1]
+    *   **Year Published:** 2025 [1]
+    *   **Key Topic:** Disaster Adaptation Plans (DAPs)
+*   **Disaster adaptation opportunities in NSW flood-related planning requirements for flood emergency response** [2]
+    *   **Authors:** Alireza Pouya, J. Hannan [2]
+    *   **Year Published:** 2025 [2]
+    *   **Key Topic:** Disaster Adaptation Plans (DAPs)
+*   **How multi-hazard Disaster Adaptation Plans can unlock regional flood risk management outcomes** [3-6]
+    *   **Authors:** Nerida Buckley, William Prentice (also listed as Marcus Morgan in some abstracts), Ben Fitzgibbon [3, 4, 6]
+    *   **Year Published:** 2025 [6]
+    *   **Key Topic:** Disaster Adaptation Plans (DAPs)
+*   **How to Develop Emergency Plans for Sites Affected by Multiple Flood Mechanisms** [7]
+    *   **Authors:** Alireza Pouya, Kieran Smith [7]
+    *   **Year Published:** 2025 [7]
+    *   **Key Topic:** Disaster Adaptation Plans (DAPs)
+*   **HOW CAN WE IMPROVE COMMUNITY RESPONSES TO FLOOD WARNINGS?** [8]
+    *   **Authors:** Neil Dufty [8, 9]
+    *   **Year Published:** 2025 [8]
+    *   **Key Topic:** Disaster Adaptation Plans (DAPs)
+*   **Piecing the Puzzle Together - Subsectors Optimising Emergency Management and Warning Strategies** [10]
+    *   **Authors:** Claire Flashman, Elspeth O’Shannessy, Kirra Waine [10]
+    *   **Year Published:** 2025 [10]
+    *   **Key Topic:** Disaster Adaptation Plans (DAPs)
+*   **Regional Flood Evacuation: Can it be done? Insights from Regional Flood Evacuation Planning on the NSW South Coast** [11, 12]
+    *   **Authors:** Steven Molino, F. Dall’Osso, Rhiannon Garrett, Mark Stone, Alexander Aronsson [11, 12]
+    *   **Year Published:** 2025 [12]
+    *   **Key Topic:** Disaster Adaptation Plans (DAPs)
+
+### **Modelling and Analysis**
+
+*   **A Flood Forecasting System In Your Pocket – Expanding Flood Intelligence Reach** [13]
+    *   **Authors:** Cameron Druery, T. Laves [13, 14]
+    *   **Year Published:** 2025 [13]
+    *   **Key Topic:** Modelling and Analysis
+*   **Assessing cascading flood hazards: a case study from Aotearoa New Zealand** [15]
+    *   **Authors:** D. Debski [15]
+    *   **Year Published:** 2025 [15]
+    *   **Key Topic:** Modelling and Analysis
+*   **Automatic levee detection using a high-resolution DEM − Case study in Kinu river basin, Japan** [16]
+    *   **Authors:** Orie Sasaki, Yugo Tsumura, Masafumi Yamada, Yukiko Hirabayashi [16]
+    *   **Year Published:** 2025 [16]
+    *   **Key Topic:** Modelling and Analysis
+*   **Extending Geoscience Australia's Suite of Vulnerability Models** [17]
+    *   **Authors:** Ken Dale, Martin Wehner, Ellen Zhao, Mark Edwards [17]
+    *   **Year Published:** 2025 [17]
+    *   **Key Topic:** Modelling and Analysis
+*   **Influence of Climate Change on Logan Albert Flood Characteristics** [18]
+    *   **Authors:** Janaka Gunawardena [18, 19]
+    *   **Year Published:** 2024 [18]
+    *   **Key Topic:** Modelling and Analysis
+*   **Is continuous simulation an overlooked modelling technique for floodplain management?** [20]
+    *   **Authors:** Prawi Woods, Suresh Hettiarachchi [20, 21]
+    *   **Year Published:** 2025 [20]
+    *   **Key Topic:** Modelling and Analysis
+*   **Potential Application of Artificial Intelligence in Flood Operations for Regulated Water Storages** [22]
+    *   **Authors:** Atiq Atiquzzaman, Jake Franklin [22]
+    *   **Year Published:** 2025 [22]
+    *   **Key Topic:** Modelling and Analysis
+*   **Riverine, flash flooding, overland flow, where should we draw the line in real-time flood modelling?** [23]
+    *   **Authors:** Mahnaz Sedigh, K. Kelly, A. Rauf [14, 23]
+    *   **Year Published:** 2025 [23]
+    *   **Key Topic:** Modelling and Analysis
+*   **The evolution of flood mapping in Melbourne: lessons learned and forward planning** [24, 25]
+    *   **Authors:** W. Smith, M. Mozina, Sina Akram, L. Nairn [24-26]
+    *   **Year Published:** 2025 [24]
+    *   **Key Topic:** Modelling and Analysis
+*   **The Power of Real-Time Impact Analytics for Flood Emergency Management** [27]
+    *   **Authors:** Ryan Prosser, Juliette Murphy, Andrew Wilson, Daniel Knott, Robert Wall, Bruce Eady, Ed Barry, Henry Walshaw, Juan Ossa-Moreno, Nick Read, Michael Williams [27]
+    *   **Year Published:** 2025 [27]
+    *   **Key Topic:** Modelling and Analysis
+*   **The Wallis Creek (NSW) heavy rainfall and inundation event - July 2022** [28]
+    *   **Authors:** Carlos Velasco-Forero, Paul Fox-Hughes, Jayaram Pudashine, Dragana Zovko-Rajak, Wendy Sharples, Jiawei Hou, Foad Brakhasi, Carla Mooney, David Wilke, Karen Hudson, Victoria Heinrich [28]
+    *   **Year Published:** 2025 [28]
+    *   **Key Topic:** Modelling and Analysis
+*   **Urban-Coastal Flood Assessment using 1D-2D Coupled Modelling and GIS-Based F2F Dashboard for Decision Support System** [29, 30]
+    *   **Authors:** Dhruvesh Patel, K. Darji, M. Rana, K. Jodhani, M. Sakla, S. Singh [29-31]
+    *   **Year Published:** 2024 [30]
+    *   **Key Topic:** Modelling and Analysis
+*   **Whole of Catchment flood modeling for Greater Melbourne to improve emergency preparedness** [32]
+    *   **Authors:** Ross Butler [32, 33]
+    *   **Year Published:** 2025 [32]
+    *   **Key Topic:** Modelling and Analysis
+
+### **Infrastructure and Land Planning**
+
+*   **Assessing flood risk for sub regional land planning in Perth** [34]
+    *   **Authors:** T. Kefalianos [34]
+    *   **Year Published:** 2025 [34]
+    *   **Key Topic:** Infrastructure and Land Planning
+*   **Functional Floodplain Mapping Across an LGA: Automation, Challenges, and Planning Benefits** [35, 36]
+    *   **Authors:** Donnie Carroll, A. Rauf (or R. Abdur), K. Kelly, Mahnaz Sedigh [35-37]
+    *   **Year Published:** 2025 [35]
+    *   **Key Topic:** Infrastructure and Land Planning
+*   **How do we justify flood impacts from transport infrastructure?** [38]
+    *   **Authors:** Greg Roads, Carrie Dearnley, Cathie Barton [38]
+    *   **Year Published:** 2025 [38]
+    *   **Key Topic:** Infrastructure and Land Planning
+*   **Hurricane Helene: Impacts, Challenges, and Breaking the Damage Rebuild Damage Cycle** [39]
+    *   **Authors:** Doug Bellomo [39, 40]
+    *   **Year Published:** 2025 [39]
+    *   **Key Topic:** Infrastructure and Land Planning
+*   **Implementing Flood Studies: Learnings from Amendment C131 to the Latrobe Planning Scheme** [41]
+    *   **Authors:** Tegan McKenzie, Ben Proctor [41, 42]
+    *   **Year Published:** 2025 [41]
+    *   **Key Topic:** Infrastructure and Land Planning
+*   **Improving collaboration on our Flood Impact Goals** [43]
+    *   **Authors:** Ivan Varga, A. Lisitsa, M. Gunasekera [43, 44]
+    *   **Year Published:** 2025 [43]
+    *   **Key Topic:** Infrastructure and Land Planning
+*   **Nature-based Solutions for catchment-scale flood mitigation** [45]
+    *   **Authors:** Prabhasri Herath, Roslyn Prinsley, Barry Croke, Jai Vaze, Carmel Pollino [45, 46]
+    *   **Year Published:** 2025 [45]
+    *   **Key Topic:** Infrastructure and Land Planning
+*   **Risk based decision making for non-stationary flood behaviour in planning decisions** [47, 48]
+    *   **Authors:** Rob Swan, Carolyn Tsioulos [9, 48]
+    *   **Year Published:** 2025 [47]
+    *   **Key Topic:** Infrastructure and Land Planning
+*   **Tasmanian flood planning informed by statewide flood mapping and stakeholder collaboration** [49, 50]
+    *   **Authors:** Emma Maratea, Sarah Parton, Louise Collier, Ann Stewart, Chris Irvine [49, 50]
+    *   **Year Published:** 2025 [50]
+    *   **Key Topic:** Infrastructure and Land Planning
+
+### **Governance and Programs**
+
+*   **Analysing and funding flood mitigation for multiple benefits – an international perspective** [51, 52]
+    *   **Authors:** Cathryn Spence [51, 52]
+    *   **Year Published:** 2025 [52]
+    *   **Key Topic:** Governance and Programs
+*   **Australia’s Riverine Flood Seasonal Outlook – Challenges in the Public’s Understanding** [53]
+    *   **Authors:** Steve Muncaster [9, 53]
+    *   **Year Published:** 2024 [53]
+    *   **Key Topic:** Governance and Programs
+*   **Embedding Innovations from Large-Scale Projects to Enhance Delivery and Decision-Making Across All Project Scales** [54]
+    *   **Authors:** A. Parkes, J. Clarke [54]
+    *   **Year Published:** 2025 [54]
+    *   **Key Topic:** Governance and Programs
+*   **Flood Mapping Partnerships - Shaping Flood Resilience Together** [55]
+    *   **Authors:** Damien D’Aspromonte, M. Mozina, N. Sutherland, L. Bright, G. Burkin [55, 56]
+    *   **Year Published:** 2025 [55]
+    *   **Key Topic:** Governance and Programs
+*   **Floodways and Flooded Roads – Are we sending mixed messages to drivers?** [57]
+    *   **Authors:** Daniel Sheehy, D. Danielsson, C. Dearnley, A. Campbell [19, 57]
+    *   **Year Published:** 2025 [57]
+    *   **Key Topic:** Governance and Programs
+*   **Implementing the Flood Risk Management Framework in NSW** [58]
+    *   **Authors:** D. McLuckie [58]
+    *   **Year Published:** 2025 [58]
+    *   **Key Topic:** Governance and Programs
+*   **The Crystal Ball – Past studies informing future decisions in a changing climate** [59]
+    *   **Authors:** Eliza Towndrow, M. Ward, Raymond Laine, D. McLuckie, R. Woltmann [33, 59]
+    *   **Year Published:** 2025 [59]
+    *   **Key Topic:** Governance and Programs
+*   **The Hazards Insurance Partnership: addressing the insurance protection gap in Australia** [60, 61]
+    *   **Authors:** Henry R. M. Zovaro, C. Atyeo, R. Soin [60, 61]
+    *   **Year Published:** 2025 [61]
+    *   **Key Topic:** Governance and Programs
+*   **Why we need to rethink floodplain management to address a changing climate** [62]
+    *   **Authors:** Suresh Hettiarachchi, C. Wasko, A. Sharma [62, 63]
+    *   **Year Published:** 2025 [62]
+    *   **Key Topic:** Governance and Programs

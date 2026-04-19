@@ -1,7 +1,7 @@
 Enhanced Query: PRACTITIONER
 Conference: FMA 2024
 Notebook: 58b99d93-4101-4e11-93d6-a377158f5a18
-Timestamp: 2026-04-19T00:04:43.398484+00:00
+Timestamp: 2026-04-19T00:13:07.370693+00:00
 ============================================================
 
 QUERY:
@@ -10,4 +10,26 @@ What are the key practical recommendations for floodplain managers, hydrologists
 ============================================================
 
 RESPONSE:
-Error querying NotebookLM: ChatAPI.ask() got an unexpected keyword argument 'include_sources'
+Here are the key practical recommendations and actionable insights for practitioners based on the Flood Management and Research 2024 sources:
+
+### 1. Infragravity Waves and Coastal Creek Management
+Coastal creeks and Intermittently Closed and Open Lakes and Lagoons (ICOLLs) behave differently than major estuaries during storm events. 
+*   **Install Low-Cost, High-Frequency Gauges:** Standard estuarine tide gauges do not accurately capture storm tide behavior in small coastal creeks [1], [2], [3]. Councils should install reliable, low-cost (e.g., radar-based) gauges capable of recording at 1-minute intervals to capture water levels before sensors are overtopped [1]. 
+*   **Update Storm Tide Studies:** Explicitly incorporate Infragravity (IG) waves (often referred to as "surf beat") into storm tide modeling. IG waves have been shown to elevate water levels by as much as 550mm above official design levels, overtopping standard 500mm freeboards [4], [2], [5]. 
+*   **Leverage Short Datasets for Immediate Action:** Even short-term gauge data (less than 5 years) should be used immediately to inform interim increases in design storm tide levels, flood warning intelligence, and ICOLL management [6], [7], [8].
+
+### 2. Implementing the 2023 DT01 Flood Damage Tool
+The transition to the 2023 DT01 Flood Damage Tool fundamentally changes economic assessments for flood mitigation.
+*   **Anticipate Considerably Higher Damage Estimates:** The 2023 tool calculates residential damages at an average of 73% higher and non-residential/commercial damages at 161% to over 261% higher than previous tools [9], [10], [11]. 
+*   **Re-evaluate Past Mitigation Options:** Because the tool produces much higher existing damage totals, previously assessed flood risk management options that suffered from low Benefit-Cost Ratios (BCRs) should be updated. Options that were previously unviable may now be economically justified under the new metrics [12].
+*   **Meticulously Clean Building Data:** The tool assesses damages on a per-building basis rather than per-property, calculating commercial damage by floor area ($/m2) [13], [14]. Large industrial building footprints can drastically skew damage totals to be up to 10 times greater than comparable areas [9], [11]. Practitioners must rigorously clean GIS layers before use—removing secondary buildings and verifying assigned property uses [14].
+
+### 3. Emergency Resources and Risk Communication
+Effective floodplain management requires that the public and emergency responders clearly understand flood risks.
+*   **Change Your Vocabulary:** Stop using technical terms like "100-year flood" or "1% chance event" with the public, as they create a false sense of security (e.g., "it won't happen in my lifetime"). Use terms like "Flood Risk Management," "Flood Damage Reduction," or "Flood Risk Uncertainty" [15], [16], [17].
+*   **Develop Community-Based Action Plans:** Move beyond static, technical maps by combining modeling with official warning sources to create specific, triggerable events for the community. Plans should define support structures that allow for safe, early evacuation based on local, relatable actions [18], [19], [20], [21].
+*   **Utilize the BoM's Flood Scenarios Outlook:** For emergency response coordination, integrate the Bureau of Meteorology’s qualitative and quantitative scenarios. This tool provides a 24-72 hour extended timeline that helps emergency managers bridge the gap between probabilistic forecasts and the binary "go / no go" decisions required during a crisis [22], [23], [24].
+
+### 4. Flood Mapping and Drainage Adaptations
+*   **Ground-Truth Your Models:** Do not rely solely on terrain data for flood extent delineation. Ground-truth key catchment features, flow paths, and the fringes of proposed flood extents, and actively seek out local flood evidence to calibrate and verify models [25].
+*   **Plan for Reduced "Drainage Windows":** Recognize that sea-level rise limits the timeframe that coastal floodplains can drain via gravity at low tide [26], [27]. Floodplain drainage infrastructure (like floodgates) will become increasingly ineffective, causing chronic waterlogging and nuisance flooding outside of major rainfall events, which should be immediately factored into future land-use planning [28], [29], [27].
